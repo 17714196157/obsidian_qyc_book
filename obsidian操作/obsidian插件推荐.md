@@ -22,6 +22,8 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 
 ##### 3）模板
 - Templater 插件 --->  创建笔记模板， 命令面板（Ctrl + P） 选择 Templater: Open insert template modal 命令， 然后选择已经创建好的模板插入到笔记中。
+##### 4）同步笔记
+- git 插件  ---> 笔记仓库提交git
 
 ### 微信公众号文章同步方法
 ##### 1.开源浏览器插件：文章下载器（纯本地，最安全）
