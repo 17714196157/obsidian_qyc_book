@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e9fe63deb821aa00",
+        "id": "cb6732aa7c31685f",
         "type": "tabs",
         "children": [
           {
-            "id": "63ea74fe27f1e383",
+            "id": "5a6cd241fe5a6ce2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "公众号文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%"
             }
           }
         ]
@@ -57,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -152,17 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templaters/test.md",
+                "file": "公众号文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "test 的大纲"
+              "title": "vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30% 的大纲"
             }
           },
           {
-            "id": "c48d9e28f93268f7",
+            "id": "7581b2f92c04059e",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -170,13 +174,23 @@
               "icon": "trident-custom",
               "title": "Mermaid Toolbar"
             }
+          },
+          {
+            "id": "39ac80115c7d0052",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 840.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,30 +204,54 @@
       "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-omnivore:Omnivore": false,
+      "notehelper:tongbuzhushou": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
   "active": "784df518aea8671d",
   "lastOpenFiles": [
-    "prompt大模型应用/长文本处理场景处理方案讨论.md",
+    "公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/b2a9a1c3f2bbdde5849e7e7d2b128e67_MD5.webp",
+    "公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/f48619a81ca5f97ab6300d35558603d2_MD5.jpg",
+    "公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%",
+    "公众号文章/assets",
+    "性能测试/vLLM/vllm 简介.md",
+    "公众号文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
+    "公众号文章",
+    "性能测试/vLLM/assets/vLLM参数调优/file-20260227140431954.png",
+    "性能测试/vLLM/vllm 客户端代码.md",
+    "性能测试/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
+    "性能测试/vLLM/vLLM参数调优.md",
+    "性能测试/vLLM/让vllm服务在开机时自动启动.md",
+    "性能测试/vLLM/assets/vLLM参数调优/vLLM V1性能优化-推理速度翻倍.mp4",
+    "obsidian操作/obsidian插件推荐.md",
+    "obsidian操作/assets/obsidian插件推荐/ObsidianWebClipper浏览器插件配置1.jpg",
+    "obsidian操作/assets/obsidian插件推荐/file-20260301005406084.png",
+    "obsidian操作/assets/obsidian插件推荐/file-20260301005339938.png",
+    "obsidian操作/assets/obsidian插件推荐",
+    "obsidian操作/assets",
+    "obsidian操作",
+    "性能测试/最大并发量估计方法.md",
+    "性能测试/性能测试指标.md",
+    "微信和知乎上的文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
+    "微信和知乎上的文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/f48619a81ca5f97ab6300d35558603d2_MD5.jpg",
+    "微信和知乎上的文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%",
+    "微信和知乎上的文章/assets",
+    "微信和知乎上的文章/vLLM.md",
+    "Clippings/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
+    "Clippings",
+    "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
     "templaters/test.md",
-    "templaters",
-    "新建文件夹",
-    "prompt大模型应用/assets/长文本处理场景处理方案讨论/file-20260224165122205.png",
-    "prompt大模型应用/assets/长文本处理场景处理方案讨论",
-    "prompt大模型应用/assets",
-    "prompt大模型应用",
-    "assets/长文本处理场景处理方案讨论",
-    "assets",
+    "prompt大模型应用中的问题讨论/长文本处理场景处理方案讨论.md",
+    "prompt大模型应用中的问题讨论/assets/长文本处理场景处理方案讨论/file-20260224165122205.png",
+    "性能测试/vLLM/未命名.md",
     "Pasted image 20260224163757.png",
     "附件/Pasted image 20260224163757.png",
-    "附件",
     "未命名.md",
     "qq.md",
     "11.md",
-    "未命名.base",
     "长上下文场景下大模型解决方案.md",
-    "qq.md",
-    "未命名 1.base"
+    "qq.md"
   ]
 }

@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2026-02-28T15:45:43.826Z",
+    "version": "2.9.1",
+    "settings": {
+      "dateHighlightedFormat": "yyyy-MM-dd HH:mm:ss",
+      "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
+      "apiKey": "o56E767XbxBvKcuy78vPt-K-Xnjg",
+      "filter": "ALL",
+      "syncAt": "",
+      "customQuery": "in:all",
+      "template": "# {{{title}}}\n#笔记同步助手\n## 来源\n[原文链接]({{{originalUrl}}})\n## 正文\n{{{content}}}",
+      "highlightOrder": "LOCATION",
+      "folder": "笔记同步助手/{{{date}}}",
+      "folderDateFormat": "yyyy-MM-dd",
+      "endpoint": "https://obsidian.notebooksyncer.com/api/graphql",
+      "filename": "{{{title}}}",
+      "filenameDateFormat": "yyyy-MM-dd",
+      "attachmentFolder": "笔记同步助手/attachments",
+      "version": "2.9.1",
+      "mergeMode": "messages",
+      "frequency": 0,
+      "intervalId": 0,
+      "frontMatterVariables": [],
+      "frontMatterTemplate": "",
+      "syncOnStart": false,
+      "enableHighlightColorRender": false,
+      "highlightManagerId": "omni",
+      "highlightColorMapping": {
+        "yellow": "#fff3a3",
+        "red": "#ff5582",
+        "blue": "#adccff",
+        "green": "#bbfabb"
+      },
+      "singleFileName": "同步助手_{{{date}}}",
+      "singleFileDateFormat": "yyyy-MM-dd",
+      "sectionSeparator": "%%{{{dateSaved}}}_start%%",
+      "sectionSeparatorEnd": "%%{{{dateSaved}}}_end%%",
+      "wechatMessageTemplate": "---\n#### {{{heading}}}\n## 📅 {{{dateSaved}}}\n{{{content}}}",
+      "imageMode": "local",
+      "enablePngToJpeg": true,
+      "jpegQuality": 85,
+      "imageDownloadRetries": 3,
+      "imageAttachmentFolder": "笔记同步助手/images",
+      "enableDiaryLinks": false,
+      "diaryFolder": "Daily Notes",
+      "diaryDateFormat": "yyyy-MM-dd",
+      "diaryAnchor": "notehelper-links",
+      "diaryLinkType": "all"
+    }
+  }
+]

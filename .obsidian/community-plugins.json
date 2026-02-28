@@ -7,5 +7,7 @@
   "obsidian-auto-link-title",
   "obsidian-custom-attachment-location",
   "templater-obsidian",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "obsidian-local-rest-api",
+  "obsidian-local-images-plus"
 ]

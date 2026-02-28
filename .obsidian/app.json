@@ -2,5 +2,13 @@
   "newFileLocation": "root",
   "newFileFolderPath": "D:\\code\\logseq_qinyuchen_book\\pages",
   "attachmentFolderPath": "./attachments",
-  "openBehavior": ""
+  "openBehavior": "",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false
 }
