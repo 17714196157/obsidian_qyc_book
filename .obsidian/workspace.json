@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6147f8b6209e426b",
+        "id": "98bb71a586f51d77",
         "type": "tabs",
         "children": [
           {
-            "id": "53bcde14c554346a",
+            "id": "0ba463d867ccf517",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5049018859863
+    "width": 210.50490188598633
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -143,7 +143,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "添加笔记属性"
             }
           },
           {
@@ -152,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian操作/obsidian插件推荐.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "obsidian插件推荐 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -170,9 +169,16 @@
               "icon": "trident-custom",
               "title": "Mermaid Toolbar"
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "a7fb59e59338bbf1",
+        "type": "tabs",
+        "children": [
           {
-            "id": "39ac80115c7d0052",
+            "id": "be6c800806a82afc",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -181,12 +187,11 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 708.5
+    "width": 862.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,11 +210,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "0ba463d867ccf517",
   "lastOpenFiles": [
+    "性能测试/vLLM/vllm 客户端代码.md",
+    "prompt大模型应用中的问题讨论/长文本处理场景处理方案讨论.md",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-conversations/最新我们自主进化方向有什么新的方法给介绍一下@20260301_103019.md",
     "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
     "obsidian操作/obsidian插件推荐.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
@@ -235,7 +242,6 @@
     "性能测试/vLLM/vllm 简介.md",
     "公众号文章",
     "性能测试/vLLM/assets/vLLM参数调优/file-20260227140431954.png",
-    "性能测试/vLLM/vllm 客户端代码.md",
     "性能测试/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
     "性能测试/vLLM/vLLM参数调优.md",
     "性能测试/vLLM/让vllm服务在开机时自动启动.md",
