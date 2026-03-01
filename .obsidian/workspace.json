@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e70b54213eefa06b",
+        "id": "6147f8b6209e426b",
         "type": "tabs",
         "children": [
           {
-            "id": "32945dfee18a4868",
+            "id": "53bcde14c554346a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian操作/obsidian插件推荐.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "obsidian插件推荐"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.5049018859863
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -190,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 708.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,14 +201,32 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "templater-obsidian:Templater": false,
-      "obsidian-omnivore:Omnivore": false,
-      "notehelper:tongbuzhushou": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "32945dfee18a4868",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
+    "copilot/copilot-conversations/最新我们自主进化方向有什么新的方法给介绍一下@20260301_103019.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
     "obsidian操作/obsidian插件推荐.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "公众号文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
     "公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/b2a9a1c3f2bbdde5849e7e7d2b128e67_MD5.webp",
     "公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/f48619a81ca5f97ab6300d35558603d2_MD5.jpg",
@@ -234,24 +248,9 @@
     "obsidian操作",
     "性能测试/最大并发量估计方法.md",
     "性能测试/性能测试指标.md",
-    "微信和知乎上的文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
     "微信和知乎上的文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/f48619a81ca5f97ab6300d35558603d2_MD5.jpg",
-    "微信和知乎上的文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%",
-    "微信和知乎上的文章/assets",
-    "微信和知乎上的文章/vLLM.md",
-    "Clippings/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
-    "Clippings",
-    "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
-    "templaters/test.md",
-    "prompt大模型应用中的问题讨论/长文本处理场景处理方案讨论.md",
     "prompt大模型应用中的问题讨论/assets/长文本处理场景处理方案讨论/file-20260224165122205.png",
-    "性能测试/vLLM/未命名.md",
     "Pasted image 20260224163757.png",
-    "附件/Pasted image 20260224163757.png",
-    "未命名.md",
-    "qq.md",
-    "11.md",
-    "长上下文场景下大模型解决方案.md",
-    "qq.md"
+    "附件/Pasted image 20260224163757.png"
   ]
 }
