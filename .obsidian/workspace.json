@@ -11,14 +11,10 @@
             "id": "476db78359dba8e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "11"
+              "title": "新标签页"
             }
           }
         ]
@@ -215,7 +211,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "476db78359dba8e8",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
     "11.md",
     "性能测试/vLLM/vllm 客户端代码.md",
