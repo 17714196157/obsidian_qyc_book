@@ -152,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "11 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -211,7 +210,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "be6c800806a82afc",
   "lastOpenFiles": [
     "11.md",
     "性能测试/vLLM/vllm 客户端代码.md",
