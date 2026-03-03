@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "62422a6582622d21",
+        "id": "e12d9419fb5af3cc",
         "type": "tabs",
         "children": [
           {
-            "id": "c0aa726fae551b4b",
+            "id": "9010bd7e7faa304f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型-讨论记录/长文本处理场景处理方案讨论.md",
+                "file": "obsidian操作/obsidian插件推荐.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "长文本处理场景处理方案讨论"
+              "title": "obsidian插件推荐"
             }
           }
         ]
@@ -156,33 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "obsidian操作/obsidian插件推荐.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "obsidian插件推荐 的大纲"
             }
           },
           {
-            "id": "7581b2f92c04059e",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "a7fb59e59338bbf1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "be6c800806a82afc",
+            "id": "03ea914554650cef",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -191,11 +175,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 576.5
+    "width": 426.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,23 +192,44 @@
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "templater-obsidian:Templater": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "rss-dashboard:RSS dashboard": false,
+      "rss-dashboard:RSS discover": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "9010bd7e7faa304f",
   "lastOpenFiles": [
-    "obsidian操作/obsidian插件推荐.md",
-    "11.md",
-    "性能测试/vLLM/vllm 客户端代码.md",
-    "大模型-讨论记录/长文本处理场景处理方案讨论.md",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-conversations/最新我们自主进化方向有什么新的方法给介绍一下@20260301_103019.md",
-    "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
+    "obsidian操作/assets/obsidian插件推荐/ObsidianWebClipper浏览器插件配置1.jpg",
+    "AI应用/vid coding.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "AI应用/assets/vid coding",
+    "AI应用/assets",
+    "obsidian操作/obsidian插件推荐.md",
+    "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
+    "公众号文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/5bcbd6d1a41ec707acc9923c5bea538e_MD5.unknown",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/90144017967be7369394e9418d558ac0_MD5.webp",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/b5400364a5cbf4332283c6fc57be0d46_MD5.webp",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/26350fc7487558f0ee8257ee36c6e67e_MD5.webp",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/e36f453327302d248b22f687f4296a3e_MD5.webp",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/c6c7db1a9c818bba34a4dca3537acc90_MD5.webp",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了",
+    "公众号文章/attachments/b5400364a5cbf4332283c6fc57be0d46_MD5.webp",
+    "公众号文章/attachments/5bcbd6d1a41ec707acc9923c5bea538e_MD5.unknown",
+    "公众号文章/attachments/26350fc7487558f0ee8257ee36c6e67e_MD5.webp",
+    "公众号文章/attachments/90144017967be7369394e9418d558ac0_MD5.webp",
+    "公众号文章/attachments/e36f453327302d248b22f687f4296a3e_MD5.webp",
+    "公众号文章/attachments/c6c7db1a9c818bba34a4dca3537acc90_MD5.webp",
+    "公众号文章/attachments",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/assets/c6c7db1a9c818bba34a4dca3537acc90_MD5",
+    "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/assets",
+    "AI应用",
+    "RSS articles/Nine dead in missile attack.md",
+    "RSS articles",
+    "copilot/copilot-custom-prompts/Clip Web Page.md",
+    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts/Remove URLs.md",
     "copilot/copilot-custom-prompts/Generate glossary.md",
@@ -236,30 +242,10 @@
     "copilot/copilot-custom-prompts/Summarize.md",
     "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "公众号文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
-    "公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/b2a9a1c3f2bbdde5849e7e7d2b128e67_MD5.webp",
-    "公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/f48619a81ca5f97ab6300d35558603d2_MD5.jpg",
-    "公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%",
-    "公众号文章/assets",
-    "性能测试/vLLM/vllm 简介.md",
-    "公众号文章",
-    "性能测试/vLLM/assets/vLLM参数调优/file-20260227140431954.png",
-    "性能测试/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
-    "性能测试/vLLM/vLLM参数调优.md",
-    "性能测试/vLLM/让vllm服务在开机时自动启动.md",
-    "性能测试/vLLM/assets/vLLM参数调优/vLLM V1性能优化-推理速度翻倍.mp4",
-    "obsidian操作/assets/obsidian插件推荐/ObsidianWebClipper浏览器插件配置1.jpg",
-    "obsidian操作/assets/obsidian插件推荐/file-20260301005406084.png",
-    "obsidian操作/assets/obsidian插件推荐/file-20260301005339938.png",
-    "obsidian操作/assets/obsidian插件推荐",
-    "obsidian操作/assets",
-    "obsidian操作",
-    "性能测试/最大并发量估计方法.md",
-    "微信和知乎上的文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/f48619a81ca5f97ab6300d35558603d2_MD5.jpg",
-    "大模型-讨论记录/assets/长文本处理场景处理方案讨论/file-20260224165122205.png",
-    "Pasted image 20260224163757.png",
-    "附件/Pasted image 20260224163757.png"
+    "大模型-讨论记录/长文本处理场景处理方案讨论.md",
+    "11.md",
+    "性能测试/vLLM/vllm 客户端代码.md",
+    "copilot/copilot-conversations/最新我们自主进化方向有什么新的方法给介绍一下@20260301_103019.md",
+    "性能测试/vLLM/vllm 简介.md"
   ]
 }

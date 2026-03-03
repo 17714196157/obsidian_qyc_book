@@ -1,13 +1,11 @@
 [
   "obsidian-git",
   "obsidian-linter",
-  "mermaid-tools",
   "oz-clear-unused-images",
   "market-proxy",
   "obsidian-auto-link-title",
-  "obsidian-custom-attachment-location",
   "templater-obsidian",
   "obsidian-mind-map",
-  "obsidian-local-rest-api",
-  "obsidian-local-images-plus"
+  "obsidian-local-images-plus",
+  "obsidian-custom-attachment-location"
 ]

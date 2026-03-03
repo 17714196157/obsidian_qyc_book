@@ -41,3 +41,9 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
     1. 浏览器安装 **Obsidian Web Clipper** 插件
     2. 浏览器插件配置  导出obsidian的仓库目录
 ![[ObsidianWebClipper浏览器插件配置1.jpg]]
+
+### 英文学习
+language-learner 插件：[obsidian-language-learner](https://github.com/guopenghui/obsidian-language-learner/releases)
+OB-English-Learner 插件：[OB-English-Learner](https://github.com/dashell7/OB-English-Learner)
+RSS Dashboard 插件
+Media Extended 插件

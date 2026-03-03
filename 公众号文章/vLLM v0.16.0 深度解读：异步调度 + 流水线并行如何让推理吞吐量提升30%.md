@@ -79,8 +79,5 @@ vLLM 会自动检测并启用 Async Scheduling。
 • RLHF 优化 ：NCCL 权重同步、层级别重载、引擎暂停/恢复  
 • Speculative Decoding ：统一并行草稿，支持结构化输出  
   
-七、总结  
 
-![[公众号文章/assets/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%/b2a9a1c3f2bbdde5849e7e7d2b128e67_MD5.webp]]
-  
 参考vllm-project/vllm/releases/tag/v0.16.0  
