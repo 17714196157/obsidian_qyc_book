@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2d32aaae9147d734",
+        "id": "1ae4e7959ee38e6b",
         "type": "tabs",
         "children": [
           {
-            "id": "14619c6b02153b05",
+            "id": "6c2fd4f412ec0af2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -193,7 +193,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "14619c6b02153b05",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
     "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
     "公众号文章/assets/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容/821ee13522536ba26d8059eadc27e6b7_MD5.webp",
