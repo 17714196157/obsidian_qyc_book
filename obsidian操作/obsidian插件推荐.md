@@ -14,7 +14,8 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 ##### 1） 资源管理
 - Custom Attachment Location 插件 ---> 插入图片时会创建一个和笔记名字一样的文件夹用于存放附件资源 assets\长文本处理场景处理方案讨论
 - Clear Unused Images 插件  ---> 删除未使用的图片资源
-- Local Images Plus 插件---> 它会自动将笔记中的外部图片链接下载到本地
+- Local Images Plus 插件---> 它会自动将笔记中的外部图片链接下载到本地  ，注意配置项（通过 `Local Images Plus` 下载的，但保存路径和 `Custom Attachment Location` 的规则冲突） [[LocalmagesPlus不创建附件文件夹.png|Open: file-20260304122109507.png]]
+![[LocalmagesPlus不创建附件文件夹.png]]
 ##### 2)markdown格式辅助
 - Linter   插件 --->  格式化空格 空行
 - Mind Map  插件 --->  markdown转思维导图
