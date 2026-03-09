@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ae4e7959ee38e6b",
+        "id": "353398ec8b7837b7",
         "type": "tabs",
         "children": [
           {
-            "id": "6c2fd4f412ec0af2",
+            "id": "f48096ad2385d178",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 285.5049018859863
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 648.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +193,21 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "03ea914554650cef",
+  "active": "f48096ad2385d178",
   "lastOpenFiles": [
+    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
+    "大模型相关基础知识/assets/LLM结构化输出的实现思路原理/Outlines.png",
+    "大模型相关基础知识/assets/LLM结构化输出的实现思路原理/lm-format-enforcer库.png",
+    "大模型相关基础知识/assets/LLM结构化输出的实现思路原理",
+    "大模型相关基础知识/assets",
+    "大模型相关基础知识/LLM结构化输出/assets/LLM结构化输出的实现思路原理",
+    "大模型相关基础知识/LLM结构化输出/assets",
+    "未命名.md",
+    "大模型相关基础知识/kvcache.md",
+    "大模型-讨论记录/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
+    "大模型相关基础知识/LLM结构化输出.md",
+    "大模型相关基础知识/LLM结构化输出",
+    "大模型-讨论记录/长文本处理场景处理方案讨论.md",
     "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
     "公众号文章/assets/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容/821ee13522536ba26d8059eadc27e6b7_MD5.webp",
     "公众号文章/assets/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容/77be36bd4f6c7ce9bd6bc7c19d79cf2e_MD5.webp",
@@ -214,15 +227,8 @@
     "AI应用/claude_code.md",
     "AI应用/assets/openclaw",
     "AI应用/Oh-My-OpenCode 完全指南.md",
-    "AI应用/assets/Oh-My-OpenCode 完全指南",
-    "AI应用/assets/玩转 OpenCode(七)：Oh-My-OpenCode 完全指南",
     "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/assets/obsidian插件推荐/LocalmagesPlus不创建附件文件夹.png",
-    "obsidian操作/assets/obsidian插件推荐/file-20260304122237505.png",
-    "AI应用/assets/Oh-My-OpenCode 完全指南/file-20260304155328859.webp",
-    "公众号文章/assets/玩转 OpenCode(七)：Oh-My-OpenCode 完全指南",
-    "公众号文章/attachments",
-    "公众号文章/assets/玩转 OpenCode(七)：Oh-My-OpenCode 完全指南/1e40838c6fdde918e4f6395ab8d75938_MD5.unknown",
     "性能测试/vLLM/让vllm服务在开机时自动启动.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
@@ -233,12 +239,6 @@
     "copilot/copilot-custom-prompts/Rewrite as tweet.md",
     "copilot/copilot-custom-prompts/Remove URLs.md",
     "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md"
+    "copilot/copilot-custom-prompts/Generate table of contents.md"
   ]
 }
