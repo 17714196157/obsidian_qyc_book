@@ -58,13 +58,21 @@ Topic.model_json_schema()
 
 
 ### 2. 使用json-repair包
-原理：这个包能智能地处理各种常见错误，例如：修正缺失或错误的引号、移除多余的逗号，并能自动忽略JSON内容前后无关的文本
-链接：
-https://github.com/mangiucugna/json_repair/
+原理：这个包能智能地处理各种常见错误
+链接：https://github.com/mangiucugna/json_repair/
+`json_repair` 的 `repair_json` 函数不仅能处理 dict 格式，也能处理 array/list 格式。根据官方文档，它支持修复以下问题：
+- **JSON 数组和对象** - 修复不完整或损坏的数组/对象，添加必要的元素（如逗号、括号）
+- **单引号转双引号** - 自动将 Python 风格的单引号转换为标准 JSON 双引号
+- **缺少引号的键名** - 自动添加引号
+- **尾部多余逗号** - 智能移除
+- **未闭合的括号** - 自动补全
+
 缺点：返回结果里没有json格式的数据，就会失效
 举例：
 "好的，这是您要的JSON：\n{'user': 'Alex', 'id': 123}\n希望对您有帮助！"为例
 这种一般是因为前后有多余的字，无法直接使用json.load进行转换，因为需要使用json-repair。
+
+
 ```python
 from json_repair import repair_json
 llm_output_string = "好的，这是您要的JSON：\n[{'user': 'Alex', 'id': 123},{'user': 'qyc', 'id': 234}]\n希望对您有帮助！"
@@ -75,6 +83,22 @@ data = json.loads(repaired_string)
 print(data,type(data))
 # 输出： [{"user": "Alex", "id": 123}, {"user": "qyc", "id": 234}] <class 'str'>
 # [{'user': 'Alex', 'id': 123}, {'user': 'qyc', 'id': 234}] <class 'list'>
+
+
+from json_repair import repair_json, loads
+# 示例1: 修复 list 格式（单引号、尾部逗号）
+bad_list = "['apple', 'banana', 'cherry',]"
+fixed = repair_json(bad_list)
+print(fixed)  # 输出: ["apple", "banana", "cherry"]
+
+# 示例2: 直接解析为 Python list
+data = loads("['item1', 'item2']")
+print(data)  # 输出: ['item1', 'item2'] (list类型)
+
+# 示例3: 混合复杂结构（list包含dict）
+complex_bad = "[{'name': 'Alice', 'age': 25}, {'name': 'Bob',}]"
+result = loads(complex_bad)
+print(result)  # 输出: [{'name': 'Alice', 'age': 25}, {'name': 'Bob'}]
 ```
 
 ### 3.ollama本身支持结果化输出
@@ -285,9 +309,104 @@ print(resp.choices[0].message.content)
     }
   ]
 }
+
 ```
 
-### 6.Outlines
+### 6. langchain的结构化输出代码示例
+```python
+import os
+from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
+from icecream import ic
+
+load_dotenv()
+
+api_key =  "sk-b5e02d8f907b42f98044391e97f854ab"
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+model="deepseek-v3"
+# Configure an LLM
+llm = ChatOpenAI(
+    model=model,
+    temperature=0.3,
+    base_url=base_url,
+    api_key=api_key,
+    # streaming=True,
+    # extra_body={"enable_thinking": False},
+    # model_kwargs={
+    #     "response_format": {"type": "json_object"}
+    # }
+)
+
+# ic(llm.invoke("你好"))
+
+# 方法1）
+def 方法1_with_structured_output():
+    from langchain_core.prompts import ChatPromptTemplate
+    from pydantic import BaseModel, Field
+    tagging_prompt = ChatPromptTemplate.from_template(
+        """
+        Extract the desired information from the following passage and return it in JSON format..
+        passage:
+        {input}"""
+    )
+
+    class Classification(BaseModel):
+        sentiment: str = Field(description="The sentiment of the text")
+        aggressiveness: int = Field(
+            description="How aggressive the text is on a scale from 1 to 10"
+        )
+        language: str = Field(description="The language the text is written in")
+
+    structured_llm = llm.with_structured_output(Classification)
+
+    input = "I'm incredibly glad I met you! I think we'll be great friends!"
+    prompt = tagging_prompt.invoke({"input": input})
+    ic(prompt)
+    response = structured_llm.invoke(prompt)
+    print(response)
+
+# 方法2) 
+"""
+方法1_with_structured_output 错误原因分享
+ DeepSeek-V3（通过阿里 DashScope）虽然支持 response_format={"type": "json_object"}，它有时会返回 Markdown 包裹的 JSON，例如：
+JSON
+复制
+```json
+{
+  "sentiment": "positive",
+  "aggressiveness": 1,
+  "language": "English"
+}
+复制
+这就会导致 Pydantic 报错 `Invalid JSON: expected value at line 1 column 1`。
+"""
+
+from langchain.output_parsers import PydanticOutputParser
+from langchain_core.prompts import PromptTemplate
+from pydantic import BaseModel, Field
+class Classification(BaseModel):
+    sentiment: str = Field(description="The sentiment of the text")
+    aggressiveness: int = Field(
+        description="How aggressive the text is on a scale from 1 to 10"
+    )
+    language: str = Field(description="The language the text is written in")
+
+parser = PydanticOutputParser(pydantic_object=Classification)
+
+prompt = PromptTemplate(
+    template="Extract the desired information from the following passage and return it in JSON format.\n{format_instructions}\n\nPassage:\n{input}",
+    input_variables=["input"],
+    partial_variables={"format_instructions": parser.get_format_instructions()},
+)
+
+chain = prompt | llm | parser
+
+input_text = "I'm incredibly glad I met you! I think we'll be great friends!"
+response = chain.invoke({"input": input_text})
+print(response)
+
+```
+### 7.Outlines
 解决思路：
   通过 prompt 来约束回答格式的方法事实上并不稳定。对于 json 来说，它总是以「{"」开始，并且每个 key 的右引号后必然是跟着一个 “:” ，因此如果能干预解码过程（采样空间），那将使得模型的回答格式更加可控。
 
@@ -331,7 +450,7 @@ print(char) # name=<Name.paul: 'Paul'> age=<Age.twenty: 20>
 print(repr(char)) # Character(name:"Paul", age:20)
 ```
 
-### 7.lm-format-enforcer库
+### 8.lm-format-enforcer库
 [[lm-format-enforcer库.png|Open: file-20260309233245999.png]]
 ![[lm-format-enforcer库.png]]
 项目地址：https://github.com/noamgat/lm-format-enforcer
@@ -390,4 +509,180 @@ result = langchain_pipeline(prompts[0])
 results = langchain_pipeline.generate(prompts)
 for generation in results.generations:
     print(generation[0].text)
+```
+### 9. vllm支持结构化输出
+```python
+ python -m vllm.entrypoints.openai.api_server --model "Meta-Llama-3.1-8B-Instruct" --trust-remote-code --dtype float16 --tensor-parallel-size 2  --max-model-len 8096   --guided-decoding-backend=outlines
+
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="http://192.168.0.172:8000/v1",
+    api_key="EMPTY",
+)
+
+message = {"role": "user", "content": "Hello!"}
+completion = client.chat.completions.create(
+    model="Meta-Llama-3.1-8B-Instruct",
+    messages=[
+        message
+    ],
+    extra_body={
+        "guided_choice": ["positive", "negative"]
+    }
+)
+print(completion.choices[0].message.content)
+```
+
+### 10.KOR 使用LLM提取文本中的结构化数据
+  项目地址： https://github.com/eyurtsev/kor/blob/main/docs
+   - 示例1
+```python
+from kor import create_extraction_chain, Object, Text
+from kor.nodes import Object, Text, Number
+import os
+from langchain.chat_models import ChatOpenAI
+
+schema = Object(
+    id="player",
+    description=(
+        "User is controlling a music player to select songs, pause or start them or play"
+        " music by a particular artist."
+    ),
+    attributes=[
+        Text(
+            id="song",
+            description="User wants to play this song",
+            examples=[],
+            many=True,
+        ),
+        Text(
+            id="album",
+            description="User wants to play this album",
+            examples=[],
+            many=True,
+        ),
+        Text(
+            id="artist",
+            description="Music by the given artist",
+            examples=[("Songs by paul simon", "paul simon")],
+            many=True,
+        ),
+        Text(
+            id="action",
+            description="Action to take one of: `play`, `stop`, `next`, `previous`.",
+            examples=[
+                ("Please stop the music", "stop"),
+                ("play something", "play"),
+                ("play a song", "play"),
+                ("next song", "next"),
+            ],
+        ),
+    ],
+    many=False,
+)
+os.environ['VLLM_USE_MODELSCOPE'] = 'True'
+llm = ChatOpenAI(
+    openai_api_base="http://192.168.0.172:8000/v1",
+    openai_api_key="EMPTY",
+    model="Meta-Llama-3.1-8B-Instruct",
+    stop="<|im_end|>",  # chatglm3-6b 用 <|im_end|>， llama3-6b 用 <|eot_id|>
+    temperature=0
+)
+## chain
+chain = create_extraction_chain(llm, schema, encoder_or_encoder_class='json')
+print(chain.invoke("play songs by paul simon and led zeppelin and the doors"))
+# >>>{'data': {'player': {'artist': ['paul simon', 'led zeppelin', 'the doors']}}, 'raw': '<json>{"player": {"artist": ["paul simon", "led zeppelin", "the doors"]}}</json>', 'errors': [], 'validated_data': {}}
+```
+- 示例2
+```python
+# KOR 结合 Pydantic Schema — Json 对象的输出列表
+from kor import from_pydantic
+from typing import List, Optional
+from pydantic import BaseModel, Field
+
+
+## schema
+class PlanetSchema(BaseModel):
+    planet_name: str = Field(description="The name of the planet")
+
+
+class PlanetList(BaseModel):
+    planets: List[PlanetSchema]
+
+
+schema, validator = from_pydantic(
+    PlanetSchema,
+    description="Planet Information",
+    many=True,  # <-- Note Many = True
+)
+
+chain = create_extraction_chain(llm, schema, validator=validator)
+
+result = chain.invoke(("list planets in our solar system."))  # 列出我们太阳系中的行星。
+print(result)
+```
+
+### 11.lm-format-enforcer库
+项目地址: https://github.com/noamgat/lm-format-enforcer
+该项目通过过滤语言模型在每个时间步允许生成的标记来解决问题，从而确保尊重输出格式，同时最大限度地减少语言模型的限制。
+但是会导致推理时间变大几倍。
+```python
+
+from transformers import pipeline
+from datasets import load_dataset
+import json
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
+from peft import PeftModel
+
+model_id = "/home/qyc/bert/Qwen2-0.5B-Instruct-bnb-4bit"
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModelForCausalLM.from_pretrained(
+    model_id,
+    torch_dtype=torch.bfloat16,
+    device_map="auto",
+)
+print("加载完原版模型")
+EOS_TOKEN = tokenizer.eos_token  # 必须添加 EOS_TOKEN 这个特殊符号，否则生成会无限循环。。
+tokenizer.pad_token_id = 128001
+
+pipe = pipeline(
+    task="text-generation",
+    model=model,
+    tokenizer=tokenizer,
+    max_new_tokens=1024,
+    return_full_text=False,
+)
+
+input_text = """你是一名医生,请根据手术记录判断当前手术名称在手术过程中存在相关编码依据。\n        当前手术记录:\n###手术过程: 患者在手术室喉罩全麻下成功进镜，见左主支气管新生物完全阻塞管腔，于电圈套逐步切除左主支气管新生物，后见左上叶管腔完全通畅；新生物根部位于左下叶，电圈套逐步切除左下叶部分新生物，后左下叶背段及内前基底段管腔通畅，术中患者生命体征平稳，嘱术毕2小时后开始进食，注意呼吸情况及咯血量。###\n手术名称:###内镜下支气管病损切除术###，请判断手术名称是否合理并给出手术过程中出现的相关依据。"""
+prompt = tokenizer.apply_chat_template(
+    [
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": f'{input_text}'}
+    ],
+    tokenize=False,
+    add_generation_prompt=True  # 添加模型开始预测的标签字符
+)
+
+from langchain_experimental.llms import LMFormatEnforcer
+from pydantic import BaseModel
+
+
+class AnswerFormat(BaseModel):
+    手术名称: str
+    手术是否存在依据: str
+    相关依据: str
+
+
+langchain_pipeline = LMFormatEnforcer(pipeline=pipe, json_schema=AnswerFormat.schema())
+
+prompts = [prompt]
+
+result = langchain_pipeline(prompts[0])
+
+results = langchain_pipeline.generate(prompts)
+for generation in results.generations:
+    print(generation[0].text)
+
 ```

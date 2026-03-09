@@ -11,10 +11,14 @@
             "id": "f48096ad2385d178",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "LLM结构化输出的实现思路原理"
             }
           }
         ]
