@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b40433ec857d728a",
+        "id": "e2083f625e880a72",
         "type": "tabs",
         "children": [
           {
-            "id": "4cbe0fd7244d9a4b",
+            "id": "c4370710e2310b30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "kimi-讨论/KV缓存命中：解码 - Kimi.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "KV缓存命中：解码 - Kimi"
+              "title": "新标签页"
             }
           }
         ]
@@ -113,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kimi-讨论/KV缓存命中：解码 - Kimi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "KV缓存命中：解码 - Kimi 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -180,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 637.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,10 +193,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "c4370710e2310b30",
   "lastOpenFiles": [
-    "kimi-讨论/长文本处理场景处理方案讨论.md",
+    "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
     "kimi-讨论/KV缓存命中：解码 - Kimi.md",
+    "kimi-讨论/长文本处理场景处理方案讨论.md",
     "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
     "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
@@ -229,7 +225,6 @@
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/ec988ef4c750542e3ce1ab2fd257ffe0_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/220a6d75512e925b0668fec9cbe82522_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System",
-    "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
     "工作交付文档/assets/2026-03-10 手术细化另编程序设计分析",
     "工作交付文档/assets/未命名",
     "AI应用/openclaw.md",
