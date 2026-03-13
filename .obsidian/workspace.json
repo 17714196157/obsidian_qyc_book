@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
+                "file": "kimi-讨论/KV缓存命中：解码 - Kimi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inside vLLM Anatomy of a High-Throughput LLM Inference System"
+              "title": "KV缓存命中：解码 - Kimi"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5049018859863
+    "width": 239.50490188598633
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.base",
+                "file": "kimi-讨论/KV缓存命中：解码 - Kimi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "KV缓存命中：解码 - Kimi 的出链列表"
             }
           },
           {
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 637.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,42 +194,48 @@
       "obsidian-git:Open Git source control": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "templater-obsidian:Templater": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4cbe0fd7244d9a4b",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
+    "kimi-讨论/长文本处理场景处理方案讨论.md",
+    "kimi-讨论/KV缓存命中：解码 - Kimi.md",
+    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
+    "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
+    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
+    "kimi-讨论/assets/长文本处理场景处理方案讨论/file-20260224165122205.png",
+    "公众号文章/大模型推理加速：看图学KV Cache.md",
+    "性能测试/最大并发量估计方法.md",
+    "大模型-讨论记录/KV缓存命中：解码 - Kimi.md",
+    "大模型相关基础知识/kvcache.md",
+    "性能测试/性能测试指标.md",
+    "公众号文章/assets/大模型推理加速：看图学KV Cache/e540cfa8277e66ea6e338f492f7cdd09_MD5.png",
+    "公众号文章/assets/大模型推理加速：看图学KV Cache/561ca89f8f1dc0e15823ad5e406ba427_MD5.png",
+    "公众号文章/assets/大模型推理加速：看图学KV Cache/8dd61dd0324b5eb67d7c8c312481a68d_MD5.jpg",
+    "公众号文章/assets/大模型推理加速：看图学KV Cache",
+    "大模型-讨论记录/attachments/91098392b0a147b4e5d600fd8a0d7b9c_MD5.jpg",
+    "大模型-讨论记录/attachments/assets/91098392b0a147b4e5d600fd8a0d7b9c_MD5",
+    "大模型-讨论记录/attachments/assets",
+    "大模型-讨论记录/attachments",
+    "kimi-讨论/assets/长文本处理场景处理方案讨论",
+    "kimi-讨论/assets",
+    "kimi-讨论",
+    "大模型-讨论记录/KV缓存命中率讨论 - Kimi.md",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/b910612a59621147d9050253b17ad681_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/34ac55e898b0d98e97b80dfd650490ff_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/835186b62496f5a8c7212dc25979b7fd_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/ec988ef4c750542e3ce1ab2fd257ffe0_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/220a6d75512e925b0668fec9cbe82522_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/ec773256a660cfca76e476b069613168_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/db246f8d01b8bffdd44ab95900c0bd92_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/4324381f0f336fc7b827e85eb9fc6790_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/5556fe3d7b029e9e02ff0c55936d40f9_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/ecaeba4122c2e79c10924cef44dae12b_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/fe49ce06f12fd4586311afe0911fa52a_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System",
-    "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
     "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
     "工作交付文档/assets/2026-03-10 手术细化另编程序设计分析",
     "工作交付文档/assets/未命名",
-    "工作交付文档/assets",
     "AI应用/openclaw.md",
-    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
     "未命名.md",
-    "大模型相关基础知识/assets/LLM结构化输出的实现思路原理",
-    "大模型相关基础知识/assets",
-    "大模型相关基础知识/LLM结构化输出/assets/LLM结构化输出的实现思路原理",
-    "大模型相关基础知识/LLM结构化输出/assets",
-    "大模型相关基础知识/kvcache.md",
-    "大模型-讨论记录/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
     "大模型相关基础知识/LLM结构化输出.md",
-    "大模型相关基础知识/LLM结构化输出",
-    "大模型-讨论记录/长文本处理场景处理方案讨论.md",
     "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
-    "公众号文章/assets/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容",
     "公众号文章/OpenCode Day5：这些让同事直呼“真香”的插件，你装了几个？.md",
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
     "AI应用/opencode.md",
@@ -239,11 +245,6 @@
     "性能测试/vLLM/让vllm服务在开机时自动启动.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
-    "公众号文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md",
-    "RSS articles/Nine dead in missile attack.md",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md"
+    "公众号文章/vLLM v0.16.0 深度解读：异步调度 + 流水线并行如何让推理吞吐量提升30%.md"
   ]
 }
