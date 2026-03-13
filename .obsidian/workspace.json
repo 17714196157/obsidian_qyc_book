@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
+                "file": "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
                 "mode": "source",
                 "source": false
               },
@@ -199,11 +199,13 @@
   },
   "active": "07d26b65f9ab4cf7",
   "lastOpenFiles": [
+    "大模型性能与部署/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案/file-20260313223705178.png",
+    "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
+    "大模型性能与部署/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案",
+    "大模型性能与部署/assets",
     "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
-    "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
     "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案",
-    "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案/file-20260313222501786.png",
     "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
     "公众号文章/assets/LLM Prefill & Decode — 完整技术图谱/69960aa91e34e45b7d1b16ac1a081103_MD5.png",
@@ -231,8 +233,6 @@
     "大模型-讨论记录/attachments/91098392b0a147b4e5d600fd8a0d7b9c_MD5.jpg",
     "大模型-讨论记录/attachments/assets/91098392b0a147b4e5d600fd8a0d7b9c_MD5",
     "大模型-讨论记录/attachments/assets",
-    "大模型-讨论记录/attachments",
-    "kimi-讨论/assets/长文本处理场景处理方案讨论",
     "大模型-讨论记录/KV缓存命中率讨论 - Kimi.md",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/b910612a59621147d9050253b17ad681_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/34ac55e898b0d98e97b80dfd650490ff_MD5.png",
@@ -243,7 +243,6 @@
     "公众号文章/OpenCode Day5：这些让同事直呼“真香”的插件，你装了几个？.md",
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
     "AI应用/opencode.md",
-    "AI应用/claude_code.md",
-    "AI应用/Oh-My-OpenCode 完全指南.md"
+    "AI应用/claude_code.md"
   ]
 }
