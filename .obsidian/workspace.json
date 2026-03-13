@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e2083f625e880a72",
+        "id": "dbd007ee255e5bd0",
         "type": "tabs",
         "children": [
           {
-            "id": "17f73b15df74a5c2",
+            "id": "07d26b65f9ab4cf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
+                "file": "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM Prefill & Decode — 完整技术图谱"
-            }
-          },
-          {
-            "id": "442d4afc571c434c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Prefix Cache Hit Rate 与 Decode KV Cache 区别"
+              "title": "Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 260.5049018859863
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -212,11 +197,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "442d4afc571c434c",
+  "active": "07d26b65f9ab4cf7",
   "lastOpenFiles": [
     "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
-    "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别.md",
-    "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别/file-20260313214233226.png",
+    "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
+    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
+    "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案",
+    "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案/file-20260313222501786.png",
     "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
     "公众号文章/assets/LLM Prefill & Decode — 完整技术图谱/69960aa91e34e45b7d1b16ac1a081103_MD5.png",
@@ -246,7 +233,6 @@
     "大模型-讨论记录/attachments/assets",
     "大模型-讨论记录/attachments",
     "kimi-讨论/assets/长文本处理场景处理方案讨论",
-    "kimi-讨论/assets",
     "大模型-讨论记录/KV缓存命中率讨论 - Kimi.md",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/b910612a59621147d9050253b17ad681_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/34ac55e898b0d98e97b80dfd650490ff_MD5.png",

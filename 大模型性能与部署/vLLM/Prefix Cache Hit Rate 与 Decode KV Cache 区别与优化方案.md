@@ -162,7 +162,7 @@ vllm:time_per_output_token_seconds  # Decode 每 token 时间
 
 
 
-## 三条优化主线
+## 三) 三条优化主线
 
 **Prefill 优化主线：** Transformer → FlashAttention → FA2 → FA3 → 稀疏注意力 → Chunked Prefill → 序列并行 → P/D分离集群
 
@@ -240,3 +240,50 @@ Decode 每步的计算图固定（只有输入 Token 变化），使用 CUDA Gra
 | KV 量化 (INT8/4) | Decode  | KV带宽瓶颈       | 显存 ÷2~÷4      | 精度损失，实现复杂    | ⭐⭐研究阶段         |
 | KV 驱逐 (H2O等)   | Decode  | 长序列KV爆炸      | KV减少50-80%    | 精度损失，任务相关    | ⭐⭐ 研究阶段        |
 | MLA (DeepSeek) | P+D     | KV Cache显存瓶颈 | KV ÷16，带宽↓10× | 需从头训练，推理有矩阵乘 | ⭐⭐⭐ DeepSeek生产 |
+
+
+### d）推测解码优化方案
+**核心思路：** Decode 每步只生成1个 Token 是瓶颈，但验证多个 Token 的正确性（Prefill 模式并行）比顺序生成快得多。用小模型（Draft）猜测未来 k 步 Token，再用大模型（Target）一次并行验证，接受的 Token 全部保留，从而在同等时间内生成更多 Token。
+##### 1. 推测解码流程（Draft K=4 步，Accept 3 步）
+```
+① Draft Model（小模型）顺序猜测 k=4 步：
+   [...上文] + [the] [lazy] [dog] [sat]
+
+② Target Model（大模型）并行验证全部 k+1 个位置（Prefill 模式）：
+   [...上文] + [✓the] [✓lazy] [✓dog] [✗sat→down]
+   （并行验证，前3个Accept，第4个Reject并修正）
+
+③ 结果：1次 Target 调用 → 净产出 3 个 Token（替代3次顺序 Decode）
+   Accept Rate ≈ 75%，有效加速比 ≈ 3× Decode 吞吐
+```
+##### 2. Speculative Decoding（经典版）
+**SPECULATIVE · 2023 | DEEPMIND · DRAFT-TARGET · LOSSLESS**
+使用独立小 Draft 模型（如 68M 参数）猜测，大模型验证。基于拒绝采样的数学保证：接受概率 = min(1, p\_target/p\_draft)，结果分布与纯 Target 模型完全等价（Lossless）。关键超参：Draft 步数 k（通常 4-8），与任务和 Accept Rate 相关。
+**效果：** Decode 吞吐 ↑ 2-3×（分布不变）
+##### 3. Self-Speculative / Medusa
+**SPECULATIVE · 2024 | MULTI-HEAD DRAFT · NO SEPARATE MODEL**
+Medusa：在 LLM 上并行添加多个"猜测头"（Head），每个 Head 预测未来不同位置的 Token，无需独立 Draft 模型。自推测（Layer-Skip）：复用模型中间层输出作为 Draft。避免维护两个独立模型，部署简单，Accept Rate 略低于独立 Draft 模型。
+**效果：** Decode ↑ 2-2.5×，无需独立Draft模型
+##### 4. Eagle / Eagle-2 / EAGLE-3
+**SPECULATIVE · 2024-2025 | FEATURE-LEVEL DRAFT · AUTO-REGRESSIVE HEAD**
+EAGLE：Draft 模型在特征层（Feature Space）而非 Token 层猜测，用 Target 模型最后一层特征训练轻量 Auto-regressive Head，Accept Rate 显著高于 Medusa（≈90% vs ≈70%）。EAGLE-2 引入动态草稿树（Dynamic Draft Tree），根据 Context 自适应 k。
+**效果：** Decode ↑ 3-4×，Accept Rate ≈ 90%
+
+
+## 四) 选型速查 — 按优化目标
+
+##### 🎯 降低 TTFT（首Token延迟）
+
+① **Prefix Caching** — 命中时 TTFT→0 ② **Chunked Prefill** — 避免 Prefill 阻塞 ③ **FlashAttention-3** — 提升 Prefill 计算效率 ④ **PD Disaggregation** — 独立扩容 Prefill 集群 ⑤ **Tensor 并行** — 多 GPU 加速单次 Prefill
+
+##### 🎯 提升吞吐（Decode TPS）
+
+① **Continuous Batching** — 首选，GPU 无空闲 ② **Speculative Decoding (EAGLE-2)** — 一步多 Token ③ **W4A16 量化 (AWQ)** — 带宽需求 ÷4 ④ **PagedAttention** — 消除碎片，提升并发 ⑤ **GQA/MQA** — 降低 KV 显存，扩大 Batch
+
+##### 🎯 扩展上下文长度
+
+① **MLA（训练时设计）** — KV ÷16 ② **KV 量化 INT8/INT4** — 显存 ÷2~÷4 ③ **KV Offload（CPU/NVMe）** — 突破显存限制 ④ **H2O / StreamingLLM** — 近似，无限长序列 ⑤ **Ring Attention** — 多 GPU 分布式长序列
+
+##### 🎯 降低显存 / 部署成本
+
+① **W4A16 量化** — 模型权重 ÷4 ② **FP8 推理** — 几乎无损，H100 原生 ③ **GQA（模型设计）** — KV Cache 显存 ÷4~÷8 ④ **Prefix Cache 复用** — 减少重复计算 ⑤ **投机+小 Draft 模型** — 大模型资源更高效
