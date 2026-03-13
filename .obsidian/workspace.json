@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别.md",
+                "file": "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
                 "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LLM Prefill & Decode — 完整技术图谱"
+            }
+          },
+          {
+            "id": "442d4afc571c434c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Prefix Cache Hit Rate 与 Decode KV Cache 区别"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,13 +209,18 @@
       "obsidian-git:Open Git source control": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "templater-obsidian:Templater": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "17f73b15df74a5c2",
+  "active": "442d4afc571c434c",
   "lastOpenFiles": [
+    "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
+    "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别.md",
+    "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别/file-20260313214233226.png",
+    "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
+    "公众号文章/assets/LLM Prefill & Decode — 完整技术图谱/69960aa91e34e45b7d1b16ac1a081103_MD5.png",
+    "公众号文章/assets/LLM Prefill & Decode — 完整技术图谱",
     "kimi-讨论/vllm并发策略 - Kimi.md",
     "kimi-讨论/长文本处理场景处理方案讨论.md",
     "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
@@ -208,7 +228,6 @@
     "kimi-讨论/assets/vllm并发策略 - Kimi/file-20260313143434897.png",
     "公众号文章/assets/vllm并发策略 - Kimi",
     "kimi-讨论/KV缓存命中：解码 - Kimi.md",
-    "大模型性能与部署/vLLM/Prefix Cache Hit Rate 与 Decode KV Cache 区别.md",
     "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
     "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
@@ -228,13 +247,9 @@
     "大模型-讨论记录/attachments",
     "kimi-讨论/assets/长文本处理场景处理方案讨论",
     "kimi-讨论/assets",
-    "kimi-讨论",
     "大模型-讨论记录/KV缓存命中率讨论 - Kimi.md",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/b910612a59621147d9050253b17ad681_MD5.png",
     "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/34ac55e898b0d98e97b80dfd650490ff_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/835186b62496f5a8c7212dc25979b7fd_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System/ec988ef4c750542e3ce1ab2fd257ffe0_MD5.png",
-    "公众号文章/assets/Inside vLLM Anatomy of a High-Throughput LLM Inference System",
     "AI应用/openclaw.md",
     "未命名.md",
     "大模型相关基础知识/LLM结构化输出.md",
@@ -243,8 +258,6 @@
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
     "AI应用/opencode.md",
     "AI应用/claude_code.md",
-    "AI应用/Oh-My-OpenCode 完全指南.md",
-    "obsidian操作/obsidian插件推荐.md",
-    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md"
+    "AI应用/Oh-My-OpenCode 完全指南.md"
   ]
 }
