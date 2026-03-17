@@ -1,4 +1,4 @@
-[[Prefill &Decode一推理两阶段全景.png|Open: file-20260317105904153.png]]
+
 ![[Prefill &Decode一推理两阶段全景.png]]
 
 | 指标：       | **Prefix Cache Hit Rate**                                                                                                                                                | **Decode KV Cache 命中率**                                                                                                                                                   |

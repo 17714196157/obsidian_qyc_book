@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b9dc7a6ca80dabd5",
+        "id": "91e35d96be8fb3df",
         "type": "tabs",
         "children": [
           {
-            "id": "536181c8ddee3fcf",
+            "id": "41daecc6d0d24e59",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案"
             }
           }
         ]
@@ -194,7 +198,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "536181c8ddee3fcf",
+  "active": "41daecc6d0d24e59",
   "lastOpenFiles": [
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
     "大模型性能与部署/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案/Prefill &Decode一推理两阶段全景.png",
