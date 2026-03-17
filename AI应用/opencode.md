@@ -85,7 +85,10 @@ opencode命令窗口  /models 选择自己的模型
 ```
 npx oh-my-opencode install
 # 检查插件是否加载 ,确保 `plugin` 数组里包含 `oh-my-opencode`
-cat ~/.config/opencode/opencode.json | grep -A5 '"plugin"'
+cat ~/.config/opencode/opencode.json 
+ >>> "plugin": [   "oh-my-opencode" ],
+
+
 ```
 oh-my-opencode 介绍 [[Oh-My-OpenCode 完全指南]]
 
