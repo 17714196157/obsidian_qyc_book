@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
+                "file": "面试百问/FP8在大模型训练中的应用与原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？"
+              "title": "FP8在大模型训练中的应用与原理"
             }
           }
         ]
@@ -199,22 +199,25 @@
   },
   "active": "15da7591685b1d78",
   "lastOpenFiles": [
-    "面试百问/如何构建长期记忆机制设计.md",
+    "面试百问/assets/FP8在大模型训练中的应用与原理/f5dc0cdf843326474f722d7e475b3886_MD5.png",
+    "面试百问/assets/FP8在大模型训练中的应用与原理/d62ef02da91474c9a6254baa0a197683_MD5.png",
+    "面试百问/assets/FP8在大模型训练中的应用与原理/9974ddededca319b2f3636cd56ec3727_MD5.png",
+    "面试百问/assets/FP8在大模型训练中的应用与原理/d4d4284f4ddf4d056f62ccfe18c7c2ad_MD5.png",
+    "面试百问/assets/FP8在大模型训练中的应用与原理",
+    "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
+    "面试百问/FP8在大模型训练中的应用与原理.md",
     "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
+    "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
+    "面试百问/如何构建长期记忆机制设计.md",
     "面试百问/assets/如何构建长期记忆机制设计/核心方法总结.png",
     "面试百问/assets/如何构建长期记忆机制设计/file-20260318122241113.png",
     "面试百问/assets/如何构建长期记忆机制设计/dd57ec48c5b726d815c757006983299d_MD5.png",
     "面试百问/assets/如何构建长期记忆机制设计/分层记忆架构.png",
     "面试百问/assets/如何构建长期记忆机制设计",
-    "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/三大支柱理论.png",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/Prompt Engineering挑战.png",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/核心区别.png",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别",
-    "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
-    "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？/训练中降低显存的方法.png",
-    "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？/OOM解决方案三件套.png",
-    "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？/显存组成分析.png",
     "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？",
     "面试百问/业务对Latency要求极高，不允许过长Prompt，如何设计.md",
     "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计",
@@ -237,13 +240,10 @@
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
     "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1.md",
     "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5.md",
-    "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1/1ce1a435f6f864095fb214f25311f3cf_MD5.unknown",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
     "kimi-讨论/vllm并发策略 - Kimi.md",
     "kimi-讨论/长文本处理场景处理方案讨论.md",
-    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
-    "kimi-讨论/KV缓存命中：解码 - Kimi.md",
-    "工作交付文档/2026-03-10 手术细化另编程序设计分析.md"
+    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md"
   ]
 }
