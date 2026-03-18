@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试百问/如何构建长期记忆机制设计.md",
+                "file": "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "如何构建长期记忆机制设计"
+              "title": "当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？"
             }
           }
         ]
@@ -199,13 +199,14 @@
   },
   "active": "15da7591685b1d78",
   "lastOpenFiles": [
+    "面试百问/如何构建长期记忆机制设计.md",
+    "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
     "面试百问/assets/如何构建长期记忆机制设计/核心方法总结.png",
     "面试百问/assets/如何构建长期记忆机制设计/file-20260318122241113.png",
     "面试百问/assets/如何构建长期记忆机制设计/dd57ec48c5b726d815c757006983299d_MD5.png",
     "面试百问/assets/如何构建长期记忆机制设计/分层记忆架构.png",
     "面试百问/assets/如何构建长期记忆机制设计",
     "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
-    "面试百问/如何构建长期记忆机制设计.md",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/三大支柱理论.png",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/Prompt Engineering挑战.png",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/核心区别.png",
@@ -215,7 +216,6 @@
     "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？/OOM解决方案三件套.png",
     "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？/显存组成分析.png",
     "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？",
-    "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计/主流压缩策略.png",
     "面试百问/业务对Latency要求极高，不允许过长Prompt，如何设计.md",
     "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计",
     "面试百问/assets/未命名",
