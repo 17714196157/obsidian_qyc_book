@@ -112,3 +112,31 @@ Configured custom provider: custom-dashscope-aliyuncs-com/deepseek-v3
 ```
 [[openclaw界面.png|Open: file-20260306014103033.png]]
 ![[openclaw界面.png]]
+
+
+### 卸载openclaw
+```bash
+npm uninstall -g openclaw
+
+# 删除主配置目录（包含凭证、API 密钥、对话记录）
+rm -rf ~/.openclaw
+# 删除旧版本残留目录
+rm -rf ~/.clawdbot ~/.moltbot ~/.molthub
+# 删除 XDG 标准路径下的配置
+rm -rf ~/.config/openclaw
+rm -rf ~/.local/share/openclaw
+rm -rf ~/.local/state/openclaw
+rm -rf ~/.cache/openclaw
+
+执行以下命令，**都应无返回结果**：
+# 检查 CLI 是否移除
+which openclaw
+# 检查进程是否运行
+ps aux | grep openclaw | grep -v grep
+# 检查 systemd 服务
+systemctl --user status openclaw-gateway.service
+systemctl --user list-units | grep openclaw
+# 检查配置目录是否删除
+ls ~/.openclaw 2>/dev/null
+ls ~/.clawdbot 2>/dev/null
+```

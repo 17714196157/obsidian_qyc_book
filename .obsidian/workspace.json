@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "91e35d96be8fb3df",
+        "id": "6154795a6db96a3c",
         "type": "tabs",
         "children": [
           {
-            "id": "41daecc6d0d24e59",
+            "id": "15da7591685b1d78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
+                "file": "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案"
+              "title": "请简述Prompt Engineering 与Context Engineering 的核心区别"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "openclaw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 251.50490188598633
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -198,52 +197,53 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "41daecc6d0d24e59",
+  "active": "15da7591685b1d78",
   "lastOpenFiles": [
+    "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/三大支柱理论.png",
+    "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/Prompt Engineering挑战.png",
+    "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/核心区别.png",
+    "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别",
+    "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
+    "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
+    "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？/训练中降低显存的方法.png",
+    "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？/OOM解决方案三件套.png",
+    "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？/显存组成分析.png",
+    "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？",
+    "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计/主流压缩策略.png",
+    "面试百问/业务对Latency要求极高，不允许过长Prompt，如何设计.md",
+    "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计/Prompt压缩核心处理管线.png",
+    "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计",
+    "面试百问/assets/未命名",
+    "面试百问/assets",
+    "面试百问",
+    "公众号文章/assets/LLM Prefill & Decode — 完整技术图谱/69960aa91e34e45b7d1b16ac1a081103_MD5.png",
+    "AI应用/openclaw.md",
+    "AI应用/opencode.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
     "大模型性能与部署/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案/Prefill &Decode一推理两阶段全景.png",
     "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
     "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
     "公众号文章/大模型推理加速：看图学KV Cache.md",
-    "公众号文章/assets/LLM Prefill & Decode — 完整技术图谱/69960aa91e34e45b7d1b16ac1a081103_MD5.png",
     "大模型性能与部署/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案",
     "大模型性能与部署/assets",
     "公众号文章/assets/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了/90144017967be7369394e9418d558ac0_MD5.webp",
     "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
     "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
     "AI应用/claude_code.md",
-    "AI应用/opencode.md",
     "AI应用/Oh-My-OpenCode 完全指南.md",
     "公众号文章/OpenCode Day5：这些让同事直呼“真香”的插件，你装了几个？.md",
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
-    "工作交付文档/assets/2026-03-10 手术细化另编程序设计分析/file-20260310191138625.png",
-    "公众号文章/assets/大模型推理加速：看图学KV Cache/e540cfa8277e66ea6e338f492f7cdd09_MD5.png",
     "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1.md",
     "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5.md",
-    "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1/ac692778ba12567a3c3be0a1b4fa25df_MD5.gif",
     "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1/1ce1a435f6f864095fb214f25311f3cf_MD5.unknown",
-    "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1/a33090a21cf7ed58c2b3df2dcf8f7a3e_MD5.webp",
-    "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1/6ce22b029221aeee1456368e9b7091c2_MD5.webp",
     "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1",
-    "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5/ac692778ba12567a3c3be0a1b4fa25df_MD5.gif",
-    "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5/1ce1a435f6f864095fb214f25311f3cf_MD5.unknown",
-    "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5/6ce22b029221aeee1456368e9b7091c2_MD5.webp",
-    "公众号文章/assets/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
-    "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案",
-    "大模型性能与部署/vLLM/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
-    "公众号文章/assets/LLM Prefill & Decode — 完整技术图谱",
     "kimi-讨论/vllm并发策略 - Kimi.md",
     "kimi-讨论/长文本处理场景处理方案讨论.md",
     "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
-    "kimi-讨论/assets/vllm并发策略 - Kimi",
     "kimi-讨论/KV缓存命中：解码 - Kimi.md",
     "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
-    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
-    "大模型性能与部署/最大并发量估计方法.md",
-    "大模型-讨论记录/KV缓存命中：解码 - Kimi.md",
-    "大模型相关基础知识/kvcache.md",
-    "大模型性能与部署/性能测试指标.md"
+    "大模型相关基础知识/LLM结构化输出的实现思路原理.md"
   ]
 }
