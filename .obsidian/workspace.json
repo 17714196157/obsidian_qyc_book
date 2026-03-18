@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6154795a6db96a3c",
+        "id": "d55fc3baa6f8ad09",
         "type": "tabs",
         "children": [
           {
-            "id": "15da7591685b1d78",
+            "id": "77ec8d3deb547aa2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大模型性能与部署/vLLM/vllm性能监控.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "vllm性能监控"
+              "title": "新标签页"
             }
           }
         ]
@@ -197,40 +193,41 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "15da7591685b1d78",
+  "active": "77ec8d3deb547aa2",
   "lastOpenFiles": [
+    "公众号文章/Reason Model 的“瘦身计划”：量化技术的得与失.md",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/9505b039952ca48fe02ce5ff4755db82_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/1444657eb6423f95f595e45e56d12ec4_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/8cd45d427f32f957b1f781fa12161615_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/27fd84b2f5786ebb3cc4e51a2b62e193_MD5.png",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/bd10eaf734696da34b4bdd302287daef_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/897a20cd6d3ed04539daf06da82617ab_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/d17cb2e6a62362a095ac18960b147e2e_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/3039f4594a4716445411af1300866a62_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/5d39e22b0d301380eebe3e4fe878ba03_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/3caef68f1d482e04e5c945afedf3998f_MD5.webp",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失",
+    "大模型性能与部署/vLLM/vllm性能监控.md",
+    "大模型性能与部署/vLLM/vLLM参数调优.md",
     "大模型性能与部署/vLLM/assets/vllm性能监控/vllm资源监控.py",
     "大模型性能与部署/vLLM/assets/vllm性能监控",
     "未命名.base",
     "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
-    "大模型性能与部署/vLLM/vllm性能监控.md",
     "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
     "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
     "公众号文章/vLLM 0.17.0 performance-mode调优测试.md",
-    "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试/47ede638c706093694deeef1519b7138_MD5.webp",
-    "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试/27769a76164fec10fdba0fc90f1cb443_MD5.webp",
-    "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试/c50ac9201e8d0e8d6c0fd0715355a244_MD5.webp",
     "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试",
     "面试百问/FP8在大模型训练中的应用与原理.md",
-    "面试百问/assets/FP8在大模型训练中的应用与原理/f5dc0cdf843326474f722d7e475b3886_MD5.png",
-    "面试百问/assets/FP8在大模型训练中的应用与原理/d62ef02da91474c9a6254baa0a197683_MD5.png",
-    "面试百问/assets/FP8在大模型训练中的应用与原理/9974ddededca319b2f3636cd56ec3727_MD5.png",
-    "面试百问/assets/FP8在大模型训练中的应用与原理/d4d4284f4ddf4d056f62ccfe18c7c2ad_MD5.png",
     "面试百问/assets/FP8在大模型训练中的应用与原理",
     "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
     "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
     "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
     "面试百问/如何构建长期记忆机制设计.md",
-    "面试百问/assets/如何构建长期记忆机制设计/核心方法总结.png",
-    "面试百问/assets/如何构建长期记忆机制设计/file-20260318122241113.png",
-    "面试百问/assets/如何构建长期记忆机制设计/dd57ec48c5b726d815c757006983299d_MD5.png",
     "面试百问/assets/如何构建长期记忆机制设计",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别",
     "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？",
     "面试百问/业务对Latency要求极高，不允许过长Prompt，如何设计.md",
     "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计",
-    "面试百问/assets/未命名",
-    "面试百问/assets",
     "AI应用/openclaw.md",
     "AI应用/opencode.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
@@ -242,8 +239,6 @@
     "AI应用/Oh-My-OpenCode 完全指南.md",
     "公众号文章/OpenCode Day5：这些让同事直呼“真香”的插件，你装了几个？.md",
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
-    "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1.md",
-    "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5.md",
-    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md"
+    "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1.md"
   ]
 }
