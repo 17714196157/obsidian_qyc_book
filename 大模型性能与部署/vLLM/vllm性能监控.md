@@ -118,7 +118,41 @@ vllm bench serve \
 - **Mean TPOT (ms)**: 每输出 token 延迟平均值（Time Per Output Token）
 - **Mean ITL (ms)**: token 间延迟平均值（Inter-token Latency）
 
+```
+vllm bench serve \
+    --model /home/qyc/bert/Qwen2-0.5B  \
+    --host 192.168.0.172 \
+    --port 8000 \
+    --dataset-name random \
+    --random-input-len 4096 \
+    --random-output-len 4000 \
+    --num-prompts 1000 \
+    --max-concurrency 32 \
+    --seed 12345
 
+============ Serving Benchmark Result ============
+Successful requests:                     1000
+Benchmark duration (s):                  4655.90
+Total input tokens:                      4096000
+Total generated tokens:                  3956489
+Request throughput (req/s):              0.21
+Output token throughput (tok/s):         849.78
+Total Token throughput (tok/s):          1729.52
+---------------Time to First Token----------------
+Mean TTFT (ms):                          977.34
+Median TTFT (ms):                        755.20
+P99 TTFT (ms):                           10488.05
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          38.00
+Median TPOT (ms):                        37.44
+P99 TPOT (ms):                           38.19
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           37.31
+Median ITL (ms):                         35.55
+P99 ITL (ms):                            133.92
+==================================================
+
+```
 ## 资源监控
 ##### vLLM 服务指标（通过 `/metrics` 端点 http://localhost:8000/metrics ）
 **延迟指标**：
