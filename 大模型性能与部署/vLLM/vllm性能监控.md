@@ -48,21 +48,21 @@ vllm bench serve \
 
 3. 数据集选择参数（Dataset Selection）
 
-| 参数 | 类型 | 默认值 | 说明 |
-|------|------|--------|------|
-| `--dataset-name` | str | `random` | 要进行基准测试的数据集名称。可选：`sharegpt`, `burstgpt`, `sonnet`, `random`, `random-mm`, `random-rerank`, `hf`, `custom`, `custom_mm`, `prefix_repetition`, `spec_bench`  |
-| `--dataset-path` | str | `None` | sharegpt/sonnet 数据集的路径。如果使用 HF 数据集，则为 Huggingface 数据集 ID  |
-| `--no-stream` | bool | `False` | 不要以流式模式加载数据集  |
-| `--no-oversample` | bool | `False` | 如果数据集样本少于 `num-prompts`，则不进行过采样  |
-| `--skip-chat-template` | bool | `False` | 跳过将聊天模板应用于支持它的数据集的提示  |
-| `--enable-multimodal-chat` | bool | `False` | 为支持多模态聊天的相关数据集启用多模态聊天转换  |
-| `--disable-shuffle` | bool | `False` | 禁用数据集样本的洗牌以实现确定性排序  |
-| `--input-len` | int | `None` | 数据集的通用输入长度。映射到特定数据集的输入长度参数（如 `--random-input-len`）。如果未指定，使用数据集默认值  |
-| `--output-len` | int | `None` | 数据集的通用输出长度。映射到特定数据集的输出长度参数（如 `--random-output-len`）。如果未指定，使用数据集默认值  |
-| `--random-input-len` | int | `1024` | 随机数据集的输入 token 数  |
-| `--random-output-len` | int | `1024` | 随机数据集的输出 token 数  |
-| `--custom-output-len` | int | `256` | 每个请求的输出 token 数。除非设置为 `-1`，否则覆盖从数据集中加载的潜在输出长度  |
-| `--custom-skip-chat-template` | bool | `False` | 跳过应用 chat template（如果数据已包含模板） |
+| 参数                            | 类型   | 默认值      | 说明                                                                                                                                                        |
+| ----------------------------- | ---- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--dataset-name`              | str  | `random` | 要进行基准测试的数据集名称。可选：`sharegpt`, `burstgpt`, `sonnet`, `random`, `random-mm`, `random-rerank`, `hf`, `custom`, `custom_mm`, `prefix_repetition`, `spec_bench` |
+| `--dataset-path`              | str  | `None`   | sharegpt/sonnet 数据集的路径。如果使用 HF 数据集，则为 Huggingface 数据集 ID                                                                                                  |
+| `--no-stream`                 | bool | `False`  | 不要以流式模式加载数据集                                                                                                                                              |
+| `--no-oversample`             | bool | `False`  | 如果数据集样本少于 `num-prompts`，则不进行过采样                                                                                                                           |
+| `--skip-chat-template`        | bool | `False`  | 跳过将聊天模板应用于支持它的数据集的提示                                                                                                                                      |
+| `--enable-multimodal-chat`    | bool | `False`  | 为支持多模态聊天的相关数据集启用多模态聊天转换                                                                                                                                   |
+| `--disable-shuffle`           | bool | `False`  | 禁用数据集样本的洗牌以实现确定性排序                                                                                                                                        |
+| `--input-len`                 | int  | `None`   | 数据集的通用输入长度。映射到特定数据集的输入长度参数（如 `--random-input-len`）。如果未指定，使用数据集默认值                                                                                         |
+| `--output-len`                | int  | `None`   | 数据集的通用输出长度。映射到特定数据集的输出长度参数（如 `--random-output-len`）。如果未指定，使用数据集默认值                                                                                        |
+| `--random-input-len`          | int  | `1024`   | 随机数据集的输入 token 数                                                                                                                                          |
+| `--random-output-len`         | int  | `1024`   | 随机数据集的输出 token 数                                                                                                                                          |
+| **`--custom-output-len`**     | int  | `256`    | **每个请求的输出 token 数**。 **需要配合--ignore-eos 参数**<br>``` --custom-output-len 5000  --ignore-eos  # 关键：忽略 EOS，强制生成长度```                                         |
+| `--custom-skip-chat-template` | bool | `False`  | 跳过应用 chat template（如果数据已包含模板）                                                                                                                             |
 
 
 4. 请求速率预热参数（Ramp-up）
@@ -76,14 +76,14 @@ vllm bench serve \
 
 5. 结果输出与指标参数（Results & Metrics）
 
-| 参数 | 类型 | 默认值 | 说明 |
-|------|------|--------|------|
-| `--ignore-eos` | bool | `False` | 在发送基准测试请求时设置 ignore_eos 标志。警告：deepspeed_mii 和 tgi 不支持  |
-| `--percentile-metrics` | str | `ttft,tpot,itl` | 用于报告百分位数的选定指标的逗号分隔列表。可选：`ttft`, `tpot`, `itl`, `e2el`  |
-| `--metric-percentiles` | str | `99` | 选定指标的百分位数的逗号分隔列表。例如 `25,50,75` 报告 P25, P50, P75  |
-| `--goodput` | str | `None` | 为 goodput 指定服务水平目标，格式为 `KEY:VALUE` 对（如 `ttft:100` 表示 TTFT < 100ms）。多个对用空格分隔  |
-| `--label` | str | `None` | 基准测试结果的标签（前缀）。如果未指定，使用 `--backend` 的值  |
-| `--request-id-prefix` | str | `bench-xxxxx-` | 请求 ID 的前缀  |
+| 参数                     | 类型   | 默认值             | 说明                                                                                                                                       |
+| ---------------------- | ---- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `--ignore-eos`         | bool | `False`         | - 如果不设置 `--ignore-eos`，模型可能在生成几百 token 后就遇到 `<\|endoftext\|>` 或 `<\|im_end\|>` 等 EOS token 而停止<br>- 设置后，模型会**强制**生成到指定的 token 数（或遇到硬性限制） |
+| `--percentile-metrics` | str  | `ttft,tpot,itl` | 用于报告百分位数的选定指标的逗号分隔列表。可选：`ttft`, `tpot`, `itl`, `e2el`                                                                                    |
+| `--metric-percentiles` | str  | `99`            | 选定指标的百分位数的逗号分隔列表。例如 `25,50,75` 报告 P25, P50, P75                                                                                          |
+| `--goodput`            | str  | `None`          | 为 goodput 指定服务水平目标，格式为 `KEY:VALUE` 对（如 `ttft:100` 表示 TTFT < 100ms）。多个对用空格分隔                                                              |
+| `--label`              | str  | `None`          | 基准测试结果的标签（前缀）。如果未指定，使用 `--backend` 的值                                                                                                    |
+| `--request-id-prefix`  | str  | `bench-xxxxx-`  | 请求 ID 的前缀                                                                                                                                |
 
 6. 结果保存参数（Result Saving）
 
