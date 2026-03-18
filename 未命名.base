@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.basename.contains("资源监控")
+    sort:
+      - property: file.name
+        direction: ASC

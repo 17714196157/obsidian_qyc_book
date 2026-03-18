@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试百问/FP8在大模型训练中的应用与原理.md",
+                "file": "大模型性能与部署/vLLM/vllm性能监控.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FP8在大模型训练中的应用与原理"
+              "title": "vllm性能监控"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 306.5049018859863
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -199,51 +199,51 @@
   },
   "active": "15da7591685b1d78",
   "lastOpenFiles": [
+    "大模型性能与部署/vLLM/assets/vllm性能监控/vllm资源监控.py",
+    "大模型性能与部署/vLLM/assets/vllm性能监控",
+    "未命名.base",
+    "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
+    "大模型性能与部署/vLLM/vllm性能监控.md",
+    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
+    "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
+    "公众号文章/vLLM 0.17.0 performance-mode调优测试.md",
+    "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试/47ede638c706093694deeef1519b7138_MD5.webp",
+    "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试/27769a76164fec10fdba0fc90f1cb443_MD5.webp",
+    "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试/c50ac9201e8d0e8d6c0fd0715355a244_MD5.webp",
+    "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试",
+    "面试百问/FP8在大模型训练中的应用与原理.md",
     "面试百问/assets/FP8在大模型训练中的应用与原理/f5dc0cdf843326474f722d7e475b3886_MD5.png",
     "面试百问/assets/FP8在大模型训练中的应用与原理/d62ef02da91474c9a6254baa0a197683_MD5.png",
     "面试百问/assets/FP8在大模型训练中的应用与原理/9974ddededca319b2f3636cd56ec3727_MD5.png",
     "面试百问/assets/FP8在大模型训练中的应用与原理/d4d4284f4ddf4d056f62ccfe18c7c2ad_MD5.png",
     "面试百问/assets/FP8在大模型训练中的应用与原理",
     "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
-    "面试百问/FP8在大模型训练中的应用与原理.md",
     "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
     "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
     "面试百问/如何构建长期记忆机制设计.md",
     "面试百问/assets/如何构建长期记忆机制设计/核心方法总结.png",
     "面试百问/assets/如何构建长期记忆机制设计/file-20260318122241113.png",
     "面试百问/assets/如何构建长期记忆机制设计/dd57ec48c5b726d815c757006983299d_MD5.png",
-    "面试百问/assets/如何构建长期记忆机制设计/分层记忆架构.png",
     "面试百问/assets/如何构建长期记忆机制设计",
-    "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/三大支柱理论.png",
-    "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/Prompt Engineering挑战.png",
-    "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别/核心区别.png",
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别",
     "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？",
     "面试百问/业务对Latency要求极高，不允许过长Prompt，如何设计.md",
     "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计",
     "面试百问/assets/未命名",
     "面试百问/assets",
-    "面试百问",
     "AI应用/openclaw.md",
     "AI应用/opencode.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
     "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
     "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
     "公众号文章/大模型推理加速：看图学KV Cache.md",
-    "大模型性能与部署/assets/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案",
-    "大模型性能与部署/assets",
     "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
-    "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
     "AI应用/claude_code.md",
     "AI应用/Oh-My-OpenCode 完全指南.md",
     "公众号文章/OpenCode Day5：这些让同事直呼“真香”的插件，你装了几个？.md",
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
     "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1.md",
     "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5.md",
-    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
-    "大模型性能与部署/vLLM/vLLM参数调优.md",
-    "kimi-讨论/vllm并发策略 - Kimi.md",
-    "kimi-讨论/长文本处理场景处理方案讨论.md",
-    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md"
+    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md"
   ]
 }
