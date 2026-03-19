@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d55fc3baa6f8ad09",
+        "id": "6cc49390e2e3139c",
         "type": "tabs",
         "children": [
           {
-            "id": "77ec8d3deb547aa2",
+            "id": "aa4e0d4a9bc8271d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "公众号文章/如何写出好的 Skill？拆解 skill-creator 背后的设计.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "如何写出好的 Skill？拆解 skill-creator 背后的设计"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5049018859863
+    "width": 387.5049018859863
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -193,25 +197,31 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "77ec8d3deb547aa2",
+  "active": "aa4e0d4a9bc8271d",
   "lastOpenFiles": [
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/54260513ce62a6fb60de4b498ab1886e_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/5a94fd0678242e5fab3958933bbf864e_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/8502582050daea5f6e53ff9d28be2fa9_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/ca04de59cea499406bb3b7515578a639_MD5.webp",
+    "kimi-讨论/vllm并发策略 - Kimi.md",
+    "公众号文章/如何写出好的 Skill？拆解 skill-creator 背后的设计.md",
     "公众号文章/Reason Model 的“瘦身计划”：量化技术的得与失.md",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/9505b039952ca48fe02ce5ff4755db82_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/1444657eb6423f95f595e45e56d12ec4_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/8cd45d427f32f957b1f781fa12161615_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/27fd84b2f5786ebb3cc4e51a2b62e193_MD5.png",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/bd10eaf734696da34b4bdd302287daef_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/897a20cd6d3ed04539daf06da82617ab_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/d17cb2e6a62362a095ac18960b147e2e_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/3039f4594a4716445411af1300866a62_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/5d39e22b0d301380eebe3e4fe878ba03_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失/3caef68f1d482e04e5c945afedf3998f_MD5.webp",
-    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失",
+    "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
+    "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
+    "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
+    "未命名.base",
     "大模型性能与部署/vLLM/vllm性能监控.md",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/ac57bd3b9649490dd345f58450ab9960_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/3f7819f6c9aaf1884b67e5456c1c8bdc_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/19cab417c33e88c77487ac357403b16f_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/cab27aceeca9a02ac0724f223601c370_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/4c2a84151154dd831acb59031bb51eab_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/b904420db3a604da32f79b847f9c9039_MD5.webp",
+    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计",
+    "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
     "大模型性能与部署/vLLM/assets/vllm性能监控/vllm资源监控.py",
     "大模型性能与部署/vLLM/assets/vllm性能监控",
-    "未命名.base",
     "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
     "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
     "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
@@ -227,18 +237,12 @@
     "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别",
     "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？",
     "面试百问/业务对Latency要求极高，不允许过长Prompt，如何设计.md",
-    "面试百问/assets/业务对Latency要求极高，不允许过长Prompt，如何设计",
     "AI应用/openclaw.md",
     "AI应用/opencode.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
     "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
-    "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
     "公众号文章/大模型推理加速：看图学KV Cache.md",
-    "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
     "AI应用/claude_code.md",
-    "AI应用/Oh-My-OpenCode 完全指南.md",
-    "公众号文章/OpenCode Day5：这些让同事直呼“真香”的插件，你装了几个？.md",
-    "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
-    "公众号文章/2026大模型架构概览（一）：Qwen3.5&MiniMax M2.5 1.md"
+    "AI应用/Oh-My-OpenCode 完全指南.md"
   ]
 }
