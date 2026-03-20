@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6cc49390e2e3139c",
+        "id": "4c70f868d3186013",
         "type": "tabs",
         "children": [
           {
-            "id": "aa4e0d4a9bc8271d",
+            "id": "95c1351ed095daf4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "公众号文章/如何写出好的 Skill？拆解 skill-creator 背后的设计.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "如何写出好的 Skill？拆解 skill-creator 背后的设计"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5049018859863
+    "width": 218.50490188598633
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -197,26 +193,33 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "aa4e0d4a9bc8271d",
+  "active": "95c1351ed095daf4",
   "lastOpenFiles": [
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/54260513ce62a6fb60de4b498ab1886e_MD5.webp",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/5a94fd0678242e5fab3958933bbf864e_MD5.webp",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/8502582050daea5f6e53ff9d28be2fa9_MD5.webp",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/ca04de59cea499406bb3b7515578a639_MD5.webp",
-    "kimi-讨论/vllm并发策略 - Kimi.md",
-    "公众号文章/如何写出好的 Skill？拆解 skill-creator 背后的设计.md",
-    "公众号文章/Reason Model 的“瘦身计划”：量化技术的得与失.md",
     "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
+    "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
+    "公众号文章/Reason Model 的“瘦身计划”：量化技术的得与失.md",
+    "面试百问/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享.md",
+    "面试百问/FP8在大模型训练中的应用与原理.md",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享",
+    "公众号文章/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854598.png",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854597.png",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854596.png",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854595.png",
+    "公众号文章/assets/前置三：LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/5e73104f8b2110e1ee78817733ed703d_MD5.png",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854560.png",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854558.png",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854552.png",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854548.png",
+    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854547.png",
+    "公众号文章/如何写出好的 Skill？拆解 skill-creator 背后的设计.md",
+    "公众号文章/assets/前置三：LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/2085af64211c10115fc34ce4e1a0b64e_MD5.unknown",
+    "公众号文章/assets/前置三：LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享",
+    "kimi-讨论/vllm并发策略 - Kimi.md",
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
     "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
     "未命名.base",
     "大模型性能与部署/vLLM/vllm性能监控.md",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/ac57bd3b9649490dd345f58450ab9960_MD5.webp",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/3f7819f6c9aaf1884b67e5456c1c8bdc_MD5.webp",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/19cab417c33e88c77487ac357403b16f_MD5.webp",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/cab27aceeca9a02ac0724f223601c370_MD5.webp",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/4c2a84151154dd831acb59031bb51eab_MD5.webp",
-    "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计/b904420db3a604da32f79b847f9c9039_MD5.webp",
     "公众号文章/assets/如何写出好的 Skill？拆解 skill-creator 背后的设计",
     "公众号文章/assets/Reason Model 的“瘦身计划”：量化技术的得与失",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
@@ -227,22 +230,15 @@
     "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
     "公众号文章/vLLM 0.17.0 performance-mode调优测试.md",
     "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试",
-    "面试百问/FP8在大模型训练中的应用与原理.md",
-    "面试百问/assets/FP8在大模型训练中的应用与原理",
     "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
     "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
     "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
     "面试百问/如何构建长期记忆机制设计.md",
-    "面试百问/assets/如何构建长期记忆机制设计",
-    "面试百问/assets/请简述Prompt Engineering 与Context Engineering 的核心区别",
-    "面试百问/assets/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？",
     "面试百问/业务对Latency要求极高，不允许过长Prompt，如何设计.md",
     "AI应用/openclaw.md",
     "AI应用/opencode.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
-    "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
     "公众号文章/大模型推理加速：看图学KV Cache.md",
-    "AI应用/claude_code.md",
-    "AI应用/Oh-My-OpenCode 完全指南.md"
+    "AI应用/claude_code.md"
   ]
 }
