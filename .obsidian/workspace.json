@@ -11,10 +11,14 @@
             "id": "95c1351ed095daf4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "面试百问/大模型稳定输出结构化json.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "大模型稳定输出结构化json"
             }
           }
         ]
@@ -195,6 +199,12 @@
   },
   "active": "95c1351ed095daf4",
   "lastOpenFiles": [
+    "面试百问/assets/大模型稳定输出结构化json/5a5fcf8618247313bb0e95f5ca25e6ba_MD5.png",
+    "面试百问/assets/大模型稳定输出结构化json/d72bc860e9db0e7c5751d3e47c4c5f95_MD5.png",
+    "面试百问/assets/大模型稳定输出结构化json/26d9c544d6dfb07365805b66f852e30c_MD5.png",
+    "面试百问/assets/大模型稳定输出结构化json/26d9c544d6dfb07365805b66f852e30c_MD5.png",
+    "面试百问/assets/大模型稳定输出结构化json",
+    "面试百问/大模型稳定输出结构化json.md",
     "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
     "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
     "公众号文章/Reason Model 的“瘦身计划”：量化技术的得与失.md",
@@ -209,9 +219,6 @@
     "公众号文章/assets/前置三：LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/5e73104f8b2110e1ee78817733ed703d_MD5.png",
     "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854560.png",
     "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854558.png",
-    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854552.png",
-    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854548.png",
-    "面试百问/assets/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/file-20260320195854547.png",
     "公众号文章/如何写出好的 Skill？拆解 skill-creator 背后的设计.md",
     "公众号文章/assets/前置三：LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享/2085af64211c10115fc34ce4e1a0b64e_MD5.unknown",
     "公众号文章/assets/前置三：LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享",
@@ -229,7 +236,6 @@
     "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
     "公众号文章/vLLM v0.17.0来了，Qwen3.5 全系列完美支持，Anthropic API 兼容.md",
     "公众号文章/vLLM 0.17.0 performance-mode调优测试.md",
-    "公众号文章/assets/vLLM 0.17.0 performance-mode调优测试",
     "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
     "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
     "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
@@ -238,7 +244,6 @@
     "AI应用/openclaw.md",
     "AI应用/opencode.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
-    "公众号文章/大模型推理加速：看图学KV Cache.md",
-    "AI应用/claude_code.md"
+    "公众号文章/大模型推理加速：看图学KV Cache.md"
   ]
 }
