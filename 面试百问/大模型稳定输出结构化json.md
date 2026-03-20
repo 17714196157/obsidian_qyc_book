@@ -9,7 +9,6 @@
   - 使用特殊定界符（如XML标签）框定输出区域
 
 ## 2\. **生成控制层**
-[[面试百问/assets/大模型稳定输出结构化json/d72bc860e9db0e7c5751d3e47c4c5f95_MD5.png|Open: file-20260320230110737.png]]
 ![[面试百问/assets/大模型稳定输出结构化json/d72bc860e9db0e7c5751d3e47c4c5f95_MD5.png]]
 
 - **商业API方案**  
