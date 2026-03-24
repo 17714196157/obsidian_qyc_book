@@ -22,9 +22,8 @@ uv run api.py
 
 
 ![[AI应用/AI语音/assets/IndexTTS/02ed27be0b4263451af3e721e272652b_MD5.png]]
-CNB云服务地址：
 
-[[AI应用/AI语音/assets/IndexTTS/2236593c185e8b868664f5d07b881ea8_MD5.png|Open: file-20260324191248315.png]]
+CNB云服务地址：
 ![[AI应用/AI语音/assets/IndexTTS/2236593c185e8b868664f5d07b881ea8_MD5.png]]
 
 
