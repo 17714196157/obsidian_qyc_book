@@ -6,15 +6,29 @@ vllm 客户端代码
 官网： https://docs.vllm.ai/en/latest/getting_started/quickstart.html#openai-compatible-server
 代码demo：https://github.com/vllm-project/vllm/blob/main/examples/api_client.py
 
+### vLLM 提供了丰富的 API 端点，支持以下接口：
 
-查看vllm现在加载了那些模型
+| 端点                             | 说明            | 适用模型                     |
+| ------------------------------ | ------------- | ------------------------ |
+| **`/v1/chat/completions`**     | 对话补全（推荐）      | 带 chat template 的文本生成模型  |
+| **`/v1/completions`**          | 文本补全（Legacy）  | 文本生成模型                   |
+| **`/v1/responses`**            | Responses API | 文本生成模型                   |
+| **`/v1/embeddings`**           | 文本嵌入          | Embedding 模型             |
+| **`/v1/audio/transcriptions`** | 语音转文字         | ASR 模型（如 Whisper）\[ ^1^] |
+| **`/v1/audio/translations`**   | 语音翻译          | ASR 模型                   |
+| **`/v1/realtime`**             | 实时语音          | ASR 模型                   |
+| **`/v1/models`**               | 列出可用模型        | -                        |
+| **`/health`**                  | 健康检查          | -                        |
+
+**查看vllm现在加载了那些模型**
 ```python
 http://192.168.0.172:8000/v1/models
 {"object":"list","data":[{"id":"qwq-32b-gptq-int4","object":"model","created":1749107065,"owned_by":"vllm","root":"/home/qyc/bert/qwq-32b-gptq-int4","parent":null,"max_model_len":8000,"permission":[{"id":"modelperm-2e9509e6f6b6448da2ac11d2051fef20","object":"model_permission","created":1749107065,"allow_create_engine":false,"allow_sampling":true,"allow_logprobs":true,"allow_search_indices":false,"allow_view":true,"allow_fine_tuning":false,"organization":"*","group":null,"is_blocking":false}]}]}
 
-
 ```
-vllm部署多个模型方案：
+
+
+### vllm部署多个模型方案：
 1. vllm同时启动多个模型，当显存足够时
 通过 --model 参数支持 多模型同时加载，可在单服务实例中托管多个模型
 https://blog.csdn.net/su_xiao_wei/article/details/146425845

@@ -18,6 +18,21 @@ pip intall vllm  # This may take 5-10 minutes.
 请到https://hub.docker.com/搜索最新的vllm镜像
 docker pull vllm/vllm-openai:v0.7.2
 
+## vLLM 提供了丰富的 API 端点，支持以下接口：
+
+| 端点                             | 说明            | 适用模型                     |
+| ------------------------------ | ------------- | ------------------------ |
+| **`/v1/chat/completions`**     | 对话补全（推荐）      | 带 chat template 的文本生成模型  |
+| **`/v1/completions`**          | 文本补全（Legacy）  | 文本生成模型                   |
+| **`/v1/responses`**            | Responses API | 文本生成模型                   |
+| **`/v1/embeddings`**           | 文本嵌入          | Embedding 模型             |
+| **`/v1/audio/transcriptions`** | 语音转文字         | ASR 模型（如 Whisper）\[ ^1^] |
+| **`/v1/audio/translations`**   | 语音翻译          | ASR 模型                   |
+| **`/v1/realtime`**             | 实时语音          | ASR 模型                   |
+| **`/v1/models`**               | 列出可用模型        | -                        |
+| **`/health`**                  | 健康检查          | -                        |
+
+
 代码使用说明：
 class LLM:
     这是一个名为LLM（语言模型）的Python类，这个类用于从给定的提示和采样参数生成文本。

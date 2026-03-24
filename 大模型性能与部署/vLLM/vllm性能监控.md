@@ -118,7 +118,13 @@ vllm bench serve \
 - **Mean TPOT (ms)**: 每输出 token 延迟平均值（Time Per Output Token）
 - **Mean ITL (ms)**: token 间延迟平均值（Inter-token Latency）
 
+## 实际操作
+先启动 vLLM 服务
+```bash
+vllm serve /home/qyc/bert/Qwen2-0.5B --host 0.0.0.0 --port 8000  --dtype half
 ```
+
+```bash
 vllm bench serve \
     --model /home/qyc/bert/Qwen2-0.5B  \
     --host 192.168.0.172 \
@@ -167,6 +173,7 @@ P99 ITL (ms):                            133.92
 - `vllm:num_requests_running`: 正在运行的请求数（当前 batch size）
 - `vllm:num_requests_waiting`: 等待队列深度
 - `vllm:num_preemptions_total`: 请求被抢占次数（内存压力指标）
+
 
 ##### python脚本监控资源情况
 ![[未命名.base]]

@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.hasLink("vllm资源监控.py")
+    sort:
+      - property: file.name
+        direction: DESC
