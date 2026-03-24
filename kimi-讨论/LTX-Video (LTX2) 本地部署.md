@@ -1,3 +1,6 @@
+[ltx](https://ltx.io/ltx-desktop)
+
+
 **国内镜像下载（ModelScope）：**
 ```bash
 # 下载主模型
