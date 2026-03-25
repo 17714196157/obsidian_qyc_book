@@ -11,10 +11,14 @@
             "id": "5fcc9d957ed86fc4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "工作交付文档/vllm现场请求耗时较长分享.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "vllm现场请求耗时较长分享"
             }
           }
         ]
@@ -195,6 +199,10 @@
   },
   "active": "5fcc9d957ed86fc4",
   "lastOpenFiles": [
+    "工作交付文档/assets/vllm现场请求耗时较长分享/7d0c57b8284893aa32c6089d52443abc_MD5.png",
+    "工作交付文档/assets/vllm现场请求耗时较长分享",
+    "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
+    "工作交付文档/vllm现场请求耗时较长分享.md",
     "AI应用/Oh-My-OpenCode 完全指南.md",
     "AI应用/opencode.md",
     "AI应用/openclaw.md",
@@ -223,9 +231,7 @@
     "AI应用/AI绘画/assets/如何写AI绘画提示词",
     "AI应用/AI绘画/ComfyUI-本体.md",
     "AI应用/AI绘画/assets/ComfyUI-本体",
-    "AI应用/AI绘画/assets",
     "kimi-讨论/LTX-Video (LTX2) 本地部署.md",
-    "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
     "大模型性能与部署/vLLM/vllm性能监控.md",
@@ -238,8 +244,6 @@
     "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
     "工作交付文档/字段对接.md",
     "大模型性能与部署/性能测试指标.md",
-    "大模型性能与部署/最大并发量估计方法.md",
-    "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
-    "公众号文章/vLLM实战：max_model_len参数调优，让你的显存利用率翻倍.md"
+    "大模型性能与部署/最大并发量估计方法.md"
   ]
 }
