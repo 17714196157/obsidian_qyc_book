@@ -108,7 +108,23 @@ response = client.chat.completions.create(
 
 3. 固定seed=42， temperature=0
 
+4. max-seq-len-to-capture 参数优化
+   **CUDA Graph** 是 NVIDIA GPU 的一项优化技术：
+- 正常情况下，GPU 运算需要 CPU 一步步下发指令（kernel launch），CPU 和 GPU 频繁通信有开销
+- CUDA Graph 把一系列 GPU 操作**提前录制**下来，打包成一个"执行图"
+- 运行时**一次性提交**整个图，减少 CPU 开销，大幅提升推理速度
+```
+传统模式：CPU → 下发kernel → GPU执行 → CPU等待 → 下发下一个kernel → ...
+CUDA Graph：CPU → 提交整个图 → GPU连续执行所有操作 → 完成
+```
 
+| 设置                              | 含义                            |
+| ------------------------------- | ----------------------------- |
+| `--max-seq-len-to-capture 1024` | 只有长度 ≤1024 的序列走 CUDA Graph 优化 |
+| `--max-seq-len-to-capture 8192` | 长度 ≤8192 的序列都走优化              |
+| **你的请求情况**                      | **效果**                        |
+| 输入+输出 ≤ 8192 tokens             | 走 CUDA Graph，**速度最快**         |
+| 输入+输出 > 8192 tokens             | 回退到普通模式，**速度变慢**              |
 
 ### 方法二：检查 vLLM 版本
 
