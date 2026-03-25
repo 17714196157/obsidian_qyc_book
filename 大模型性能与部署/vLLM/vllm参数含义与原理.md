@@ -67,7 +67,6 @@ vllm serve /home/qyc/bert/Qwen2-0.5B  --host 0.0.0.0   --port 8000  --dtype half
     Swapped: 0 reqs,     # ← 被交换到CPU的请求（内存不足时）
     Pending: 3 reqs,     # ← 等待加入批次的请求
     
-vLLM 的 Scheduler 决策日志
 export VLLM_LOGGING_LEVEL=DEBUG
 
 
