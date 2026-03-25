@@ -16,190 +16,51 @@
 ---
 
 ## 🔍 如何检测你的 vLLM 是否有同样问题
+对比测试: 单请求 greedy 和并发 greedy 的结果  生成2000个字符
+广福环境测试结果 ： 
+![[工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/dc6111818b2c7f88c1d715f90313574f_MD5.png]]
 
-### 方法一：快速测试脚本（推荐）
+![[工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/81178cb1439d5ed003b09a902898ed9d_MD5.png]]
 
-使用下面的测试脚本直接验证：
+对比测试:  检测并发请求时 greedy 解码是否一致  生成100个字符
+10个采样解码请求和10个贪心解码请求同时并发，查看是否存在干扰。
+广福环境测试结果 ： 
+![[工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/a085b86f78f74daf2650d37351e8d67f_MD5.png]]
 
-```python
-import json
-import concurrent.futures
-import requests
-import time
-api_url = "http://192.168.0.172:8000/v1/completions"  # "http://192.168.0.172:8102/v1/completions"  # 修改为你的 vLLM 地址
-prompt = "Once upon a time,"
-max_tokens = 100
-model = "/home/qyc/bert/Qwen2-0.5B"  # "qwq-32b"
-  
-def post_http_request(api_url: str, pload, request_id: int) -> dict:
-    headers = {"User-Agent": "Test Client"}
-    try:
-        response = requests.post(api_url, headers=headers, json=pload, stream=True)
-        data = json.loads(response.content)
-        # output = data.get("text", [""])[0] if isinstance(data.get("text"), list) else data.get("text", "")
-        output = data.get("choices", [{'text': ''}])[0]["text"]
-        # request_id = data.get("id", "000")
-  
-        return {"id": request_id, "output": output, "params": pload}
-    except Exception as e:
-        return {"id": request_id, "error": str(e)}
-  
-def test_concurrent_greedy_consistency():
-    """
-    检测并发请求时 greedy 解码是否一致
-    """
-    # api_url = "http://192.168.0.172:8102/v1/completions"  # 修改为你的 vLLM 地址
-    # prompt = "Once upon a time,"
-    # 构建请求参数
-    sampling_params = []
-    # 添加 greedy 请求 (temperature=0, 应该总是返回相同结果)
-    for i in range(10):
-        sampling_params.append({
-            "prompt": prompt,
-            "temperature": 0.0,
-            "max_tokens": max_tokens,
-            "model": model,
-            "request_id": f"greedy_{i}"
-        })
-    # 添加带采样的请求 (可能干扰 greedy)
-    for i in range(10):
-        sampling_params.append({
-            "prompt": prompt,
-            "model": model,
-            "seed": 42 + i,
-            "max_tokens": 10,
-            "top_p": 0.9,
-            "temperature": 0.7,
-            "request_id": f"sampling_{i}"
-        })
-    print("=" * 60)
-    print("开始并发测试...")
-    print(f"总共 {len(sampling_params)} 个并发请求")
-    print("=" * 60)
-    # 并发执行所有请求
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
-        futures = []
-        for i, param in enumerate(sampling_params):
-            futures.append(
-                executor.submit(post_http_request, api_url=api_url, pload=param, request_id=i)
-            )
-        results = []
-        for future in concurrent.futures.as_completed(futures):
-            try:
-                result = future.result()
-                results.append(result)
-            except Exception as exc:
-                print(f"请求异常: {exc}")
-    # 分析结果
-    print("\n" + "=" * 60)
-    print("结果分析")
-    print("=" * 60)
-    # 提取所有 greedy 请求的结果
-    greedy_results = [r for r in results if "greedy" in str(r.get("params", {}).get("request_id", ""))]
-    sampling_results = [r for r in results if "sampling" in str(r.get("params", {}).get("request_id", ""))]
-    # 检查 greedy 结果的一致性
-    greedy_outputs = [r.get("output", "") for r in greedy_results if "error" not in r]
-  
-    if len(set(greedy_outputs)) == 1:
-        print("✅ PASS: 所有 greedy 请求返回了相同的结果")
-        print(f"   统一结果: {greedy_outputs[0][:50]}...")
-    else:
-        print("❌ FAIL: greedy 请求返回了不一致的结果！")
-        print(f"   检测到 {len(set(greedy_outputs))} 种不同的输出:")
-        for i, output in enumerate(set(greedy_outputs)):
-            count = greedy_outputs.count(output)
-            print(f"   结果 {i+1} (出现 {count} 次): {output[:60]}...")
-    # 显示贪心greedy_outputs请求结果
-    print("显示贪心greedy_outputs请求结果")
-    print(f"\n贪心请求数量: {len(greedy_results)}")
-    greedy_results = [r.get("output", "") for r in greedy_results if "error" not in r]
-    print(f"贪心结果多样性: {len(set(greedy_results))} 种不同输出")
-    # 显示采样请求结果（参考）
-    print("显示采样sampling_results请求结果")
-    print(f"\n采样请求数量: {len(sampling_results)}")
-    sampling_outputs = [r.get("output", "") for r in sampling_results if "error" not in r]
-    print(f"采样结果多样性: {len(set(sampling_outputs))} 种不同输出")
-    return len(set(greedy_outputs)) == 1
-  
-def test_single_vs_concurrent():
-    """
-    对比单请求 greedy 和并发 greedy 的结果
-    """
-    # api_url = "http://192.168.0.172:8102/v1/completions"  # 修改为你的 vLLM 地址
-    # prompt = "Once upon a time,"
-    print("\n" + "=" * 60)
-    print("对比测试: 单请求 vs 并发请求")
-    print("=" * 60)
-    # 先单独发一个 greedy 请求，记录基准结果
-    print("\n1. 发送单请求获取基准结果...")
-    baseline_payload = {
-        "prompt": prompt,
-        "temperature": 0.0,
-          "model": model,
-        "max_tokens": max_tokens
-    }
-    response = requests.post(api_url, headers={"User-Agent": "Test"}, json=baseline_payload, stream=True)
-    data = json.loads(response.content)
-    # baseline = data.get("text", [""])[0] if isinstance(data.get("text"), list) else data.get("text", "")
-    baseline = data.get("choices", [{'text': ''}])[0]["text"]
-    print(f"   基准结果: {baseline}")
-    # 然后并发发多个 greedy 请求
-    print("\n2. 并发发送 5 个 greedy 请求...")
-    time.sleep(1)  # 等待一下
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-        futures = []
-        for i in range(5):
-            futures.append(
-                executor.submit(post_http_request, api_url=api_url, pload=baseline_payload, request_id=i)
-            )
-        concurrent_results = []
-        for future in concurrent.futures.as_completed(futures):
-            result = future.result()
-            concurrent_results.append(result.get("output", ""))
-            print(f"   并发结果 {result['id']}: {result.get('output', '')}")
-    # 检查是否与基准一致
-    all_match_baseline = all(r == baseline for r in concurrent_results)
-    if all_match_baseline:
-        print("\n✅ PASS: 所有并发 greedy 结果与单请求基准一致")
-    else:
-        print("\n❌ FAIL: 并发 greedy 结果与单请求基准不一致！")
-        mismatched = [r for r in concurrent_results if r != baseline]
-        print(f"   不一致的结果: {mismatched}")
-  
-  
-def test_single():
-    """
-    单请求 greedy
-    """
-    # api_url = "http://192.168.0.172:8102/v1/completions"  # 修改为你的 vLLM 地址
-    # prompt = "Once upon a time,"
-    print("\n" + "=" * 60)
-    print("对比测试: 单请求 vs 并发请求")
-    print("=" * 60)
-    # 先单独发一个 greedy 请求，记录基准结果
-    print("\n1. 发送单请求获取基准结果...")
-    baseline_payload = {
-        "prompt": prompt,
-        "temperature": 0.0,
-        "model": model,
-        "max_tokens": max_tokens
-    }
-    response = requests.post(api_url, headers={"User-Agent": "Test"}, json=baseline_payload, stream=True)
-    data = json.loads(response.content)
-    print(data)
-    baseline = data.get("choices", [{'text': ''}])[0]["text"]
-    print(f"   基准结果: {baseline}")
-  
-if __name__ == "__main__":
-    # 运行测试
-    try:
-        # test_single()
-        # test_concurrent_greedy_consistency()
-        test_single_vs_concurrent()
-    except Exception as e:
-        print(f"测试执行出错: {e}")
-        print("请确保 vLLM 服务已启动在 http://localhost:8102")
-```
+#### 固定seed=42，期望并行请求结果一致
+
+![[工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/fb6a3ae287099f0c7311fcc6f47be817_MD5.png]]
+
+
+ **根本原因**
+这是 **vLLM 的 CUDA kernel 非确定性（nondeterminism）** 导致的，即使设置了 `temperature=0` 和 `seed`：
+1. **浮点运算的非结合性（核心原因）**
+GPU 并行计算时，浮点数加法的顺序会影响最终结果（`(a+b)+c ≠ a+(b+c)`）。当 batch size 或请求组合方式变化时，kernel 的 reduction 顺序不同，导致 logits 出现微小差异[](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)。这些差异会累积，最终导致生成 token 不同，生成长度也可能不同。
+2. **Batching 动态调度**
+vLLM 的 continuous batching 会根据并发请求动态组合 batch。并行请求时，请求可能被分到不同 batch 或不同顺序处理，触发不同的 kernel 执行路径
+3. **Kernel 自动调优（Triton autotuner）**
+某些 kernel（如 `tl.cumsum`）的 Triton autotuner 会根据运行时选择不同配置（如 `BLOCK_SIZE_H=1` vs `2`），这些配置会产生数值差异
+4. **精度问题**
+使用 `bfloat16` 时数值稳定性更差，更容易出现不一致
+
+
+### 我观察到都是只有第一个和后续请求的不一样
+具体表现
+- **第一个请求**：走 eager 模式或部分捕获路径，结果可能不正确
+- **第二个及以后**：走完整的 CUDA Graph 路径，结果一致且正确
+- 
+官方确认的 Issue
+这是一个已被官方确认的 Bug：
+> **Issue #19403** [Bug]: Issue of Unstable Output for Identical Queries
+> - 串行请求时，第一个请求始终返回错误输出
+> - 并发请求时，错误随机出现
+> - **设置 `--enforce-eager=True` 后恢复正常**
+>     
+> **Issue #17832** [Bug]: First API call differs from subsequent identical calls
+> - 使用 `temperature=0` 时，第一个请求与后续请求输出不同
+> - 从第二个请求开始保持一致
+
+
 
 ### 方法二：检查 vLLM 版本
 
