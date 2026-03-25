@@ -68,6 +68,47 @@ vLLM 的 continuous batching 会根据并发请求动态组合 batch。并行请
 > - 从第二个请求开始保持一致
 
 
+## 实际解决方案
+1. **使用模型自身的思考长度控制（推荐）**
+在请求时通过系统提示限制
+```python
+system_prompt = """你是一个高效的助手。请遵循以下规则：
+1. 思考过程要简洁明了，不要过度展开
+2. 直接抓住问题核心，避免冗余推理
+3. 总输出控制在500字以内"""
+```
+  
+2. max_tokens 参数设置注意点
+```bash
+vllm serve QwQ-32B --max_model_len 20000
+```
+`max_model_len` 是上下文总长度限制（输入+输出），会覆盖模型 config 中的设置
+
+```python
+from vllm import LLM, SamplingParams
+llm = LLM(model="Qwen/QwQ-32B")
+sampling_params = SamplingParams(
+    max_tokens=1024,  # 在这里设置！
+    temperature=0.6
+)
+outputs = llm.generate(prompts, sampling_params)
+
+from openai import OpenAI
+
+client = OpenAI(base_url="http://localhost:8000/v1", api_key="dummy")
+
+response = client.chat.completions.create(
+    model="Qwen/QwQ-32B",
+    messages=[{"role": "user", "content": "你的问题"}],
+    max_tokens=1024,  # ← 在这里控制生成长度！
+    temperature=0.6
+)
+```
+推理模型可能在 `<think>...` 标签内的内容**不计入** `max_tokens` 限制（取决于具体实现），只有 `</thinking>` 后的正式答案受限制
+
+3. 固定seed=42， temperature=0
+
+
 
 ### 方法二：检查 vLLM 版本
 
