@@ -40,6 +40,7 @@ Chunked-Prefill:
 传统模式：CPU → 下发kernel → GPU执行 → CPU等待 → 下发下一个kernel → ...
 CUDA Graph：CPU → 提交整个图 → GPU连续执行所有操作 → 完成
 ```
+**体验：未触发 71 token/s -> 触发 102.6  token/s **
 
 | 设置                              | 含义                            |
 | ------------------------------- | ----------------------------- |
@@ -87,6 +88,8 @@ Step 25: [A_gen(25), B_gen(15), C_prefill(120)] # C加入！
 ```
 
 ## 四） speculative 自投采样
+"自投采样"应该是指 **Self-Speculative Decoding（自投机解码）**，也就是使用模型自身作为草稿模型（draft model）的投机解码方式。在 vLLM 中，这通常通过 **n-gram 匹配** 或 **Suffix Decoding** 来实现，无需额外的草稿模型。
+
 ```
 # 方案A：独立 draft 模型（推荐）
 vllm serve Qwen/QwQ-32B \
@@ -96,6 +99,21 @@ vllm serve Qwen/QwQ-32B \
 
 # 方案B：自投机（无额外模型，用自身做draft）
 vllm serve Qwen/QwQ-32B \
-    --speculative-max-model-len 16384 \
+    --speculative-config '{"method": "ngram", "num_speculative_tokens": 5, "prompt_lookup_max": 4}'
     --num-speculative-tokens 3 \
     --max-seq-len-to-capture 12000
+```
+
+**体验：未触发 102.6 token/s -> 触发 115 token/s **
+
+| 参数                           | 说明                                                   | 默认值           |
+| ---------------------------- | ---------------------------------------------------- | ------------- |
+| `method`                     | 推测方法：`draft_model`/`ngram`/`suffix`/`eagle`/`eagle3` | `draft_model` |
+| `num_speculative_tokens`     | 每次推测的最大 token 数量                                     | 5             |
+| `prompt_lookup_max`          | n-gram 查找最大窗口大小                                      | -             |
+| `prompt_lookup_min`          | n-gram 查找最小窗口大小                                      | -             |
+| `draft_tensor_parallel_size` | 草稿模型张量并行大小                                           | 1             |
+| `max_model_len`              | 草稿模型支持的最大序列长度                                        | -             |
+
+
+
