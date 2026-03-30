@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "de22b58bd1e01c15",
+        "id": "b1ee1b9988daaa0f",
         "type": "tabs",
         "children": [
           {
-            "id": "5fcc9d957ed86fc4",
+            "id": "66bad51000fe587d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/vllm日志.png"
+                "file": "工作交付文档/vllm统计 生成吞吐量 指标原理详细简介.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "vllm日志"
+              "icon": "lucide-file",
+              "title": "vllm统计 生成吞吐量 指标原理详细简介"
             }
           }
         ]
@@ -195,11 +197,12 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "5fcc9d957ed86fc4",
+  "active": "66bad51000fe587d",
   "lastOpenFiles": [
-    "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/测试并发脚本日志.png",
+    "工作交付文档/vllm现场请求耗时较长分享.md",
     "工作交付文档/vllm统计 生成吞吐量 指标原理详细简介.md",
     "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/vllm日志.png",
+    "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/测试并发脚本日志.png",
     "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介",
     "工具/excel工具.md",
     "工具/assets/excel工具/~$file-20260328083505570.xlsm",
@@ -231,7 +234,6 @@
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
-    "工作交付文档/vllm现场请求耗时较长分享.md",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/fb6a3ae287099f0c7311fcc6f47be817_MD5.png",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/81178cb1439d5ed003b09a902898ed9d_MD5.png",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/dc6111818b2c7f88c1d715f90313574f_MD5.png",
