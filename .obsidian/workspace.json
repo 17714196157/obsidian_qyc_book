@@ -11,14 +11,12 @@
             "id": "5fcc9d957ed86fc4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "工具/excel工具.md",
-                "mode": "source",
-                "source": false
+                "file": "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/vllm日志.png"
               },
-              "icon": "lucide-file",
-              "title": "excel工具"
+              "icon": "lucide-image",
+              "title": "vllm日志"
             }
           }
         ]
@@ -199,12 +197,16 @@
   },
   "active": "5fcc9d957ed86fc4",
   "lastOpenFiles": [
+    "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/测试并发脚本日志.png",
+    "工作交付文档/vllm统计 生成吞吐量 指标原理详细简介.md",
+    "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/vllm日志.png",
+    "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介",
+    "工具/excel工具.md",
     "工具/assets/excel工具/~$file-20260328083505570.xlsm",
     "工具/assets/excel工具/对比icd编码差异.xlsm",
     "工具/assets/excel工具",
     "工具/assets",
     "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
-    "工具/excel工具.md",
     "工具",
     "kimi-讨论/vllm并发策略 - Kimi.md",
     "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
@@ -230,7 +232,6 @@
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "工作交付文档/vllm现场请求耗时较长分享.md",
-    "工作交付文档/字段对接.md",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/fb6a3ae287099f0c7311fcc6f47be817_MD5.png",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/81178cb1439d5ed003b09a902898ed9d_MD5.png",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/dc6111818b2c7f88c1d715f90313574f_MD5.png",
@@ -240,10 +241,6 @@
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对",
     "大模型性能与部署/vLLM/assets/vllm bench serve性能监控",
     "工作交付文档/assets/vllm现场请求耗时较长分享/7d0c57b8284893aa32c6089d52443abc_MD5.png",
-    "工作交付文档/assets/vllm现场请求耗时较长分享",
-    "未命名.base",
-    "AI应用/AI语音/assets/IndexTTS/2236593c185e8b868664f5d07b881ea8_MD5.png",
-    "AI应用/AI语音/assets/IndexTTS/02ed27be0b4263451af3e721e272652b_MD5.png",
-    "AI应用/AI语音/assets/IndexTTS/f6432caefd64950b8f4ff2bccdcc26e1_MD5.png"
+    "AI应用/AI语音/assets/IndexTTS/2236593c185e8b868664f5d07b881ea8_MD5.png"
   ]
 }
