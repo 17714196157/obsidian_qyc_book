@@ -76,14 +76,14 @@ vllm bench serve \
 
 5. 结果输出与指标参数（Results & Metrics）
 
-| 参数                     | 类型   | 默认值             | 说明                                                                                                                                       |
-| ---------------------- | ---- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| `--ignore-eos`         | bool | `False`         | - 如果不设置 `--ignore-eos`，模型可能在生成几百 token 后就遇到 `<\|endoftext\|>` 或 `<\|im_end\|>` 等 EOS token 而停止<br>- 设置后，模型会**强制**生成到指定的 token 数（或遇到硬性限制） |
-| `--percentile-metrics` | str  | `ttft,tpot,itl` | 用于报告百分位数的选定指标的逗号分隔列表。可选：`ttft`, `tpot`, `itl`, `e2el`                                                                                    |
-| `--metric-percentiles` | str  | `99`            | 选定指标的百分位数的逗号分隔列表。例如 `25,50,75` 报告 P25, P50, P75                                                                                          |
-| `--goodput`            | str  | `None`          | 为 goodput 指定服务水平目标，格式为 `KEY:VALUE` 对（如 `ttft:100` 表示 TTFT < 100ms）。多个对用空格分隔                                                              |
-| `--label`              | str  | `None`          | 基准测试结果的标签（前缀）。如果未指定，使用 `--backend` 的值                                                                                                    |
-| `--request-id-prefix`  | str  | `bench-xxxxx-`  | 请求 ID 的前缀                                                                                                                                |
+| 参数                     | 类型   | 默认值             | 说明                                                                                                                                                                         |
+| ---------------------- | ---- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--ignore-eos`         | bool | `False`         | - 如果不设置 `--ignore-eos`，模型可能在生成几百 token 后就遇到 `<\|endoftext\|>` 或 `<\|im_end\|>` 等 EOS token 而停止<br>- 设置后，模型会**强制**生成到指定的 token 数（或遇到硬性限制）                                   |
+| `--percentile-metrics` | str  | `ttft,tpot,itl` | 用于报告百分位数的选定指标的逗号分隔列表。可选：`ttft`, `tpot`, `itl`, `e2el`                                                                                                                      |
+| `--metric-percentiles` | str  | `99`            | 选定指标的百分位数的逗号分隔列表。例如 `25,50,75` 报告 P25, P50, P75                                                                                                                            |
+| `--goodput`            | str  | `None`          | 为 goodput 指定服务水平目标，格式为 `KEY:VALUE` 对（如 ``` ttft:100ms,tbt:50ms```  表示 TTFT < 100ms）。多个对用空格分隔；`ttft`: Time To First Token（首Token延迟）<br>`tbt`: Time Between Tokens（token间延迟） |
+| `--label`              | str  | `None`          | 基准测试结果的标签（前缀）。如果未指定，使用 `--backend` 的值                                                                                                                                      |
+| `--request-id-prefix`  | str  | `bench-xxxxx-`  | 请求 ID 的前缀                                                                                                                                                                  |
 
 6. 结果保存参数（Result Saving）
 
