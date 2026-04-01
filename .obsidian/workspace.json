@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/切片视频制作.md",
+                "file": "python/pip离线安装方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "切片视频制作"
+              "title": "pip离线安装方法"
             }
           }
         ]
@@ -199,10 +199,12 @@
   },
   "active": "66bad51000fe587d",
   "lastOpenFiles": [
+    "工具/切片视频制作.md",
+    "python/pip离线安装方法.md",
+    "python",
     "工具/assets/切片视频制作/B站录播姬.png",
     "工具/assets/切片视频制作",
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
-    "工具/切片视频制作.md",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
     "工作交付文档/vllm统计 生成吞吐量 指标原理详细简介.md",
     "工作交付文档/vllm现场请求耗时较长分享.md",
@@ -242,8 +244,6 @@
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/a085b86f78f74daf2650d37351e8d67f_MD5.png",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/b4ca0412806b1938314f2b43a037b2b0_MD5.png",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/73d7371aad669ce00b31aa331b7f006b_MD5.png",
-    "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对",
-    "工作交付文档/assets/vllm现场请求耗时较长分享/7d0c57b8284893aa32c6089d52443abc_MD5.png",
-    "AI应用/AI语音/assets/IndexTTS/2236593c185e8b868664f5d07b881ea8_MD5.png"
+    "工作交付文档/assets/vllm现场请求耗时较长分享/7d0c57b8284893aa32c6089d52443abc_MD5.png"
   ]
 }
