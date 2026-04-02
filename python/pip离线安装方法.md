@@ -5,6 +5,9 @@ pip config set global.cache-dir ~/.cache/pip
 # 然后正常下载（已缓存的包会秒过）
 
 pip download vllm --python-version 3.10 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com --only-binary=:all: -d ./vllm_package
+
+pip download openpyxl --python-version 3.10 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com --only-binary=:all: -d ./package
+
 ```
 离线安装命令（无网环境）
 ```bash

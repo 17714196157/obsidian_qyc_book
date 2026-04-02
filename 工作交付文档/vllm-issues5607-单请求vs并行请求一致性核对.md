@@ -220,3 +220,53 @@ python -m vllm.entrypoints.openai.api_server \
 ```
 
 ---
+
+
+| 公共信息：模型FP8<br>数据集97份病案中进入诊断细化的病案                 | 2次编码差异的数量   | 耗时   |
+| ------------------------------------------------ | ----------- | ---- |
+| 温度0.9,top_p 0.95                                 | 25% (14/54) | 281s |
+| 温度0.0,top_p 1, seed=42                           | 18% （10/54） | 280s |
+| 温度0.0 --no-enable-prefix-caching                 | 11%（6/54）   | 285s |
+| 温度0.0 --no-enable-prefix-caching --enforce-eager | 11%（6/54）   | 270s |
+结论： 请求参数的配置对输出一致性影响不大，
+可能原因：
+- 0.8.4 版本已知问题 **CUDA Graph 是最大不确定性来源**
+即使设置 `seed=42`，CUDA Graph 的 capture/replay 机制会引入非确定性。**`--enforce-eager` 是必须的**。
+- Prefix Caching 的数值误差
+0.8.x 版本的自动前缀缓存（默认开启）在计算 KV Cache 时可能引入微小差异，建议关闭：--no-enable-prefix-caching
+
+
+脚本检查是否结果稳定一致
+```python
+import openai
+import hashlib
+
+client = openai.OpenAI(base_url="http://localhost:8000/v1", api_key="none")
+
+def test_determinism(prompt, rounds=5):
+    results = []
+    for i in range(rounds):
+        resp = client.chat.completions.create(
+            model="your_model",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0,
+            top_p=1.0,
+            top_k=1,
+            seed=42,
+            max_tokens=100,
+        )
+        text = resp.choices[0].message.content
+        results.append(hashlib.md5(text.encode()).hexdigest()[:8])
+        print(f"Round {i+1}: {text[:50]}... (hash: {results[-1]})")
+    
+    print(f"\nAll same: {len(set(results)) == 1}")
+
+test_determinism("请用一句话解释什么是深度学习", rounds=3)
+
+Token: Once
+Logprob: -0.8439942598342896
+Top logprobs: []
+```
+**贪婪解码的特征**：
+- `top_logprobs` 列表长度为 1（只有选中的那个）
+- 或者 logprob 接近 0（概率接近 1.0）
