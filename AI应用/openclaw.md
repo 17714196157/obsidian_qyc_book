@@ -110,7 +110,7 @@ Configured custom provider: custom-dashscope-aliyuncs-com/deepseek-v3
 │  Opened in your browser. Keep that tab to control OpenClaw.                    
                                                        
 ```
-[[openclaw界面.png|Open: file-20260306014103033.png]]
+[[openclaw界面.png|]]
 ![[openclaw界面.png]]
 
 
