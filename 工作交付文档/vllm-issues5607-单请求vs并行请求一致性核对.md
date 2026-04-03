@@ -43,7 +43,6 @@ vLLM 的 continuous batching 会根据并发请求动态组合 batch。并行请
 4. **精度问题**
 使用 `bfloat16` 时数值稳定性更差，更容易出现不一致
 
-
 ### 我观察到都是只有第一个和后续请求的不一样
 具体表现
 - **第一个请求**：走 eager 模式或部分捕获路径，结果可能不正确
@@ -55,20 +54,7 @@ vLLM 的 continuous batching 会根据并发请求动态组合 batch。并行请
 | **并行（同时发送）** | 第一个被调度的请求触发捕获，其他请求等待或部分参与，导致状态混乱         |
 | **连续批量**     | 动态 batching 使得每个 batch 的第一个请求都可能触发新的形状捕获 |
 
-
-官方确认的 Issue
-这是一个已被官方确认的 Bug：
-> **Issue #19403** [Bug]: Issue of Unstable Output for Identical Queries
-> - 串行请求时，第一个请求始终返回错误输出
-> - 并发请求时，错误随机出现
-> - **设置 `--enforce-eager=True` 后恢复正常**
->     
-> **Issue #17832** [Bug]: First API call differs from subsequent identical calls
-> - 使用 `temperature=0` 时，第一个请求与后续请求输出不同
-> - 从第二个请求开始保持一致
-
-
-## 实际解决方案
+##### 实际解决方案
 1. **使用模型自身的思考长度控制（推荐）**
 在请求时通过系统提示限制
 ```python
@@ -157,8 +143,6 @@ Chunked-Prefill:
 ```
 **效果**：长请求的 prefill 不再阻塞队列，decode 可以穿插执行，提升 GPU 利用率。
 
-
-
 6. 自投机
 ```
 # 方案A：独立 draft 模型（推荐）
@@ -173,46 +157,7 @@ vllm serve Qwen/QwQ-32B \
     --num-speculative-tokens 3 \
     --max-seq-len-to-capture 12000
 ```
-
-
-### 方法二：检查 vLLM 版本
-
-```bash
-# 查看当前 vLLM 版本
-python -c "import vllm; print(vllm.__version__)"
-
-# 或使用 pip
-pip show vllm
-```
-
-**受影响版本**：根据 Issue，问题出现在 **vLLM 0.4.3** 及相近版本。
-
-### 方法三：查看 Issue 修复状态
-
-检查该 Issue 是否已关闭以及修复版本：
-
-```bash
-# 查看 vLLM 最新版本
-pip index versions vllm
-```
-
----
-
-## 🛠️ 解决方案
-
-如果检测发现你有同样的问题，可以尝试：
-
-### 1. **升级 vLLM**
-```bash
-pip install --upgrade vllm
-```
-
-### 2. **临时规避方案**
-- **避免混用**：不要将 greedy 请求（`temperature=0`）和采样请求（`temperature>0`）并发发送到同一实例
-- **分离部署**：为 greedy 任务和采样任务分别部署独立的 vLLM 实例
-- **串行处理**：对需要确定性的 greedy 请求进行串行处理
-
-### 3. **使用 `--enforce-eager` 模式（可能有效）**
+7. 使用 `--enforce-eager` 模式（可能有效）
 ```bash
 python -m vllm.entrypoints.openai.api_server \
     --model your-model \
@@ -221,21 +166,23 @@ python -m vllm.entrypoints.openai.api_server \
 
 ---
 
+### 关于参数对模型输出一致性的影响
 
-| 公共信息：模型FP8<br>数据集97份病案中进入诊断细化的病案                 | 2次编码差异的数量   | 耗时   |
-| ------------------------------------------------ | ----------- | ---- |
-| 温度0.9,top_p 0.95                                 | 25% (14/54) | 281s |
-| 温度0.0,top_p 1, seed=42                           | 18% （10/54） | 280s |
-| 温度0.0 --no-enable-prefix-caching                 | 11%（6/54）   | 285s |
-| 温度0.0 --no-enable-prefix-caching --enforce-eager | 11%（6/54）   | 270s |
-结论： 请求参数的配置对输出一致性影响不大，
+| 公共信息：模型FP8<br>数据集97份病案中进入诊断细化的54份病案              | 2次编码差异的数量<br>（55% 30/54 是8次测试都完全一致的） | 耗时   |
+| ------------------------------------------------ | ------------------------------------ | ---- |
+| 温度0.9,top_p 0.95                                 | 25.9% (14/54)                        | 271s |
+| 温度0.0,top_p 1, seed=42                           | 18% （10/54）                          | 280s |
+| 温度0.0 --no-enable-prefix-caching                 | 11%（6/54）                            | 310s |
+| 温度0.0 --no-enable-prefix-caching --enforce-eager | 12.9%（7/54）                          | 270s |
+结论： **调整参数可以降低一半的不一致性，有影响但并非决定性的**，
 可能原因：
 - 0.8.4 版本已知问题 **CUDA Graph 是最大不确定性来源**
-即使设置 `seed=42`，CUDA Graph 的 capture/replay 机制会引入非确定性。**`--enforce-eager` 是必须的**。
+即使设置 `seed=42`，CUDA Graph 的 capture/replay 机制会引入非确定性。--enforce-eager是必须的。
 - Prefix Caching 的数值误差
 0.8.x 版本的自动前缀缓存（默认开启）在计算 KV Cache 时可能引入微小差异，建议关闭：--no-enable-prefix-caching
 
 
+**下一步计划： 0.18.0 vllm库支持更多配置，强制贪心（确定性最高）
 脚本检查是否结果稳定一致
 ```python
 import openai

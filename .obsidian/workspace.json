@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5049018859863
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -199,6 +199,12 @@
   },
   "active": "66bad51000fe587d",
   "lastOpenFiles": [
+    "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
+    "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
+    "工作交付文档/字段对接.md",
+    "工作交付文档/vllm现场请求耗时较长分享.md",
+    "工作交付文档/vllm统计 生成吞吐量 指标原理详细简介.md",
+    "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "python/pip离线安装方法.md",
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
     "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
@@ -213,8 +219,6 @@
     "python",
     "工具/assets/切片视频制作/B站录播姬.png",
     "工具/assets/切片视频制作",
-    "工作交付文档/vllm统计 生成吞吐量 指标原理详细简介.md",
-    "工作交付文档/vllm现场请求耗时较长分享.md",
     "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/vllm日志.png",
     "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/测试并发脚本日志.png",
     "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介",
@@ -234,10 +238,6 @@
     "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
     "公众号文章/OpenCode Day5：这些让同事直呼“真香”的插件，你装了几个？.md",
     "公众号文章/如何写出好的 Skill？拆解 skill-creator 背后的设计.md",
-    "公众号文章/vLLM实战：max_model_len参数调优，让你的显存利用率翻倍.md",
-    "公众号文章/vLLM吞吐量调优 - Kimi.md",
-    "大模型性能与部署/性能测试指标.md",
-    "大模型性能与部署/最大并发量估计方法.md",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/fb6a3ae287099f0c7311fcc6f47be817_MD5.png",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/81178cb1439d5ed003b09a902898ed9d_MD5.png",
     "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/dc6111818b2c7f88c1d715f90313574f_MD5.png",
