@@ -197,8 +197,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "66bad51000fe587d",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
+    "电子书库/assets/英语的基本规律 速成记忆法 (王克谦著) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "电子书库/assets/英语的基本规律/0d9cbff860b00e582f507097603611b09171bccb2d8e9b403432236cb3e9d1b7.jpg",
     "电子书库/assets/英语的基本规律/0b011ec349b55bb4c261de88a02ab61a0e1ff3a7a8b3582c4c8f961b78816bb3.jpg",
     "电子书库/英语的基本规律.md",
@@ -210,7 +211,6 @@
     "电子书库/assets/英语的基本规律/f6900716289ddf9bc3c8cf6a5fd762411f6a90e66a8d6c4e3395db49aecdec91.jpg",
     "电子书库/assets/英语的基本规律/f422b07904ec371a2e950f03b807393ffa4b5cde671e6b89ce32e536ee635457.jpg",
     "电子书库/assets/英语的基本规律/e86ac0381ce620788aa94d8525695a55dca589b989f8deae2591409558c85328.jpg",
-    "电子书库/assets/英语的基本规律/e9c494167e6f6d4cec031ec9e2291e729001ab7d3ec313430dc443dfa8686aba.jpg",
     "电子书库/assets/英语的基本规律",
     "电子书库/assets",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
