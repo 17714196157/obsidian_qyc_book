@@ -217,3 +217,105 @@ Top logprobs: []
 **贪婪解码的特征**：
 - `top_logprobs` 列表长度为 1（只有选中的那个）
 - 或者 logprob 接近 0（概率接近 1.0）
+
+
+#### 大模型输出不一致条件下，如何对比两个模型的准确率
+背景：同一个请求两次结果概率性不一致，如何思路证明 float16版本和 FP8版本
+大体思路：
+```
+开始
+  │
+  ▼
+FP16 自身一致性检验 ──→ 不一致率 较大 ──→ 修复 FP16 确定性问题
+  │                      （temperature=0, 固定seed）
+  ▼
+分层抽样（关键/标准/容错）
+  │
+  ├── 关键场景 ──→ 精确匹配率（FP16基本稳定输出的数据集） = 100%? ──→ 否：FP8 不可接受
+  │                              │
+  │                              ▼
+  │                             是
+  ▼
+标准场景 ──→ TOST 等效性检验 ──→ p < 0.05 且 CI 在 margin 内?
+  │                                    │
+  │                                    ▼
+  │                                   是
+  ▼
+容错场景 ──→ 功能正确率 > 98%? ──→ 综合评估通过
+```
+核心问题形式化。设对于请求 i ，定义：
+- Yi(1)​, Yi(2)​ ：FP16 两次独立输出（随机性来源：硬件/采样）
+- Xi​ ：FP8 单次输出
+**原假设**：FP8 引入的偏差与 FP16 内在波动同分布 H0​:D(Xi​,Yi(1)​)∼D(Yi(2)​,Yi(1)​)
+**等效性检验（TOST）**
+它的核心思想是通过两次单侧检验来证明两个处理或群体的差异在可接受的范围内，即它们是"等效"的。
+
+| 检验类型     | 零假设 (H₀)              | 研究目标       |
+| -------- | --------------------- | ---------- |
+| 传统t检验    | μ₁ = μ₂（无差异）          | 拒绝H₀，证明有差异 |
+| **TOST** | \|μ₁ - μ₂\| ≥ Δ（差异过大） | 拒绝H₀，证明等效  |
+|          |                       |            |
+TOST 的逻辑步骤
+第一步：设定等效界值 (Equivalence Margin, Δ)
+- Δ 是一个**实际意义上可接受的最大差异**
+第二步：构建两个单侧检验
+```
+左侧检验: H₀₁: μ₁ - μ₂ ≤ -Δ   vs   H₁₁: μ₁ - μ₂ > -Δ
+右侧检验: H₀₂: μ₁ - μ₂ ≥  Δ   vs   H₁₂: μ₁ - μ₂ <  Δ
+```
+第三步：决策规则
+只有当**两个单侧检验都显著**（即都拒绝各自的零假设）时，才能得出等效结论。
+置信区间视角
+TOST 等价于检验置信区间是否完全落在等效区间 `[-Δ, +Δ]` 内：
+```
+    -Δ          +Δ
+<----|==========|---->
+     ↑          ↑
+   置信区间下界  置信区间上界
+```
+如果 **100(1-2α)% 置信区间** 完全包含在 `[-Δ, +Δ]` 中，则等效性成立。
+TOST 的优势在于它提供了统计上严格的等效性证明框架，避免了"不拒绝零假设就声称等效"的逻辑谬误。
+```python
+from statsmodels.stats.weightstats import DescrStatsW
+def tost_equivalence(test_prompts, margin=0.05, alpha=0.05):
+    """
+    检验 FP16-FP8 差异是否在 [-margin, +margin] 内
+    即：FP8 与 FP16 的差异不超过预设阈值
+    """
+    differences = []
+    for prompt in test_prompts:
+        fp16_out = fp16_generate(prompt, seed=42)
+        fp8_out = fp8_generate(prompt)
+        # 距离差异（注意方向：FP8 - FP16）
+        d_fp16_fp8 = semantic_distance(fp16_out, fp8_out)
+        # 基准：FP16 多次采样的最大波动
+        fp16_trials = [fp16_generate(prompt, seed=i) for i in range(3)]
+        fp16_max_internal = max([
+            semantic_distance(fp16_trials[i], fp16_trials[j])
+            for i in range(3) for j in range(i+1, 3)
+        ])
+        # 关键：FP8偏差是否超过 FP16 最大内部波动 + margin
+        differences.append(d_fp16_fp8 - fp16_max_internal)
+    # TOST: 检验 differences 是否落在 [-margin, margin]
+    desc = DescrStatsW(differences)
+    # H0_1: mean <= -margin  vs  H1_1: mean > -margin
+    t1, pval1 = desc.ttest_mean(-margin, alternative='larger')
+    # H0_2: mean >= margin   vs  H1_2: mean < margin  
+    t2, pval2 = desc.ttest_mean(margin, alternative='smaller')
+    # 同时拒绝两个H0，则等效成立
+    p_value = max(pval1, pval2)
+    equivalent = (p_value < alpha)
+    return {
+        'equivalent': equivalent,
+        'p_value': p_value,
+        'mean_diff': np.mean(differences),
+        'ci_95': desc.tconfint_mean(alpha=0.05)
+    }
+```
+
+| 原方案        | 优化后              |
+| ---------- | ---------------- |
+| 点估计（95%一致） | 区间估计（置信区间）       |
+| 单一阈值       | 分层 margin（按业务风险） |
+| 无显著性检验     | TOST 等效性检验       |
+| 仅 token 匹配 | 语义距离 + 功能正确性     |
