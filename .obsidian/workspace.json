@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
+                "file": "电子书库/英语的基本规律.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vllm-issues5607-单请求vs并行请求一致性核对"
+              "title": "英语的基本规律"
             }
           }
         ]
@@ -199,8 +199,22 @@
   },
   "active": "66bad51000fe587d",
   "lastOpenFiles": [
-    "工作交付文档/未命名.md",
+    "电子书库/assets/英语的基本规律/0d9cbff860b00e582f507097603611b09171bccb2d8e9b403432236cb3e9d1b7.jpg",
+    "电子书库/assets/英语的基本规律/0b011ec349b55bb4c261de88a02ab61a0e1ff3a7a8b3582c4c8f961b78816bb3.jpg",
+    "电子书库/英语的基本规律.md",
+    "电子书库/assets/英语的基本规律/0b67cc082b4b1b55a5bd82776af0bddbbf216936892d89e846e966bad1e9e656.jpg",
+    "电子书库/assets/英语的基本规律/ff471a3ba0709f738c50362031b1370bedb867e2eb4e34d04eee5ecac45c2743.jpg",
+    "电子书库/assets/英语的基本规律/fdf400f10f2f9e1c69e9a44cd90df19817ae8cbeecf2e8331a8abbfcaaacc409.jpg",
+    "电子书库/assets/英语的基本规律/fbe5c76bfc7df2a6d57676069c7d54fe317436a392fb0e9ac45ffbb63e7a5016.jpg",
+    "电子书库/assets/英语的基本规律/fa62ede5fa6a175bf95ce9e36c95b028562aaa5d72b601e260fffe8f0bd11e22.jpg",
+    "电子书库/assets/英语的基本规律/f6900716289ddf9bc3c8cf6a5fd762411f6a90e66a8d6c4e3395db49aecdec91.jpg",
+    "电子书库/assets/英语的基本规律/f422b07904ec371a2e950f03b807393ffa4b5cde671e6b89ce32e536ee635457.jpg",
+    "电子书库/assets/英语的基本规律/e86ac0381ce620788aa94d8525695a55dca589b989f8deae2591409558c85328.jpg",
+    "电子书库/assets/英语的基本规律/e9c494167e6f6d4cec031ec9e2291e729001ab7d3ec313430dc443dfa8686aba.jpg",
+    "电子书库/assets/英语的基本规律",
+    "电子书库/assets",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
+    "工作交付文档/未命名.md",
     "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
     "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
     "工作交付文档/字段对接.md",
@@ -218,32 +232,18 @@
     "python/assets",
     "工具/切片视频制作.md",
     "python",
-    "工具/assets/切片视频制作/B站录播姬.png",
     "工具/assets/切片视频制作",
-    "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/vllm日志.png",
-    "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介/测试并发脚本日志.png",
     "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介",
     "工具/excel工具.md",
     "工具/assets/excel工具/~$file-20260328083505570.xlsm",
     "工具/assets/excel工具/对比icd编码差异.xlsm",
     "工具/assets/excel工具",
-    "工具/assets",
     "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
-    "工具",
     "kimi-讨论/vllm并发策略 - Kimi.md",
     "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
     "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "kimi-讨论/2块L20  vllm部署 qwq32B float 16，  vllm日志显示running可以到60多， 输入请求提示词平均4000，那么生成至少1000字符， 这个显存为什么没有爆炸呀.md",
     "kimi-讨论/长文本处理场景处理方案讨论.md",
-    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
-    "公众号文章/LLM Prefill & Decode — 完整技术图谱.md",
-    "公众号文章/OpenCode Day5：这些让同事直呼“真香”的插件，你装了几个？.md",
-    "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/fb6a3ae287099f0c7311fcc6f47be817_MD5.png",
-    "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/81178cb1439d5ed003b09a902898ed9d_MD5.png",
-    "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/dc6111818b2c7f88c1d715f90313574f_MD5.png",
-    "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/a085b86f78f74daf2650d37351e8d67f_MD5.png",
-    "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/b4ca0412806b1938314f2b43a037b2b0_MD5.png",
-    "工作交付文档/assets/vllm-issues5607-单请求vs并行请求一致性核对/73d7371aad669ce00b31aa331b7f006b_MD5.png",
-    "工作交付文档/assets/vllm现场请求耗时较长分享/7d0c57b8284893aa32c6089d52443abc_MD5.png"
+    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md"
   ]
 }
