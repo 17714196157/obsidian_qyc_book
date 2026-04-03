@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b1ee1b9988daaa0f",
+        "id": "5071357280cd7b6a",
         "type": "tabs",
         "children": [
           {
-            "id": "66bad51000fe587d",
+            "id": "76587c12d5498e20",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 256.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -197,20 +197,24 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "03ea914554650cef",
+  "active": "76587c12d5498e20",
   "lastOpenFiles": [
-    "电子书库/assets/英语的基本规律 速成记忆法 (王克谦著) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "电子书库/assets/英语的基本规律/0d9cbff860b00e582f507097603611b09171bccb2d8e9b403432236cb3e9d1b7.jpg",
-    "电子书库/assets/英语的基本规律/0b011ec349b55bb4c261de88a02ab61a0e1ff3a7a8b3582c4c8f961b78816bb3.jpg",
+    "工具/切片视频制作.md",
+    "电子书库/数学思维能力的训练.md",
     "电子书库/英语的基本规律.md",
-    "电子书库/assets/英语的基本规律/0b67cc082b4b1b55a5bd82776af0bddbbf216936892d89e846e966bad1e9e656.jpg",
-    "电子书库/assets/英语的基本规律/ff471a3ba0709f738c50362031b1370bedb867e2eb4e34d04eee5ecac45c2743.jpg",
-    "电子书库/assets/英语的基本规律/fdf400f10f2f9e1c69e9a44cd90df19817ae8cbeecf2e8331a8abbfcaaacc409.jpg",
-    "电子书库/assets/英语的基本规律/fbe5c76bfc7df2a6d57676069c7d54fe317436a392fb0e9ac45ffbb63e7a5016.jpg",
-    "电子书库/assets/英语的基本规律/fa62ede5fa6a175bf95ce9e36c95b028562aaa5d72b601e260fffe8f0bd11e22.jpg",
-    "电子书库/assets/英语的基本规律/f6900716289ddf9bc3c8cf6a5fd762411f6a90e66a8d6c4e3395db49aecdec91.jpg",
-    "电子书库/assets/英语的基本规律/f422b07904ec371a2e950f03b807393ffa4b5cde671e6b89ce32e536ee635457.jpg",
-    "电子书库/assets/英语的基本规律/e86ac0381ce620788aa94d8525695a55dca589b989f8deae2591409558c85328.jpg",
+    "电子书库/assets/英语的基本规律 速成记忆法 (王克谦著) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "电子书库/assets/数学思维能力的训练/0a0489e6b104db30a09b3aec5a203c570b92bfac87868b458a18596150cf8e4c.jpg",
+    "电子书库/assets/数学思维能力的训练/0a0b8228b0f3553897f008541e192806f9344df5777207699e2ade0470816784.jpg",
+    "电子书库/assets/数学思维能力的训练/fff3ba6fbeb102967a0daba6d3ee78d83709fb54e77607e94e4efa9205fe13ae.jpg",
+    "电子书库/assets/数学思维能力的训练/ffc0e83e491fa349d7d9551da61e71f5e700dd6ab31085ab16a690163fb4a33a.jpg",
+    "电子书库/assets/数学思维能力的训练/ff21964b550bcfb6ce49ea18169e2290ae00644c422fd3068634ab3ac1139654.jpg",
+    "电子书库/assets/数学思维能力的训练/ff734b97404c3bebfb0070cafd6838ca62e7e17fb27646a4e6cdd10e5349914b.jpg",
+    "电子书库/assets/数学思维能力的训练/ff4cdc05580c8c32613d09b4df0130919646ee85549cd7f228624fec832a2956.jpg",
+    "电子书库/assets/数学思维能力的训练/feeb75c6c838d920d41c472213a98d8315227e6ee9c5a7f761799628c6b42d2b.jpg",
+    "电子书库/assets/数学思维能力的训练/fee5ee6e73daa9ef37d72bd07d837dbf0791ebcfcd4f5707d434c7a86649d448.jpg",
+    "电子书库/assets/数学思维能力的训练/fecaa7de3b96336dbcc159cbe68ce52e89dc13fa8fd8fa893434a8cf028645be.jpg",
+    "电子书库/assets/数学思维能力的训练",
+    "电子书库/assets/新建文件夹",
     "电子书库/assets/英语的基本规律",
     "电子书库/assets",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
@@ -230,20 +234,15 @@
     "AI应用/openclaw.md",
     "python/assets/pip离线安装方法",
     "python/assets",
-    "工具/切片视频制作.md",
     "python",
     "工具/assets/切片视频制作",
     "工作交付文档/assets/vllm统计 生成吞吐量 指标原理详细简介",
     "工具/excel工具.md",
-    "工具/assets/excel工具/~$file-20260328083505570.xlsm",
-    "工具/assets/excel工具/对比icd编码差异.xlsm",
-    "工具/assets/excel工具",
     "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
     "kimi-讨论/vllm并发策略 - Kimi.md",
     "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
     "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "kimi-讨论/2块L20  vllm部署 qwq32B float 16，  vllm日志显示running可以到60多， 输入请求提示词平均4000，那么生成至少1000字符， 这个显存为什么没有爆炸呀.md",
-    "kimi-讨论/长文本处理场景处理方案讨论.md",
-    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md"
+    "kimi-讨论/长文本处理场景处理方案讨论.md"
   ]
 }
