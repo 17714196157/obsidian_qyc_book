@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电子书库/数学思维能力的训练.md",
+                "file": "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数学思维能力的训练"
+              "title": "OpenClaw Windows本地部署完全指南：从零构建专属AI智能体"
             }
           }
         ]
@@ -199,22 +199,26 @@
   },
   "active": "76587c12d5498e20",
   "lastOpenFiles": [
+    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/bd1dc1829fe42e163820d7a32ed13c49_MD5.unknown",
+    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/661662857122d06f71536656e3e60d75_MD5.webp",
+    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/ee90cfb7880c330771fa5ea451ff1ac6_MD5.webp",
+    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/b9a4a64b40e1fd9aeab703e3df21e1b8_MD5.webp",
+    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/746b41607c8b47d07ceca6d74af24d1d_MD5.webp",
+    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/04cddd07051ad04578297095039cc90c_MD5.webp",
+    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/c02ca35b949ff37c07d2fa9395262e9b_MD5.webp",
+    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体",
+    "AI应用/hermes-agent.md",
+    "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
     "电子书库/assets/数学思维能力的训练.pdf",
+    "电子书库/数学思维能力的训练.md",
     "电子书库/assets/69.数学思维能力的训练.pdf",
     "电子书库/英语的基本规律.md",
     "工具/切片视频制作.md",
-    "电子书库/数学思维能力的训练.md",
     "电子书库/assets/英语的基本规律 速成记忆法 (王克谦著) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "电子书库/assets/数学思维能力的训练/0a0489e6b104db30a09b3aec5a203c570b92bfac87868b458a18596150cf8e4c.jpg",
     "电子书库/assets/数学思维能力的训练/0a0b8228b0f3553897f008541e192806f9344df5777207699e2ade0470816784.jpg",
     "电子书库/assets/数学思维能力的训练/fff3ba6fbeb102967a0daba6d3ee78d83709fb54e77607e94e4efa9205fe13ae.jpg",
     "电子书库/assets/数学思维能力的训练/ffc0e83e491fa349d7d9551da61e71f5e700dd6ab31085ab16a690163fb4a33a.jpg",
-    "电子书库/assets/数学思维能力的训练/ff21964b550bcfb6ce49ea18169e2290ae00644c422fd3068634ab3ac1139654.jpg",
-    "电子书库/assets/数学思维能力的训练/ff734b97404c3bebfb0070cafd6838ca62e7e17fb27646a4e6cdd10e5349914b.jpg",
-    "电子书库/assets/数学思维能力的训练/ff4cdc05580c8c32613d09b4df0130919646ee85549cd7f228624fec832a2956.jpg",
-    "电子书库/assets/数学思维能力的训练/feeb75c6c838d920d41c472213a98d8315227e6ee9c5a7f761799628c6b42d2b.jpg",
-    "电子书库/assets/数学思维能力的训练/fee5ee6e73daa9ef37d72bd07d837dbf0791ebcfcd4f5707d434c7a86649d448.jpg",
-    "电子书库/assets/数学思维能力的训练/fecaa7de3b96336dbcc159cbe68ce52e89dc13fa8fd8fa893434a8cf028645be.jpg",
     "电子书库/assets/数学思维能力的训练",
     "电子书库/assets/新建文件夹",
     "电子书库/assets/英语的基本规律",
@@ -236,14 +240,10 @@
     "AI应用/openclaw.md",
     "python/assets/pip离线安装方法",
     "python/assets",
-    "python",
-    "工具/assets/切片视频制作",
     "工具/excel工具.md",
     "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
     "kimi-讨论/vllm并发策略 - Kimi.md",
     "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
-    "大模型性能与部署/vLLM/vllm 客户端代码.md",
-    "kimi-讨论/2块L20  vllm部署 qwq32B float 16，  vllm日志显示running可以到60多， 输入请求提示词平均4000，那么生成至少1000字符， 这个显存为什么没有爆炸呀.md",
-    "kimi-讨论/长文本处理场景处理方案讨论.md"
+    "大模型性能与部署/vLLM/vllm 客户端代码.md"
   ]
 }
