@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
+                "file": "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OpenClaw Windows本地部署完全指南：从零构建专属AI智能体"
+              "title": "Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费"
             }
           }
         ]
@@ -199,6 +199,14 @@
   },
   "active": "76587c12d5498e20",
   "lastOpenFiles": [
+    "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/08db1e0d5c8519b0c45ec575c6ecc701_MD5.png",
+    "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/0ba88d99e55c434b449ccc0518359cfe_MD5.png",
+    "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/Continue插件.png",
+    "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费",
+    "AI应用/vscode的插件/assets",
+    "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
+    "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
+    "AI应用/vscode的插件",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/bd1dc1829fe42e163820d7a32ed13c49_MD5.unknown",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/661662857122d06f71536656e3e60d75_MD5.webp",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/ee90cfb7880c330771fa5ea451ff1ac6_MD5.webp",
@@ -208,7 +216,6 @@
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/c02ca35b949ff37c07d2fa9395262e9b_MD5.webp",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体",
     "AI应用/hermes-agent.md",
-    "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
     "电子书库/assets/数学思维能力的训练.pdf",
     "电子书库/数学思维能力的训练.md",
     "电子书库/assets/69.数学思维能力的训练.pdf",
@@ -217,12 +224,8 @@
     "电子书库/assets/英语的基本规律 速成记忆法 (王克谦著) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "电子书库/assets/数学思维能力的训练/0a0489e6b104db30a09b3aec5a203c570b92bfac87868b458a18596150cf8e4c.jpg",
     "电子书库/assets/数学思维能力的训练/0a0b8228b0f3553897f008541e192806f9344df5777207699e2ade0470816784.jpg",
-    "电子书库/assets/数学思维能力的训练/fff3ba6fbeb102967a0daba6d3ee78d83709fb54e77607e94e4efa9205fe13ae.jpg",
-    "电子书库/assets/数学思维能力的训练/ffc0e83e491fa349d7d9551da61e71f5e700dd6ab31085ab16a690163fb4a33a.jpg",
     "电子书库/assets/数学思维能力的训练",
     "电子书库/assets/新建文件夹",
-    "电子书库/assets/英语的基本规律",
-    "电子书库/assets",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "工作交付文档/未命名.md",
     "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
@@ -238,12 +241,9 @@
     "大模型性能与部署/vLLM/vllm 简介.md",
     "python/django.md",
     "AI应用/openclaw.md",
-    "python/assets/pip离线安装方法",
-    "python/assets",
     "工具/excel工具.md",
     "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
     "kimi-讨论/vllm并发策略 - Kimi.md",
-    "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
-    "大模型性能与部署/vLLM/vllm 客户端代码.md"
+    "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md"
   ]
 }
