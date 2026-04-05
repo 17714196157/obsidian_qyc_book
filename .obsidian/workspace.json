@@ -199,6 +199,10 @@
   },
   "active": "76587c12d5498e20",
   "lastOpenFiles": [
+    "AI应用/vscode的插件/assets/cline插件/3941be5ee2752de86454e4c737233bbe_MD5.png",
+    "AI应用/vscode的插件/assets/cline插件/4dcf60a06f8569de1ade4dfeed5fe04f_MD5.png",
+    "AI应用/vscode的插件/assets/cline插件/52433b049c534a3a899953423fd25619_MD5.png",
+    "AI应用/vscode的插件/assets/cline插件",
     "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
     "AI应用/vscode的插件/cline插件.md",
     "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/08db1e0d5c8519b0c45ec575c6ecc701_MD5.png",
@@ -214,7 +218,6 @@
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/b9a4a64b40e1fd9aeab703e3df21e1b8_MD5.webp",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/746b41607c8b47d07ceca6d74af24d1d_MD5.webp",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/04cddd07051ad04578297095039cc90c_MD5.webp",
-    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/c02ca35b949ff37c07d2fa9395262e9b_MD5.webp",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体",
     "AI应用/hermes-agent.md",
     "电子书库/assets/数学思维能力的训练.pdf",
@@ -223,9 +226,7 @@
     "电子书库/英语的基本规律.md",
     "工具/切片视频制作.md",
     "电子书库/assets/英语的基本规律 速成记忆法 (王克谦著) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "电子书库/assets/数学思维能力的训练/0a0489e6b104db30a09b3aec5a203c570b92bfac87868b458a18596150cf8e4c.jpg",
     "电子书库/assets/数学思维能力的训练",
-    "电子书库/assets/新建文件夹",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "工作交付文档/未命名.md",
     "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
@@ -243,7 +244,6 @@
     "AI应用/openclaw.md",
     "工具/excel工具.md",
     "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
-    "kimi-讨论/vllm并发策略 - Kimi.md",
-    "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md"
+    "kimi-讨论/vllm并发策略 - Kimi.md"
   ]
 }
