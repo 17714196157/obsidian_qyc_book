@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/vscode的插件/python调式.md",
+                "file": "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python调式"
+              "title": "Markmap-markdown转思维导图"
             }
           }
         ]
@@ -199,12 +199,16 @@
   },
   "active": "0917df93d84f3fcc",
   "lastOpenFiles": [
+    "AI应用/vscode的插件/assets/Markmap-markdown转思维导图/file-20260406003116800.png",
+    "AI应用/vscode的插件/assets/Markmap-markdown转思维导图/afa71086cf537c14637b9ddd700b7466_MD5.png",
+    "AI应用/vscode的插件/assets/Markmap-markdown转思维导图",
+    "AI应用/vscode的插件/python调式.md",
+    "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
     "AI应用/vscode的插件/assets/python调式/88b21fa6c7f7750c534dff367764006e_MD5.png",
     "AI应用/vscode的插件/assets/python调式/eb532336edf493618a8ab5c04530a23d_MD5.png",
     "AI应用/vscode的插件/assets/python调式/f8dd3af9149faf4f552640b5ffeb3bf3_MD5.png",
     "AI应用/vscode的插件/assets/python调式",
     "AI应用/vscode的插件/cline插件.md",
-    "AI应用/vscode的插件/python调式.md",
     "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
     "电子书库/英语的基本规律.md",
     "电子书库/数学思维能力的训练.md",
@@ -220,14 +224,11 @@
     "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
     "AI应用/vscode的插件",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/bd1dc1829fe42e163820d7a32ed13c49_MD5.unknown",
-    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/661662857122d06f71536656e3e60d75_MD5.webp",
-    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/ee90cfb7880c330771fa5ea451ff1ac6_MD5.webp",
     "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体",
     "AI应用/hermes-agent.md",
     "电子书库/assets/数学思维能力的训练.pdf",
     "电子书库/assets/69.数学思维能力的训练.pdf",
     "工具/切片视频制作.md",
-    "电子书库/assets/英语的基本规律 速成记忆法 (王克谦著) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "工作交付文档/未命名.md",
     "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
@@ -243,7 +244,6 @@
     "大模型性能与部署/vLLM/vllm 简介.md",
     "python/django.md",
     "AI应用/openclaw.md",
-    "工具/excel工具.md",
-    "kimi-讨论/vLLM吞吐量调优 - Kimi.md"
+    "工具/excel工具.md"
   ]
 }
