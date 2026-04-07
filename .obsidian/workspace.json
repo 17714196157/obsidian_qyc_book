@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "217658ae3079332d",
+        "id": "7e6cd60c3ee21420",
         "type": "tabs",
         "children": [
           {
-            "id": "9027f5f3779ab272",
+            "id": "62c1dc40b6941894",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,6 +18,7 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens"
             }
@@ -73,12 +75,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "2594089867daf975",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "vertical-tabs",
+              "title": "Vertical tabs"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 238.50378799438477
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -197,14 +209,20 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "9027f5f3779ab272",
+  "active": "62c1dc40b6941894",
   "lastOpenFiles": [
+    "obsidian操作/obsidian插件推荐.md",
+    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
+    "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
+    "未命名.md",
+    "kimi-讨论/长文本处理场景处理方案讨论.md",
+    "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
+    "其他附件",
     "论文解读/论文原文/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
     "论文解读/论文原文/Think-Deep,-Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
     "论文解读/论文原文/Think-Deep-Not-Just-Long-mono.pdf",
     "论文解读/论文原文",
     "论文解读/新建文件夹",
-    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "论文解读",
     "AI应用/vscode的插件/assets/Markmap-markdown转思维导图/f0e127c3e84aab195e78eb1ab9db937c_MD5.png",
     "AI应用/vscode的插件/assets/Markmap-markdown转思维导图/afa71086cf537c14637b9ddd700b7466_MD5.png",
@@ -225,14 +243,11 @@
     "AI应用/vscode的插件/assets/cline插件",
     "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/08db1e0d5c8519b0c45ec575c6ecc701_MD5.png",
     "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/0ba88d99e55c434b449ccc0518359cfe_MD5.png",
-    "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费",
-    "AI应用/vscode的插件/assets",
     "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
     "AI应用/hermes-agent.md",
     "工具/切片视频制作.md",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "工作交付文档/未命名.md",
-    "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
     "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
     "工作交付文档/字段对接.md",
     "工作交付文档/vllm现场请求耗时较长分享.md",
@@ -241,9 +256,6 @@
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
     "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
     "大模型性能与部署/vLLM/vllm参数含义与原理.md",
-    "大模型性能与部署/vLLM/vLLM参数调优.md",
-    "大模型性能与部署/vLLM/vllm 简介.md",
-    "python/django.md",
-    "AI应用/openclaw.md"
+    "大模型性能与部署/vLLM/vLLM参数调优.md"
   ]
 }

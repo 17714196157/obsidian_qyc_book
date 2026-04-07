@@ -26,6 +26,9 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 ##### 4）同步笔记
 - git 插件  ---> 笔记仓库提交git
 
+##### 5）界面操作优化
+Vertical Tabs--->垂直标签页管理插件,支持快捷分屏、关闭、钉住等操作
+
 ### 微信公众号文章同步方法
 ##### 1.开源浏览器插件：文章下载器（纯本地，最安全）
 - GitHub: [markdown-export](https://github.com/yang-shuohao/markdown-export)
