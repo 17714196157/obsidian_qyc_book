@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "116b3c1a223f882d",
+        "id": "217658ae3079332d",
         "type": "tabs",
         "children": [
           {
-            "id": "0917df93d84f3fcc",
+            "id": "9027f5f3779ab272",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
+                "file": "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markmap-markdown转思维导图"
+              "title": "Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.50378799438477
+    "width": 238.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -197,8 +197,15 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "03ea914554650cef",
+  "active": "9027f5f3779ab272",
   "lastOpenFiles": [
+    "论文解读/论文原文/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
+    "论文解读/论文原文/Think-Deep,-Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
+    "论文解读/论文原文/Think-Deep-Not-Just-Long-mono.pdf",
+    "论文解读/论文原文",
+    "论文解读/新建文件夹",
+    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
+    "论文解读",
     "AI应用/vscode的插件/assets/Markmap-markdown转思维导图/f0e127c3e84aab195e78eb1ab9db937c_MD5.png",
     "AI应用/vscode的插件/assets/Markmap-markdown转思维导图/afa71086cf537c14637b9ddd700b7466_MD5.png",
     "AI应用/vscode的插件/assets/Markmap-markdown转思维导图",
@@ -218,16 +225,10 @@
     "AI应用/vscode的插件/assets/cline插件",
     "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/08db1e0d5c8519b0c45ec575c6ecc701_MD5.png",
     "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/0ba88d99e55c434b449ccc0518359cfe_MD5.png",
-    "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/Continue插件.png",
     "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费",
     "AI应用/vscode的插件/assets",
     "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
-    "AI应用/vscode的插件",
-    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体/bd1dc1829fe42e163820d7a32ed13c49_MD5.unknown",
-    "公众号文章/assets/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体",
     "AI应用/hermes-agent.md",
-    "电子书库/assets/数学思维能力的训练.pdf",
-    "电子书库/assets/69.数学思维能力的训练.pdf",
     "工具/切片视频制作.md",
     "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "工作交付文档/未命名.md",
@@ -243,7 +244,6 @@
     "大模型性能与部署/vLLM/vLLM参数调优.md",
     "大模型性能与部署/vLLM/vllm 简介.md",
     "python/django.md",
-    "AI应用/openclaw.md",
-    "工具/excel工具.md"
+    "AI应用/openclaw.md"
   ]
 }
