@@ -211,6 +211,14 @@
   },
   "active": "62c1dc40b6941894",
   "lastOpenFiles": [
+    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/DTR的数学定义.png",
+    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/file-20260407153630392.png",
+    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/三种距离度量（附录A）.png",
+    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/9b70f9f50b60ff2a565b2e6648097616_MD5.png",
+    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/6685cc323223171ac4b612f7db695ddd_MD5.png",
+    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/1c314fea00daa3eb7a252245f5f9369e_MD5.png",
+    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens",
+    "论文解读/assets",
     "obsidian操作/obsidian插件推荐.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "工作交付文档/2026-02-26-广福首页生成性能测试计划.md",
@@ -232,17 +240,10 @@
     "AI应用/vscode的插件/assets/python调式/88b21fa6c7f7750c534dff367764006e_MD5.png",
     "AI应用/vscode的插件/assets/python调式/eb532336edf493618a8ab5c04530a23d_MD5.png",
     "AI应用/vscode的插件/assets/python调式/f8dd3af9149faf4f552640b5ffeb3bf3_MD5.png",
-    "AI应用/vscode的插件/assets/python调式",
     "AI应用/vscode的插件/cline插件.md",
     "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
     "电子书库/英语的基本规律.md",
     "电子书库/数学思维能力的训练.md",
-    "AI应用/vscode的插件/assets/cline插件/3941be5ee2752de86454e4c737233bbe_MD5.png",
-    "AI应用/vscode的插件/assets/cline插件/4dcf60a06f8569de1ade4dfeed5fe04f_MD5.png",
-    "AI应用/vscode的插件/assets/cline插件/52433b049c534a3a899953423fd25619_MD5.png",
-    "AI应用/vscode的插件/assets/cline插件",
-    "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/08db1e0d5c8519b0c45ec575c6ecc701_MD5.png",
-    "AI应用/vscode的插件/assets/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费/0ba88d99e55c434b449ccc0518359cfe_MD5.png",
     "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
     "AI应用/hermes-agent.md",
     "工具/切片视频制作.md",
@@ -255,7 +256,6 @@
     "python/pip离线安装方法.md",
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
     "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
-    "大模型性能与部署/vLLM/vllm参数含义与原理.md",
-    "大模型性能与部署/vLLM/vLLM参数调优.md"
+    "大模型性能与部署/vLLM/vllm参数含义与原理.md"
   ]
 }
