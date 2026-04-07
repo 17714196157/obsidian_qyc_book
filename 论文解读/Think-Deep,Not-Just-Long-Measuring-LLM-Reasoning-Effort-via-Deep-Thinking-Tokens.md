@@ -162,16 +162,13 @@ $$\text{DTR}(S) = \frac{1}{T}\sum_{t=1}^T \mathbb{1}[c_t \in \mathcal{L}_{\text{
 ## 四、工程落地：Think@n策略——省钱又提效
 
 ### 4.1 问题场景
-
 标准**自洽性（Self-Consistency/Cons@n）**需要：
 - 完整生成$n$个回答（如n=48）
 - 全部解码后再投票
 - **成本高昂**：GPT-OSS-120B-medium在AIME 2025上平均307.6K tokens/题
 
 ### 4.2 Think@n的核心机制
-
 基于DTR的**早期筛选+提前终止**策略：
-
 ```
 1. 对每个候选，仅生成短前缀（如50 tokens）
 2. 计算前缀的DTR作为质量预测
@@ -180,24 +177,25 @@ $$\text{DTR}(S) = \frac{1}{T}\sum_{t=1}^T \mathbb{1}[c_t \in \mathcal{L}_{\text{
 5. 丢弃样本提前终止，节省计算
 ```
 
-### 4.3 效果：帕累托最优
+### 4.3 实验结果
+![[论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/7044fce66f8aaed17624cb42d10f2065_MD5.png]]
 
-表2展示了震撼结果：
-
-| 方法 | AIME 25准确率 | 成本（K tokens） | 成本降低 |
-|------|------------|---------------|---------|
-| Cons@n | 92.7% | 307.6 | 基准 |
-| Mean@n | 80.0% | 307.6 | - |
-| Long@n | 86.7% | 307.6 | - |
-| Short@n | 87.3% | 255.7 | 17% |
-| Self-Certainty@n | 87.3% | 150.6 | **51%** |
-| **Think@n** | **94.7%** | **155.4** | **49%** |
+| 方法               | AIME 25准确率 | 成本（K tokens） | 成本降低    |
+| ---------------- | ---------- | ------------ | ------- |
+| Cons@n           | 92.7%      | 307.6        | 基准      |
+| Mean@n           | 80.0%      | 307.6        | -       |
+| Long@n           | 86.7%      | 307.6        | -       |
+| Short@n          | 87.3%      | 255.7        | 17%     |
+| Self-Certainty@n | 87.3%      | 150.6        | **51%** |
+| **Think@n**      | **94.7%**  | **155.4**    | **49%** |
 
 **关键洞察**：
 - Think@n在**降低成本约50%的同时，准确率反而超越Cons@n**（94.7% vs 92.7%）
 - Self-Certainty虽也能降本，但准确率不及Think@n
 - Short@n虽省钱但准确率下降，证明**长度是粗糙的代理**
 
+
+![[论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/22837f6a97cb340105b8812d705d244a_MD5.png]]
 图5的帕累托前沿更清晰：Think@n位于**最左上方**——成本最低、准确率最高。
 
 ### 4.4 前缀长度的魔法
