@@ -75,4 +75,4 @@ curl --location 'http://192.168.0.172:8000/v1/chat/completions' \
 }
 ```
 vllm日志中记录的请求和响应， 通过 X-Request-Id 关联
-![[file-20260409181605216.png]]
+![[vllm日志中记录的请求和响应效果.png]]
