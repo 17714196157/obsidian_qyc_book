@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/vLLM/vllm请求日志.md",
+                "file": "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vllm请求日志"
+              "title": "vllm日志中记录请求消息+响应消息"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 249.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -209,12 +209,14 @@
   },
   "active": "cab23deed7b536a1",
   "lastOpenFiles": [
-    "大模型性能与部署/vLLM/assets/vllm请求日志/file-20260409181038953.png",
-    "大模型性能与部署/vLLM/assets/vllm请求日志/71d680cd201a6adfd0dbb1c41058760c_MD5.png",
-    "大模型性能与部署/vLLM/assets/vllm请求日志/日志中打印的请求和响应.png",
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息",
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求+响应",
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/file-20260409181605218.png",
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/file-20260409181605217.png",
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/file-20260409181605216.png",
     "大模型性能与部署/vLLM/assets/vllm请求日志",
     "工作交付文档/字段对接.md",
-    "大模型性能与部署/vLLM/vllm请求日志.md",
+    "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
     "未命名.base",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "大模型性能与部署/vLLM/vllm 简介.md",
@@ -234,7 +236,6 @@
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/file-20260407171930575.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/9b70f9f50b60ff2a565b2e6648097616_MD5.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/22837f6a97cb340105b8812d705d244a_MD5.png",
-    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/7044fce66f8aaed17624cb42d10f2065_MD5.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens",
     "论文解读/assets",
     "obsidian操作/obsidian插件推荐.md",
@@ -244,7 +245,6 @@
     "其他附件",
     "论文解读/论文原文/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
     "论文解读/论文原文/Think-Deep,-Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
-    "论文解读/论文原文/Think-Deep-Not-Just-Long-mono.pdf",
     "AI应用/vscode的插件/python调式.md",
     "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
     "AI应用/vscode的插件/cline插件.md",

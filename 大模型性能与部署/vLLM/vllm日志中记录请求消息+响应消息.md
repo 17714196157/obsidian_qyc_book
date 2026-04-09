@@ -16,7 +16,7 @@ else:
 import sys
 sys.stdout.flush()
 ```
-![[大模型性能与部署/vLLM/assets/vllm请求日志/71d680cd201a6adfd0dbb1c41058760c_MD5.png]]
+![[file-20260409181605217.png]]
 
 ``` bash
 # 设置环境变量
@@ -75,4 +75,4 @@ curl --location 'http://192.168.0.172:8000/v1/chat/completions' \
 }
 ```
 vllm日志中记录的请求和响应， 通过 X-Request-Id 关联
-![[日志中打印的请求和响应.png]]
+![[file-20260409181605216.png]]
