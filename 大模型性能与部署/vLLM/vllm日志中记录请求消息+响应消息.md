@@ -1,3 +1,7 @@
+---
+tags:
+  - vllm
+---
 
 修改源代码：
 在你的 `serving_chat.py` 文件中，找到 `chat_completion_full_generator` 方法的末尾（大约第 686 行附近），在 `return response` 之前添加：
