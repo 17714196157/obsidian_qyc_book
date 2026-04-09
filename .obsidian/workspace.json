@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7e6cd60c3ee21420",
+        "id": "62c6a2a8d7d4735c",
         "type": "tabs",
         "children": [
           {
-            "id": "62c1dc40b6941894",
+            "id": "cab23deed7b536a1",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
+                "file": "大模型性能与部署/vLLM/vllm请求日志.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens"
+              "title": "vllm请求日志"
             }
           }
         ]
@@ -209,23 +207,34 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "62c1dc40b6941894",
+  "active": "cab23deed7b536a1",
   "lastOpenFiles": [
+    "大模型性能与部署/vLLM/assets/vllm请求日志/file-20260409181038953.png",
+    "大模型性能与部署/vLLM/assets/vllm请求日志/71d680cd201a6adfd0dbb1c41058760c_MD5.png",
+    "大模型性能与部署/vLLM/assets/vllm请求日志/日志中打印的请求和响应.png",
+    "大模型性能与部署/vLLM/assets/vllm请求日志",
+    "工作交付文档/字段对接.md",
+    "大模型性能与部署/vLLM/vllm请求日志.md",
+    "未命名.base",
+    "大模型性能与部署/vLLM/vLLM 超时参数.md",
+    "大模型性能与部署/vLLM/vllm 简介.md",
+    "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
+    "大模型性能与部署/vLLM/vLLM参数调优.md",
+    "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
+    "大模型性能与部署/性能测试指标.md",
+    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "kimi-讨论/报 案 材 料.md",
     "kimi-讨论/assets/报 案 材 料/a2ac247e06242afb91670eee577d61ed_MD5.png",
     "kimi-讨论/assets/报 案 材 料/d6e10ff22ade97a49918f3e5a59e4150_MD5.png",
     "kimi-讨论/assets/报 案 材 料/8b63f8991bc38a14c4e1c3a704c5cb88_MD5.png",
     "kimi-讨论/assets/报 案 材 料",
     "kimi-讨论/assets/未命名",
-    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "未命名.md",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/附录B的图7.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/file-20260407171930575.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/9b70f9f50b60ff2a565b2e6648097616_MD5.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/22837f6a97cb340105b8812d705d244a_MD5.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/7044fce66f8aaed17624cb42d10f2065_MD5.png",
-    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/047b95d3c0f77a7e0cc99e184c9afd0c_MD5.png",
-    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/c9904b41c2b462916eded2d8dee2b306_MD5.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens",
     "论文解读/assets",
     "obsidian操作/obsidian插件推荐.md",
@@ -236,8 +245,6 @@
     "论文解读/论文原文/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
     "论文解读/论文原文/Think-Deep,-Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
     "论文解读/论文原文/Think-Deep-Not-Just-Long-mono.pdf",
-    "论文解读/论文原文",
-    "论文解读/新建文件夹",
     "AI应用/vscode的插件/python调式.md",
     "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
     "AI应用/vscode的插件/cline插件.md",
@@ -247,14 +254,6 @@
     "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
     "AI应用/hermes-agent.md",
     "工具/切片视频制作.md",
-    "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md",
-    "工作交付文档/未命名.md",
-    "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
-    "工作交付文档/字段对接.md",
-    "工作交付文档/vllm现场请求耗时较长分享.md",
-    "工作交付文档/vllm统计 生成吞吐量 指标原理详细简介.md",
-    "python/pip离线安装方法.md",
-    "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
-    "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md"
+    "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md"
   ]
 }
