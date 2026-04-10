@@ -84,11 +84,13 @@
               "title": "Vertical tabs"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 223.50378799438477
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -209,6 +211,8 @@
   },
   "active": "cab23deed7b536a1",
   "lastOpenFiles": [
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/27b7c958d517aa77b63b66b356c89fc0_MD5.png",
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/6e1562548d4f69a84c177e4a70345e7f_MD5.png",
     "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息",
     "大模型性能与部署/vLLM/assets/vllm日志中记录请求+响应",
     "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/file-20260409181605218.png",
@@ -235,7 +239,6 @@
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/附录B的图7.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/file-20260407171930575.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/9b70f9f50b60ff2a565b2e6648097616_MD5.png",
-    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/22837f6a97cb340105b8812d705d244a_MD5.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens",
     "论文解读/assets",
     "obsidian操作/obsidian插件推荐.md",
@@ -244,7 +247,6 @@
     "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
     "其他附件",
     "论文解读/论文原文/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
-    "论文解读/论文原文/Think-Deep,-Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
     "AI应用/vscode的插件/python调式.md",
     "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
     "AI应用/vscode的插件/cline插件.md",

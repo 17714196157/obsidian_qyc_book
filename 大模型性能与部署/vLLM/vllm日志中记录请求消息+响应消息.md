@@ -11,16 +11,12 @@ vi /root/miniconda3/envs/sglong/lib/python3.10/site-packages/vllm/entrypoints/op
 
 # 在构建好响应对象 'response' 后添加
 print(f"Request Prompt:{request_id} {request.messages}") # 打印请求的完整消息
-print(f"Response Text:{request_id}{response.choices[0].message.content}") # 打印模型生成的文本
-if response.choices and len(response.choices) > 0:
-    print(f"[RESPONSE]{response.choices[0].message.content}")
-else:
-    print("[RESPONSE] No choices in response")
-# 强制刷新输出（重要！）
-import sys
-sys.stdout.flush()
+print(f"Response Text:{request_id} {response.choices[0].message.content}") # 打印模型生成的文本
+print(f"Response Text:{request_id} {usage}")
+
 ```
-![[file-20260409181605217.png]]
+
+![[大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/6e1562548d4f69a84c177e4a70345e7f_MD5.png]]
 
 ``` bash
 # 设置环境变量
@@ -79,4 +75,4 @@ curl --location 'http://192.168.0.172:8000/v1/chat/completions' \
 }
 ```
 vllm日志中记录的请求和响应， 通过 X-Request-Id 关联
-![[vllm日志中记录的请求和响应效果.png]]
+![[大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/27b7c958d517aa77b63b66b356c89fc0_MD5.png]]
