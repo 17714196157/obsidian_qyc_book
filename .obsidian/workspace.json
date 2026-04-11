@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "62c6a2a8d7d4735c",
+        "id": "4ed07122f9868aec",
         "type": "tabs",
         "children": [
           {
-            "id": "cab23deed7b536a1",
+            "id": "90a2728f6ea514bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
+                "file": "电子书库/思维的训练.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vllm日志中记录请求消息+响应消息"
+              "title": "思维的训练"
             }
           }
         ]
@@ -84,13 +84,11 @@
               "title": "Vertical tabs"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -192,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 521.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,8 +207,18 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "cab23deed7b536a1",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
+    "电子书库/速成微积分自习手册.md",
+    "电子书库/数学思维能力的训练.md",
+    "电子书库/英语的基本规律.md",
+    "AI应用/wsl-dashboard windows虚拟机.md",
+    "AI应用/assets/wsl-dashboard windows虚拟机/wsl-dashboard.png",
+    "AI应用/assets/wsl-dashboard windows虚拟机",
+    "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
+    "AI应用/hermes-agent.md",
+    "AI应用/opencode.md",
+    "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
     "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/27b7c958d517aa77b63b66b356c89fc0_MD5.png",
     "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/6e1562548d4f69a84c177e4a70345e7f_MD5.png",
     "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息",
@@ -220,7 +228,6 @@
     "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/vllm日志中记录的请求和响应效果.png",
     "大模型性能与部署/vLLM/assets/vllm请求日志",
     "工作交付文档/字段对接.md",
-    "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
     "未命名.base",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "大模型性能与部署/vLLM/vllm 简介.md",
@@ -237,8 +244,6 @@
     "kimi-讨论/assets/未命名",
     "未命名.md",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/附录B的图7.png",
-    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/file-20260407171930575.png",
-    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/9b70f9f50b60ff2a565b2e6648097616_MD5.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens",
     "论文解读/assets",
     "obsidian操作/obsidian插件推荐.md",
@@ -246,16 +251,9 @@
     "kimi-讨论/长文本处理场景处理方案讨论.md",
     "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
     "其他附件",
-    "论文解读/论文原文/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.pdf",
     "AI应用/vscode的插件/python调式.md",
     "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
     "AI应用/vscode的插件/cline插件.md",
-    "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
-    "电子书库/英语的基本规律.md",
-    "电子书库/数学思维能力的训练.md",
-    "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md",
-    "AI应用/hermes-agent.md",
-    "工具/切片视频制作.md",
-    "工作交付文档/vllm-issues5607-单请求vs并行请求一致性核对.md"
+    "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md"
   ]
 }
