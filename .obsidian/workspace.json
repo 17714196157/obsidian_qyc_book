@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "电子书库/思维的训练.md",
+                "file": "电子书库/英语的基本规律.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "思维的训练"
+              "title": "英语的基本规律"
             }
           }
         ]
@@ -207,8 +207,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "03ea914554650cef",
+  "active": "90a2728f6ea514bf",
   "lastOpenFiles": [
+    "电子书库/思维的训练.md",
     "电子书库/速成微积分自习手册.md",
     "电子书库/数学思维能力的训练.md",
     "电子书库/英语的基本规律.md",
@@ -253,7 +254,6 @@
     "其他附件",
     "AI应用/vscode的插件/python调式.md",
     "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
-    "AI应用/vscode的插件/cline插件.md",
-    "公众号文章/OpenClaw Windows本地部署完全指南：从零构建专属AI智能体.md"
+    "AI应用/vscode的插件/cline插件.md"
   ]
 }
