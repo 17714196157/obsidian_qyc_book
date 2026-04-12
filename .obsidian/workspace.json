@@ -80,8 +80,7 @@
               "title": "Vertical tabs"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,13 +203,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "03ea914554650cef",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
+    "电子书库/思维的训练.md",
     "电子书库/英语的基本规律.md",
     "kimi-讨论/报 案 材 料.md",
     "kimi-讨论/assets/报 案 材 料/660e213a29528c3ce31415c2d19968be_MD5.png",
     "工作交付文档/字段对接.md",
-    "电子书库/思维的训练.md",
     "电子书库/速成微积分自习手册.md",
     "电子书库/数学思维能力的训练.md",
     "AI应用/wsl-dashboard windows虚拟机.md",
