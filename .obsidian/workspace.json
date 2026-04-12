@@ -11,10 +11,14 @@
             "id": "747c4cd1da26e798",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AI应用/其他AI项目.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "其他AI项目"
             }
           }
         ]
@@ -186,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,8 +207,9 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "747c4cd1da26e798",
   "lastOpenFiles": [
+    "AI应用/其他AI项目.md",
     "电子书库/思维的训练.md",
     "电子书库/英语的基本规律.md",
     "kimi-讨论/报 案 材 料.md",
