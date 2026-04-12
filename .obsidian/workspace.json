@@ -191,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 481.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,7 +208,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "2594089867daf975",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
     "电子书库/英语的基本规律.md",
     "kimi-讨论/报 案 材 料.md",
