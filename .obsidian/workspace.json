@@ -84,7 +84,8 @@
               "title": "Vertical tabs"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -207,7 +208,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "747c4cd1da26e798",
+  "active": "2594089867daf975",
   "lastOpenFiles": [
     "python/assets/django/django中间件.png",
     "python/assets/django",
