@@ -198,7 +198,7 @@ vLLM 官方把 PD 分离标记为 experimental（实验性功能），API 随时
 
 vLLM V1 提供了基于 ExampleConnector 的离线 PD 分离，使用本地文件系统做 KV Cache 的中转：
 
-```
+```python
 Prefill 端：
 
 from vllm import LLM, SamplingParams  
@@ -206,33 +206,35 @@ from vllm.config import KVTransferConfig
   
 llm = LLM(  
 model="meta-llama/Llama-3.2-1B-Instruct",  
-enforce\_eager=True,  
-gpu\_memory\_utilization=0.8,  
-kv\_transfer\_config=KVTransferConfig(  
-kv\_connector="ExampleConnector",  
-kv\_role="kv\_both",  
-kv\_connector\_extra\_config={  
-"shared\_storage\_path": "local\_storage"  
+enforce_eager=True,  
+gpu_memory_utilization=0.8,  
+kv_transfer_config=KVTransferConfig(  
+kv_connector="ExampleConnector",  
+kv_role="kv_both",  
+kv_connector_extra_config={  
+"shared_storage_path": "local_storage"  
 },  
 ),  
 )  
-outputs = llm.generate(prompts, SamplingParams(max\_tokens=1))
+outputs = llm.generate(prompts, SamplingParams(max_tokens=1))
+
+```
 
 Decode 端（另一个进程，可以跑在另一张 GPU 上）：
-
+```python
 llm = LLM(  
 model="meta-llama/Llama-3.2-1B-Instruct",  
-enforce\_eager=True,  
-gpu\_memory\_utilization=0.8,  
-kv\_transfer\_config=KVTransferConfig(  
-kv\_connector="ExampleConnector",  
-kv\_role="kv\_both",  
-kv\_connector\_extra\_config={  
-"shared\_storage\_path": "local\_storage"  
+enforce_eager=True,  
+gpu_memory_utilization=0.8,  
+kv_transfer_config=KVTransferConfig(  
+kv_connector="ExampleConnector",  
+kv_role="kv_both",  
+kv_connector_extra_config={  
+"shared_storage_path": "local_storage"  
 },  
 ),  
 )  
-outputs = llm.generate(prompts, SamplingParams(max\_tokens=10))
+outputs = llm.generate(prompts, SamplingParams(max_tokens=10))
 ```
 \[TIP\] ExampleConnector 用本地文件系统做中转，不需要网络通信，适合单机调试。但性能最差，不适合生产。
 
@@ -253,11 +255,11 @@ outputs = llm.generate(prompts, SamplingParams(max\_tokens=10))
 
 启动 Prefill 实例：
 
-```
-CUDA\_VISIBLE\_DEVICES=0 vllm serve meta-llama/Llama-3.1-8B-Instruct  
---host 0.0.0.0 --port 8100 \ 
---max-model-len 10000 --gpu-memory-utilization 0.9 \
---kv-transfer-config \
+```bash
+CUDA_VISIBLE_DEVICES=0 vllm serve meta-llama/Llama-3.1-8B-Instruct  
+--host 0.0.0.0 --port 8100  
+--max-model-len 10000 --gpu-memory-utilization 0.9 
+--kv-transfer-config 
 '{"kv_connector":"P2pNcclConnector","kv_role":"kv_producer",  
 "kv_rank":0,"kv_parallel_size":2,"kv_buffer_size":"1e9",  
 "kv_port":"14579"}'
@@ -265,7 +267,7 @@ CUDA\_VISIBLE\_DEVICES=0 vllm serve meta-llama/Llama-3.1-8B-Instruct
 
 启动 Decode 实例：
 
-```
+```bash
 CUDA\_VISIBLE\_DEVICES=1 vllm serve meta-llama/Llama-3.1-8B-Instruct 
 --host 0.0.0.0 --port 8200 \\  
 --max-model-len 10000 --gpu-memory-utilization 0.7 \
@@ -277,9 +279,11 @@ CUDA\_VISIBLE\_DEVICES=1 vllm serve meta-llama/Llama-3.1-8B-Instruct
 
 启动代理：
 
-python3 examples/online\_serving/disaggregated\_serving/disagg\_proxy\_demo.py \\  
-\--model meta-llama/Llama-3.1-8B-Instruct \\  
-\--prefill localhost:8100 --decode localhost:8200 --port 8000
+```bash
+python3 examples/online_serving/disaggregated_serving/disagg_proxy_demo.py   
+--model meta-llama/Llama-3.1-8B-Instruct   
+--prefill localhost:8100 --decode localhost:8200 --port 8000
+```
 
 \[!\] 代理当前使用 Round-Robin 调度策略。源码中可以看到 itertools.cycle 做轮询，没有考虑实例负载。生产环境需要更智能的调度。
 
