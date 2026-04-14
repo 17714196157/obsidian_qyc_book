@@ -97,17 +97,19 @@ kv\_load\_failure\_policy: str = "fail" # KV 加载失败策略：recompute / fa
 ## 2.2 调度层：Scheduler 中的 Connector
 
 \# vllm/v1/core/sched/scheduler.py（简化）  
+```python
 class Scheduler:  
-def \_\_init\_\_(self,...):  
-if self.vllm\_config.kv\_transfer\_config is not None:  
-self.connector = KVConnectorFactory.create\_connector(  
-self.vllm\_config, role=KVConnectorRole.SCHEDULER)  
+def __init__(self,...):  
+	if self.vllm_config.kv_transfer_config is not None:  
+		self.connector = KVConnectorFactory.create_connector(  
+		self.vllm_config, role=KVConnectorRole.SCHEDULER)  
   
-def \_schedule(self,...):  
+def _schedule(self,...):  
 if self.connector:  
-num\_new\_matched\_tokens = (  
-self.connector.get\_num\_new\_matched\_tokens(request,...))  
-\# 如果远程已有部分 KV Cache，可以跳过这些 token 的计算
+	num_new_matched_tokens = (  
+	self.connector.get_num_new_matched_tokens(request,...))  
+	# 如果远程已有部分 KV Cache，可以跳过这些 token 的计算
+```
 
 调度器的工作流程：
 
