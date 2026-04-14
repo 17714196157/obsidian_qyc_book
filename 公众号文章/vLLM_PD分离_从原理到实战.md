@@ -121,6 +121,7 @@ self.connector.get\_num\_new\_matched\_tokens(request,...))
 
 ## 2.3 执行层：Worker Connector 与注意力模块
 
+```
 Prefill Worker:  
 Layer 0: 计算 Attention -> 存储 KV Cache -> 传输  
 Layer 1: 计算 Attention -> 存储 KV Cache -> 传输  
@@ -130,9 +131,10 @@ Decode Worker:
 Layer 0: 接收 KV Cache -> 加载到显存 -> 计算 Attention  
 Layer 1: 接收 KV Cache -> 加载到显存 -> 计算 Attention  
 ...
+```
 
 这种逐层传输的设计意味着 Decode 实例不需要等整个 Prefill 完成——KV Cache 可以边产生边传输，进一步降低端到端延迟。
-[[公众号文章/assets/vLLM_PD分离_从原理到实战/431f83711d37f4abb519f099f9e5db40_MD5.png|Open: file-20260414170339799.png]]
+
 ![[公众号文章/assets/vLLM_PD分离_从原理到实战/431f83711d37f4abb519f099f9e5db40_MD5.png]]
 图2：vLLM PD分离架构与数据流
 
@@ -145,8 +147,7 @@ vLLM 为 PD 分离定义了三层抽象，对应不同的实现路径：
 | Connector | 完全自定义 | 需要最大灵活性，自己管理 KV Cache 传输、模型输入编辑等 |
 | LookupBuffer | insert + drop\_select | 数据库式——插入 KV Cache，按条件取出并删除 |
 | Pipe | send\_tensor + recv\_tensor | 点对点管道——类似 torch.distributed 的 send/recv |
-
-\[!\] LookupBuffer 的 drop\_select 是阻塞操作，insert 是非阻塞的。这意味着 Decode 端会阻塞等待 KV Cache 就绪。
+ LookupBuffer 的 drop\_select 是阻塞操作，insert 是非阻塞的。这意味着 Decode 端会阻塞等待 KV Cache 就绪。
 
 ## 三、哪些场景该用 PD 分离
 
@@ -187,7 +188,7 @@ PD 分离至少需要 2 张 GPU（1 Prefill + 1 Decode）。如果你只有 1 �
 vLLM 官方把 PD 分离标记为 experimental（实验性功能），API 随时可能变化。如果你需要稳定的长期部署，建议等它正式 GA。
 
 ## 四、怎么用：三种部署模式
-[[公众号文章/assets/vLLM_PD分离_从原理到实战/dd7d25527bc86b1d4c010726ecbdc40c_MD5.png|Open: file-20260414170356698.png]]
+
 ![[公众号文章/assets/vLLM_PD分离_从原理到实战/dd7d25527bc86b1d4c010726ecbdc40c_MD5.png]]
 图4：三种部署模式概览
 
@@ -197,6 +198,7 @@ vLLM 官方把 PD 分离标记为 experimental（实验性功能），API 随时
 
 vLLM V1 提供了基于 ExampleConnector 的离线 PD 分离，使用本地文件系统做 KV Cache 的中转：
 
+```
 Prefill 端：
 
 from vllm import LLM, SamplingParams  
@@ -231,13 +233,13 @@ kv\_connector\_extra\_config={
 ),  
 )  
 outputs = llm.generate(prompts, SamplingParams(max\_tokens=10))
-
+```
 \[TIP\] ExampleConnector 用本地文件系统做中转，不需要网络通信，适合单机调试。但性能最差，不适合生产。
 
 ## 模式二：在线服务 + 代理（生产可用）
 
 适用场景：在线推理服务，需要对外暴露 API。
-[[公众号文章/assets/vLLM_PD分离_从原理到实战/5814d4cbaabfa93e5771204db432e1e2_MD5.png|Open: file-20260414170411967.png]]
+
 ![[公众号文章/assets/vLLM_PD分离_从原理到实战/5814d4cbaabfa93e5771204db432e1e2_MD5.png]]
 图3：在线服务代理转发流程
 
@@ -251,23 +253,27 @@ outputs = llm.generate(prompts, SamplingParams(max\_tokens=10))
 
 启动 Prefill 实例：
 
-CUDA\_VISIBLE\_DEVICES=0 vllm serve meta-llama/Llama-3.1-8B-Instruct \\  
-\--host 0.0.0.0 --port 8100 \\  
-\--max-model-len 10000 --gpu-memory-utilization 0.9 \\  
-\--kv-transfer-config \\  
-'{"kv\_connector":"P2pNcclConnector","kv\_role":"kv\_producer",  
-"kv\_rank":0,"kv\_parallel\_size":2,"kv\_buffer\_size":"1e9",  
-"kv\_port":"14579"}'
+```
+CUDA\_VISIBLE\_DEVICES=0 vllm serve meta-llama/Llama-3.1-8B-Instruct  
+--host 0.0.0.0 --port 8100 \ 
+--max-model-len 10000 --gpu-memory-utilization 0.9 \
+--kv-transfer-config \
+'{"kv_connector":"P2pNcclConnector","kv_role":"kv_producer",  
+"kv_rank":0,"kv_parallel_size":2,"kv_buffer_size":"1e9",  
+"kv_port":"14579"}'
+```
 
 启动 Decode 实例：
 
-CUDA\_VISIBLE\_DEVICES=1 vllm serve meta-llama/Llama-3.1-8B-Instruct \\  
-\--host 0.0.0.0 --port 8200 \\  
-\--max-model-len 10000 --gpu-memory-utilization 0.7 \\  
-\--kv-transfer-config \\  
-'{"kv\_connector":"P2pNcclConnector","kv\_role":"kv\_consumer",  
-"kv\_rank":1,"kv\_parallel\_size":2,"kv\_buffer\_size":"8e9",  
-"kv\_port":"14580"}'
+```
+CUDA\_VISIBLE\_DEVICES=1 vllm serve meta-llama/Llama-3.1-8B-Instruct 
+--host 0.0.0.0 --port 8200 \\  
+--max-model-len 10000 --gpu-memory-utilization 0.7 \
+--kv-transfer-config \
+'{"kv_connector":"P2pNcclConnector","kv_role":"kv_consumer",  
+"kv_rank":1,"kv_parallel_size":2,"kv_buffer_size":"8e9",  
+"kv_port":"14580"}'
+```
 
 启动代理：
 
@@ -343,35 +349,30 @@ MultiConnector 的用法比较特殊——它可以组合多个连接器，形�
 ## 六、编码器分离：多模态场景的特殊形态
 
 如果你的模型是视觉语言模型（VLM），vLLM 还支持编码器分离——把视觉编码器拆到独立实例：
-[[公众号文章/assets/vLLM_PD分离_从原理到实战/4d275d62cc52ecffafd3e08bbcdb4236_MD5.png|Open: file-20260414170439580.png]]
+
 ![[公众号文章/assets/vLLM_PD分离_从原理到实战/4d275d62cc52ecffafd3e08bbcdb4236_MD5.png]]
 图6：编码器分离架构
 
 配置使用 ECTransferConfig（和 KVTransferConfig 结构对称）：
 
+```
 from vllm.config import ECTransferConfig  
-  
-ec\_config = ECTransferConfig(  
-ec\_connector="ExampleConnector",  
-ec\_role="ec\_producer", # 编码器端  
-ec\_rank=0,  
-ec\_parallel\_size=2,  
+ec_config = ECTransferConfig(  
+ec_connector="ExampleConnector",  
+ec_role="ec_producer", # 编码器端  
+ec_rank=0,  
+ec_parallel_size=2,  
 )
 
+```
 编码器分离的三个独特价值：
-
 ·独立扩缩容：视觉编码器通常很轻量，语言模型很重。分开后可以按需扩缩编码器。
-
 ·降低 TTFT：纯文本请求完全跳过编码器，不用等编码器空闲。
-
 ·编码输出复用：同一张图片的编码结果可以缓存在共享存储中，任何 Worker 都能取用。
 
 ## 七、踩坑实录
-
 ## 坑1：kv\_role 忘了填
-
 报错：ValueError: Please specify kv\_role when kv\_connector is set
-
 \# 源码里的校验逻辑：  
 if self.kv\_connector is not None and self.kv\_role is None:  
 raise ValueError(...)
