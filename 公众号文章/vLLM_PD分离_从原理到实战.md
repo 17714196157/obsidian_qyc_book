@@ -318,7 +318,7 @@ vLLM 目前注册了 13 种 KV Connector，但常用的就几种：
 | OffloadingConnector | CPU 内存卸载 | 显存不足时用 CPU 缓存 | 辅助 |
 | SimpleCPUOffloadConnector | 简单 CPU 卸载 | 最简 CPU offload | 辅助 |
 | MultiConnector | 组合多个连接器 | 混合传输策略 | 实验性 |
-[[公众号文章/assets/vLLM_PD分离_从原理到实战/bb5eee09e7064d85b3de410463e421e2_MD5.png|Open: file-20260414170426163.png]]
+
 ![[公众号文章/assets/vLLM_PD分离_从原理到实战/bb5eee09e7064d85b3de410463e421e2_MD5.png]]
 图5：连接器选型对比雷达图
 
