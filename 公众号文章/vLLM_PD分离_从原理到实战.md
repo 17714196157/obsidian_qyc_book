@@ -270,8 +270,8 @@ CUDA_VISIBLE_DEVICES=0 vllm serve meta-llama/Llama-3.1-8B-Instruct
 启动 Decode 实例：
 
 ```bash
-CUDA\_VISIBLE\_DEVICES=1 vllm serve meta-llama/Llama-3.1-8B-Instruct 
---host 0.0.0.0 --port 8200 \\  
+CUDA_VISIBLE_DEVICES=1 vllm serve meta-llama/Llama-3.1-8B-Instruct 
+--host 0.0.0.0 --port 8200 \
 --max-model-len 10000 --gpu-memory-utilization 0.7 \
 --kv-transfer-config \
 '{"kv_connector":"P2pNcclConnector","kv_role":"kv_consumer",  
