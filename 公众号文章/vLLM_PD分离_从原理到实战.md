@@ -338,17 +338,19 @@ vLLM 目前注册了 13 种 KV Connector，但常用的就几种：
 
 MultiConnector 的用法比较特殊——它可以组合多个连接器，形成级联传输策略：
 
-\--kv-transfer-config '{  
-"kv\_connector":"MultiConnector",  
-"kv\_role":"kv\_both",  
-"kv\_connector\_extra\_config":{  
-"connectors":\[  
-{"kv\_connector":"NixlConnector","kv\_role":"kv\_both"},  
-{"kv\_connector":"ExampleConnector","kv\_role":"kv\_both",  
-"kv\_connector\_extra\_config":{"shared\_storage\_path":"local\_storage"}}  
-\]  
+```bash
+--kv-transfer-config '{  
+"kv_connector":"MultiConnector",  
+"kv_role":"kv_both",  
+"kv_connector_extra_config":{  
+"connectors":[  
+	{"kv_connector":"NixlConnector","kv_role":"kv_both"},  
+	{"kv_connector":"ExampleConnector","kv_role":"kv_both",  
+"kv_connector_extra_config":{"shared_storage_path":"local_storage"}}  
+]  
 }  
 }'
+```
 
 ## 六、编码器分离：多模态场景的特殊形态
 
@@ -359,7 +361,7 @@ MultiConnector 的用法比较特殊——它可以组合多个连接器，形�
 
 配置使用 ECTransferConfig（和 KVTransferConfig 结构对称）：
 
-```
+```python
 from vllm.config import ECTransferConfig  
 ec_config = ECTransferConfig(  
 ec_connector="ExampleConnector",  
