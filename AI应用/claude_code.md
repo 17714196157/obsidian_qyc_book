@@ -2,6 +2,13 @@ Claude Code 的安装配置、免登录方案以及更换底层模型为 DeepSee
 ##### 一、安装 Claude Code
 ##### 安装前准备
 ```
+# 0.安装 nvm  管理nodejs版本
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+source ~/.bashrc
+nvm install 20 # 安装 Node.js 20 的最新版本
+nvm alias default 20  # 指定具体版本
+node -v # 此时应显示 v20.x.x 等高于你之前版本的号码
+
 # 1. 先安装 Node.js（如未安装）
 # 访问 https://nodejs.org/ 下载 LTS 版本并安装
 # 2. 验证 Node.js 安装
