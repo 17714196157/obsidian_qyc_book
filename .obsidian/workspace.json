@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c6efbad61aaa0729",
+        "id": "324d6a926cc04bb2",
         "type": "tabs",
         "children": [
           {
-            "id": "90b76fd83f107f4c",
+            "id": "39a0d6ba297f731d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "公众号文章/vLLM_PD分离_从原理到实战.md",
+                "file": "AI应用/hermes-agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vLLM_PD分离_从原理到实战"
+              "title": "hermes-agent"
             }
           }
         ]
@@ -197,8 +197,13 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "90b76fd83f107f4c",
+  "active": "39a0d6ba297f731d",
   "lastOpenFiles": [
+    "AI应用/assets/hermes-agent/Hermes-AgentUI界面.png",
+    "AI应用/assets/hermes-agent",
+    "AI应用/openclaw.md",
+    "AI应用/opencode.md",
+    "公众号文章/vLLM_PD分离_从原理到实战.md",
     "公众号文章/assets/vLLM_PD分离_从原理到实战/file-20260414171600267.png",
     "公众号文章/assets/vLLM_PD分离_从原理到实战/file-20260414171556957.png",
     "公众号文章/assets/vLLM_PD分离_从原理到实战/4d275d62cc52ecffafd3e08bbcdb4236_MD5.png",
@@ -207,14 +212,12 @@
     "公众号文章/assets/vLLM_PD分离_从原理到实战/dd7d25527bc86b1d4c010726ecbdc40c_MD5.png",
     "公众号文章/assets/vLLM_PD分离_从原理到实战/431f83711d37f4abb519f099f9e5db40_MD5.png",
     "公众号文章/assets/vLLM_PD分离_从原理到实战/9d634c3d019897ad97b53a0b055179af_MD5.webp",
-    "公众号文章/vLLM_PD分离_从原理到实战.md",
     "其他附件/9d634c3d019897ad97b53a0b055179af_MD5.webp",
     "公众号文章/assets/vLLM_PD分离_从原理到实战/69648735d6dbac7a2204fdfcab2ee850_MD5.png",
     "obsidian操作/obsidian插件推荐.md",
     "公众号文章/assets/vLLM_PD分离_从原理到实战",
     "AI应用/claude_code.md",
     "AI应用/assets/claude_code",
-    "AI应用/opencode.md",
     "AI应用/vscode的插件/python调式.md",
     "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
     "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
@@ -228,7 +231,6 @@
     "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
     "AI应用/其他AI项目.md",
     "工作交付文档/assets/medclient大模型从业务请求到 VLLM 响应的全链路",
-    "工作交付文档/assets/medclient大模型从业务请求到 VLLM 响应的全链路/file-20260413164137224.png",
     "工作交付文档/assets/medclient请求日志说明",
     "工作交付文档/vllm现场请求耗时较长分享.md",
     "python/assets/django",
@@ -242,8 +244,6 @@
     "AI应用/wsl-dashboard windows虚拟机.md",
     "AI应用/assets/wsl-dashboard windows虚拟机",
     "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息",
-    "大模型性能与部署/vLLM/assets/vllm日志中记录请求+响应",
-    "大模型性能与部署/vLLM/assets/vllm请求日志",
-    "大模型性能与部署/vLLM/vLLM 超时参数.md"
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求+响应"
   ]
 }
