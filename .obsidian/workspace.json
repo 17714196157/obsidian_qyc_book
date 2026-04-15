@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.50378799438477
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -197,7 +197,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "39a0d6ba297f731d",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
     "AI应用/assets/hermes-agent/Hermes-AgentUI界面.png",
     "AI应用/assets/hermes-agent",
