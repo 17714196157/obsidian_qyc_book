@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/vLLM/openai客户端代码.md",
+                "file": "公众号文章/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "openai客户端代码"
+              "title": "5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.50378799438477
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -197,25 +197,28 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "39a0d6ba297f731d",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
-    "大模型性能与部署/vLLM/vllm 客户端代码.md",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/cc1cac76a372e2ddb495392a91eed2b7_MD5.png",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/173fda21e83f6802e9d2e81a269bdbfe_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/59ca4231d6b62f935a280e18c8f223c3_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/77b3c98760129eba256c34b4901d39c8_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/f9c1850e76f56e62947389cb53fe0666_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/511b9301df8e668a12c7000aebfdc85d_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/1aaa8e1503ff0ab8d348857143466ca0_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/f4225e24f1e945b32a5f84c2730f2ccd_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/9d9053526f4539ade2ceef676467c612_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/64ca0351ad50bb004694b4bbc1934659_MD5.webp",
+    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统",
     "大模型性能与部署/vLLM/openai客户端代码.md",
+    "公众号文章/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统.md",
+    "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "AI应用/hermes-agent.md",
     "AI应用/assets/hermes-agent/Hermes-AgentUI界面.png",
     "AI应用/assets/hermes-agent",
     "AI应用/openclaw.md",
     "AI应用/opencode.md",
     "公众号文章/vLLM_PD分离_从原理到实战.md",
-    "公众号文章/assets/vLLM_PD分离_从原理到实战/file-20260414171600267.png",
-    "公众号文章/assets/vLLM_PD分离_从原理到实战/file-20260414171556957.png",
-    "公众号文章/assets/vLLM_PD分离_从原理到实战/4d275d62cc52ecffafd3e08bbcdb4236_MD5.png",
-    "公众号文章/assets/vLLM_PD分离_从原理到实战/bb5eee09e7064d85b3de410463e421e2_MD5.png",
-    "公众号文章/assets/vLLM_PD分离_从原理到实战/5814d4cbaabfa93e5771204db432e1e2_MD5.png",
-    "公众号文章/assets/vLLM_PD分离_从原理到实战/dd7d25527bc86b1d4c010726ecbdc40c_MD5.png",
-    "公众号文章/assets/vLLM_PD分离_从原理到实战/431f83711d37f4abb519f099f9e5db40_MD5.png",
-    "公众号文章/assets/vLLM_PD分离_从原理到实战/9d634c3d019897ad97b53a0b055179af_MD5.webp",
-    "其他附件/9d634c3d019897ad97b53a0b055179af_MD5.webp",
     "obsidian操作/obsidian插件推荐.md",
     "公众号文章/assets/vLLM_PD分离_从原理到实战",
     "AI应用/claude_code.md",
@@ -240,10 +243,7 @@
     "电子书库/英语的基本规律.md",
     "kimi-讨论/报 案 材 料.md",
     "工作交付文档/字段对接.md",
-    "电子书库/速成微积分自习手册.md",
-    "电子书库/数学思维能力的训练.md",
     "AI应用/assets/wsl-dashboard windows虚拟机",
-    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息",
-    "大模型性能与部署/vLLM/assets/vllm日志中记录请求+响应"
+    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息"
   ]
 }
