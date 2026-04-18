@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
+                "file": "obsidian操作/obsidian插件推荐.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Callouts 完全指南：让你的笔记更加出色"
+              "title": "obsidian插件推荐"
             }
           }
         ]
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 420.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,13 +194,14 @@
       "obsidian-git:Open Git source control": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "templater-obsidian:Templater": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "f3c30746ccededd5",
   "lastOpenFiles": [
-    "公众号文章/assets/Obsidian Callouts 完全指南：让你的笔记更加出色",
     "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
+    "公众号文章/assets/Obsidian Callouts 完全指南：让你的笔记更加出色",
     "公众号文章/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统.md",
     "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/cc1cac76a372e2ddb495392a91eed2b7_MD5.png",
     "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/173fda21e83f6802e9d2e81a269bdbfe_MD5.webp",
@@ -243,7 +244,6 @@
     "电子书库/思维的训练.md",
     "电子书库/英语的基本规律.md",
     "kimi-讨论/报 案 材 料.md",
-    "AI应用/assets/wsl-dashboard windows虚拟机",
-    "大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息"
+    "AI应用/assets/wsl-dashboard windows虚拟机"
   ]
 }
