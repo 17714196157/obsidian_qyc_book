@@ -1,0 +1,83 @@
+{
+  "userName": "秦宇晨",
+  "permissionMode": "yolo",
+  "model": "GLM-4.7-Flash",
+  "thinkingBudget": "low",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [
+    {
+      "id": "snippet-1776527068471",
+      "name": "qq",
+      "description": "qq",
+      "envVars": "ANTHROPIC_API_KEY=a8c528fc8ec2e8a70ce98075f813cd7f.LlygWP7hvzb9hnrz\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_MODEL=GLM-4.7-Flash",
+      "scope": "provider:claude"
+    },
+    {
+      "id": "snippet-1776527599789",
+      "name": "qq2",
+      "description": "",
+      "envVars": "ANTHROPIC_AUTH_TOKEN=a8c528fc8ec2e8a70ce98075f813cd7f.LlygWP7hvzb9hnrz\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_DEFAULT_SONNET_MODEL=GLM-4.7-Flash",
+      "scope": "provider:claude"
+    }
+  ],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "enableBangBash": false,
+      "enableOpus1M": false,
+      "enableSonnet1M": false,
+      "lastModel": "haiku",
+      "environmentVariables": "ANTHROPIC_AUTH_TOKEN=a8c528fc8ec2e8a70ce98075f813cd7f.LlygWP7hvzb9hnrz\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_DEFAULT_SONNET_MODEL=GLM-4.7-Flash",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic|ANTHROPIC_DEFAULT_SONNET_MODEL=GLM-4.7-Flash"
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "installationMethodsByHost": {
+        "DESKTOP-9NVNTBC": "native-windows"
+      },
+      "wslDistroOverridesByHost": {}
+    }
+  },
+  "settingsProvider": "claude",
+  "savedProviderModel": {
+    "claude": "GLM-4.7-Flash"
+  },
+  "savedProviderEffort": {
+    "claude": "high"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderThinkingBudget": {
+    "claude": "low"
+  },
+  "lastCustomModel": "z-ai/glm-4.5-air:free",
+  "maxTabs": 3,
+  "tabBarPosition": "input",
+  "enableAutoScroll": true,
+  "openInMainTab": true,
+  "hiddenProviderCommands": {}
+}

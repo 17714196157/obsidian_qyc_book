@@ -14,8 +14,11 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 ##### 1） 资源管理
 - Custom Attachment Location 插件 ---> 插入图片时会创建一个和笔记名字一样的文件夹用于存放附件资源 assets\长文本处理场景处理方案讨论
 - Clear Unused Images 插件  ---> 删除未使用的图片资源
-- Local Images Plus 插件---> 它会自动将笔记中的外部图片链接下载到本地  ，注意配置项（通过 `Local Images Plus` 下载的，但保存路径和 `Custom Attachment Location` 的规则冲突） [[LocalmagesPlus不创建附件文件夹.png|Open: file-20260304122109507.png]]
+- Local Images Plus 插件---> 它会自动将笔记中的外部图片链接下载到本地  ，注意配置项（通过 `Local Images Plus` 下载的，但保存路径和 `Custom Attachment Location` 的规则冲突）
 ![[LocalmagesPlus不创建附件文件夹.png]]
+
+- Local REST API插件 --- 给obsidian开API接口操作obsidian笔记文本，正删改查笔记文件  https://github.com/coddingtonbear/obsidian-local-rest-api
+
 ##### 2)markdown格式辅助
 - Linter   插件 --->  格式化空格 空行
 - Mind Map  插件 --->  markdown转思维导图
@@ -30,6 +33,20 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 
 ##### 5）界面操作优化
 Vertical Tabs--->垂直标签页管理插件,支持快捷分屏、关闭、钉住等操作
+
+6） AI插件
+claudian插件 --->让 AI 像你的“协作编辑”一样，直接在笔记里帮你干活，github.com/YishenTu/claudian 下载
+tips： 和claude code一样配置大模型， 国内大模型平台的配置参数名都不一样，需要去官网查看
+以智谱AI为例:
+![[智谱AI网站配置.png]]
+
+claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名:
+![[claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名.png]]
+
+
+
+
+
 
 ### 微信公众号文章同步方法
 ##### 1.开源浏览器插件：文章下载器（纯本地，最安全）
