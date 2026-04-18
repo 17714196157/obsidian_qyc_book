@@ -34,7 +34,7 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 ##### 5）界面操作优化
 Vertical Tabs--->垂直标签页管理插件,支持快捷分屏、关闭、钉住等操作
 
-6） AI插件
+##### 6） AI插件
 claudian插件 --->让 AI 像你的“协作编辑”一样，直接在笔记里帮你干活，github.com/YishenTu/claudian 下载
 tips： 和claude code一样配置大模型， 国内大模型平台的配置参数名都不一样，需要去官网查看
 以智谱AI为例:
@@ -42,10 +42,10 @@ tips： 和claude code一样配置大模型， 国内大模型平台的配置参
 
 claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名:
 ![[claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名.png]]
-
-
-
-
+安装claude 需要的skill
+下载无关obsidian的skill（https://github.com/kepano/obsidian-skills），放在对应文件夹下
+![[obsidian-skills.png]]
+![[claudian对话界面.png]]
 
 
 ### 微信公众号文章同步方法
