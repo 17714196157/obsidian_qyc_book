@@ -257,3 +257,12 @@ root@maizi:/home/qyc/gitee/MediaCrawler/data/bili/jsonl# ls
 creator_comments_2026-04-21.jsonl  creator_contents_2026-04-21.jsonl  creator_creators_2026-04-21.jsonl
 
 ```
+### 三） 网页工具
+**抖音热点宝:**  https://douhot.douyin.com
+
+**飞瓜数据B站版**：
+老牌的数据分析平台，功能很全面。提供热门视频、UP主涨粉等榜单，可以按分区、时间等维度筛选，支持实时监测视频数据变化和竞品对比
+https://bz.feigua.cn/member#/ContentV2/WorkBench
+
+**新榜有数**：覆盖B站、抖音、小红书等多平台，提供爆款内容榜和热门话题数据，适合进行跨平台的内容趋势分析
+https://www.newrank.cn
