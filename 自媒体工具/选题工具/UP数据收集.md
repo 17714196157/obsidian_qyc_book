@@ -240,7 +240,8 @@ uv run playwright install
 启动： uv run uvicorn api.main:app --host 0.0.0.0 --port 1212 --reload
 ![[MediaCrawler.png]]
 界面上需要输入关注的up的账号 和 cookie值
-
+选择输出文件格式 csv 或者 json， 占时不支持excel
+![[任务结束日志.png]]
 配置项：
 ```bash
 /home/qyc/gitee/MediaCrawler/config# cat bilibili_config.py
