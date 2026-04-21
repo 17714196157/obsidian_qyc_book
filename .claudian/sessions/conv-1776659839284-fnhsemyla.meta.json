@@ -4,13 +4,12 @@
   "title": "结构化这篇笔记",
   "titleGenerationStatus": "failed",
   "createdAt": 1776659839324,
-  "updatedAt": 1776660323880,
-  "lastResponseAt": 1776660298086,
+  "updatedAt": 1776769205160,
+  "lastResponseAt": 1776769205160,
   "sessionId": "e35f400d-583f-40d4-910f-514b12f47193",
   "providerState": {
     "providerSessionId": "e35f400d-583f-40d4-910f-514b12f47193"
   },
-  "currentNote": "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
   "usage": {
     "model": "GLM-4.7-Flash",
     "inputTokens": 0,
