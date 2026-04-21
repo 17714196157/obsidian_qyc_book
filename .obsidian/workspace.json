@@ -20,19 +20,8 @@
               "icon": "lucide-file",
               "title": "长文总结：近一年 Agent 自进化的两大方向和四大趋势"
             }
-          },
-          {
-            "id": "f29ac31c97a79ef4",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,7 +199,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "f29ac31c97a79ef4",
+  "active": "c173e9bd5d331436",
   "lastOpenFiles": [
     "Agent 自进化.md",
     "公众号文章/长文总结：近一年 Agent 自进化的两大方向和四大趋势.md",
