@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6115b2a6dae17861",
+        "id": "b08df4fcbf766194",
         "type": "tabs",
         "children": [
           {
-            "id": "f178c5c4702da369",
+            "id": "313c3e468475d476",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/hermes-agent.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "hermes-agent"
+              "title": "新标签页"
             }
           }
         ]
@@ -180,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 217.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,10 +195,11 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "f178c5c4702da369",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
-    "AI应用/LLM Wiki知识库.md",
     "AI应用/hermes-agent.md",
+    "AI应用/assets/hermes-agent/951a64846f159cab71e6d9e531d2cfbc_MD5.png",
+    "AI应用/LLM Wiki知识库.md",
     "公众号文章/Hermes Agent 配置微信通道：接入个人微信的避坑指南.md",
     "AI应用/openclaw.md",
     "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
@@ -235,7 +232,6 @@
     "公众号文章/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统.md",
     "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/cc1cac76a372e2ddb495392a91eed2b7_MD5.png",
     "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/173fda21e83f6802e9d2e81a269bdbfe_MD5.webp",
-    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/59ca4231d6b62f935a280e18c8f223c3_MD5.webp",
     "大模型性能与部署/vLLM/openai客户端代码.md",
     "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "AI应用/opencode.md",
@@ -245,7 +241,6 @@
     "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
     "AI应用/AI绘画/stable-diffusion-webui.md",
     "AI应用/AI绘画/如何写AI绘画提示词.md",
-    "AI应用/AI绘画/ComfyUI-本体.md",
-    "工作交付文档/medclient大模型从业务请求到 VLLM 响应的全链路.md"
+    "AI应用/AI绘画/ComfyUI-本体.md"
   ]
 }

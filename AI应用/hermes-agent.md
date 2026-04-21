@@ -36,6 +36,7 @@ Hermes 通过腾讯的 **iLink Bot API** 接入微信，用的是长轮询（l
 ```bash
 hermes gateway setup
 ```
+![[951a64846f159cab71e6d9e531d2cfbc_MD5.png]]
 选「Weixin」，向导会：
 1. 请求 iLink Bot API 的二维码
 2. 在终端显示二维码（或提供 URL）
@@ -57,7 +58,6 @@ WEIXIN_GROUP_ALLOWED_USERS=group_id_1
 # 可选：首页频道（收到 cron 通知的地方）
 WEIXIN_HOME_CHANNEL=chat_id
 WEIXIN_HOME_CHANNEL_NAME=Home
-bash123456789101112
 ```
 - Step 3: 启动 Gateway
 ```bash
