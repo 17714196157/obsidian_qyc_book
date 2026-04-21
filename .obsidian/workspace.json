@@ -11,10 +11,14 @@
             "id": "f178c5c4702da369",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AI应用/hermes-agent.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "hermes-agent"
             }
           }
         ]
@@ -197,6 +201,11 @@
   },
   "active": "f178c5c4702da369",
   "lastOpenFiles": [
+    "AI应用/LLM Wiki知识库.md",
+    "AI应用/hermes-agent.md",
+    "公众号文章/Hermes Agent 配置微信通道：接入个人微信的避坑指南.md",
+    "AI应用/openclaw.md",
+    "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "工作交付文档/assets/长文总结：近一年 Agent 自进化的两大方向和四大趋势/file-20260421201708830.webp",
     "工作交付文档/长文总结：近一年 Agent 自进化的两大方向和四大趋势.md",
@@ -229,8 +238,6 @@
     "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/59ca4231d6b62f935a280e18c8f223c3_MD5.webp",
     "大模型性能与部署/vLLM/openai客户端代码.md",
     "大模型性能与部署/vLLM/vllm 客户端代码.md",
-    "AI应用/hermes-agent.md",
-    "AI应用/openclaw.md",
     "AI应用/opencode.md",
     "公众号文章/vLLM_PD分离_从原理到实战.md",
     "AI应用/vscode的插件/python调式.md",
@@ -239,9 +246,6 @@
     "AI应用/AI绘画/stable-diffusion-webui.md",
     "AI应用/AI绘画/如何写AI绘画提示词.md",
     "AI应用/AI绘画/ComfyUI-本体.md",
-    "工作交付文档/medclient大模型从业务请求到 VLLM 响应的全链路.md",
-    "python/django.md",
-    "大模型性能与部署/vLLM/vllm参数含义与原理.md",
-    "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md"
+    "工作交付文档/medclient大模型从业务请求到 VLLM 响应的全链路.md"
   ]
 }
