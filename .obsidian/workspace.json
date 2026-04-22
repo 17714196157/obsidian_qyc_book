@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/claude_code.md",
+                "file": "AI应用/LLM Wiki知识库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude_code"
+              "title": "LLM Wiki知识库"
             }
           },
           {
@@ -211,10 +211,14 @@
   },
   "active": "313c3e468475d476",
   "lastOpenFiles": [
+    "AI应用/assets/LLM Wiki知识库/95d9f98c331928a7ce51c3b55df80648_MD5.png",
+    "AI应用/assets/LLM Wiki知识库/LLM Wiki知识库展示.png",
+    "AI应用/assets/LLM Wiki知识库",
+    "AI应用/Oh-My-OpenCode 完全指南.md",
+    "AI应用/claude_code.md",
     "obsidian操作/obsidian插件推荐.md",
     "AI应用/LLM Wiki知识库.md",
     "AI应用/hermes-agent.md",
-    "AI应用/claude_code.md",
     "工作交付文档/长文总结：近一年 Agent 自进化的两大方向和四大趋势.md",
     "AI应用/assets/hermes-agent/951a64846f159cab71e6d9e531d2cfbc_MD5.png",
     "公众号文章/Hermes Agent 配置微信通道：接入个人微信的避坑指南.md",
@@ -242,10 +246,8 @@
     "obsidian操作/assets/obsidian插件推荐/智谱AI网站配置.png",
     "Bilibili",
     "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
-    "公众号文章/assets/Obsidian Callouts 完全指南：让你的笔记更加出色",
     "公众号文章/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统.md",
     "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/cc1cac76a372e2ddb495392a91eed2b7_MD5.png",
-    "公众号文章/assets/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统/173fda21e83f6802e9d2e81a269bdbfe_MD5.webp",
     "大模型性能与部署/vLLM/openai客户端代码.md",
     "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "AI应用/opencode.md",
@@ -254,7 +256,6 @@
     "AI应用/vscode的插件/Markmap-markdown转思维导图.md",
     "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
     "AI应用/AI绘画/stable-diffusion-webui.md",
-    "AI应用/AI绘画/如何写AI绘画提示词.md",
-    "AI应用/AI绘画/ComfyUI-本体.md"
+    "AI应用/AI绘画/如何写AI绘画提示词.md"
   ]
 }
