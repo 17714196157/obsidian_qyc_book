@@ -55,7 +55,7 @@ C:\Users\你的用户名\.claude.json
 ```
 
 配置 DeepSeek 作为底层模型
-DeepSeek 提供与 Anthropic API 兼容的接口，只需设置环境变量即可切换 ：
+DeepSeek 提供与 **Anthropic API 兼容的接口**（需要参考大模型服务商官网文档，变量名有区别，url也不一样），只需设置环境变量即可切换 ：
 ```
 # 创建目录
 mkdir C:\Users\你的用户名\.claude
@@ -64,11 +64,18 @@ mkdir C:\Users\你的用户名\.claude
 ```json
 { 
   "hasCompletedOnboarding": true,
+
   "env": {
-    "ANTHROPIC_BASE_URL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
-    "ANTHROPIC_AUTH_TOKEN": "sk-b5e02d8f907b42f98044391e97f854ab",
-    "ANTHROPIC_MODEL": "deepseek-v3"
-  }
+  "ANTHROPIC_AUTH_TOKEN": "sk-b5e02d8f907b42f98044391e97f854ab",
+    "ANTHROPIC_BASE_URL": "https://coding.dashscope.aliyuncs.com/apps/anthropic",
+        "ANTHROPIC_MODEL": "deepseek-v3",
+        "ANTHROPIC_SMALL_FAST_MODEL": "deepseek-v3",
+        "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v3",
+        "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v3",
+        "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v3",
+        "CLAUDE_CODE_SUBAGENT_MODEL": "deepseek-v3"
+  },
+
 }
 ```
 验证当前模型：
