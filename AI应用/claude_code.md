@@ -58,28 +58,26 @@ C:\Users\你的用户名\.claude.json
 DeepSeek 提供与 **Anthropic API 兼容的接口**（需要参考大模型服务商官网文档，变量名有区别，url也不一样），只需设置环境变量即可切换 ：
 ```
 # 创建目录
-mkdir C:\Users\你的用户名\.claude
+mkdir C:\Users\你的用户名\.claude.json
 ```
-写入内容：
-```json
-{ 
-  "hasCompletedOnboarding": true,
-
+写入内容：**以阿里云百炼为例，说明如何查询配置** 
+![[阿里云百炼如何配置cluadecode.png]]
+```bash
+C:\Users\86177\.claude.json
+  { 
+  "hasCompletedOnboarding": true
   "env": {
-  "ANTHROPIC_AUTH_TOKEN": "sk-b5e02d8f907b42f98044391e97f854ab",
-    "ANTHROPIC_BASE_URL": "https://coding.dashscope.aliyuncs.com/apps/anthropic",
-        "ANTHROPIC_MODEL": "deepseek-v3",
-        "ANTHROPIC_SMALL_FAST_MODEL": "deepseek-v3",
-        "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v3",
-        "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v3",
-        "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v3",
-        "CLAUDE_CODE_SUBAGENT_MODEL": "deepseek-v3"
+    "ANTHROPIC_AUTH_TOKEN": "sk-d98a7434af1f4641921b8af02e175499",
+    "ANTHROPIC_BASE_URL": "https://dashscope.aliyuncs.com/apps/anthropic",
+    "ANTHROPIC_MODEL": "qwen3.6-plus"
   },
 
 }
 ```
+
 验证当前模型：
 ```
 /status
 ```
 或在对话中询问："你现在使用的是什么模型？"
+![[claudecode登录界面.png]]

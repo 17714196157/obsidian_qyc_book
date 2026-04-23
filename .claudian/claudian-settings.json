@@ -1,7 +1,7 @@
 {
   "userName": "秦宇晨",
   "permissionMode": "yolo",
-  "model": "GLM-4.7-Flash",
+  "model": "qwen3.6-plus",
   "thinkingBudget": "low",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -21,10 +21,10 @@
       "scope": "provider:claude"
     },
     {
-      "id": "snippet-1776527599789",
-      "name": "qq2",
-      "description": "",
-      "envVars": "ANTHROPIC_AUTH_TOKEN=a8c528fc8ec2e8a70ce98075f813cd7f.LlygWP7hvzb9hnrz\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_DEFAULT_SONNET_MODEL=GLM-4.7-Flash",
+      "id": "snippet-1776952053921",
+      "name": "阿里百炼",
+      "description": "阿里百炼",
+      "envVars": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_API_KEY=sk-d98a7434af1f4641921b8af02e175499\nANTHROPIC_MODEL=qwen3.6-plus",
       "scope": "provider:claude"
     }
   ],
@@ -46,8 +46,8 @@
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_AUTH_TOKEN=a8c528fc8ec2e8a70ce98075f813cd7f.LlygWP7hvzb9hnrz\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_DEFAULT_SONNET_MODEL=GLM-4.7-Flash",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic|ANTHROPIC_DEFAULT_SONNET_MODEL=GLM-4.7-Flash"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_API_KEY=sk-d98a7434af1f4641921b8af02e175499\nANTHROPIC_MODEL=qwen3.6-plus",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic|ANTHROPIC_MODEL=qwen3.6-plus"
     },
     "codex": {
       "enabled": false,
@@ -65,7 +65,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "GLM-4.7-Flash"
+    "claude": "qwen3.6-plus"
   },
   "savedProviderEffort": {
     "claude": "high"
@@ -74,7 +74,7 @@
   "savedProviderThinkingBudget": {
     "claude": "low"
   },
-  "lastCustomModel": "z-ai/glm-4.5-air:free",
+  "lastCustomModel": "GLM-4.7-Flash",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

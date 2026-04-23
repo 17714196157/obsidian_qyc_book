@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了 1.md",
+                "file": "AI应用/claude_code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vLLM离线推理很好用，不要再批量调用在线服务了 1"
+              "title": "claude_code"
             }
           }
         ]
@@ -201,10 +201,14 @@
   },
   "active": "313c3e468475d476",
   "lastOpenFiles": [
+    "AI应用/assets/claude_code/claudecode登录界面.png",
+    "AI应用/assets/claude_code/file-20260423220846002.png",
+    "AI应用/assets/claude_code/阿里云百炼如何配置cluadecode.png",
+    "AI应用/assets/claude_code/b6119ca0f8ee4a6d8182e66610568f86_MD5.svg",
+    "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了 1.md",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1/1e58ef1e26189443e67985c3c7a1a2de_MD5.webp",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
     "AI应用/LLM Wiki知识库.md",
-    "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了 1.md",
     "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了.md",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了/1e58ef1e26189443e67985c3c7a1a2de_MD5.webp",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了",
@@ -228,7 +232,6 @@
     "自媒体工具/选题工具/UP数据收集.md",
     "公众号文章/assets/长文总结：近一年 Agent 自进化的两大方向和四大趋势",
     "自媒体工具/选题工具/assets/UP数据收集/任务结束日志.png",
-    "自媒体工具/选题工具/assets/UP数据收集/MediaCrawler.png",
     "自媒体工具/选题工具/assets/UP数据收集",
     "自媒体工具/选题工具/assets",
     "自媒体工具/选题工具",
@@ -236,9 +239,6 @@
     "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
     "Bilibili/assets/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？",
     "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
-    "obsidian操作/assets/obsidian插件推荐/claudian对话界面.png",
-    "obsidian操作/assets/obsidian插件推荐/obsidian-skills.png",
-    "obsidian操作/assets/obsidian插件推荐/claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名.png",
     "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
     "公众号文章/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统.md",
     "大模型性能与部署/vLLM/openai客户端代码.md",
