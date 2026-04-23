@@ -14,14 +14,22 @@ git -v   # 输出：git version x.xx.x
 ```
 #### 2. 安装quartz
 ```bash
+
+root@maizi:/home/qyc/gitee/quartz# nvm install 22
+Downloading and installing node v22.22.2...
+Checksums matched!
+Now using node v22.22.2 (npm v10.9.7)
+root@maizi:/home/qyc/gitee/quartz# nvm use 22
+Now using node v22.22.2 (npm v10.9.7)
+
 # 克隆Quartz远程仓库
 git clone https://github.com/jackyzha0/quartz.git
 # 进入quartz目录
 cd quartz
 # 安装相关依赖
 npm i
-# 构建quartz
-npx quartz build --serve
+# 构建quartz，启动web服务
+npx quartz build --serve  
 ```
 #### 3. quartz 配置
 打开 `quartz` 根目录文件夹，找到 `quartz.config.ts` 即可开始编辑。
@@ -79,6 +87,7 @@ git checkout 分支名
 这里也可以只把页面部署到 GitHub Pages，或不通过 GitHub 直接部署到 Cloudflare Pages。选择现在 GitHub 构建仓库再推送到 Cloudflare Pages 是因为 GitHub 可以对代码进行追踪管理，Cloudflare Pages 的页面优化做得更好。
 - 登陆cloudflare账号
 - 左侧菜单栏选择computer(workers)⇒workers 和pages
+![[obsidian操作/assets/obsidian做个人博客/1e47f939c6468b64d46b3cb41e2644ee_MD5.png]]
 - 创建pages并连结到git
 - 授权验证后选择对应仓库
 - 保存并部署
