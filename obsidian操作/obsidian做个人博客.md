@@ -1,0 +1,130 @@
+## obsidian+quartz+个人博客
+
+如何简单快速将obsidian笔记部署为个人博客
+
+---
+### quartz方案步骤
+#### 1. 安装依赖
+[node.js](https://nodejs.org/zh-cn/download) 、[git](https://git-scm.com/install/) 然后进入系统终端检查是否安装成功
+```bash
+# 检查Node版本
+node -v  # 输出：v20.x.x
+# 检查Git安装是否成功
+git -v   # 输出：git version x.xx.x
+```
+#### 2. 安装quartz
+```bash
+# 克隆Quartz远程仓库
+git clone https://github.com/jackyzha0/quartz.git
+# 进入quartz目录
+cd quartz
+# 安装相关依赖
+npm i
+# 构建quartz
+npx quartz build --serve
+```
+#### 3. quartz 配置
+打开 `quartz` 根目录文件夹，找到 `quartz.config.ts` 即可开始编辑。
+- `pageTitle` ：站点名称。
+- `locale` ：指定站点语言。如中文就可以设置为 `zh-CN`.
+- `baseUrl` ：改为自己的网址。
+
+#### 4. github配置
+- 登陆自己的github账号新建一个仓库
+	> **不要使用”README”、.gitignore、license** 。Quartz 有自己的 git 设定方式勾选了会导致功能异常
+- 获得仓库链接，类似：`git@github.com:xxxx/test.git`
+- 通过 SSH 连接远程仓库
+```bash
+# 检查自己是否已经有 SSH 密钥
+ls ~/.ssh
+
+# 生成 SSH 密钥
+ssh-keygen -t ed25519 -C "你的邮箱"
+
+# 把公钥复制出来
+cat ~/.ssh/id_ed25519.pub
+```
+会输出一长串：`ssh-ed25519 AAAAC……你的公钥…… 你的主机名`，选中并复制。
+把公钥添加到你的 GitHub 平台：**Settings → SSH and GPG Keys → New SSH Key**
+测试 SSH 是否成功：
+```bash
+ssh -T git@github.com
+```
+看到提示类似： `Hi jadyZ! You've successfully authenticated` 就成功了! 连接自己的远程仓库
+```bash
+# 把REMOTE-URL改为自己的github仓库链接
+git remote set-url origin REMOTE-URL
+
+# 查看是否修改成功
+git remote -v
+
+# 将内容推送到远程仓库
+npx quartz sync --no-pull
+```
+```bash
+# 查看分支
+git branch
+
+# 拉取远程分支信息
+git fetch origin
+
+# 本地切换到 main 并跟踪远程
+git checkout -b main origin/main
+
+# 切换到不同分支
+git checkout 分支名
+```
+
+#### 5. cloudflare pages
+这里也可以只把页面部署到 GitHub Pages，或不通过 GitHub 直接部署到 Cloudflare Pages。选择现在 GitHub 构建仓库再推送到 Cloudflare Pages 是因为 GitHub 可以对代码进行追踪管理，Cloudflare Pages 的页面优化做得更好。
+- 登陆cloudflare账号
+- 左侧菜单栏选择computer(workers)⇒workers 和pages
+- 创建pages并连结到git
+- 授权验证后选择对应仓库
+- 保存并部署
+
+> [!warning] 构建配置
+> - 构建命令：`npx quartz build`
+> - 输出目录：`public`
+
+- 如果自己有域名可以更改为自己的域名
+
+#### 6. 页面发布
+**常用命令含义：**
+```bash
+# 可以push并构建，不会改变本地obsidian主题
+npx quartz sync --no-pull
+# 可以push并构建，但是会改变本地obsidian主题
+npx quartz sync
+# 只构建不push
+npx quartz build
+# 可以在本地端口预览调试
+npx quartz build --serve
+# 手动同步本地仓库并sync
+~/github-push.sh
+# 书籍/电影更新时重新生成.json文件
+npm run generate-all
+```
+
+#### 7. 本地预览 + 监听
+```bash
+# 会先跑generate-all
+npm run serve
+# 不会跑 generate-all
+npx quartz build --serve
+```
+
+#### 8. 定时任务
+```bash
+# 查看一共有哪些定时任务
+crontab -l
+# 查看脚本内容
+cat ~/github-push.sh
+cat ~/auto-git-all-in.sh
+# 查看日志
+cat ~/auto-git-all-in.log
+# 编辑脚本
+nano ~/auto-git-all-in.sh
+# 执行脚本
+~/github-push.sh
+```

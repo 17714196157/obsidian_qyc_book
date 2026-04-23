@@ -8,20 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e2a555dd4c77e51",
+            "id": "8ce732a109756476",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "d1965e3c6e550970",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/LLM Wiki知识库.md",
+                "file": "obsidian操作/obsidian做个人博客.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM Wiki知识库"
+              "title": "obsidian做个人博客"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 229.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -199,8 +210,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "2e2a555dd4c77e51",
+  "active": "d1965e3c6e550970",
   "lastOpenFiles": [
+    "公众号文章/1.个人博客-obsidian+quartz--Why Z 1.md",
+    "公众号文章/1.个人博客-obsidian+quartz--Why Z.md",
+    "obsidian操作/obsidian做个人博客.md",
+    "公众号文章/assets/1.个人博客-obsidian+quartz--Why Z",
+    "AI应用/LLM Wiki知识库.md",
     "AI应用/assets/LLM Wiki知识库/llm-wiki.png",
     "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
@@ -213,7 +229,6 @@
     "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了 1.md",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1/1e58ef1e26189443e67985c3c7a1a2de_MD5.webp",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
-    "AI应用/LLM Wiki知识库.md",
     "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了.md",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了/1e58ef1e26189443e67985c3c7a1a2de_MD5.webp",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了",
@@ -227,7 +242,6 @@
     "AI应用/assets/hermes-agent/951a64846f159cab71e6d9e531d2cfbc_MD5.png",
     "公众号文章/Hermes Agent 配置微信通道：接入个人微信的避坑指南.md",
     "AI应用/openclaw.md",
-    "工作交付文档/assets/长文总结：近一年 Agent 自进化的两大方向和四大趋势/file-20260421201708830.webp",
     "工作交付文档/assets/长文总结：近一年 Agent 自进化的两大方向和四大趋势",
     "Agent 自进化.md",
     "自媒体工具/选题工具/UP数据收集.md",
@@ -237,15 +251,12 @@
     "自媒体工具/选题工具",
     "自媒体工具",
     "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
-    "Bilibili/assets/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？",
     "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
     "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
     "公众号文章/5分钟复刻 Andrej Karpathy 的 LLM Wiki：用 Obsidian + Agent 把剪藏、消化、查询连成一个会持续进化的知识系统.md",
     "大模型性能与部署/vLLM/openai客户端代码.md",
     "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "AI应用/opencode.md",
-    "公众号文章/vLLM_PD分离_从原理到实战.md",
-    "AI应用/vscode的插件/python调式.md",
-    "AI应用/vscode的插件/Markmap-markdown转思维导图.md"
+    "公众号文章/vLLM_PD分离_从原理到实战.md"
   ]
 }
