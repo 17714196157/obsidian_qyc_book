@@ -170,3 +170,10 @@ a//root/wiki/log.md → b//root/wiki/log.md
     /home/qyc/hermes_work/queries/meeting-report-think-deep.md
 
 ```
+##### hermes 直接设置 wiki 路径
+```bash
+hermes config set skills.config.wiki.path ~/root/wiki
+hermes config show  # 查看配置修改情况
+```
+配置文件路径 `~/.hermes/config.yaml`
+**登录 hermes， 输入 /llm-wiki 切换当希望配置的仓库**
