@@ -29,3 +29,114 @@
 ### Karpathy 真实工具栈：
 ![[AI应用/assets/LLM Wiki知识库/95d9f98c331928a7ce51c3b55df80648_MD5.png]]
 
+
+
+### 创建 LLM wiki 示例的hermes过程日志
+```
+
++- 数据：dataset, preprocessing, augmentation
++- 机构：company, lab, open-source
++- 人物：researcher, engineer
++
++## Page Thresholds
++- 创建新页面：当实体/概念出现在 2+ 篇论文中，或是一篇论文的核心主题。
++- 避免为次要提及创建页面。
+  ╎ ✍️  write     /root/wiki/index.md  0.6s
+  ┊ review diff
+a//root/wiki/index.md → b//root/wiki/index.md
+@@ -0,0 +1,13 @@
++# Wiki Index
++
++> 大模型微调知识库目录
++> 最后更新：YYYY-MM-DD | 总页数：0
++
++## Entities
++<!-- 按字母顺序排列 -->
++
++## Concepts
++
++## Comparisons
++
++## Queries
+  ╎ ✍️  write     /root/wiki/log.md  0.6s
+  ┊ review diff
+a//root/wiki/log.md → b//root/wiki/log.md
+@@ -0,0 +1,5 @@
++# Wiki Log
++
++## [2026-04-22] create | 知识库初始化
++- 领域：大模型微调技术
++- 结构已创建：SCHEMA.md, index.md, log.md
+
+╭─ ⚔ Ares ─────────────────────────────────────────────────────────────────────────────────────────────── ─────────────────────────────────────────────────────────────────────────────────────────────────╮
+    已成功创建大模型微调论文知识库，结构如下：
+
+    ```
+    /root/wiki/
+    ├── SCHEMA.md          # 知识库的领域定义、约定和标签分类
+    ├── index.md          # 内容目录
+    ├── log.md            # 操作日志
+    ├── raw/papers/       # 存储原始论文文件
+    ├── entities/         # 实体页面（模型、机构、人物等）
+    ├── concepts/         # 概念页面（技术、方法等）
+    ├── comparisons/      # 对比分析
+    └── queries/          # 有价值的查询结果
+    ```
+
+    ### 下一步建议：
+    1. **添加论文**：将论文 PDF 或 Markdown 文件放入 `/root/wiki/raw/papers/`，然后使用 `ingest` 流程提取信息。
+    2. **查询知识库**：直接提问关于大模型微调的问题，我会从知识库中检索并合成答案。
+    3. **定期维护**：运行 `lint` 检查知识库的一致性。
+
+.......................... 此处省略我要求大模型 下载指定文章
+ 
+//home/qyc/hermes_work/log.md → b//home/qyc/hermes_work/log.md
+@@ -9,3 +9,10 @@
+ - 领域：大语言模型训练与应用
+ - 创建结构：SCHEMA.md, index.md, log.md
+ - 目录：raw/{articles,papers,transcripts,assets}, entities, concepts, comparisons, queries
++
++## [2026-04-23] ingest | Think Deep, Not Just Long (arXiv 2602.13517)
++- 来源：https://arxiv.org/pdf/2602.13517
++- 保存原文：raw/articles/2602-13517-think-deep-not-just-long.md, raw/articles/2602-13517-think-deep-not-just-long.html
++- 创建实体页：entities/gpt-oss.md, entities/deepseek-r1.md, entities/qwen3.md
++- 创建概念页：concepts/deep-thinking-ratio.md, concepts/llm-overthinking.md, concepts/test-time-scaling.md, concepts/think-at-n.md, concepts/chain-of-thought.md
++- 更新：index.md (7 页面)
+  ┊ 📋 preparing todo…
+  ╎ 📋 plan      9 task(s)  0.0s
+
+╭─ ⚔ Ares ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+    论文已成功摄入知识库！
+
+    **论文信息：**
+    - 标题：Think Deep, Not Just Long: Measuring LLM Reasoning Effort via Deep-Thinking Tokens
+    - 来源：arXiv 2602.13517 (2026-02-13)
+    - 作者：Wei-Lin Chen, Liqian Peng, Tian Tan, et al. (University of Virginia, Google)
+
+    **创建/更新的文件：**
+
+    ```
+    raw/articles/2602-13517-think-deep-not-just-long.md  (原文摘要)
+    raw/articles/2602-13517-think-deep-not-just-long.html (HTML 原文)
+
+    entities/gpt-oss.md
+    entities/deepseek-r1.md
+    entities/qwen3.md
+
+    concepts/deep-thinking-ratio.md   (核心概念)
+    concepts/llm-overthinking.md      (过度推理现象)
+    concepts/test-time-scaling.md     (推理时扩展)
+    concepts/think-at-n.md            (基于 DTR 的策略)
+    concepts/chain-of-thought.md      (CoT 范式)
+
+    index.md  (已更新，7 页)
+    log.md    (已追加)
+    ```
+    **论文核心发现：**
+    1. 输出 token 数与准确率负相关 (r = -0.544) -- 越长越差
+    2. Deep-Thinking Ratio (DTR) 与准确率强正相关 (r = +0.828) -- 越 "深" 越好
+    3. Think@n 策略：基于 DTR 早期筛选，在保持准确率的同时减少约 50% 推理成本
+    要我继续摄入更多来源，或者对这个 wiki 做任何调整？
+╰───────────────────────────────────────────────────────
+
+```
