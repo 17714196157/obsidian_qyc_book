@@ -37,10 +37,10 @@ Vertical Tabs--->垂直标签页管理插件,支持快捷分屏、关闭、钉�
 ##### 6） AI插件
 claudian插件 --->让 AI 像你的“协作编辑”一样，直接在笔记里帮你干活，github.com/YishenTu/claudian 下载
 tips： 和claude code一样配置大模型， 国内大模型平台的配置参数名都不一样，需要去官网查看
-以智谱AI为例:
+ **以智谱AI为例:** 
 ![[智谱AI网站配置.png]]
 
-claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名:
+**claude接口兼容需要注意：：大模型服务商官网查看claude配置 与 支持的模型名称**
 ![[claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名.png]]
 安装claude 需要的skill
 下载无关obsidian的skill（https://github.com/kepano/obsidian-skills），放在对应文件夹下
