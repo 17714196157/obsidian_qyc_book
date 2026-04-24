@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian操作/obsidian做个人博客-没能成功.md",
+                "file": "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "obsidian做个人博客-没能成功"
+              "title": "Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens"
             }
           }
         ]
@@ -201,9 +201,10 @@
   },
   "active": "e23d3af1899cab96",
   "lastOpenFiles": [
+    "AI应用/hermes-agent.md",
+    "obsidian操作/obsidian做个人博客-没能成功.md",
     "obsidian操作/assets/obsidian做个人博客-没能成功",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
-    "obsidian操作/obsidian做个人博客-没能成功.md",
     "obsidian操作/assets/obsidian做个人博客-没能成功/file-20260424092404189.png",
     "obsidian操作/assets/obsidian做个人博客",
     "公众号文章/1.个人博客-obsidian+quartz--Why Z 1.md",
@@ -225,7 +226,6 @@
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了/1e58ef1e26189443e67985c3c7a1a2de_MD5.webp",
     "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了",
     "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
-    "AI应用/hermes-agent.md",
     "AI应用/assets/LLM Wiki知识库/95d9f98c331928a7ce51c3b55df80648_MD5.png",
     "AI应用/assets/LLM Wiki知识库/LLM Wiki知识库展示.png",
     "AI应用/assets/LLM Wiki知识库",
@@ -239,7 +239,6 @@
     "公众号文章/assets/长文总结：近一年 Agent 自进化的两大方向和四大趋势",
     "自媒体工具/选题工具/assets/UP数据收集",
     "自媒体工具/选题工具/assets",
-    "自媒体工具/选题工具",
     "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
     "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
     "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
