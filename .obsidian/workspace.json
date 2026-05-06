@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 212.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,6 +201,7 @@
   },
   "active": "716cf4338848fb07",
   "lastOpenFiles": [
+    "工作交付文档/assets/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型",
     "kimi-讨论/为单个 Git 项目单独设置账号（用户名和邮箱）.md",
     "工作交付文档/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
@@ -245,7 +246,6 @@
     "自媒体工具/选题工具/assets/UP数据收集",
     "自媒体工具/选题工具/assets",
     "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
-    "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
-    "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md"
+    "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md"
   ]
 }

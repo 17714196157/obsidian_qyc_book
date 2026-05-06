@@ -85,15 +85,20 @@ def 数据准备():
     return train_data, eval_data
 
 train_data, eval_data = 数据准备()
+print(eval_data[:2])
 
 def convert_data(txts):
     return Dataset.from_list([
-        {"input": c.strip(), "output": t.strip()}
-        for c, t in txts if len(c.strip()) > 1 and len(t.strip()) > 1
+        x
+        for x in txts if len(x["input"].strip()) > 1 and len(x["output"]) > 1
     ])
 
 train_dataset = convert_data(train_data)
 eval_dataset = convert_data(eval_data)
+
+# for node in eval_dataset:
+#     input(node)
+# exit(111)
 
 # ========== 4. 预处理函数（保持不变）==========
 def preprocess_function(examples):
