@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e061da5c704aba5c",
+            "id": "a425d17a3d928450",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "vLLM离线推理--批量调用"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 220.50378799438477
+    "width": 219.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -197,6 +201,14 @@
   },
   "active": "784df518aea8671d",
   "lastOpenFiles": [
+    "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了.md",
+    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
+    "obsidian操作/obsidian插件推荐.md",
+    "大模型性能与部署/vLLM/assets/vLLM离线推理--批量调用",
+    "大模型性能与部署/vLLM/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
+    "大模型性能与部署/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
+    "公众号文章/vLLM实战：max_model_len参数调优，让你的显存利用率翻倍.md",
+    "公众号文章/vLLM吞吐量调优 - Kimi.md",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/fastllm量化推理加速.md",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/file-20260508231332534.png",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/dd9d4ffad44fc4fc6fc4d7c5b02103e7_MD5.png",
@@ -218,12 +230,9 @@
     "大模型性能与部署/ChatGLM2 进行加速的开源项目",
     "大模型性能与部署/lightllm.md",
     "大模型性能与部署/LMstudio.md",
-    "大模型性能与部署/assets/LMstudio",
     "大模型性能与部署/ollama.md",
-    "大模型性能与部署/assets/ollama",
     "大模型性能与部署/sglang部署.md",
     "大模型性能与部署/TensorRT-LLM.md",
-    "大模型性能与部署/assets/TensorRT-LLM",
     "大模型性能与部署/streaming-llm推理突破长度限制.md",
     "大模型性能与部署/vLLM/Flash-Decoding.md",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
@@ -237,10 +246,6 @@
     "大模型性能与部署/TensorFlow/TensorFlow serving/Triton server.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/TensorFlow serving在线部署模型.md",
     "工作交付文档/手术生成模型迁移到L20设备问题.md",
-    "工作交付文档/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
-    "kimi-讨论/为单个 Git 项目单独设置账号（用户名和邮箱）.md",
-    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
-    "AI应用/Oh-My-OpenCode 完全指南.md",
-    "AI应用/LLM Wiki知识库.md"
+    "工作交付文档/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md"
   ]
 }
