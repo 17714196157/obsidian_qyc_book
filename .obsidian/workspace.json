@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#导出float16模型",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,8 +211,12 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "95524bed2add18e6",
+  "active": "8da5cc5d1acaefd7",
   "lastOpenFiles": [
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/file-20260508231332534.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/dd9d4ffad44fc4fc6fc4d7c5b02103e7_MD5.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/1c361d790ad82246f1e70e527a3b2cb0_MD5.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/1c361d790ad82246f1e70e527a3b2cb0_MD5.png",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/fastllm量化推理加速.md",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/bd3ea19956c8f9e056a2e570c443c7ed_MD5.png",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/a0dd080adf6a12d4d65e26120c082289_MD5.png",
@@ -225,14 +230,11 @@
     "大模型性能与部署/chatGLM的高性能推理库/assets/ChatGLM2 进行加速的开源项目/file-20260508224332649.png",
     "大模型性能与部署/chatGLM的高性能推理库/assets/ChatGLM2 进行加速的开源项目/a3f0c9ca34532faef2e169728f6bde9e_MD5.png",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理/file-20260508224746248.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理/file-20260508224746251.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理/file-20260508224746253.png",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/ChatGLM2 进行加速的开源项目",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目",
     "大模型性能与部署/lightllm.md",
     "大模型性能与部署/LMstudio.md",
-    "大模型性能与部署/assets/LMstudio/eec1c0f6cf014dd58969242295d340dd_MD5.png",
     "大模型性能与部署/assets/LMstudio",
     "大模型性能与部署/ollama.md",
     "大模型性能与部署/assets/ollama",

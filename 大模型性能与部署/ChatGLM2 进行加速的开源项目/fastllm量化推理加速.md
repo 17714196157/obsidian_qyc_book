@@ -297,3 +297,62 @@ curl -H "Content-Type: application/json" -X POST -d '{"prompts": ["你好","北�
 > ```
 > "(1/2)\n prompt: 你好 \n response: ，我是人工智能助手。很高兴为您服务！请问有什么问题我可以帮您解答？\n(2/2)\n prompt: 北京有那些景点 \n response: 值得一游?\n 寝食难安 \n 北京作为中国的首都，有着丰富的历史文化和众多著名的旅游景点。以下是一些值得一游的景点：\n\n1. 故宫博物院：位于北京市中心，是中国古代建筑之最，也是世界上保存最完整、规模最大的木质结构古建筑群。\n\n2. 颐和园：位于北京西郊，是清朝皇家园林，被誉为"皇家园林博物馆"。\n\n3. 天安门广场：位于北京市中心，是中国\n"
 > ```
+
+
+
+### fastllm部署lora微调后的模型
+fastllm部署lora微调后的模型
+1. 用微调大模型，使用LLaMA-Factory微调chatglm3-6b模型
+```
+accelerate launch  src/train_bash.py \
+--stage sft \
+--model_name_or_path /home/qyc/bert/chatglm3-6b  \
+--do_train \
+--dataset opt_split_scense_sft_train \
+--template chatglm3 \
+--finetuning_type lora \
+--lora_target query_key_value \
+--output_dir /home/qyc/LLaMA-Factory-main/save/path_to_sft_checkpoint \
+--overwrite_cache \
+--per_device_train_batch_size 2 \
+--gradient_accumulation_steps 8 \
+--lr_scheduler_type cosine \
+--logging_steps 10 \
+--save_steps 1000 \
+--learning_rate 5e-4 \
+--num_train_epochs 10.0 \
+--plot_loss \
+--overwrite_output_dir true \
+--fp16
+
+```
+1. 使用LLaMA-Factory将lora参数与基础模型合并导出 
+```
+python src/export_model.py \
+    --model_name_or_path /home/qyc/bert/chatglm3-6b  \
+    --template chatglm3 \
+    --finetuning_type lora \
+    --checkpoint_dir  /home/qyc/LLaMA-Factory-main/save/path_to_sft_checkpoint \
+    --export_dir /home/qyc/LLaMA-Factory-main/save_custom/opt_split_scense_sft_chatglm3_rola
+```
+1. 测试单个请求的准确性， 会发现chatglm3的代码中解析响应有些不一样，需要修改
+![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/1c361d790ad82246f1e70e527a3b2cb0_MD5.png]]
+
+2. fastllm 转换模型格式为flm
+	python3 tools/chatglm_export.py chatglm3-6b-opt-fp16.flm float16 
+![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/dd9d4ffad44fc4fc6fc4d7c5b02103e7_MD5.png]]
+2. 部署flm模型
+启动web服务端：
+![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/bd3ea19956c8f9e056a2e570c443c7ed_MD5.png]]
+
+```
+(tt) (base) root@maizi:/home/qyc/fastllm/pyfastllm/examples# pwd
+/home/qyc/fastllm/pyfastllm/examples
+python web_api.py -m 0 -p /home/qyc/fastllm/build/chatglm3-6b-opt-fp16.flm  --max_batch_size 16
+
+ curl -H "Content-Type: application/json"   -X POST -d '{"prompts": ["你好","北京有那些景点"], "max_length": 100}' "http://localhost:3333/api/batch_chat"   
+
+ab -c 10 -n 100 -T application/json -p q.json http://localhost:3333/api/batch_chat 
+
+
+```
