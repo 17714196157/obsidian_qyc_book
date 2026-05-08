@@ -199,8 +199,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "3e62a50506742fe8",
   "lastOpenFiles": [
+    "大模型性能与部署/assets/ollama",
     "大模型性能与部署/ollama.md",
     "大模型性能与部署/sglang部署.md",
     "大模型性能与部署/TensorRT-LLM.md",
@@ -245,7 +246,6 @@
     "AI应用/wsl-dashboard windows虚拟机.md",
     "AI应用/openclaw.md",
     "AI应用/opencode.md",
-    "AI应用/hermes-agent.md",
-    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md"
+    "AI应用/hermes-agent.md"
   ]
 }
