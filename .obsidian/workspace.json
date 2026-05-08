@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f8cc7dc5cb856ad",
+        "id": "1ab3bbfc246d67e0",
         "type": "tabs",
         "children": [
           {
-            "id": "b2337a4a21ce3b0a",
+            "id": "3e62a50506742fe8",
             "type": "leaf",
             "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "type": "markdown",
+              "state": {
+                "file": "大模型性能与部署/ollama.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ollama"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.50378799438477
+    "width": 290.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -195,24 +199,35 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b2337a4a21ce3b0a",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
+    "大模型性能与部署/ollama.md",
+    "大模型性能与部署/sglang部署.md",
+    "大模型性能与部署/TensorRT-LLM.md",
+    "大模型性能与部署/assets/TensorRT-LLM/file-20260508222422612.png",
+    "大模型性能与部署/assets/TensorRT-LLM/6e57b702fc11fecf08de3176edef9ba0_MD5.png",
+    "大模型性能与部署/assets/TensorRT-LLM",
+    "大模型性能与部署/streaming-llm推理突破长度限制.md",
+    "大模型性能与部署/assets/streaming-llm推理突破长度限制/aed96f2fa5afa3a2b86afff4c0bf0170_MD5.png",
+    "大模型性能与部署/assets/streaming-llm推理突破长度限制/2e016732b73f983aa3b4452889ac9667_MD5.png",
+    "大模型性能与部署/assets/streaming-llm推理突破长度限制/10317ea0193d97087526b521ac21fd24_MD5.png",
+    "大模型性能与部署/assets/streaming-llm推理突破长度限制/9c3b75309c408ec4bbb148dc69203582_MD5.png",
+    "大模型性能与部署/assets/streaming-llm推理突破长度限制",
+    "大模型性能与部署/vLLM/Flash-Decoding.md",
+    "大模型性能与部署/vLLM/assets/Flash-Decoding/9c331b0e3ed20e8ffafa131fffcea50f_MD5.png",
+    "大模型性能与部署/vLLM/assets/Flash-Decoding/da441ed74b77c13ab84f51bcd3c1639d_MD5.png",
+    "大模型性能与部署/vLLM/assets/Flash-Decoding",
+    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/netron与onnx来查看你的ONNX文件模型.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/onnxruntime.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/tensorflow转onnx部署.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/pytorch部署到tensorRT.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime/05aa33871e66aea8d901152179a32f14_MD5.png",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型/98a2dcf34a86dc5a1ef1aeb9750e7bb2_MD5.png",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型/643b49841cc69f11a5c1ba4c6487fe2b_MD5.png",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署/9949c3118ab2b24680612b34441eb00d_MD5.png",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署/5adcf7f885c1db2e241c42521d442259_MD5.png",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署",
     "大模型性能与部署/TensorFlow/TensorFlow serving/keras模型Export model for tensorflow serving.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/pytorch部署到tensorRT/file-20260508220621315.png",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/pytorch部署到tensorRT/d81ece6a6a0872fc81b4e035ab16e4df_MD5.png",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/pytorch部署到tensorRT",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime/b3ca10034a50954d75ea9325197ef727_MD5.png",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets",
     "大模型性能与部署/TensorFlow/TensorFlow serving/实现多模型部署.md",
@@ -221,11 +236,6 @@
     "大模型性能与部署/TensorFlow/TensorFlow serving/Triton server.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/TensorFlow serving在线部署模型.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/未命名",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/实现多模型部署/fdcbfc374ea67c591119dc78058f8900_MD5.png",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/实现多模型部署/file-20260508215247856.png",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/实现多模型部署",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/grpc调用方式",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/TensorFlow serving在线部署模型",
     "工作交付文档/手术生成模型迁移到L20设备问题.md",
     "工作交付文档/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
     "kimi-讨论/为单个 Git 项目单独设置账号（用户名和邮箱）.md",
@@ -236,11 +246,6 @@
     "AI应用/openclaw.md",
     "AI应用/opencode.md",
     "AI应用/hermes-agent.md",
-    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
-    "obsidian操作/obsidian做个人博客-没能成功.md",
-    "公众号文章/1.个人博客-obsidian+quartz--Why Z 1.md",
-    "公众号文章/1.个人博客-obsidian+quartz--Why Z.md",
-    "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
-    "obsidian操作/obsidian插件推荐.md"
+    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md"
   ]
 }
