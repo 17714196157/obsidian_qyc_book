@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7fce31e5668e15f4",
+        "id": "5a831bcf6a1effd4",
         "type": "tabs",
         "children": [
           {
-            "id": "ee4583c7861b0210",
+            "id": "64b27a499b04a5f3",
             "type": "leaf",
             "state": {
-              "type": "claudian-view",
+              "type": "empty",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -195,7 +195,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "ee4583c7861b0210",
+  "active": "64b27a499b04a5f3",
   "lastOpenFiles": [
     "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
     "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了.md",
