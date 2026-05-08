@@ -106,7 +106,8 @@ ollama create qwq-8000k -f Modelfile
 ```bash
 ollama show --modelfile qwq-8000K:latest
 ```
-
+[[大模型性能与部署/assets/ollama/88878d31290fee9e1ba549ba1a12b566_MD5.png|Open: file-20260508223249903.png]]
+![[大模型性能与部署/assets/ollama/88878d31290fee9e1ba549ba1a12b566_MD5.png]]
 ### 5. 查看模型的 template 文件（示例：deepseek-r1:32b）
 
 ```bash
