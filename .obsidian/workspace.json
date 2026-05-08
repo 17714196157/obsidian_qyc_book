@@ -8,17 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "716cf4338848fb07",
+            "id": "8502f323fd6d2c09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作交付文档/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
+                "file": "大模型性能与部署/TensorFlow/onnxruntime库/onnxruntime.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型"
+              "title": "onnxruntime"
+            }
+          },
+          {
+            "id": "b2337a4a21ce3b0a",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ]
@@ -53,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#6）",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 351.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -180,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 201.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,11 +209,41 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "716cf4338848fb07",
+  "active": "8502f323fd6d2c09",
   "lastOpenFiles": [
-    "工作交付文档/assets/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型",
-    "kimi-讨论/为单个 Git 项目单独设置账号（用户名和邮箱）.md",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime/05aa33871e66aea8d901152179a32f14_MD5.png",
+    "大模型性能与部署/TensorFlow/onnxruntime库/netron与onnx来查看你的ONNX文件模型.md",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型/98a2dcf34a86dc5a1ef1aeb9750e7bb2_MD5.png",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型/643b49841cc69f11a5c1ba4c6487fe2b_MD5.png",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型",
+    "大模型性能与部署/TensorFlow/onnxruntime库/tensorflow转onnx部署.md",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署/9949c3118ab2b24680612b34441eb00d_MD5.png",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署/5adcf7f885c1db2e241c42521d442259_MD5.png",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/keras模型Export model for tensorflow serving.md",
+    "大模型性能与部署/TensorFlow/onnxruntime库/pytorch部署到tensorRT.md",
+    "大模型性能与部署/TensorFlow/onnxruntime库/onnxruntime.md",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/pytorch部署到tensorRT/file-20260508220621315.png",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/pytorch部署到tensorRT/d81ece6a6a0872fc81b4e035ab16e4df_MD5.png",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/pytorch部署到tensorRT",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime/b3ca10034a50954d75ea9325197ef727_MD5.png",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime",
+    "大模型性能与部署/TensorFlow/onnxruntime库/assets",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/实现多模型部署.md",
+    "大模型性能与部署/TensorFlow/onnxruntime库",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/grpc调用方式.md",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/Triton server.md",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/TensorFlow serving在线部署模型.md",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/未命名",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/实现多模型部署/fdcbfc374ea67c591119dc78058f8900_MD5.png",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/实现多模型部署/file-20260508215247856.png",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/实现多模型部署/a9b95d8a0fe0a1771b062de985e6aa3a_MD5.png",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/实现多模型部署",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/grpc调用方式",
+    "大模型性能与部署/TensorFlow/TensorFlow serving/assets/TensorFlow serving在线部署模型",
+    "工作交付文档/手术生成模型迁移到L20设备问题.md",
     "工作交付文档/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
+    "kimi-讨论/为单个 Git 项目单独设置账号（用户名和邮箱）.md",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
     "AI应用/Oh-My-OpenCode 完全指南.md",
     "AI应用/LLM Wiki知识库.md",
@@ -213,39 +253,9 @@
     "AI应用/hermes-agent.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "obsidian操作/obsidian做个人博客-没能成功.md",
-    "obsidian操作/assets/obsidian做个人博客-没能成功",
-    "obsidian操作/assets/obsidian做个人博客-没能成功/file-20260424092404189.png",
-    "obsidian操作/assets/obsidian做个人博客",
     "公众号文章/1.个人博客-obsidian+quartz--Why Z 1.md",
     "公众号文章/1.个人博客-obsidian+quartz--Why Z.md",
-    "公众号文章/assets/1.个人博客-obsidian+quartz--Why Z",
-    "AI应用/assets/LLM Wiki知识库/llm-wiki.png",
     "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
-    "obsidian操作/obsidian插件推荐.md",
-    "AI应用/claude_code.md",
-    "AI应用/assets/claude_code/claudecode登录界面.png",
-    "AI应用/assets/claude_code/file-20260423220846002.png",
-    "AI应用/assets/claude_code/阿里云百炼如何配置cluadecode.png",
-    "AI应用/assets/claude_code/b6119ca0f8ee4a6d8182e66610568f86_MD5.svg",
-    "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了 1.md",
-    "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1/1e58ef1e26189443e67985c3c7a1a2de_MD5.webp",
-    "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
-    "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了.md",
-    "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了/1e58ef1e26189443e67985c3c7a1a2de_MD5.webp",
-    "公众号文章/assets/vLLM离线推理很好用，不要再批量调用在线服务了",
-    "AI应用/vscode的插件/Continue插件配置OpenRouter免费提供的Qwen3.6 plus免费.md",
-    "AI应用/assets/LLM Wiki知识库/95d9f98c331928a7ce51c3b55df80648_MD5.png",
-    "AI应用/assets/LLM Wiki知识库/LLM Wiki知识库展示.png",
-    "AI应用/assets/LLM Wiki知识库",
-    "工作交付文档/长文总结：近一年 Agent 自进化的两大方向和四大趋势.md",
-    "公众号文章/Hermes Agent 配置微信通道：接入个人微信的避坑指南.md",
-    "工作交付文档/assets/长文总结：近一年 Agent 自进化的两大方向和四大趋势",
-    "Agent 自进化.md",
-    "自媒体工具/选题工具/UP数据收集.md",
-    "公众号文章/assets/长文总结：近一年 Agent 自进化的两大方向和四大趋势",
-    "自媒体工具/选题工具/assets/UP数据收集",
-    "自媒体工具/选题工具/assets",
-    "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
-    "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md"
+    "obsidian操作/obsidian插件推荐.md"
   ]
 }

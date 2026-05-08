@@ -4,8 +4,8 @@
   "title": "结构化这篇笔记",
   "titleGenerationStatus": "failed",
   "createdAt": 1776659839324,
-  "updatedAt": 1776960452043,
-  "lastResponseAt": 1776960246913,
+  "updatedAt": 1778249583482,
+  "lastResponseAt": 1778249583482,
   "sessionId": "9cad22fb-b165-4418-8487-5e945ab097fa",
   "providerState": {
     "providerSessionId": "9cad22fb-b165-4418-8487-5e945ab097fa",
@@ -16,12 +16,12 @@
   },
   "usage": {
     "model": "qwen3.6-plus",
-    "inputTokens": 22012,
+    "inputTokens": 32164,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 22012,
-    "percentage": 11,
+    "contextTokens": 32164,
+    "percentage": 16,
     "contextWindowIsAuthoritative": true
   }
 }
