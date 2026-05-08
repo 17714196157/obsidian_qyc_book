@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/ollama.md",
+                "file": "大模型性能与部署/LMstudio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ollama"
+              "title": "LMstudio"
             }
           }
         ]
@@ -201,10 +201,14 @@
   },
   "active": "3e62a50506742fe8",
   "lastOpenFiles": [
+    "大模型性能与部署/assets/LMstudio/eec1c0f6cf014dd58969242295d340dd_MD5.png",
+    "大模型性能与部署/assets/LMstudio/0f4628b59492486b16e9604e268c98a2_MD5.png",
+    "大模型性能与部署/assets/LMstudio",
+    "大模型性能与部署/ollama.md",
+    "大模型性能与部署/LMstudio.md",
     "大模型性能与部署/assets/ollama/file-20260508223249903.png",
     "大模型性能与部署/assets/ollama/88878d31290fee9e1ba549ba1a12b566_MD5.png",
     "大模型性能与部署/assets/ollama",
-    "大模型性能与部署/ollama.md",
     "大模型性能与部署/sglang部署.md",
     "大模型性能与部署/TensorRT-LLM.md",
     "大模型性能与部署/assets/TensorRT-LLM/file-20260508222422612.png",
@@ -218,14 +222,12 @@
     "大模型性能与部署/assets/streaming-llm推理突破长度限制",
     "大模型性能与部署/vLLM/Flash-Decoding.md",
     "大模型性能与部署/vLLM/assets/Flash-Decoding/9c331b0e3ed20e8ffafa131fffcea50f_MD5.png",
-    "大模型性能与部署/vLLM/assets/Flash-Decoding/da441ed74b77c13ab84f51bcd3c1639d_MD5.png",
     "大模型性能与部署/vLLM/assets/Flash-Decoding",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/netron与onnx来查看你的ONNX文件模型.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/onnxruntime.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/tensorflow转onnx部署.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/pytorch部署到tensorRT.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime/05aa33871e66aea8d901152179a32f14_MD5.png",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署",
     "大模型性能与部署/TensorFlow/TensorFlow serving/keras模型Export model for tensorflow serving.md",
@@ -233,7 +235,6 @@
     "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime",
     "大模型性能与部署/TensorFlow/onnxruntime库/assets",
     "大模型性能与部署/TensorFlow/TensorFlow serving/实现多模型部署.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库",
     "大模型性能与部署/TensorFlow/TensorFlow serving/grpc调用方式.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/Triton server.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/TensorFlow serving在线部署模型.md",
@@ -245,7 +246,6 @@
     "AI应用/LLM Wiki知识库.md",
     "AI应用/wsl-dashboard windows虚拟机.md",
     "AI应用/openclaw.md",
-    "AI应用/opencode.md",
-    "AI应用/hermes-agent.md"
+    "AI应用/opencode.md"
   ]
 }
