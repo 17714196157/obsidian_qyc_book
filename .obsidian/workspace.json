@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/LMstudio.md",
+                "file": "大模型性能与部署/lightllm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LMstudio"
+              "title": "lightllm"
+            }
+          },
+          {
+            "id": "913b61b80ab8f8c2",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ]
@@ -201,11 +211,12 @@
   },
   "active": "3e62a50506742fe8",
   "lastOpenFiles": [
+    "大模型性能与部署/LMstudio.md",
+    "大模型性能与部署/lightllm.md",
     "大模型性能与部署/assets/LMstudio/eec1c0f6cf014dd58969242295d340dd_MD5.png",
     "大模型性能与部署/assets/LMstudio/0f4628b59492486b16e9604e268c98a2_MD5.png",
     "大模型性能与部署/assets/LMstudio",
     "大模型性能与部署/ollama.md",
-    "大模型性能与部署/LMstudio.md",
     "大模型性能与部署/assets/ollama/file-20260508223249903.png",
     "大模型性能与部署/assets/ollama/88878d31290fee9e1ba549ba1a12b566_MD5.png",
     "大模型性能与部署/assets/ollama",
@@ -221,7 +232,6 @@
     "大模型性能与部署/assets/streaming-llm推理突破长度限制/9c3b75309c408ec4bbb148dc69203582_MD5.png",
     "大模型性能与部署/assets/streaming-llm推理突破长度限制",
     "大模型性能与部署/vLLM/Flash-Decoding.md",
-    "大模型性能与部署/vLLM/assets/Flash-Decoding/9c331b0e3ed20e8ffafa131fffcea50f_MD5.png",
     "大模型性能与部署/vLLM/assets/Flash-Decoding",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/netron与onnx来查看你的ONNX文件模型.md",
