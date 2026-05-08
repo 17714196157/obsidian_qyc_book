@@ -1,4 +1,3 @@
-# fastllm 量化推理加速
 
 ## fastllm 简介
 
