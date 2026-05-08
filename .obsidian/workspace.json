@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1ab3bbfc246d67e0",
+        "id": "f9c26c149b38e33b",
         "type": "tabs",
         "children": [
           {
-            "id": "3e62a50506742fe8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大模型性能与部署/lightllm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "lightllm"
-            }
-          },
-          {
-            "id": "913b61b80ab8f8c2",
+            "id": "6835aae7546a03fb",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -30,8 +16,23 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "95524bed2add18e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大模型性能与部署/ChatGLM2 进行加速的开源项目/fastllm量化推理加速.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fastllm量化推理加速"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,41 +210,43 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "3e62a50506742fe8",
+  "active": "95524bed2add18e6",
   "lastOpenFiles": [
-    "大模型性能与部署/LMstudio.md",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/fastllm量化推理加速.md",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/bd3ea19956c8f9e056a2e570c443c7ed_MD5.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/a0dd080adf6a12d4d65e26120c082289_MD5.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/94086a27b21886d1bf05693b8dac40c1_MD5.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/e4f6af3a2fd36b42a8119de4aac786a6_MD5.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/chatglm.cpp量化推理.md",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp 量化推理",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp",
+    "大模型性能与部署/chatGLM的高性能推理库/assets/ChatGLM2 进行加速的开源项目/file-20260508224332649.png",
+    "大模型性能与部署/chatGLM的高性能推理库/assets/ChatGLM2 进行加速的开源项目/a3f0c9ca34532faef2e169728f6bde9e_MD5.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理/file-20260508224746248.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理/file-20260508224746251.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理/file-20260508224746253.png",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/ChatGLM2 进行加速的开源项目",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets",
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目",
     "大模型性能与部署/lightllm.md",
+    "大模型性能与部署/LMstudio.md",
     "大模型性能与部署/assets/LMstudio/eec1c0f6cf014dd58969242295d340dd_MD5.png",
-    "大模型性能与部署/assets/LMstudio/0f4628b59492486b16e9604e268c98a2_MD5.png",
     "大模型性能与部署/assets/LMstudio",
     "大模型性能与部署/ollama.md",
-    "大模型性能与部署/assets/ollama/file-20260508223249903.png",
-    "大模型性能与部署/assets/ollama/88878d31290fee9e1ba549ba1a12b566_MD5.png",
     "大模型性能与部署/assets/ollama",
     "大模型性能与部署/sglang部署.md",
     "大模型性能与部署/TensorRT-LLM.md",
-    "大模型性能与部署/assets/TensorRT-LLM/file-20260508222422612.png",
-    "大模型性能与部署/assets/TensorRT-LLM/6e57b702fc11fecf08de3176edef9ba0_MD5.png",
     "大模型性能与部署/assets/TensorRT-LLM",
     "大模型性能与部署/streaming-llm推理突破长度限制.md",
-    "大模型性能与部署/assets/streaming-llm推理突破长度限制/aed96f2fa5afa3a2b86afff4c0bf0170_MD5.png",
-    "大模型性能与部署/assets/streaming-llm推理突破长度限制/2e016732b73f983aa3b4452889ac9667_MD5.png",
-    "大模型性能与部署/assets/streaming-llm推理突破长度限制/10317ea0193d97087526b521ac21fd24_MD5.png",
-    "大模型性能与部署/assets/streaming-llm推理突破长度限制/9c3b75309c408ec4bbb148dc69203582_MD5.png",
-    "大模型性能与部署/assets/streaming-llm推理突破长度限制",
     "大模型性能与部署/vLLM/Flash-Decoding.md",
-    "大模型性能与部署/vLLM/assets/Flash-Decoding",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/netron与onnx来查看你的ONNX文件模型.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/onnxruntime.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/tensorflow转onnx部署.md",
     "大模型性能与部署/TensorFlow/onnxruntime库/pytorch部署到tensorRT.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署",
     "大模型性能与部署/TensorFlow/TensorFlow serving/keras模型Export model for tensorflow serving.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/pytorch部署到tensorRT",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime",
-    "大模型性能与部署/TensorFlow/onnxruntime库/assets",
     "大模型性能与部署/TensorFlow/TensorFlow serving/实现多模型部署.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/grpc调用方式.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/Triton server.md",
@@ -253,9 +256,6 @@
     "kimi-讨论/为单个 Git 项目单独设置账号（用户名和邮箱）.md",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
     "AI应用/Oh-My-OpenCode 完全指南.md",
-    "AI应用/LLM Wiki知识库.md",
-    "AI应用/wsl-dashboard windows虚拟机.md",
-    "AI应用/openclaw.md",
-    "AI应用/opencode.md"
+    "AI应用/LLM Wiki知识库.md"
   ]
 }
