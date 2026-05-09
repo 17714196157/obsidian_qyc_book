@@ -257,6 +257,41 @@ root@maizi:/home/qyc/gitee/MediaCrawler/data/bili/jsonl# ls
 creator_comments_2026-04-21.jsonl  creator_contents_2026-04-21.jsonl  creator_creators_2026-04-21.jsonl
 
 ```
+
+
+#### opencli 将界面爬虫 命令化
+项目地址 https://github.com/jackwener/opencli
+说明：
+1. 使用内置适配器，适用于 Bilibili、知乎、小红书、Reddit、HackerNews、Twitter/X 等网站
+2. 让 AI 代理操作任何网站——在你的 AI 代理（Claude Code、Cursor 等）中安装 `opencli-adapter-author` 技能，它就可以通过 `opencli browser` 原语在你的登录浏览器中导航、点击、输入/填充、提取和检查任何页面。
+
+一旦安装了 `opencli-adapter-author` ，您的 AI 代理可以：
+1. **Navigate** to any URL using your logged-in browser  
+    导航到任何 URL，使用您的登录浏览器
+2. **Read** page content via structured DOM snapshots (not screenshots)  
+    通过结构化 DOM 快照（而非截图）读取页面内容
+3. **Interact** — click buttons, fill forms, select options, press keys  
+    交互 — 点击按钮，填写表单，选择选项，按键盘
+4. **Extract** data from the page or intercept network API responses  
+    从页面提取数据或拦截网络 API 响应
+5. **Wait** for elements, text, or page transitions  
+    等待元素、文本或页面转换
+    
+安装：
+```
+node --version
+npm install -g @jackwener/opencli
+# 安装浏览器插件 下载 opencli-extension-v1.0.6.zip，解压，在浏览器里安装插件
+opencli doctor  # 检查安装状态
+opencli bilibili hot --limit 5  # 获取B站最热门的前五视频
+
+
+### Install skills 安装技能
+npx skills add jackwener/opencli
+```
+
+
+
 ### 三） 网页工具
 **抖音热点宝:**  https://douhot.douyin.com
 

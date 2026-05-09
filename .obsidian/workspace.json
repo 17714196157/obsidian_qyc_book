@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5a831bcf6a1effd4",
+        "id": "310d6cd5ea45d919",
         "type": "tabs",
         "children": [
           {
-            "id": "64b27a499b04a5f3",
+            "id": "493824b246782074",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "自媒体工具/选题工具/UP数据收集.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "UP数据收集"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 277.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -195,11 +199,23 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "64b27a499b04a5f3",
+  "active": "493824b246782074",
   "lastOpenFiles": [
+    "自媒体工具/视频制作/Pixelle-Video.md",
+    "自媒体工具/视频制作/assets/Pixelle-Video/视频生成流程.png",
+    "自媒体工具/视频制作/assets/Pixelle-Video/视频生成流程.png",
+    "自媒体工具/视频制作/assets/Pixelle-Video",
+    "自媒体工具/视频制作/assets",
+    "自媒体工具/视频制作",
+    "自媒体工具/选题工具/UP数据收集.md",
+    "大模型性能与部署/sglang部署.md",
+    "大模型性能与部署/vLLM/vLLM离线推理.canvas",
+    "未命名.canvas",
+    "2026-05-09.md",
+    "未命名 1.canvas",
+    "obsidian操作/obsidian插件推荐.md",
     "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
     "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了.md",
-    "obsidian操作/obsidian插件推荐.md",
     "大模型性能与部署/vLLM/assets/vLLM离线推理--批量调用",
     "大模型性能与部署/vLLM/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
     "大模型性能与部署/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
@@ -219,15 +235,9 @@
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp 量化推理",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp",
-    "大模型性能与部署/chatGLM的高性能推理库/assets/ChatGLM2 进行加速的开源项目/file-20260508224332649.png",
-    "大模型性能与部署/chatGLM的高性能推理库/assets/ChatGLM2 进行加速的开源项目/a3f0c9ca34532faef2e169728f6bde9e_MD5.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/ChatGLM2 进行加速的开源项目",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目",
     "大模型性能与部署/lightllm.md",
     "大模型性能与部署/LMstudio.md",
     "大模型性能与部署/ollama.md",
-    "大模型性能与部署/sglang部署.md",
     "大模型性能与部署/TensorRT-LLM.md",
     "大模型性能与部署/streaming-llm推理突破长度限制.md",
     "大模型性能与部署/vLLM/Flash-Decoding.md",
@@ -238,10 +248,6 @@
     "大模型性能与部署/TensorFlow/onnxruntime库/pytorch部署到tensorRT.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/keras模型Export model for tensorflow serving.md",
     "大模型性能与部署/TensorFlow/TensorFlow serving/实现多模型部署.md",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/grpc调用方式.md",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/Triton server.md",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/TensorFlow serving在线部署模型.md",
-    "工作交付文档/手术生成模型迁移到L20设备问题.md",
-    "工作交付文档/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md"
+    "大模型性能与部署/TensorFlow/TensorFlow serving/grpc调用方式.md"
   ]
 }
