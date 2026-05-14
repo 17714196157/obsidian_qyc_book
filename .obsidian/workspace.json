@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "310d6cd5ea45d919",
+        "id": "797205f232e9b145",
         "type": "tabs",
         "children": [
           {
-            "id": "493824b246782074",
+            "id": "1651d9e40f393cef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自媒体工具/选题工具/UP数据收集.md",
+                "file": "AI应用/AI论文解读/zotero-pdf2zh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UP数据收集"
+              "title": "zotero-pdf2zh"
+            }
+          },
+          {
+            "id": "76e977bfcb537bf5",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ]
@@ -78,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.50378799438477
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -199,55 +209,56 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "493824b246782074",
+  "active": "1651d9e40f393cef",
   "lastOpenFiles": [
+    "AI应用/AI论文解读/assets/zotero-pdf2zh/f7571b28a8d2226cb3b1ae3d793dd8c5_MD5.png",
+    "AI应用/AI论文解读/assets/zotero-pdf2zh/file-20260514151738803.png",
+    "AI应用/AI论文解读/assets/zotero-pdf2zh/c0c641ee1059459af76626177d081ebe_MD5.png",
+    "AI应用/AI论文解读/assets/zotero-pdf2zh/cb54f2e820c5307cbac9148f206ffe8d_MD5.png",
+    "AI应用/AI论文解读/assets/zotero-pdf2zh",
+    "AI应用/AI论文解读/assets",
+    "AI应用/AI论文解读.md",
+    "AI应用/AI论文解读/zotero-pdf2zh.md",
+    "AI应用/AI论文解读",
+    "工具/切片视频制作.md",
+    "AI应用/其他AI项目.md",
+    "公众号文章/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
+    "公众号文章/assets/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py/9b7d5444e94bb9b8752a3506a0d845a7_MD5.webp",
+    "公众号文章/assets/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py",
+    "公众号文章/vllm与Litellm实现Guardrail和负载分发.md",
+    "obsidian操作/obsidian插件推荐.md",
+    "obsidian操作/obsidian做个人博客-没能成功.md",
+    "公众号文章/assets/vllm与Litellm实现Guardrail和负载分发/1dbc18c4401ef9e7f036ffb4f2f1c1d4_MD5.webp",
+    "公众号文章/assets/vllm与Litellm实现Guardrail和负载分发",
+    "其他附件",
+    "公众号文章/assets/vLLM 驱动升级兼容/ea8cc0680de9860cb9f6687a7b5f5dd9_MD5.png",
+    "kimi-讨论/vLLM 驱动升级兼容.md",
+    "公众号文章/assets/vLLM 驱动升级兼容",
+    "公众号文章/大模型推理，加速王者：DFlash，即将支持 DeepSeek-V4.md",
+    "公众号文章/assets/大模型推理，加速王者：DFlash，即将支持 DeepSeek-V4",
+    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
+    "大模型性能与部署/vLLM/Flash-Decoding.md",
+    "大模型性能与部署/vLLM/vLLM 超时参数.md",
+    "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
+    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
+    "大模型性能与部署/vLLM/vllm参数含义与原理.md",
+    "大模型性能与部署/vLLM/vLLM参数调优.md",
+    "大模型性能与部署/vLLM/vllm 简介.md",
+    "大模型性能与部署/vLLM/openai客户端代码.md",
+    "自媒体工具/选题工具/UP数据收集.md",
     "自媒体工具/视频制作/Pixelle-Video.md",
     "自媒体工具/视频制作/assets/Pixelle-Video/视频生成流程.png",
     "自媒体工具/视频制作/assets/Pixelle-Video/视频生成流程.png",
     "自媒体工具/视频制作/assets/Pixelle-Video",
     "自媒体工具/视频制作/assets",
-    "自媒体工具/视频制作",
-    "自媒体工具/选题工具/UP数据收集.md",
     "大模型性能与部署/sglang部署.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "2026-05-09.md",
     "未命名 1.canvas",
-    "obsidian操作/obsidian插件推荐.md",
-    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
     "公众号文章/vLLM离线推理很好用，不要再批量调用在线服务了.md",
-    "大模型性能与部署/vLLM/assets/vLLM离线推理--批量调用",
-    "大模型性能与部署/vLLM/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
-    "大模型性能与部署/assets/vLLM离线推理很好用，不要再批量调用在线服务了 1",
     "公众号文章/vLLM实战：max_model_len参数调优，让你的显存利用率翻倍.md",
-    "公众号文章/vLLM吞吐量调优 - Kimi.md",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/fastllm量化推理加速.md",
     "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/file-20260508231332534.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/dd9d4ffad44fc4fc6fc4d7c5b02103e7_MD5.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/1c361d790ad82246f1e70e527a3b2cb0_MD5.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/1c361d790ad82246f1e70e527a3b2cb0_MD5.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/bd3ea19956c8f9e056a2e570c443c7ed_MD5.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/a0dd080adf6a12d4d65e26120c082289_MD5.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/94086a27b21886d1bf05693b8dac40c1_MD5.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/e4f6af3a2fd36b42a8119de4aac786a6_MD5.png",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/chatglm.cpp量化推理.md",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp量化推理",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp 量化推理",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/chatglm.cpp",
-    "大模型性能与部署/lightllm.md",
-    "大模型性能与部署/LMstudio.md",
-    "大模型性能与部署/ollama.md",
-    "大模型性能与部署/TensorRT-LLM.md",
-    "大模型性能与部署/streaming-llm推理突破长度限制.md",
-    "大模型性能与部署/vLLM/Flash-Decoding.md",
-    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库/netron与onnx来查看你的ONNX文件模型.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库/onnxruntime.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库/tensorflow转onnx部署.md",
-    "大模型性能与部署/TensorFlow/onnxruntime库/pytorch部署到tensorRT.md",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/keras模型Export model for tensorflow serving.md",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/实现多模型部署.md",
-    "大模型性能与部署/TensorFlow/TensorFlow serving/grpc调用方式.md"
+    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/dd9d4ffad44fc4fc6fc4d7c5b02103e7_MD5.png"
   ]
 }
