@@ -20,16 +20,6 @@
               "icon": "lucide-file",
               "title": "zotero-pdf2zh"
             }
-          },
-          {
-            "id": "76e977bfcb537bf5",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
           }
         ]
       }
@@ -190,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 495.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,7 +199,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "1651d9e40f393cef",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
     "AI应用/AI论文解读/assets/zotero-pdf2zh/f7571b28a8d2226cb3b1ae3d793dd8c5_MD5.png",
     "AI应用/AI论文解读/assets/zotero-pdf2zh/file-20260514151738803.png",
