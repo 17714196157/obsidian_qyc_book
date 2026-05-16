@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
+                "file": "公众号文章/7个让 vLLM 吞吐翻倍的配置参数优化与建议.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Think-Deep,Not-Just-Long-Think@n实现"
+              "title": "7个让 vLLM 吞吐翻倍的配置参数优化与建议"
             }
           }
         ]
@@ -201,8 +201,9 @@
   },
   "active": "5d2e015c8f027626",
   "lastOpenFiles": [
-    "论文解读/论文原文/DeepSeek_V4-dual.pdf",
     "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
+    "公众号文章/7个让 vLLM 吞吐翻倍的配置参数优化与建议.md",
+    "论文解读/论文原文/DeepSeek_V4-dual.pdf",
     "kimi-讨论/vLLM Think方案.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "公众号文章/assets/vLLM Think方案",
@@ -232,7 +233,6 @@
     "kimi-讨论/vLLM 驱动升级兼容.md",
     "公众号文章/assets/vLLM 驱动升级兼容",
     "公众号文章/大模型推理，加速王者：DFlash，即将支持 DeepSeek-V4.md",
-    "公众号文章/assets/大模型推理，加速王者：DFlash，即将支持 DeepSeek-V4",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
     "大模型性能与部署/vLLM/Flash-Decoding.md",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
