@@ -201,6 +201,12 @@
   },
   "active": "5d2e015c8f027626",
   "lastOpenFiles": [
+    "公众号文章/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/8d7e59aa100315dc0d0800d6613d4a79_MD5.jpg",
+    "公众号文章/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/7 个参数的独立提升效果对比.jpg",
+    "公众号文章/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/推测解码对不同模型的吞吐提升.jpg",
+    "公众号文章/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/三种调度策略的延迟对比.jpg",
+    "公众号文章/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/max-model-len 对吞吐和显存的影响.jpg",
+    "公众号文章/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议",
     "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "公众号文章/7个让 vLLM 吞吐翻倍的配置参数优化与建议.md",
     "论文解读/论文原文/DeepSeek_V4-dual.pdf",
@@ -229,9 +235,7 @@
     "公众号文章/assets/vllm与Litellm实现Guardrail和负载分发/1dbc18c4401ef9e7f036ffb4f2f1c1d4_MD5.webp",
     "公众号文章/assets/vllm与Litellm实现Guardrail和负载分发",
     "其他附件",
-    "公众号文章/assets/vLLM 驱动升级兼容/ea8cc0680de9860cb9f6687a7b5f5dd9_MD5.png",
     "kimi-讨论/vLLM 驱动升级兼容.md",
-    "公众号文章/assets/vLLM 驱动升级兼容",
     "公众号文章/大模型推理，加速王者：DFlash，即将支持 DeepSeek-V4.md",
     "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
     "大模型性能与部署/vLLM/Flash-Decoding.md",
@@ -243,12 +247,8 @@
     "大模型性能与部署/vLLM/vllm 简介.md",
     "大模型性能与部署/vLLM/openai客户端代码.md",
     "自媒体工具/选题工具/UP数据收集.md",
-    "自媒体工具/视频制作/Pixelle-Video.md",
-    "自媒体工具/视频制作/assets/Pixelle-Video/视频生成流程.png",
-    "自媒体工具/视频制作/assets/Pixelle-Video/视频生成流程.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
-    "未命名 1.canvas",
-    "大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/file-20260508231332534.png"
+    "未命名 1.canvas"
   ]
 }

@@ -46,7 +46,8 @@ vLLM 用起来很简单，一行命令就能跑起来。但如果你真把它扔
 | 8K | 96 | 250 | 41 GB |
 | 4K | 112 | 270 | 36 GB |
 
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E) 图1：max-model-len 对吞吐和显存的影响
+![[max-model-len 对吞吐和显存的影响.jpg]]
+ 图1：max-model-len 对吞吐和显存的影响
 
 **建议：** 8K 是大多数场景的安全甜点。先统计业务的 P99 输入长度，然后加上 20% 余量设置。比如 P99 输入长度是 3.5K，设 4K 就足够了。
 
@@ -92,7 +93,8 @@ v0.20.0 支持多种调度策略，不同策略在吞吐和延迟之间有不同
 | priority | 98ms | 380ms | 278 |
 | lof | 88ms | 210ms | 292 |
 
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E) 图2：三种调度策略的延迟对比
+![[三种调度策略的延迟对比.jpg]]
+ 图2：三种调度策略的延迟对比
 
 **建议：** lof 策略在混合负载下表现最均衡，吞吐没有明显下降但 P99 大幅改善。如果你的业务对延迟敏感，优先考虑 lof。
 
@@ -117,14 +119,15 @@ v0.20.0 支持多种调度策略，不同策略在吞吐和延迟之间有不同
 
 v0.20.0 将推测解码与 async scheduling 深度集成，实测效果非常惊艳。但有一个前提：draft model 的接受率（acceptance rate）够高，生成的 token 风格和目标模型一致。
 
-| 配置 | 吞吐 (QPS) | 提升比例 | 额外显存 |
-| --- | --- | --- | --- |
-| 无推测解码 | 215 | 基准 | 0 |
-| \+ Qwen-0.5B (5 tokens) | 310 | +44% | +~2 GB |
-| \+ Qwen-0.5B (8 tokens) | 335 | +56% | +~2 GB |
-| \+ Qwen-1.5B (5 tokens) | 325 | +51% | +~4 GB |
-
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E) 图3：推测解码对不同模型的吞吐提升
+| 配置                      | 吞吐 (QPS) | 提升比例 | 额外显存   |
+| ----------------------- | -------- | ---- | ------ |
+| 无推测解码                   | 215      | 基准   | 0      |
+| \+ Qwen-0.5B (5 tokens) | 310      | +44% | +~2 GB |
+| \+ Qwen-0.5B (8 tokens) | 335      | +56% | +~2 GB |
+| \+ Qwen-1.5B (5 tokens) | 325      | +51% | +~4 GB |
+|                         |          |      |        |
+![[推测解码对不同模型的吞吐提升.jpg]]
+ 图3：推测解码对不同模型的吞吐提升
 
 **建议：** Qwen-0.5B 作为 draft model + 8 个推测 token 的组合性价比最高，额外只占 2GB 显存，提升 56%。建议先用自己的业务数据验证接受率，再决定是否生产使用。
 
@@ -132,7 +135,8 @@ v0.20.0 将推测解码与 async scheduling 深度集成，实测效果非常惊
 
 ## 📊 七参数提升效果一览
 
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E) 图4：7 个参数的独立提升效果对比
+![[7 个参数的独立提升效果对比.jpg]]
+ 图4：7 个参数的独立提升效果对比
 
 ### 🚀 终极配置模板（A100 80G + Qwen-14B）
 
@@ -177,7 +181,8 @@ P99 延迟
 
 \-31%
 
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E) 图5：优化前后整体性能对比
+![[公众号文章/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/8d7e59aa100315dc0d0800d6613d4a79_MD5.jpg]]
+ 图5：优化前后整体性能对比
 
 ## 🎯 场景配置速查
 
@@ -218,13 +223,4 @@ max-model-len=4096 + gpu-memory=0.95 → 单卡多任务部署时首选
 ⑤ 持续监控 P99 延迟和 OOM 频率
 
 参数调优是手艺活，跑出自己的数据才是真本事。
-
 A100 80G · Qwen-14B-INT4 · vLLM 0.20.0 · CUDA 12.4
-
-欢迎关注，更多分享
-
-继续滑动看下一个
-
-不懂技术的青蛙
-
-向上滑动看下一个
