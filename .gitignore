@@ -1,0 +1,12 @@
+# Obsidian 环境文件（不同设备配置不同）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/cache
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
