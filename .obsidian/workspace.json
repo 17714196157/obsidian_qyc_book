@@ -11,10 +11,14 @@
             "id": "360113a0b169c554",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "自媒体工具/hyperframes工具/hyperframes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "hyperframes"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.50378799438477
+    "width": 267.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -195,8 +199,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "360113a0b169c554",
   "lastOpenFiles": [
+    "自媒体工具/hyperframes工具",
+    "AI应用/hermes-agent.md",
+    "AI应用/Feynman-论文研究.md",
+    "AI应用/其他AI项目.md",
+    "自媒体工具/hyperframes工具/hyperframes.md",
     "大模型性能与部署/vLLM/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/file-20260516223130939.jpg",
     "大模型性能与部署/vLLM/7个让 vLLM 吞吐翻倍的配置参数优化与建议.md",
     "大模型性能与部署/vLLM/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议",
@@ -223,7 +232,6 @@
     "AI应用/AI论文解读.md",
     "AI应用/AI论文解读",
     "工具/切片视频制作.md",
-    "AI应用/其他AI项目.md",
     "公众号文章/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
     "公众号文章/assets/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py/9b7d5444e94bb9b8752a3506a0d845a7_MD5.webp",
     "公众号文章/assets/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py",
@@ -239,9 +247,6 @@
     "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
     "大模型性能与部署/vLLM/vllm参数含义与原理.md",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
-    "大模型性能与部署/vLLM/vllm 简介.md",
-    "大模型性能与部署/vLLM/openai客户端代码.md",
-    "自媒体工具/选题工具/UP数据收集.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
