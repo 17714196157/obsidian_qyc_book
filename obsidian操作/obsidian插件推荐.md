@@ -18,7 +18,7 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 ![[LocalmagesPlus不创建附件文件夹.png]]
 
 - Local REST API插件 --- 给obsidian开API接口操作obsidian笔记文本，正删改查笔记文件  https://github.com/coddingtonbear/obsidian-local-rest-api
-
+- Edit History  --- 会自动记录笔记的每一次编辑历史，支持随时浏览、对比、恢复到之前的任意一个版本。
 ##### 2)markdown格式辅助
 - Linter   插件 --->  格式化空格 空行
 - Mind Map  插件 --->  markdown转思维导图

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "49a717044b91a1af",
+        "id": "db150245a9f0fa52",
         "type": "tabs",
         "children": [
           {
-            "id": "d57238b478998da7",
+            "id": "01cee8bf58360187",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
+                "file": "obsidian操作/obsidian插件推荐.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！"
+              "title": "obsidian插件推荐"
             }
           }
         ]
@@ -196,11 +196,14 @@
       "templater-obsidian:Templater": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
       "omnisearch:Omnisearch": false,
-      "claudian:Open Claudian": false
+      "claudian:Open Claudian": false,
+      "edit-history:Open edit history": false
     }
   },
-  "active": "d57238b478998da7",
+  "active": "01cee8bf58360187",
   "lastOpenFiles": [
+    "obsidian操作/obsidian插件推荐.md.edtz",
+    "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
     "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
     "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
     "自媒体工具/hyperframes工具/hyperframes.md",
@@ -245,8 +248,6 @@
     "大模型性能与部署/vLLM/Flash-Decoding.md",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
-    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
-    "大模型性能与部署/vLLM/vllm参数含义与原理.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
