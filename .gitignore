@@ -10,3 +10,5 @@ Thumbs.db
 
 # 临时文件
 *.tmp
+# obsidian-edit-history插件记录的文件修改快照
+*.edtz
