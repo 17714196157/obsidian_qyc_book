@@ -15,7 +15,7 @@ tags:
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116538065684466&bvid=BV1ypdgBCE9B&cid=38181407514&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
-![[file-20260520220841023.jpg]]
+
 ## 概述
 
 本文解答两个核心问题：
@@ -71,7 +71,7 @@ tags:
 
 Skill 本身就是一份给 Agent 看的**操作手册**，告诉 Agent 什么时候该做什么、做到什么标准、哪些红线不能碰。
 
-![[file-20260520223725787.png]]
+![[file-20260520223835109.png]]
 
 ### 2. 工具系统
 
@@ -172,9 +172,9 @@ Skill 本身就是一份给 Agent 看的**操作手册**，告诉 Agent 什么�
 ---
 
 ## 实战演示流程web-video-presentation的skill使用
-![[file-20260520223725801.png]]
-![[file-20260520223725799.png]]
-![[file-20260520223725821.png]]
+![[file-20260520223835088.png]]
+![[file-20260520223835089.png]]
+![[file-20260520223835075.png]]
 ### 环境准备
 1. 安装 Claude Code，验证 `claude -v` 输出版本号
 2. 配置 CC Switch → 选择 Claude → 添加 MiniMax 提供商 → 粘贴 API Key → 模型改为 MiniMax M2.7
@@ -188,7 +188,7 @@ Skill 本身就是一份给 Agent 看的**操作手册**，告诉 Agent 什么�
 - 编写**开发计划**（`outline.md`）：决定每章做几步、每步放什么（细粒度章节+步骤，标注每步屏幕信息）
 - 编写**单章实现** （CHAPTER-CRAFT.md） ：有动图、素材真实、不套模板、代码隔离、字大留白、逐个揭示
 
-![[file-20260520223725790.png]]
+![[file-20260520223835091.png]]
 **自动创建两个 Reviewer Agent 进行质检，人工检查点确认**：
 - 稿子和开发计划是否满意（可调整风格）
 - 选择视觉主题（Skill 推荐或自定义风格）
