@@ -1,25 +1,21 @@
 ---
-title: "Harness 实践：让 Agent 全自动制作知识讲解视频"
-url: "https://www.bilibili.com/video/BV1ypdgBCE9B/?spm_id_from=333.1387.top_right_bar_window_history.content.click&vd_source=d0a50f3d250eed1f7d1546f70041c66b"
-bvid: "BV1ypdgBCE9B"
+title: Harness 实践：让 Agent 全自动制作知识讲解视频
+url: https://www.bilibili.com/video/BV1ypdgBCE9B/?spm_id_from=333.1387.top_right_bar_window_history.content.click&vd_source=d0a50f3d250eed1f7d1546f70041c66b
+bvid: BV1ypdgBCE9B
 cid: "38181407514"
-author: "code秘密花园"
-upload_date: "2026-05-08"
-subtitle_lang: "中文"
-created: "2026-05-19"
+author: code秘密花园
+upload_date: 2026-05-08
+subtitle_lang: 中文
+created: 2026-05-19
 tags:
-  - clippings
   - bilibili
   - harness
-  - claude-code
-  - agent-teams
   - skill
   - video-generation
-  - web-coding
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116538065684466&bvid=BV1ypdgBCE9B&cid=38181407514&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
-
+![[file-20260520220841023.jpg]]
 ## 概述
 
 本文解答两个核心问题：
@@ -29,16 +25,14 @@ tags:
 > [!tip] 核心观点
 > 表面上是"文章变视频"的流程，**本质上是一次 Harness 的具体实践**。模型能力已经很强，关键是如何把这些能力**稳定地编排起来**，让 Agent 能可靠地完成复杂任务。
 
----
-
-## 相关资源
-
 | 资源 | 地址 |
 |------|------|
 | Skill 开源仓库 | https://github.com/ConardLi/garden-skills/ |
 | Claude Code 文档 | https://code.claude.com/docs/zh-CN/overview |
 | MiniMax CLI | https://github.com/MiniMax-AI/cli |
 | CC Switch | https://github.com/farion1231/cc-switch/releases/tag/v3.14.1 |
+
+
 
 ---
 
@@ -77,7 +71,23 @@ tags:
 
 Skill 本身就是一份给 Agent 看的**操作手册**，告诉 Agent 什么时候该做什么、做到什么标准、哪些红线不能碰。
 
-### 1. 执行与编排
+![[file-20260520223725787.png]]
+
+### 2. 工具系统
+
+**解决问题**：模型到底能做什么。
+
+核心就是让 Agent 把自带的**文件读写工具**用好，没有用特殊工具。
+
+**多章节并行开发的隔离机制**：
+
+| 隔离层      | 实现方式                      |
+| -------- | ------------------------- |
+| **物理隔离** | 每章独立文件夹                   |
+| **命名隔离** | 每章独立 CSS 前缀，不抢类名          |
+| **视觉统一** | 主题 Token 兜底，字体/颜色/间距走全局变量 |
+
+### 3. 执行与编排
 
 **解决问题**：让模型知道下一步该做什么。
 
@@ -90,7 +100,7 @@ Skill 本身就是一份给 Agent 看的**操作手册**，告诉 Agent 什么�
 | **阶段三：音频合成** | 调用 TTS 将口播稿合成为音频 | ✅ 人工确认是否需要自动合成 |
 | **阶段四：录屏输出** | 浏览器打开网页，音频自动播放，直接录屏 | — |
 
-### 2. 状态与记忆
+### 4. 状态与记忆
 
 **解决问题**：跨多个步骤保持连续性和稳定性。
 
@@ -109,21 +119,8 @@ Skill 本身就是一份给 Agent 看的**操作手册**，告诉 Agent 什么�
 > [!tip] 文件化的工作记忆
 > 把关键状态写进文件，需要时再读回来。避免"结构对了但画面空了"或"信息很多但节奏乱了"的问题。
 
-### 3. 工具系统
 
-**解决问题**：模型到底能做什么。
-
-核心就是让 Agent 把自带的**文件读写工具**用好，没有用特殊工具。
-
-**多章节并行开发的隔离机制**：
-
-| 隔离层 | 实现方式 |
-|--------|----------|
-| **物理隔离** | 每章独立文件夹 |
-| **命名隔离** | 每章独立 CSS 前缀，不抢类名 |
-| **视觉统一** | 主题 Token 兜底，字体/颜色/间距走全局变量 |
-
-### 4. 约束与恢复
+### 5. 约束与恢复
 
 **解决问题**：出错了怎么办。
 
@@ -131,7 +128,8 @@ Skill 本身就是一份给 Agent 看的**操作手册**，告诉 Agent 什么�
 > 先定位问题在哪一层（节奏、视觉、内容、代码），然后**只改最小的切片**，不重做整章。
 > 重做整章会把已经做对的部分也改掉，用户反而更不满意。
 
-### 5. 评估与观测
+
+### 6. 评估与观测
 
 **解决问题**：系统怎么知道自己做得对不对。
 
@@ -173,35 +171,35 @@ Skill 本身就是一份给 Agent 看的**操作手册**，告诉 Agent 什么�
 
 ---
 
-## 实战演示流程
-
+## 实战演示流程web-video-presentation的skill使用
+![[file-20260520223725801.png]]
+![[file-20260520223725799.png]]
+![[file-20260520223725821.png]]
 ### 环境准备
-
 1. 安装 Claude Code，验证 `claude -v` 输出版本号
 2. 配置 CC Switch → 选择 Claude → 添加 MiniMax 提供商 → 粘贴 API Key → 模型改为 MiniMax M2.7
 3. 安装 MiniMax CLI：让 Claude Code 执行安装命令
 4. 安装 Skill：从 GitHub 下载安装包，解压后放入 `.claude/skills/` 目录
 5. （可选）启用 Agent Teams 环境变量 + 安装 tmux
-
 ### 第一阶段：内容编写
 
 输入原始文章，Agent 自动完成：
-- 编写**口播稿**（`script.md`）：短句、快节奏、真人聊天风格
-- 编写**开发计划**（`outline.md`）：细粒度章节+步骤，标注每步屏幕信息
-- 自动创建两个 Reviewer Agent 进行质检
+- 编写**口播稿**（`script.md`）：决定描述方式与整体节奏（短句、快节奏、真人聊天风格）
+- 编写**开发计划**（`outline.md`）：决定每章做几步、每步放什么（细粒度章节+步骤，标注每步屏幕信息）
+- 编写**单章实现** （CHAPTER-CRAFT.md） ：有动图、素材真实、不套模板、代码隔离、字大留白、逐个揭示
 
-**人工检查点确认**：
+![[file-20260520223725790.png]]
+**自动创建两个 Reviewer Agent 进行质检，人工检查点确认**：
 - 稿子和开发计划是否满意（可调整风格）
 - 选择视觉主题（Skill 推荐或自定义风格）
 - 素材准备方式（手动提供 or AI 生成）
 - 开发模式选择（三种，见下表）
+ **三种开发模式**
 
-### 三种开发模式
-
-| 模式 | 说明 |
-|------|------|
-| **逐章确认** | 每章开发完成后人工验收，再继续下一章 |
-| **顺序开发** | 第一章验收后，后续章节按顺序自动完成 |
+| 模式       | 说明                         |
+| -------- | -------------------------- |
+| **逐章确认** | 每章开发完成后人工验收，再继续下一章         |
+| **顺序开发** | 第一章验收后，后续章节按顺序自动完成         |
 | **并行开发** | 第一章验收后，后续章节用 SubAgent 并行开发 |
 
 ### 第二阶段：章节开发
