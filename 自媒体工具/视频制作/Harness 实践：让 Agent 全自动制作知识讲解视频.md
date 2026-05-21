@@ -25,12 +25,12 @@ tags:
 > [!tip] 核心观点
 > 表面上是"文章变视频"的流程，**本质上是一次 Harness 的具体实践**。模型能力已经很强，关键是如何把这些能力**稳定地编排起来**，让 Agent 能可靠地完成复杂任务。
 
-| 资源 | 地址 |
-|------|------|
-| Skill 开源仓库 | https://github.com/ConardLi/garden-skills/ |
-| Claude Code 文档 | https://code.claude.com/docs/zh-CN/overview |
-| MiniMax CLI | https://github.com/MiniMax-AI/cli |
-| CC Switch | https://github.com/farion1231/cc-switch/releases/tag/v3.14.1 |
+| 资源             | 地址                                                           |
+| -------------- | ------------------------------------------------------------ |
+| Skill 开源仓库     | https://github.com/ConardLi/garden-skills/                   |
+| Claude Code 文档 | https://code.claude.com/docs/zh-CN/overview                  |
+| MiniMax CLI    | https://github.com/MiniMax-AI/cli                            |
+| CC Switch      | https://github.com/farion1231/cc-switch/releases/tag/v3.14.1 |
 
 
 

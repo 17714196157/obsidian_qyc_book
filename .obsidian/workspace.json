@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自媒体工具/视频制作/Harness 实践：让 Agent 全自动制作知识讲解视频.md",
+                "file": "AI应用/CC Switch的使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Harness 实践：让 Agent 全自动制作知识讲解视频"
+              "title": "CC Switch的使用"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 348.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,54 +200,54 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "8e3536c53b073dfc",
   "lastOpenFiles": [
+    "AI应用/assets/CC Switch的使用/d71f550354dc4b6ecd053c474f771bbd_MD5.png",
+    "AI应用/claude_code.md",
+    "AI应用/CC Switch的使用.md",
+    "AI应用/assets/CC Switch的使用/c4a8841d36449973ac4ce484474ca882_MD5.png",
+    "AI应用/assets/CC Switch的使用",
+    "AI应用/assets/CC Switch的使用/file-20260521180640893.png",
+    "AI应用/assets/CC Switch的使用/file-20260521180640897.png",
+    "AI应用/assets/CC Switch的使用/file-20260521180640898.png",
+    "AI应用/assets/CC Switch的使用/file-20260521180640900.png",
+    "AI应用/assets/CC Switch的使用/file-20260521180640902.png",
+    "AI应用/assets/CC Switch的使用/file-20260521180640926.png",
+    "AI应用/assets/CC Switch",
+    "AI应用/CC Switch的使用.md.edtz",
+    "AI应用/其他AI项目.md",
+    "自媒体工具/视频制作/Harness 实践：让 Agent 全自动制作知识讲解视频.md",
     "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频",
     "自媒体工具/hyperframes工具/hyperframes.md",
-    "自媒体工具/视频制作/Harness 实践：让 Agent 全自动制作知识讲解视频.md",
     "自媒体工具/assets/Harness 实践：让 Agent 全自动制作知识讲解视频",
     "自媒体工具/assets/2026-05-19-Harness 实践：让 Agent 全自动制作知识讲解视频",
     "自媒体工具/assets",
     "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频/file-20260520223835075.png",
     "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频/file-20260520223835088.png",
     "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频/file-20260520223835091.png",
-    "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频/file-20260520223835089.png",
-    "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频/file-20260520223835085.jpg",
-    "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频/file-20260520223835109.png",
     "Bilibili/assets/2026-05-19-Harness 实践：让 Agent 全自动制作知识讲解视频",
     "Bilibili/assets",
     "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
     "Bilibili/2026-05-19-GPT-Image2 完全指南：一期讲透主流玩法（附我的生图 Skill）.md",
     "Bilibili/2026-05-19-GPT-Image2 完全指南：一期讲透主流玩法（附我的生图 Skill）.md.edtz",
-    "自媒体工具/视频制作/Harness 实践：让 Agent 全自动制作知识讲解视频.md.edtz",
-    "Bilibili/2026-05-19-Harness 实践：让 Agent 全自动制作知识讲解视频.md.tmp.19248.1779187103201",
     "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/obsidian做个人博客-没能成功.md",
-    "AI应用/其他AI项目.md",
     "AI应用/Feynman-论文研究.md",
     "AI应用/hermes-agent.md",
     "AI应用/LLM Wiki知识库.md",
     "工作交付文档/广福现场97份病案分析.md",
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
     "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
-    "工作交付文档/广福现场97份病案分析.md.edtz",
     "工作交付文档/vllm现场请求耗时较长分享.md",
-    "obsidian操作/obsidian插件推荐.md.edtz",
     "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
     "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
-    "大模型性能与部署/vLLM/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/file-20260516223130939.jpg",
     "大模型性能与部署/vLLM/7个让 vLLM 吞吐翻倍的配置参数优化与建议.md",
-    "大模型性能与部署/vLLM/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/file-20260516223130943.jpg",
-    "大模型性能与部署/vLLM/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/file-20260516223130941.jpg",
-    "大模型性能与部署/vLLM/assets/7个让 vLLM 吞吐翻倍的配置参数优化与建议/file-20260516223130934.jpg",
     "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "kimi-讨论/vLLM Think方案.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "kimi-讨论/DeepSeek_V4论文思路解析.md",
     "AI应用/AI论文解读/zotero-pdf2zh.md",
     "AI应用/AI论文解读.md",
-    "工具/切片视频制作.md",
-    "公众号文章/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
