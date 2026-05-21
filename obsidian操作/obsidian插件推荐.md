@@ -35,7 +35,7 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 
 ##### 5）界面操作优化
 Vertical Tabs--->垂直标签页管理插件,支持快捷分屏、关闭、钉住等操作
-
+Omnisearch ---> 搜索笔记内容
 ##### 6） AI插件
 claudian插件 --->让 AI 像你的“协作编辑”一样，直接在笔记里帮你干活，github.com/YishenTu/claudian 下载
 tips： 和claude code一样配置大模型， 国内大模型平台的配置参数名都不一样，需要去官网查看
