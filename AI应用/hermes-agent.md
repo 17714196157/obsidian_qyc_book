@@ -28,6 +28,9 @@ hermes dashboard --host 0.0.0.0 --port 1111 --insecure
 ```
 ![[Hermes-AgentUI界面.png]]
 
+**windows下安装方法，参考如下**
+![[AI应用/assets/hermes-agent/6629f88adc69cb9222cb68700cd563c3_MD5.png]]
+
 ###  一）hermes 链接个人微信
 
 ```bash 

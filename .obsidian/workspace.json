@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "12642191bbf87685",
+        "id": "684fbaa1de91dedb",
         "type": "tabs",
         "children": [
           {
-            "id": "a07e0c1706d1eb8f",
+            "id": "cafc5d82cd076637",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自媒体工具/hyperframes工具/hyperframes.md",
+                "file": "AI应用/hermes-agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hyperframes"
+              "title": "hermes-agent"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.50378799438477
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,14 +200,17 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "a07e0c1706d1eb8f",
+  "active": "cafc5d82cd076637",
   "lastOpenFiles": [
+    "AI应用/assets/hermes-agent/6629f88adc69cb9222cb68700cd563c3_MD5.png",
+    "论文解读/论文原文/DeepSeek_V4-dual.pdf",
+    "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
+    "自媒体工具/hyperframes工具/hyperframes.md",
     "自媒体工具/hyperframes工具/assets/hyperframes/e1d582fb26ab71f50f4184676a05dbf1_MD5.png",
     "自媒体工具/hyperframes工具/assets/hyperframes",
     "自媒体工具/hyperframes工具/assets",
     "AI应用/hermes-agent.md",
     "AI应用/claude_code.md",
-    "自媒体工具/hyperframes工具/hyperframes.md",
     "自媒体工具/hyperframes工具/hyperframes.md.edtz",
     "AI应用/LLM Wiki知识库.md",
     "AI应用/Oh-My-OpenCode 完全指南.md",
@@ -231,9 +234,7 @@
     "AI应用/assets/CC Switch",
     "AI应用/CC Switch的使用.md.edtz",
     "AI应用/其他AI项目.md",
-    "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频",
     "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频/file-20260520223835075.png",
-    "自媒体工具/视频制作/assets/Harness 实践：让 Agent 全自动制作知识讲解视频/file-20260520223835088.png",
     "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
     "obsidian操作/obsidian做个人博客-没能成功.md",
     "AI应用/Feynman-论文研究.md",
@@ -244,7 +245,6 @@
     "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
     "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
     "大模型性能与部署/vLLM/7个让 vLLM 吞吐翻倍的配置参数优化与建议.md",
-    "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "kimi-讨论/vLLM Think方案.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "kimi-讨论/DeepSeek_V4论文思路解析.md",
