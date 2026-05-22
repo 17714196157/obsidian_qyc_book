@@ -13,7 +13,7 @@ tags:
   - skill
   - video-generation
 ---
-
+[GitHub - MiniMax-AI/cli: Generate text, images, video, speech, and music by MiniMax. · GitHub](https://github.com/MiniMax-AI/cli)
 <iframe src="https://player.bilibili.com/player.html?aid=116538065684466&bvid=BV1ypdgBCE9B&cid=38181407514&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
 
 ## 概述

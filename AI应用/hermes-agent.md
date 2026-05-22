@@ -1,9 +1,17 @@
 官网文档 https://hermes-agent.nousresearch.com/docs/getting-started
 安装：
 ```bash
+# 安装 nvm  管理nodejs版本
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+source ~/.bashrc
+nvm install 22 # 安装 Node.js 22 的最新版本
+nvm alias default 22  # 指定具体版本
+node -v # 此时应显示 v22.x.x 等高于你之前版本的号码
+
+# 安装 hermes-agent
 curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
 source ~/.bashrc
-
+hermes update # 升级版本
 hermes model # Choose your LLM provider and model  
 hermes tools # Configure which tools are enabled  
 hermes setup # Or configure everything at once
@@ -20,7 +28,7 @@ hermes dashboard --host 0.0.0.0 --port 1111 --insecure
 ```
 ![[Hermes-AgentUI界面.png]]
 
-###  hermes 链接个人微信
+###  一）hermes 链接个人微信
 
 ```bash 
 pip install aiohttp cryptography

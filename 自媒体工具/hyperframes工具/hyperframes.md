@@ -1,6 +1,8 @@
 HyperFrames 是一款以 HTML 为视频唯一可信源的视频渲染引擎，由 HeyGen 开发、Apache-2.0 开源，同时也是 NousResearch 开源 Hermes Agent 智能体框架的官方创意技能。
 它可以直接作为技能安装到 Hermes Agent 中，让你的 AI 智能体直接具备专业级视频创作能力，你只用说一句话，AI 就能自动帮你写代码、做动画、渲染出成品视频，全程不用碰一行代码。
 
+项目地址: https://github.com/heygen-com/hyperframes
+
 ### 安装
 1. npx 安装
 ```bash
@@ -34,3 +36,6 @@ npx hyperframes render       # 渲染成 MP4
 
     之前 `hermes skills install` 失败是因为 GitHub API 限速（未认证每小时 60 次请求），但 skills 本身已经就位，不影响使用。
 ```
+
+3. hermes交互里， 初始化看看hyperframes的demo效果， 会自动创建一段宣传hyperframes的视频。类似ppt展示的效果。
+![[自媒体工具/hyperframes工具/assets/hyperframes/e1d582fb26ab71f50f4184676a05dbf1_MD5.png]]
