@@ -20,16 +20,6 @@
               "icon": "lucide-file",
               "title": "hermes-agent"
             }
-          },
-          {
-            "id": "a92a295e32d8aab1",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
           }
         ]
       }
@@ -210,7 +200,7 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "68be044b5d76eb5c",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
     "公众号文章/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】.md",
     "公众号文章/assets/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】/47befbdd4da55616c6d6bd32f75a1412_MD5.webp",
