@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e0af09123f833413",
+        "id": "3948520495b46624",
         "type": "tabs",
         "children": [
           {
-            "id": "68be044b5d76eb5c",
+            "id": "75026a5631ad2547",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自媒体工具/视频制作/MoneyPrinterTurbo.md",
+                "file": "自媒体工具/视频制作/crawl4ai爬虫.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MoneyPrinterTurbo"
+              "title": "crawl4ai爬虫"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.50378799438477
+    "width": 278.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,14 +200,18 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "68be044b5d76eb5c",
+  "active": "75026a5631ad2547",
   "lastOpenFiles": [
+    "自媒体工具/视频制作/crawl4ai爬虫.md.edtz",
+    "自媒体工具/视频制作/crawl4ai爬虫.md",
+    "自媒体工具/老王视频.md",
+    "自媒体工具/老王视频.md.edtz",
+    "自媒体工具/视频制作/MoneyPrinterTurbo.md",
     "自媒体工具/视频制作/assets/MoneyPrinterTurbo/540a75568d106018c8a8e5f5b8e7c7ed_MD5.png",
     "自媒体工具/视频制作/assets/MoneyPrinterTurbo/4b40994eb982b098850f0a3f7aca9f25_MD5.png",
     "自媒体工具/视频制作/assets/MoneyPrinterTurbo",
     "自媒体工具/视频制作/MoneyPrinterTurbo.md.edtz",
     "AI应用/hermes-agent.md",
-    "自媒体工具/视频制作/MoneyPrinterTurbo.md",
     "公众号文章/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】.md",
     "公众号文章/assets/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】/47befbdd4da55616c6d6bd32f75a1412_MD5.webp",
     "公众号文章/assets/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】",
@@ -220,7 +224,6 @@
     "论文解读/论文原文/DeepSeek_V4-dual.pdf",
     "论文解读/assets/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py",
     "论文解读/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md.edtz",
-    "论文解读/assets/详解DeepSeek V4后训练全流程",
     "obsidian操作/obsidian插件推荐.md",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928876.png",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928896.png",
@@ -230,7 +233,6 @@
     "Bilibili/assets/从分布视角看SFT、RL和OPD：泛化性能差异解析/screenshot_004_dfa2263d-cda8-4830-a02a-d01e811abb61.jpg",
     "Bilibili/assets/从分布视角看SFT、RL和OPD：泛化性能差异解析/screenshot_003_e1c4cd4a-f849-44f7-99a6-dd5cf1c87802.jpg",
     "Bilibili/assets/从分布视角看SFT、RL和OPD：泛化性能差异解析/screenshot_002_1d6f0b6f-260b-45fb-a6d3-95550f605d29.jpg",
-    "Bilibili/assets/从分布视角看SFT、RL和OPD：泛化性能差异解析/screenshot_001_1f12f17d-9741-4c6b-9966-c2c7fc8b9347.jpg",
     "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "自媒体工具/hyperframes工具/hyperframes.md",
     "AI应用/claude_code.md",
@@ -246,8 +248,6 @@
     "AI应用/Feynman-论文研究.md",
     "工作交付文档/广福现场97份病案分析.md",
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
-    "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
-    "工作交付文档/vllm现场请求耗时较长分享.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
