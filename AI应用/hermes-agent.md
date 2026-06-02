@@ -101,8 +101,27 @@ WEIXIN_GROUP_POLICY=disabled    # 忽略所有群消息（默认）
 - ✅ 打字状态提示
 - ✅ SSRF 保护
 ---
+### 二） Hermes监控台
+**项目地址：** github.com/EKKOLearnAI/hermes-web-ui
+```
+npm install -g hermes-web-ui 
 
-### 二） Hermes斜杠命令
+root@maizi:/home/qyc/gitee/hermes-agent# hermes-web-ui stop
+  ✓ hermes-web-ui stopped (PID: 4128987)
+  
+root@maizi:/home/qyc/gitee/hermes-agent#  hermes-web-ui start --host 0.0.0.0
+
+  ⏳ Starting hermes-web-ui (PID: 4137609, port: 8648)...
+  ✓ hermes-web-ui started
+    http://localhost:8648/#/?token=f56904d3b78a9bb085ba075b2827b1c29bf06d41bdddba5b758fd4e68845f5e7
+    Log: /root/.hermes-web-ui/server.log
+```
+
+
+![[hermes-web-ui界面.png]]
+
+---
+### 三） Hermes斜杠命令
 
 在 Hermes 的对话界面里，输入 `/` 会弹出一个自动补全菜单，列出所有可用的命令。命令不分大小写，`/HELP` 和 `/help` 效果一样。
 
