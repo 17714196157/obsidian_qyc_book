@@ -258,31 +258,65 @@ docker-compose down -v  # 会删除容器和 volume（不会删除挂载的 conf
 | `RUN_MODE` | `cron`（定时）或 `once`（单次） |
 | `CRON_SCHEDULE` | cron 表达式，默认 `*/30 * * * *` |
 
+### 数据源与选题策略
+##### 1. 新增 LLM/AI 垂直数据源
+已在 `config/config.yaml` 的 `rss.feeds` 中增加以下源：
+*   **OpenAI Blog** (官方更新)
+*   **TechCrunch AI** (行业新闻)
+*   **Hugging Face Blog** (开源社区)
+*   **ArXiv CS.AI** (最新论文)
+##### 2. 全量推送模式（自媒体选题专用）
+为了不错过任何热点，已将 `frequency_words.txt` 修改为全量匹配。
+
+**修改 `config/frequency_words.txt`：**
+```text
+[GLOBAL_FILTER]
+震惊
+广告
+
+[WORD_GROUPS]
+# 正则表达式 /.+/ 匹配所有非空标题，实现全量推送
+/.+/ => 全部热点
+```
+
+
 ---
 
 ## 七、进阶：配置通知推送
 
-TrendRadar 支持多种通知渠道。以企业微信为例：
-
-### 7.1 在 config.yaml 中配置
-
-```yaml
-notification:
-  enabled: true
-  channels:
-    wework:
-      webhook_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=YOUR_KEY"
-      msg_type: "markdown"
-```
-
-### 7.2 或在 .env 中配置
-
+TrendRadar 支持多种通知渠道。以飞书为例：
+##### 7.1配置飞书，将信息同步给飞书
+在飞书中**添加自定义机器人**并获取 Webhook 地址的步骤如下，
+1. **打开飞书群聊**，点击群聊右上角的 **「设置」**（或「更多」按钮）
+2. 在右侧设置面板中找到 **「群机器人」** → 点击 **「添加机器人」**
+3. 在弹出的窗口中选择 **「自定义机器人」**（Custom Bot）
+获取 Webhook 地址
+![[自媒体工具/选题工具/assets/UP数据收集/9aa8fdaae8449d36541c3bd905cc42bf_MD5.png]]
+![[自媒体工具/选题工具/assets/UP数据收集/1d87b9ffa6259da87297da20589829d6_MD5.png]]
+测试给飞书群发消息：
 ```bash
-WEWORK_WEBHOOK_URL=https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=YOUR_KEY
-WEWORK_MSG_TYPE=markdown
+curl -X POST -H "Content-Type: application/json" \
+  -d '{"msg_type":"text","content":{"text":"Hello from Hermes"}}' \
+  https://open.feishu.cn/open-apis/bot/v2/hook/67fc539f-d9f0-4067-981e-61dadea6d227
 ```
+![[自媒体工具/选题工具/assets/UP数据收集/301ea71ace23469de718883fc7c1f8d5_MD5.png]]
 
-> 两者都配置时，`config.yaml` 优先级更高。推荐二选一，避免混淆。
+##### 7.2 在 config.yaml 中配置
+```yaml
+#    GitHub 部署请将 webhook 填入 GitHub Secrets，不要写在这里
+# 📌 多账号：分号(;)分隔，如 "url1;url2;url3"
+#    配对项（如 Telegram token 和 chat_id）数量必须一致
+
+notification:
+  enabled: true #是否启用通知功能（true=启用, false=关闭）—— 总开关
+ # 开启 schedule 后此项仍为总开关：false=永远不推送，true=由调度控制
+  # 推送渠道配置
+  channels:
+    feishu:
+      webhook_url: "https://open.feishu.cn/open-apis/bot/v2/hook/67fc539f-d9f0-4067-981e-61dadea6d227"
+
+
+```
 
 ---
 

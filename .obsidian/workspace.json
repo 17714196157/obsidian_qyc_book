@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自媒体工具/选题工具/UP数据收集.md",
+                "file": "自媒体工具/选题工具/TrendRadar Docker 安装指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UP数据收集"
+              "title": "TrendRadar Docker 安装指南"
             }
           }
         ]
@@ -202,11 +202,12 @@
   },
   "active": "bb76fd0ff58df8b2",
   "lastOpenFiles": [
+    "自媒体工具/选题工具/UP数据收集.md",
+    "自媒体工具/选题工具/TrendRadar Docker 安装指南.md",
+    "自媒体工具/选题工具/assets/TrendRadar Docker 安装指南",
     "自媒体工具/选题工具/assets/UP数据收集/301ea71ace23469de718883fc7c1f8d5_MD5.png",
     "自媒体工具/选题工具/assets/UP数据收集/9aa8fdaae8449d36541c3bd905cc42bf_MD5.png",
     "自媒体工具/选题工具/assets/UP数据收集/1d87b9ffa6259da87297da20589829d6_MD5.png",
-    "自媒体工具/选题工具/TrendRadar Docker 安装指南.md",
-    "自媒体工具/选题工具/UP数据收集.md",
     "自媒体工具/选题工具/TrendRadar Docker 安装指南.md.edtz",
     "AI应用/hermes-agent.md",
     "自媒体工具/选题工具/UP数据收集.md.edtz",
@@ -234,14 +235,12 @@
     "自媒体工具/视频制作/MoneyPrinterTurbo.md.edtz",
     "公众号文章/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】.md",
     "公众号文章/assets/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】/47befbdd4da55616c6d6bd32f75a1412_MD5.webp",
-    "公众号文章/assets/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】",
     "论文解读/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
     "论文解读/详解DeepSeek V4后训练全流程.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "obsidian操作/obsidian插件推荐.md",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928876.png",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928896.png",
-    "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928898.png",
     "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "自媒体工具/hyperframes工具/hyperframes.md",
     "AI应用/claude_code.md",
