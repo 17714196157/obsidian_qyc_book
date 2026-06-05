@@ -6,26 +6,21 @@
 
 ## 一、环境准备
 
-### 1.1 确认 Docker 环境
-
+**确认 Docker 环境**
 ```bash
 docker --version
 docker-compose --version
 ```
-
 需要 Docker ≥ 20.10 且已安装 `docker-compose` 插件或独立版本。
 
-### 1.2 获取项目
-
+**获取项目**
 使用浅克隆加快下载速度：
-
 ```bash
 cd /tmp
 git clone --depth 1 https://github.com/sansan0/TrendRadar.git
 ```
 
 ---
-
 ## 二、项目结构概览
 
 克隆完成后，关键文件分布如下：
@@ -89,22 +84,38 @@ volumes:
 
 TrendRadar 使用 **LiteLLM** 作为 AI 适配层，这意味着所有模型都遵循 `provider/model_name` 格式。
 
-#### 修改 `.env` 文件
-
+**修改 `.env` 文件**
 ```bash
-# AI 配置
+# ============================================
+# AI 配置（ai_analysis 和 ai_translation 共享模型配置）
+# ============================================
+# 是否启用 AI 分析 (true/false)
 AI_ANALYSIS_ENABLED=true
-AI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
+# AI API Key（必填，启用 AI 功能时需要）
+AI_API_KEY=sk-d98a7434af1f4641921b8af02e175499
+# AI 模型名称（LiteLLM 格式: provider/model_name）
+# 示例: deepseek/deepseek-chat, openai/gpt-4o, gemini/gemini-2.5-flash
 AI_MODEL=openai/qwen3.6-plus
+# 自定义 API 端点（可选，大多数情况留空）
 AI_API_BASE=https://dashscope.aliyuncs.com/compatible-mode/v1
 ```
 
-#### 修改 `config/config.yaml` 文件
-
+修改 `config/config.yaml` 文件
 ```yaml
+# 8. AI 模型配置（ai_analysis / ai_translation / ai_filter 共用）
 ai:
+  # LiteLLM 模型格式: 提供商/模型名
+  # 示例:
+  #   - deepseek/deepseek-v4-flash (DeepSeek，便宜够用，推荐)
+  #   - deepseek/deepseek-v4-pro
+  #   - openai/gpt-4o (OpenAI)
+  #   - gemini/gemini-2.5-flash (Google Gemini)
+  #   - anthropic/claude-sonnet-4-20250514 (Anthropic)
+  #   - ollama/llama3 (本地 Ollama)
+  # 完整列表: https://docs.litellm.ai/docs/providers
+  # 如果你对于看英文文档比较头疼，那么可以点击页面右下角的 【Ask AI】 ,用中文询问怎么配置
   model: "openai/qwen3.6-plus"
-  api_key: "sk-xxxxxxxxxxxxxxxxxxxxxxxx"
+  api_key: "sk-d98a7434af1f4641921b8af02e175499"
   api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
 ```
 
@@ -114,7 +125,6 @@ ai:
 > - **必须**在模型名前加 `openai/` 前缀，例如 `openai/qwen3.6-plus`
 > - **不能**直接写 `qwen3.6-plus`，LiteLLM 无法识别
 > - API Base 必须填 `https://dashscope.aliyuncs.com/compatible-mode/v1`
-> 
 > 可选模型：`qwen-turbo`、`qwen-plus`、`qwen-max`、`qwen3.6-plus` 等。
 
 ### 3.4 配置外部访问端口（可选）
@@ -137,7 +147,6 @@ ports:
 > 正确的做法是：`.env` 中保持 `WEBSERVER_PORT=8080`，`ports` 中写 `"0.0.0.0:8383:8080"`。
 
 ### 3.5 启动容器
-
 ```bash
 # 拉取镜像
 docker-compose pull trendradar
