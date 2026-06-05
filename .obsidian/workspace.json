@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3948520495b46624",
+        "id": "6aeb0bfa2233d665",
         "type": "tabs",
         "children": [
           {
-            "id": "75026a5631ad2547",
+            "id": "bb76fd0ff58df8b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/hermes-agent.md",
+                "file": "自媒体工具/选题工具/UP数据收集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hermes-agent"
+              "title": "UP数据收集"
             }
           }
         ]
@@ -200,8 +200,28 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "75026a5631ad2547",
+  "active": "bb76fd0ff58df8b2",
   "lastOpenFiles": [
+    "自媒体工具/选题工具/assets/UP数据收集/301ea71ace23469de718883fc7c1f8d5_MD5.png",
+    "自媒体工具/选题工具/assets/UP数据收集/9aa8fdaae8449d36541c3bd905cc42bf_MD5.png",
+    "自媒体工具/选题工具/assets/UP数据收集/1d87b9ffa6259da87297da20589829d6_MD5.png",
+    "自媒体工具/选题工具/TrendRadar Docker 安装指南.md",
+    "自媒体工具/选题工具/UP数据收集.md",
+    "自媒体工具/选题工具/TrendRadar Docker 安装指南.md.edtz",
+    "AI应用/hermes-agent.md",
+    "自媒体工具/选题工具/UP数据收集.md.edtz",
+    "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md",
+    "公众号文章/assets/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了/9ba0dfed3ec2e68b7805c038703e288d_MD5.webp",
+    "公众号文章/assets/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了",
+    "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md.edtz",
+    "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
+    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
+    "Bilibili/从分布视角看SFT、RL和OPD：泛化性能差异解析.md",
+    "Bilibili/2026-04-20-从 Retrieval 到 Compilation：Karpathy 提出的 LLM Wiki，凭什么能吊打传统 RAG 架构？.md",
+    "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
+    "Bilibili/2026-05-19-GPT-Image2 完全指南：一期讲透主流玩法（附我的生图 Skill）.md",
+    "Bilibili/2026-06-03-闲聊是生存技巧，不会闲聊是一个重大的缺失，冰哥教你学会闲聊.md",
+    "Bilibili/2026-06-03-闲聊是生存技巧，不会闲聊是一个重大的缺失，冰哥教你学会闲聊.md.edtz",
     "AI应用/assets/hermes-agent/hermes-web-ui界面.png",
     "自媒体工具/视频制作/crawl4ai爬虫.md",
     "自媒体工具/视频制作/crawl4ai爬虫.md.edtz",
@@ -212,42 +232,22 @@
     "自媒体工具/视频制作/assets/MoneyPrinterTurbo/4b40994eb982b098850f0a3f7aca9f25_MD5.png",
     "自媒体工具/视频制作/assets/MoneyPrinterTurbo",
     "自媒体工具/视频制作/MoneyPrinterTurbo.md.edtz",
-    "AI应用/hermes-agent.md",
     "公众号文章/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】.md",
     "公众号文章/assets/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】/47befbdd4da55616c6d6bd32f75a1412_MD5.webp",
     "公众号文章/assets/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】",
-    "公众号文章/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】.md.edtz",
     "论文解读/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
-    "论文解读/论文原文/Model Spec Midtraining-dual.pdf",
-    "论文解读/论文原文/2605.02087v2-dual.pdf",
     "论文解读/详解DeepSeek V4后训练全流程.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
-    "论文解读/论文原文/DeepSeek_V4-dual.pdf",
-    "论文解读/assets/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py",
     "obsidian操作/obsidian插件推荐.md",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928876.png",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928896.png",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928898.png",
-    "Bilibili/从分布视角看SFT、RL和OPD：泛化性能差异解析.md",
-    "Bilibili/assets/从分布视角看SFT、RL和OPD：泛化性能差异解析/screenshot_005_85ecf187-9881-436c-8720-921c1ffa031e.jpg",
-    "Bilibili/assets/从分布视角看SFT、RL和OPD：泛化性能差异解析/screenshot_004_dfa2263d-cda8-4830-a02a-d01e811abb61.jpg",
-    "Bilibili/assets/从分布视角看SFT、RL和OPD：泛化性能差异解析/screenshot_003_e1c4cd4a-f849-44f7-99a6-dd5cf1c87802.jpg",
-    "Bilibili/assets/从分布视角看SFT、RL和OPD：泛化性能差异解析/screenshot_002_1d6f0b6f-260b-45fb-a6d3-95550f605d29.jpg",
     "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "自媒体工具/hyperframes工具/hyperframes.md",
     "AI应用/claude_code.md",
     "AI应用/LLM Wiki知识库.md",
     "AI应用/Oh-My-OpenCode 完全指南.md",
     "自媒体工具/视频制作/Harness 实践：让 Agent 全自动制作知识讲解视频.md",
-    "Bilibili/2026-05-19-GPT-Image2 完全指南：一期讲透主流玩法（附我的生图 Skill）.md",
-    "公众号文章/「爱马仕」Hermes HyperFrames 全攻略，告别AE剪映，一行命令解锁 HTML 直出视频黑科技！.md",
-    "AI应用/CC Switch的使用.md",
-    "AI应用/其他AI项目.md",
-    "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
-    "obsidian操作/obsidian做个人博客-没能成功.md",
-    "AI应用/Feynman-论文研究.md",
-    "工作交付文档/广福现场97份病案分析.md",
-    "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

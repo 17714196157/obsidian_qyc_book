@@ -1,5 +1,6 @@
 
 # 一）B站爬取脚本，容易被限流
+##### python代码示例
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -226,7 +227,7 @@ if __name__ == "__main__":
 ```
 
 # 二）开源工具
-#### MediaCrawler - 自媒体平台爬虫 
+### MediaCrawler - 自媒体平台爬虫 
 https://github.com/NanmiCoder/MediaCrawler
 安装：
 ```
@@ -259,7 +260,7 @@ creator_comments_2026-04-21.jsonl  creator_contents_2026-04-21.jsonl  creator_cr
 ```
 
 
-#### opencli 将界面爬虫 命令化
+### opencli 将界面爬虫 命令化
 项目地址 https://github.com/jackwener/opencli
 说明：
 1. 使用内置适配器，适用于 Bilibili、知乎、小红书、Reddit、HackerNews、Twitter/X 等网站
@@ -290,9 +291,37 @@ opencli bilibili hot --limit 5  # 获取B站最热门的前五视频
 npx skills add jackwener/opencli
 ```
 
+### TrendRadar 热点信息爬取
+项目地址 https://github.com/sansan0/TrendRadar
+[[TrendRadar Docker 安装指南]]
+```
+# Docker一键启动
+docker pull wantcat/trendradar:latest
+docker run -d --name trendradar \
+  -p 8383:8080 \
+  -v ./config:/app/config \
+  wantcat/trendradar:latest
+```
+#### 配置飞书，将信息同步给飞书
+在飞书中**添加自定义机器人**并获取 Webhook 地址的步骤如下，
+1. **打开飞书群聊**，点击群聊右上角的 **「设置」**（或「更多」按钮）
+2. 在右侧设置面板中找到 **「群机器人」** → 点击 **「添加机器人」**
+3. 在弹出的窗口中选择 **「自定义机器人」**（Custom Bot）
+获取 Webhook 地址
+![[自媒体工具/选题工具/assets/UP数据收集/9aa8fdaae8449d36541c3bd905cc42bf_MD5.png]]
+![[自媒体工具/选题工具/assets/UP数据收集/1d87b9ffa6259da87297da20589829d6_MD5.png]]
+测试给飞书群发消息：
+```bash
+curl -X POST -H "Content-Type: application/json" \
+  -d '{"msg_type":"text","content":{"text":"Hello from Hermes"}}' \
+  https://open.feishu.cn/open-apis/bot/v2/hook/67fc539f-d9f0-4067-981e-61dadea6d227
+```
+![[自媒体工具/选题工具/assets/UP数据收集/301ea71ace23469de718883fc7c1f8d5_MD5.png]]
 
 
-### 三） 网页工具
+
+
+# 三） 网页工具
 **抖音热点宝:**  https://douhot.douyin.com
 
 **飞瓜数据B站版**：

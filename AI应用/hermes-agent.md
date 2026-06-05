@@ -1,5 +1,5 @@
 官网文档 https://hermes-agent.nousresearch.com/docs/getting-started
-安装：
+**安装：**
 ```bash
 # 安装 nvm  管理nodejs版本
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -20,6 +20,34 @@ hermes  # 启动交互应用界面
 hermes chat -q "测试"
 
 ```
+ **一键清理脚本:**
+```bash
+ #!/bin/bash
+echo "=== 卸载 Hermes Agent ==="
+pip uninstall hermes-agent -y 2>/dev/null
+
+echo "=== 卸载 Hermes Studio ==="
+sudo apt remove --purge hermes-studio -y 2>/dev/null
+
+echo "=== 清理所有配置和缓存 ==="
+# Hermes 主配置目录
+rm -rf ~/.hermes
+# Studio 配置（Electron 应用）
+rm -rf ~/.config/hermes-studio
+rm -rf ~/.config/Hermes\ Studio
+# 缓存文件
+rm -rf ~/.cache/hermes*
+rm -rf ~/.local/share/hermes*
+# 日志文件
+rm -rf ~/.local/state/hermes*
+rm -f /root/.local/bin/hermes
+
+echo "=== 完成 ==="
+which hermes 2>/dev/null || echo "hermes 已完全移除"
+# 检查是否还有残留
+npm list -g | grep -i hermes
+```
+
 **配置文件路径： Hermes Agent 的主配置文件 `~/.hermes/config.yaml`**
 
 启动UI管理界面 

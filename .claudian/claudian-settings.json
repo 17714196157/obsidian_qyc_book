@@ -74,7 +74,7 @@
   "savedProviderThinkingBudget": {
     "claude": "low"
   },
-  "lastCustomModel": "GLM-4.7-Flash",
+  "lastCustomModel": "qwen3.6-plus",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

@@ -1,0 +1,309 @@
+# TrendRadar Docker 安装指南
+
+> 使用 Docker 容器方式部署 TrendRadar，接入阿里百炼（DashScope）大模型，实现舆情监控与热点分析。
+
+---
+
+## 一、环境准备
+
+### 1.1 确认 Docker 环境
+
+```bash
+docker --version
+docker-compose --version
+```
+
+需要 Docker ≥ 20.10 且已安装 `docker-compose` 插件或独立版本。
+
+### 1.2 获取项目
+
+使用浅克隆加快下载速度：
+
+```bash
+cd /tmp
+git clone --depth 1 https://github.com/sansan0/TrendRadar.git
+```
+
+---
+
+## 二、项目结构概览
+
+克隆完成后，关键文件分布如下：
+
+```
+TrendRadar/
+├── config/                 # 配置文件目录（核心）
+│   ├── config.yaml         # 主配置文件
+│   ├── frequency_words.txt # 关键词词表
+│   ├── ai_interests.txt    # AI 兴趣描述
+│   ├── timeline.yaml       # 调度时间线
+│   └── ai_analysis_prompt.txt  # AI 分析提示词
+├── docker/                 # Docker 相关文件
+│   ├── docker-compose.yml  # 编排文件（注意：不在项目根目录！）
+│   ├── .env                # 环境变量模板
+│   ├── Dockerfile          # 构建用（使用官方镜像无需关心）
+│   └── entrypoint.sh       # 容器启动脚本
+├── trendradar/             # 源代码
+└── output/                 # 输出目录（运行时生成）
+```
+
+> **⚠️ 注意点 1：** 项目的 `docker-compose.yml` 位于 `docker/` 子目录下，不在项目根目录。直接使用会报 "配置文件缺失" 错误（volume 路径 `../config` 相对位置不对）。
+
+---
+
+## 三、部署步骤
+
+### 3.1 创建部署目录
+
+```bash
+mkdir -p /home/qyc/TrendRadar
+cd /home/qyc/TrendRadar
+
+# 复制配置文件和 docker-compose.yml 到工作目录
+cp -r /tmp/TrendRadar/config ./
+cp /tmp/TrendRadar/docker/docker-compose.yml .
+cp /tmp/TrendRadar/docker/.env .
+```
+
+> **为什么这样做？** 把配置和编排文件放到同一目录，volume 路径用 `./config` 即可，避免相对路径混乱。
+
+### 3.2 修改 volume 路径
+
+编辑 `docker-compose.yml`，将 volume 路径从 `../config` 改为 `./config`：
+
+```yaml
+# 修改前（docker/ 子目录下的原始配置）
+volumes:
+  - ../config:/app/config:ro
+  - ../output:/app/output
+
+# 修改后（放到项目根目录后的配置）
+volumes:
+  - ./config:/app/config:ro
+  - ./output:/app/output
+```
+
+> **⚠️ 注意点 2：** 这是最常见的坑。如果不改这个路径，容器会报 `❌ 配置文件缺失` 并反复重启。
+
+### 3.3 配置阿里百炼 API
+
+TrendRadar 使用 **LiteLLM** 作为 AI 适配层，这意味着所有模型都遵循 `provider/model_name` 格式。
+
+#### 修改 `.env` 文件
+
+```bash
+# AI 配置
+AI_ANALYSIS_ENABLED=true
+AI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
+AI_MODEL=openai/qwen3.6-plus
+AI_API_BASE=https://dashscope.aliyuncs.com/compatible-mode/v1
+```
+
+#### 修改 `config/config.yaml` 文件
+
+```yaml
+ai:
+  model: "openai/qwen3.6-plus"
+  api_key: "sk-xxxxxxxxxxxxxxxxxxxxxxxx"
+  api_base: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+```
+
+> **⚠️ 注意点 3：阿里百炼的模型命名**
+> 
+> 阿里百炼（DashScope）的兼容接口是 OpenAI 格式的，所以：
+> - **必须**在模型名前加 `openai/` 前缀，例如 `openai/qwen3.6-plus`
+> - **不能**直接写 `qwen3.6-plus`，LiteLLM 无法识别
+> - API Base 必须填 `https://dashscope.aliyuncs.com/compatible-mode/v1`
+> 
+> 可选模型：`qwen-turbo`、`qwen-plus`、`qwen-max`、`qwen3.6-plus` 等。
+
+### 3.4 配置外部访问端口（可选）
+
+默认 Web 端口是 8080。如需改为其他端口（如 8383），编辑 `docker-compose.yml`：
+
+```yaml
+ports:
+  - "0.0.0.0:8383:8080"
+  #   ↑ 外部端口   ↑ 容器内部端口
+```
+
+- `0.0.0.0` 表示允许任何 IP 访问（局域网/远程可访问）
+- `127.0.0.1` 表示仅本机可访问
+
+> **⚠️ 注意点 4：内外端口分离**
+> 
+> 外部端口和内部端口可以不同。容器内的 Web 服务始终监听 `.env` 中 `WEBSERVER_PORT` 指定的端口（默认 8080），docker-compose 的 `ports` 负责做端口映射。
+> 
+> 正确的做法是：`.env` 中保持 `WEBSERVER_PORT=8080`，`ports` 中写 `"0.0.0.0:8383:8080"`。
+
+### 3.5 启动容器
+
+```bash
+# 拉取镜像
+docker-compose pull trendradar
+
+# 启动服务
+docker-compose up -d trendradar
+```
+
+> **⚠️ 注意点 5：MCP 服务可选**
+> 
+> `docker-compose.yml` 中定义了两个服务：`trendradar`（主服务）和 `trendradar-mcp`（MCP Server）。
+> - MCP 镜像较大，国内网络可能拉取超时
+> - 如果不需要 MCP 功能（自然语言对话分析），只启动主服务即可：`docker-compose up -d trendradar`
+> - 需要 MCP 时再单独启动：`docker-compose up -d trendradar-mcp`
+
+---
+
+## 四、验证与排障
+
+### 4.1 检查容器状态
+
+```bash
+docker ps --filter name=trendradar
+docker logs trendradar --tail 30
+```
+
+正常日志应显示：
+```
+配置文件加载成功: /app/config/config.yaml
+TrendRadar v6.9.0 配置加载完成
+监控平台数量: 11
+[AI] 模型: openai/qwen3.6-plus
+```
+
+### 4.2 Web 服务器的启动时机
+
+> **⚠️ 注意点 6：Web 服务不是立即启动的**
+> 
+> 查看 `entrypoint.sh` 可知，容器启动流程为：
+> 1. 校验配置文件
+> 2. 立即执行一次数据抓取（如果 `IMMEDIATE_RUN=true`）
+> 3. 调用 AI 分析（如果启用）
+> 4. AI 翻译（如果启用）
+> 5. **最后**才启动 Web 服务器
+> 
+> 这意味着从 `docker-compose up` 到 Web 服务可用，可能需要 **1~3 分钟**（取决于 AI 分析速度）。期间 `curl` 会返回连接失败，这是正常的，耐心等待即可。
+
+验证：
+```bash
+curl -s -o /dev/null -w "HTTP %{http_code}" http://<服务器IP>:8383/index.html
+# 正常返回 HTTP 200
+```
+
+### 4.3 常见错误速查
+
+| 现象 | 原因 | 解决方案 |
+|------|------|----------|
+| `❌ 配置文件缺失` 反复重启 | volume 路径不对 | 改 `../config` 为 `./config` |
+| AI 分析报 `model not found` | 模型名缺少 provider 前缀 | 改为 `openai/qwen3.6-plus` |
+| Web 服务连接失败 | 还在执行 AI 分析，Web 尚未启动 | 等 1~3 分钟后重试 |
+| `docker compose` 命令找不到 | 未安装 compose 插件 | 使用 `docker-compose`（短横线版） |
+| 无法远程访问 | 端口绑定了 `127.0.0.1` | 改为 `0.0.0.0` |
+| 防火墙拦截 | 系统防火墙未放行 | `iptables/firewalld/ufw` 放行端口 |
+
+---
+
+## 五、常用运维命令
+
+```bash
+# 查看实时日志
+docker logs -f trendradar
+
+# 查看配置是否生效（检查 AI 配置）
+docker logs trendradar 2>&1 | grep -i "AI\|model\|api"
+
+# 修改配置后重启
+cd /home/qyc/TrendRadar
+docker-compose up -d --force-recreate trendradar
+
+# 停止服务
+docker-compose down
+
+# 查看输出文件（HTML 报告等）
+ls -la output/html/
+ls -la output/html/latest/
+
+# 清理旧数据
+docker-compose down -v  # 会删除容器和 volume（不会删除挂载的 config/output 目录）
+```
+
+---
+
+## 六、核心配置文件说明
+
+### config.yaml 关键段
+
+| 配置段 | 作用 | 说明 |
+|--------|------|------|
+| `app.timezone` | 时区 | 默认 `Asia/Shanghai` |
+| `platforms.sources` | 监控平台 | 可增删热搜源 |
+| `rss.feeds` | RSS 订阅 | 添加自定义 RSS 源 |
+| `filter.method` | 筛选方式 | `keyword`（关键词）或 `ai`（AI 分类） |
+| `report.mode` | 报告模式 | `current`（当前榜）/ `daily`（当日汇总）/ `incremental`（增量） |
+| `notification.channels` | 通知渠道 | 飞书/钉钉/Telegram/邮件等 |
+| `schedule.enabled` | 调度系统 | `true` 启用按时间表推送 |
+| `ai` | AI 模型配置 | API Key、模型、端点 |
+| `ai_analysis.enabled` | AI 分析 | 是否生成分析简报 |
+| `ai_translation.enabled` | AI 翻译 | 是否翻译外文标题 |
+
+### .env 环境变量（docker-compose 注入）
+
+| 变量 | 作用 |
+|------|------|
+| `WEBSERVER_PORT` | Web 服务端口 |
+| `AI_API_KEY` | AI API 密钥 |
+| `AI_MODEL` | 模型名称（`openai/模型名`） |
+| `AI_API_BASE` | 自定义 API 端点 |
+| `RUN_MODE` | `cron`（定时）或 `once`（单次） |
+| `CRON_SCHEDULE` | cron 表达式，默认 `*/30 * * * *` |
+
+---
+
+## 七、进阶：配置通知推送
+
+TrendRadar 支持多种通知渠道。以企业微信为例：
+
+### 7.1 在 config.yaml 中配置
+
+```yaml
+notification:
+  enabled: true
+  channels:
+    wework:
+      webhook_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=YOUR_KEY"
+      msg_type: "markdown"
+```
+
+### 7.2 或在 .env 中配置
+
+```bash
+WEWORK_WEBHOOK_URL=https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=YOUR_KEY
+WEWORK_MSG_TYPE=markdown
+```
+
+> 两者都配置时，`config.yaml` 优先级更高。推荐二选一，避免混淆。
+
+---
+
+## 八、文件清单（部署后）
+
+```
+/home/qyc/TrendRadar/
+├── config/               # 配置文件（只读挂载到容器）
+│   ├── config.yaml       # 主配置
+│   ├── frequency_words.txt
+│   ├── ai_interests.txt
+│   └── ...
+├── output/               # 输出数据（读写挂载到容器）
+│   ├── html/             # HTML 报告
+│   ├── news/             # 新闻数据库
+│   └── rss/              # RSS 数据
+├── docker-compose.yml    # 编排文件
+├── .env                  # 环境变量
+└── 安装指南.md            # 本文档
+```
+
+---
+
+*本指南基于 TrendRadar v6.9.0 编写，配置格式可能随版本更新变化。*
