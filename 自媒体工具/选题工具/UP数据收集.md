@@ -302,24 +302,6 @@ docker run -d --name trendradar \
   -v ./config:/app/config \
   wantcat/trendradar:latest
 ```
-#### 配置飞书，将信息同步给飞书
-在飞书中**添加自定义机器人**并获取 Webhook 地址的步骤如下，
-1. **打开飞书群聊**，点击群聊右上角的 **「设置」**（或「更多」按钮）
-2. 在右侧设置面板中找到 **「群机器人」** → 点击 **「添加机器人」**
-3. 在弹出的窗口中选择 **「自定义机器人」**（Custom Bot）
-获取 Webhook 地址
-![[自媒体工具/选题工具/assets/UP数据收集/9aa8fdaae8449d36541c3bd905cc42bf_MD5.png]]
-![[自媒体工具/选题工具/assets/UP数据收集/1d87b9ffa6259da87297da20589829d6_MD5.png]]
-测试给飞书群发消息：
-```bash
-curl -X POST -H "Content-Type: application/json" \
-  -d '{"msg_type":"text","content":{"text":"Hello from Hermes"}}' \
-  https://open.feishu.cn/open-apis/bot/v2/hook/67fc539f-d9f0-4067-981e-61dadea6d227
-```
-![[自媒体工具/选题工具/assets/UP数据收集/301ea71ace23469de718883fc7c1f8d5_MD5.png]]
-
-
-
 
 # 三） 网页工具
 **抖音热点宝:**  https://douhot.douyin.com
