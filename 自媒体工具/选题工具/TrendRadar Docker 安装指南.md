@@ -346,7 +346,29 @@ notification:
 ├── .env                  # 环境变量
 └── 安装指南.md            # 本文档
 ```
-
 ---
-
-*本指南基于 TrendRadar v6.9.0 编写，配置格式可能随版本更新变化。*
+### 记录自己的操作
+##### 1.TrendRadar 修改成每 **12 小时**运行一次，上报一次数据。
+```
+1. 你需要编辑的文件是 `.env`，位于你的安装目录下：  
+    `/home/qyc/TrendRadar/.env`
+2. **找到配置项**  
+    找到以 `CRON_SCHEDULE=` 开头的这一行。
+3. **修改为标准的 Cron 表达式**  
+    Cron 表达式由 5 个部分组成，分别是：**分 时 日 月 周**。
+    - **每 30 分钟**：`*/30 * * * *` （默认值）
+    - **每 6 小时**：`0 */6 * * *`
+    - **每 12 小时**：`0 */12 * * *`
+    - **每天凌晨 8 点**：`0 8 * * *`
+4. **重启容器生效**  
+    修改保存后，必须重启容器才能让新的环境变量进入容器内部。  
+    运行命令：
+    cd /home/qyc/TrendRadar 
+    docker-compose up -d --force-recreate trendradar
+    
+```
+**原理解析**
+- **环境变量传递**：`docker-compose.yml` 文件中的 `environment` 部分引用了 `.env` 文件里的 `CRON_SCHEDULE` 变量。Docker 启动时会将这个变量注入到容器内部环境中。
+- **启动脚本逻辑**：TrendRadar 的容器启动脚本（`entrypoint.sh`）在启动时会读取这个环境变量，并根据它的值生成一个临时的定时任务文件 `/tmp/crontab`。
+- **任务调度器**：容器内使用 `supercronic` 工具来读取这个 `/tmp/crontab` 并执行抓取任务。
+所以，核心就在于修改 `.env` 文件中的 `CRON_SCHEDULE` 值，然后强制重启容器让脚本重新生成任务表。
