@@ -263,3 +263,20 @@ open http://localhost:9090
 | `http://localhost:9090/alerts`  | 查看当前告警   | 看有没有触发中的告警                 |
 
 ![[graph.png]]
+
+##### 示例1) 看一段时间内显存使用变化图
+Prometheus Graph 页面直接查
+打开 `http://localhost:9090/graph`
+输入 PromQL 查询显存使用率
+```promql
+DCGM_FI_DEV_FB_USED / (DCGM_FI_DEV_FB_USED + DCGM_FI_DEV_FB_FREE)
+```
+操作步骤
+1. **Expression** 框粘贴上面的查询
+2. 点击 **Execute**
+3. 切到 **Graph** 标签
+4. 右上角时间范围选择：
+    - `5m` / `15m` / `30m` / `1h` / `3h` / `6h` / `12h` / `1d` / `2d` / `1w`
+就能看到显存使用率随时间变化的折线图。
+
+
