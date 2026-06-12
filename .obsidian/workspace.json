@@ -4,31 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e64e610f0cb4376f",
+        "id": "095cd621820aec97",
         "type": "tabs",
         "children": [
           {
-            "id": "f4bcc0ee98d970c6",
+            "id": "49f4f11bccc7c398",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/LLM Wiki知识库.md",
+                "file": "大模型性能与部署/vLLM/Prometheus告警规则-vLLM监控.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM Wiki知识库"
-            }
-          },
-          {
-            "id": "aedc7dc2f36c719b",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "title": "Prometheus告警规则-vLLM监控"
             }
           }
         ]
@@ -88,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.50378799438477
+    "width": 215.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -210,12 +200,16 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "f4bcc0ee98d970c6",
+  "active": "49f4f11bccc7c398",
   "lastOpenFiles": [
+    "大模型性能与部署/vLLM/assets/Prometheus告警规则-vLLM监控/graph.png",
+    "大模型性能与部署/vLLM/assets/Prometheus告警规则-vLLM监控",
+    "大模型性能与部署/vLLM/Prometheus告警规则-vLLM监控.md.edtz",
+    "大模型性能与部署/vLLM/Prometheus告警规则-vLLM监控.md",
+    "AI应用/LLM Wiki知识库.md",
     "AI应用/LLM Wiki知识库.md.edtz",
     "公众号文章/用 Hermes 打造 LLM Wiki 知识库：Karpathy 方法实战指南.md",
     "Bilibili/2026-06-10-为什么有的公司做了20年还是小公司，技术债是怎么把一个企业锁死的.md",
-    "AI应用/LLM Wiki知识库.md",
     "公众号文章/assets/用 Hermes 打造 LLM Wiki 知识库：Karpathy 方法实战指南",
     "公众号文章/用 Hermes 打造 LLM Wiki 知识库：Karpathy 方法实战指南.md.edtz",
     "Bilibili/2026-06-10-为什么有的公司做了20年还是小公司，技术债是怎么把一个企业锁死的.md.edtz",
@@ -234,8 +228,6 @@
     "自媒体工具/选题工具/UP数据收集.md.edtz",
     "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md",
     "公众号文章/assets/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了/9ba0dfed3ec2e68b7805c038703e288d_MD5.webp",
-    "公众号文章/assets/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了",
-    "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md.edtz",
     "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
     "Bilibili/从分布视角看SFT、RL和OPD：泛化性能差异解析.md",
@@ -243,7 +235,6 @@
     "Bilibili/2026-04-21-🚀Hermes Agent高级玩法！微信扫码即用+LLM Wiki知识库+Obsidian图谱，AI知识管理终极方案！人人都可以打造自己的数据飞轮！.md",
     "Bilibili/2026-05-19-GPT-Image2 完全指南：一期讲透主流玩法（附我的生图 Skill）.md",
     "Bilibili/2026-06-03-闲聊是生存技巧，不会闲聊是一个重大的缺失，冰哥教你学会闲聊.md",
-    "Bilibili/2026-06-03-闲聊是生存技巧，不会闲聊是一个重大的缺失，冰哥教你学会闲聊.md.edtz",
     "AI应用/assets/hermes-agent/hermes-web-ui界面.png",
     "自媒体工具/视频制作/crawl4ai爬虫.md",
     "自媒体工具/老王视频.md",
@@ -255,7 +246,6 @@
     "论文解读/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
     "论文解读/详解DeepSeek V4后训练全流程.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
-    "obsidian操作/obsidian插件推荐.md",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928876.png",
     "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928896.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
