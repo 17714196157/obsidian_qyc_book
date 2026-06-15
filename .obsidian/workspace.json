@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "095cd621820aec97",
+        "id": "4737fd042ea39574",
         "type": "tabs",
         "children": [
           {
-            "id": "49f4f11bccc7c398",
+            "id": "aaaf65e7f41385bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/vLLM/Prometheus告警规则-vLLM监控.md",
+                "file": "工作交付文档/SkillOpt 项目.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prometheus告警规则-vLLM监控"
+              "title": "SkillOpt 项目"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.50378799438477
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,12 +200,16 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "49f4f11bccc7c398",
+  "active": "aaaf65e7f41385bf",
   "lastOpenFiles": [
+    "工作交付文档/assets/SkillOpt 项目/qwen_backend.png",
+    "工作交付文档/SkillOpt 项目.md",
+    "工作交付文档/assets/SkillOpt 项目",
+    "工作交付文档/SkillOpt 项目.md.edtz",
+    "大模型性能与部署/vLLM/Prometheus告警规则-vLLM监控.md",
     "大模型性能与部署/vLLM/assets/Prometheus告警规则-vLLM监控/graph.png",
     "大模型性能与部署/vLLM/assets/Prometheus告警规则-vLLM监控",
     "大模型性能与部署/vLLM/Prometheus告警规则-vLLM监控.md.edtz",
-    "大模型性能与部署/vLLM/Prometheus告警规则-vLLM监控.md",
     "AI应用/LLM Wiki知识库.md",
     "AI应用/LLM Wiki知识库.md.edtz",
     "公众号文章/用 Hermes 打造 LLM Wiki 知识库：Karpathy 方法实战指南.md",
@@ -223,9 +227,7 @@
     "自媒体工具/选题工具/assets/UP数据收集/301ea71ace23469de718883fc7c1f8d5_MD5.png",
     "自媒体工具/选题工具/assets/UP数据收集/9aa8fdaae8449d36541c3bd905cc42bf_MD5.png",
     "自媒体工具/选题工具/assets/UP数据收集/1d87b9ffa6259da87297da20589829d6_MD5.png",
-    "自媒体工具/选题工具/TrendRadar Docker 安装指南.md.edtz",
     "AI应用/hermes-agent.md",
-    "自媒体工具/选题工具/UP数据收集.md.edtz",
     "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md",
     "公众号文章/assets/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了/9ba0dfed3ec2e68b7805c038703e288d_MD5.webp",
     "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
@@ -245,9 +247,6 @@
     "公众号文章/assets/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】/47befbdd4da55616c6d6bd32f75a1412_MD5.webp",
     "论文解读/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
     "论文解读/详解DeepSeek V4后训练全流程.md",
-    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
-    "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928876.png",
-    "论文解读/assets/详解DeepSeek V4后训练全流程/file-20260525161928896.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
