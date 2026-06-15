@@ -173,6 +173,8 @@ json
     *   内置了你的 **5 步法 Prompt 模板**。
     *   添加了 `_truncate_content` (限制输入 6000 字) 和 `max_completion_tokens=2048`，**防止本地 vLLM 溢出**。
 3.  **`adapter.py`**: 将上述模块接入 SkillOpt 的训练引擎。
+
+![[reportoptner.png]]
 #### B. 强制混合架构配置 (`scripts/train.py`)
 **修改位置**: `main()` 函数中 `adapter = get_adapter(cfg)` 之前。
 **目的**: 解决默认 URL 错误的问题，实现 **"小模型干活，大模型反思"**。
@@ -264,17 +266,19 @@ def main() -> None:
 
 #### D. Bug 修复 (`rollout.py`)
 *   修复了 `diagnostic_trace_context_by_id` 为 `None` 导致的 `AttributeError`。
+
 ### ⚙️ 5. 核心配置说明 (`configs/custom/reportoptner.yaml`)
 最终生效的配置采用了**混合架构**策略，既保证了速度又保证了长窗口需求：
+
 | 组件 | 模型 | 部署位置 | 作用 | Max Tokens |
 | : | : | : | : | : |
 | **Target** | qwen2.5-14b-instruct | 本地 vLLM (180:8103) | 负责回答每个医疗样本 | **2048** (限制输出防溢出) |
 | **Optimizer** | qwen3.6-plus | 阿里云 DashScope | 负责反思、分析失败案例 | **32000** (处理超长历史) |
+
 ### 🚀 6. 如何启动与监控
 **启动命令**:
 
-```
-bash
+```bash
 conda activate SkillOpt
 cd /home/qyc/skillopt/SkillOpt
 python scripts/train.py --config /home/qyc/skillopt/configs/custom/reportoptner.yaml
@@ -287,3 +291,99 @@ python scripts/train.py --config /home/qyc/skillopt/configs/custom/reportoptner.
 3.  **Reflect**: 将失败的样本历史发给 Optimizer，生成编辑建议。
 4.  **Update**: 接受改进的建议，更新 Skill 文件。
 5.  **Evaluate**: 在验证集上测试新 Skill 的准确率，如果提升则保留 (`ACCEPT`)。
+
+```bash
+(SkillOpt) root@maizi:/home/qyc/skillopt/SkillOpt# python scripts/train.py --config /home/qyc/skillopt/configs/custom/reportoptner.yaml
+TARGET_CONFIG=QwenChatConfig(base_url='http://localhost:8000/v1', api_key='', timeout_seconds=300.0, max_tokens=8000, temperature=0.7, enable_thinking=False, deployment='Qwen/Qwen3.5-4B')
+OPTIMIZER_CONFIG=QwenChatConfig(base_url='http://localhost:8000/v1', api_key='', timeout_seconds=300.0, max_tokens=8000, temperature=0.7, enable_thinking=False, deployment='Qwen/Qwen3.5-4B')
+============================================================
+  SkillOpt — Executive Strategy for Self-Evolving Agent Skills
+============================================================
+  env:            reportoptner
+  optimizer_model:  qwen3.6-plus
+  target_model:  qwen2.5-14b-instruct
+  optimizer_backend:qwen_chat
+  target_backend:qwen_chat
+  reasoning:      medium
+  rewrite_effort: off
+  epochs:         4
+  train_size:     from dataset
+  steps/epoch:    auto
+  batch_size:     10
+  edit_budget:    3
+  lr_scheduler:   cosine
+  update_mode:    patch
+  min_edit_budget:1
+  minibatch_size: 5
+  seed:           42
+  meta_skill:     True
+  skill_aware_reflection: False
+  slow_update:    True
+  out_root:       /home/qyc/skillopt/SkillOpt/outputs/skillopt_reportoptner_qwen3.6-plus_20260615_162840
+============================================================
+>>> [强制配置] 正在注入混合架构参数...
+>>> [验证成功] Target URL   : http://192.168.0.180:8103/v1
+>>> [验证成功] Optimizer URL : https://dashscope.aliyuncs.com/compatible-mode/v1
+>>> [验证成功] Target Model  : qwen2.5-14b-instruct
+>>> [验证成功] Optimizer Model: qwen3.6-plus
+  [ReportOptNERDataLoader] train=171 val=24 test=50  (from /home/qyc/skillopt/custom_data)
+  [model config] backend=qwen_chat  optimizer=qwen3.6-plus (qwen_chat)  target=qwen2.5-14b-instruct (qwen_chat)  reasoning=medium
+  [initial skill] /home/qyc/skillopt/custom_data/skills/initial.md (853 chars)
+  [config] epochs=4 steps/epoch=18 (auto) accum=1 batch_size=10
+  [config] train_size=171
+  [config] batches/epoch=18 total_steps=72 games/epoch=171
+  [config] lr_scheduler=cosine edit_budget=3 min_edit_budget=1
+  [config] skill_update_mode=patch lr_control_mode=fixed rewrite_reasoning_effort=off rewrite_max_completion_tokens=64000 max_analyst_rounds=3
+  [config] longitudinal_pair_policy=mixed
+  [config] base_seeds=[43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+  [gate] metric=hard
+  [slow update] acceptance=force-accept (unconditional)
+============================================================
+  BASELINE — evaluate initial skill on Selection set (valid_seen)
+============================================================
+  Selection items: 24
+  [baseline result] selection hard=0.3333 soft=0.3333 gate[hard]=0.3333
+  [EPOCH 1/4] shuffled_seeds=[1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1053, 1054, 1055, 1056, 1057, 1058, 1059, 1060]
+  [STEP 1/72] epoch=1 step_in_epoch=0 ==============================
+    [1/6 ROLLOUT] train items=10 (from pool, batch_seed=1043)
+    [1/6 done] hard=0.3000 soft=0.3000
+    [2/6 REFLECT minibatch] failure=7→2 groups  success=3→1 groups  (M=5, L=3, workers=4)
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+      [analyst] 1/3 minibatch_succ_000 (3 trajs) → 1 edits
+      [analyst] 2/3 minibatch_fail_001 (2 trajs) → 2 edits
+      [analyst] 3/3 minibatch_fail_000 (5 trajs) → 2 edits
+    [2/6 done] failure_patches=2 success_patches=1
+    [3/6 AGGREGATE] failure=2 success=1 (parallel, workers=4)
+    [aggregate failure] level=1  2 patches → 1 batches (parallel, batch_size=5)
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+      [aggregate failure] level=1 batch [0:2] → 1 patch (4 edits)
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+    [aggregate final] 4+1 → 5 edits
+    [3/6 done] merged 5 edits
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+    [4/6 SELECT] 5 -> 3 edits (budget=3, lr_control=fixed)
+    [5/6 UPDATE] skill_len 853 -> 1138
+    [6/6 EVALUATE] selection items=24
+    [6/6 EVALUATE] ACCEPT (new best) hard=0.4167 > prev best 0.3333
+  [STEP 1 done] epoch=1 action=accept_new_best current=0.4167 best=0.4167 dt=336.3s
+    timing: rollout=8.2s reflect=74.4s aggregate=182.9s select=44.6s evaluate=26.2s
+  [STEP 2/72] epoch=1 step_in_epoch=1 ==============================
+    [1/6 ROLLOUT] train items=10 (from pool, batch_seed=1044)
+    [1/6 done] hard=0.5000 soft=0.5000
+    [2/6 REFLECT minibatch] failure=5→1 groups  success=5→1 groups  (M=5, L=3, workers=4)
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+      [analyst] 1/2 minibatch_succ_000 (5 trajs) → 1 edits
+      [analyst] 2/2 minibatch_fail_000 (5 trajs) → 3 edits
+    [2/6 done] failure_patches=1 success_patches=1
+    [3/6 AGGREGATE] failure=1 success=1 (parallel, workers=4)
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+    [aggregate final] 3+1 → 4 edits
+    [3/6 done] merged 4 edits
+[DEBUG]  Role=optimizer | URL=https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions | Model='qwen3.6-plus'
+    [4/6 SELECT] 4 -> 3 edits (budget=3, lr_control=fixed)
+    [5/6 UPDATE] skill_len 1138 -> 1240
+    [6/6 EVALUATE] selection items=24
+```
