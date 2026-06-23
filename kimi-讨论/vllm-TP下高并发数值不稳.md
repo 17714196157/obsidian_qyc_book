@@ -25,9 +25,7 @@ vLLM 的 TP 实现基于 Megatron-LM 的张量并行算法，需要在多个 GPU
 根据研究论文 ，这正是 **"TP-induced inconsistency"** 问题：即使 greedy decoding (`temperature=0`)，不同 TP size 或 batch size 也会产生不同输出，原因是 **"non-associativity of floating-point arithmetic and inconsistent reduction orders across GPUs"** 。
 
 ### 2\. Multiprocessing (mp) Executor 的已知 Bug
-
 vLLM 单节点默认使用 Python `multiprocessing` 作为分布式执行后端。搜索结果显示 ， **mp backend 在 v0.12.0 等版本存在严重的输出损坏 bug** ：
-
 ```markdown
 # BROKEN: default mp backend
 vllm serve Qwen/Qwen3-VL-2B-Instruct --tensor-parallel-size 4
@@ -35,13 +33,9 @@ vllm serve Qwen/Qwen3-VL-2B-Instruct --tensor-parallel-size 4
 # FIXED: ray backend
 vllm serve Qwen/Qwen3-VL-2B-Instruct --tensor-parallel-size 4 --distributed-executor-backend ray
 ```
-
 **关键发现** ：在 Qwen3-VL 的测试中，mp backend 导致准确率从 52% 暴跌到 12.3%，而 **切换到 `ray` backend 完全修复** 。
-
 ### 3\. --trust-remote-code 的潜在影响
-
 虽然日志显示 `trust_remote_code` 对 vLLM serve "has no effect here and is ignored" ，但如果你的模型需要自定义架构代码：
-
 - **代码质量** ：远程代码可能包含非线程安全的操作，在 TP + 高并发下暴露 race condition
 - **初始化顺序** ：不同 worker 进程加载自定义代码的时序差异，可能导致模型状态不一致
 
