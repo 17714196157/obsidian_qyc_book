@@ -19,6 +19,9 @@ hermes  # 启动交互应用界面
 
 hermes chat -q "测试"
 
+# pip 安装
+conda activate hermes
+pip install hermes-agent
 ```
  **一键清理脚本:**
 ```bash
@@ -132,11 +135,13 @@ WEIXIN_GROUP_POLICY=disabled    # 忽略所有群消息（默认）
 ### 二） Hermes监控台
 **项目地址：** github.com/EKKOLearnAI/hermes-web-ui
 ```
-npm install -g hermes-web-ui 
+安装： npm install -g hermes-web-ui 
 
+停止服务：
 root@maizi:/home/qyc/gitee/hermes-agent# hermes-web-ui stop
   ✓ hermes-web-ui stopped (PID: 4128987)
-  
+
+启动:
 root@maizi:/home/qyc/gitee/hermes-agent#  hermes-web-ui start --host 0.0.0.0
 
   ⏳ Starting hermes-web-ui (PID: 4137609, port: 8648)...
