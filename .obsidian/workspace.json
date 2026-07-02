@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "49c3bedd15fc9b8c",
+        "id": "e65507df7ac5feeb",
         "type": "tabs",
         "children": [
           {
-            "id": "88cddc6e4c5dc96e",
+            "id": "d166bbdca793b324",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI应用/hermes-agent.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "hermes-agent"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 204.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,12 +196,20 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "88cddc6e4c5dc96e",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
+    "大模型性能与部署/vLLM/assets/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？",
+    "大模型性能与部署/assets/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？",
+    "大模型性能与部署/vLLM/assets/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？/file-20260702164743688.png",
+    "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md",
+    "大模型性能与部署/vLLM/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？.md",
+    "大模型性能与部署/vLLM/assets/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？/file-20260702164743679.webp",
+    "公众号文章/assets/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？",
+    "大模型性能与部署/vLLM/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？.md.edtz",
+    "AI应用/hermes-agent.md",
     "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
     "2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略",
-    "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md",
     "assets/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？",
     "assets",
     "kimi-讨论/2块L20  vllm部署 qwq32B float 16，  vllm日志显示running可以到60多， 输入请求提示词平均4000，那么生成至少1000字符， 这个显存为什么没有爆炸呀.md",
@@ -217,10 +221,7 @@
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能“自进化”？.md",
     "2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md.edtz",
-    "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md.edtz",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
-    "论文解读/SkillOpt：自我进化代理技能的执行策略.md.edtz",
-    "大模型性能与部署/assets/litellm/litellmrouter.pdf",
     "大模型性能与部署/assets/litellm/Pasted image 20260608105457.png",
     "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
     "kimi-讨论/vllm并发策略 - Kimi.md",
@@ -240,13 +241,9 @@
     "工作交付文档/模型蒸馏.md",
     "大模型性能与部署/litellm.md",
     "工作交付文档/字段对接.md",
-    "自媒体工具/选题工具/UP数据收集.md",
-    "自媒体工具/选题工具/TrendRadar Docker 安装指南.md",
     "自媒体工具/选题工具/assets/UP数据收集/301ea71ace23469de718883fc7c1f8d5_MD5.png",
     "自媒体工具/选题工具/assets/UP数据收集/9aa8fdaae8449d36541c3bd905cc42bf_MD5.png",
     "自媒体工具/选题工具/assets/UP数据收集/1d87b9ffa6259da87297da20589829d6_MD5.png",
-    "公众号文章/assets/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了/9ba0dfed3ec2e68b7805c038703e288d_MD5.webp",
-    "AI应用/assets/hermes-agent/hermes-web-ui界面.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
