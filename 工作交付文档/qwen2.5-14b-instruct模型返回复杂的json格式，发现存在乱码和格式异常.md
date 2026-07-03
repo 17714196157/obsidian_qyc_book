@@ -116,11 +116,11 @@ nohup vllm serve /home/model/Qwen25-14B-Instruct \
 
 ### 关键参数说明
 
-| 参数                               | 作用                   | 说明                                   |
-| -------------------------------- | -------------------- | ------------------------------------ |
-| `VLLM_USE_V1=0`                  | 禁用 V1 引擎             | V1 引擎调度策略更激进，回退到 V0 更稳定              |
-| `--enable-chunked-prefill=False` | 关闭分段预填充              | 避免大 prompt 被 chunk 打断导致 KV cache 不一致 |
-| guided-decoding-backend          | 关闭token-level 约束引导解码 | 0.8.4默认打开                            |
+| 参数                               | 作用                   | 说明                                                                        |
+| -------------------------------- | -------------------- | ------------------------------------------------------------------------- |
+| `VLLM_USE_V1=0`                  | 禁用 V1 引擎             | V1 引擎调度策略更激进，回退到 V0 更稳定                                                   |
+| `--enable-chunked-prefill=False` | 关闭分段预填充              | 避免大 prompt 被 chunk 打断导致 KV cache 不一致                                      |
+| guided-decoding-backend          | 关闭token-level 约束引导解码 | 0.8.4默认打开，vLLM 0.8.x 的新约束：**引擎级别的 `guided_decoding_backend` 和请求级别的必须一致**。 |
 
 ---
 
