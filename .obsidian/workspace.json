@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "47aa6921ab6b7ac6",
+        "id": "185c56c4dca1863f",
         "type": "tabs",
         "children": [
           {
-            "id": "22f1dbeb00e33ae8",
+            "id": "ee3b8b3199b36b84",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -196,8 +196,14 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "22f1dbeb00e33ae8",
+  "active": "ee3b8b3199b36b84",
   "lastOpenFiles": [
+    "公众号文章/模型蒸馏：让小模型学会大模型的本事.md",
+    "公众号文章/assets/模型蒸馏：让小模型学会大模型的本事/3b5ec3ee26f48ebaadb61e8cca20f9ef_MD5.webp",
+    "公众号文章/assets/模型蒸馏：让小模型学会大模型的本事",
+    "公众号文章/模型蒸馏：让小模型学会大模型的本事.md.edtz",
+    "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
+    "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md.edtz",
     "大模型性能与部署/性能测试指标.md",
     "大模型性能与部署/性能测试指标.md.edtz",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
@@ -209,10 +215,7 @@
     "大模型性能与部署/其他大模型推理框架/TensorFlow/onnxruntime库/pytorch部署到tensorRT.md.edtz",
     "大模型性能与部署/其他大模型推理框架/TensorFlow/onnxruntime库/onnxruntime.md.edtz",
     "大模型性能与部署/其他大模型推理框架/TensorFlow/onnxruntime库/netron与onnx来查看你的ONNX文件模型.md.edtz",
-    "大模型性能与部署/其他大模型推理框架/TensorFlow/TensorFlow serving/grpc调用方式.md.edtz",
-    "大模型性能与部署/其他大模型推理框架/ChatGLM2 进行加速的开源项目/fastllm量化推理加速.md.edtz",
     "大模型性能与部署/其他大模型推理框架/sglang部署.md",
-    "大模型性能与部署/其他大模型推理框架/LMstudio.md.edtz",
     "大模型性能与部署/其他大模型推理框架/streaming-llm推理突破长度限制.md",
     "大模型性能与部署/上下文压缩/headroom 压缩.md",
     "大模型性能与部署/未命名.md",
@@ -235,14 +238,11 @@
     "大模型性能与部署/vLLM/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？.md",
     "大模型性能与部署/vLLM/assets/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？/file-20260702164743688.png",
     "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md",
-    "大模型性能与部署/vLLM/assets/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？/file-20260702164743679.webp",
     "AI应用/hermes-agent.md",
     "2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "kimi-讨论/2块L20  vllm部署 qwq32B float 16，  vllm日志显示running可以到60多， 输入请求提示词平均4000，那么生成至少1000字符， 这个显存为什么没有爆炸呀.md",
     "kimi-讨论/vllm-TP下高并发数值不稳.md",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
-    "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能“自进化”？.md",
-    "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
