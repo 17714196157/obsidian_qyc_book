@@ -173,9 +173,9 @@ if __name__ == "__main__":
 
 代码示例2： 生成模型预测过程中，使用tfserving
 模型部署展示：
-![[大模型性能与部署/TensorFlow/TensorFlow serving/assets/grpc调用方式/4cf7dcbf11651193cd67e68b1b2a42b1_MD5.png]]
+![[4cf7dcbf11651193cd67e68b1b2a42b1_MD5.png]]
 
-![[大模型性能与部署/TensorFlow/TensorFlow serving/assets/grpc调用方式/bb3cfafd257a19900ca9643488e41515_MD5.png]]
+![[bb3cfafd257a19900ca9643488e41515_MD5.png]]
 启动tfserving  docker run -dt -p 8501:8501 -p 8500:8500  -v "/home/qyc/multiModel:/models/multiModel" -e MODEL_NAME=multiModel tensorflow/serving --model_config_file=/models/multiModel/models.config
 
 ```

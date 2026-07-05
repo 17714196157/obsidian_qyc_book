@@ -151,7 +151,7 @@ python3 tools/chatglm_export.py chatglm2-6b-int4.flm int4
 
 ### 简易 WebUI
 
-![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/94086a27b21886d1bf05693b8dac40c1_MD5.png]]
+![[94086a27b21886d1bf05693b8dac40c1_MD5.png]]
 > 使用流式输出 + 动态 batch，可多路并发访问
 
 ```bash
@@ -170,7 +170,7 @@ python3 tools/chatglm_export.py chatglm2-6b-int4.flm int4
 
 build 下面有第三方库：
 
-![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/a0dd080adf6a12d4d65e26120c082289_MD5.png]]
+![[a0dd080adf6a12d4d65e26120c082289_MD5.png]]
 ```python
 from fastllm_pytools import llm
 import time
@@ -266,7 +266,7 @@ python3 setup.py install
 
 ## 启动 Web 服务端
 
-![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/bd3ea19956c8f9e056a2e570c443c7ed_MD5.png]]
+![[bd3ea19956c8f9e056a2e570c443c7ed_MD5.png]]
 ```bash
 (tt) (base) root@maizi:/home/qyc/fastllm/pyfastllm/examples# pwd
 /home/qyc/fastllm/pyfastllm/examples
@@ -336,14 +336,14 @@ python src/export_model.py \
     --export_dir /home/qyc/LLaMA-Factory-main/save_custom/opt_split_scense_sft_chatglm3_rola
 ```
 1. 测试单个请求的准确性， 会发现chatglm3的代码中解析响应有些不一样，需要修改
-![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/1c361d790ad82246f1e70e527a3b2cb0_MD5.png]]
+![[1c361d790ad82246f1e70e527a3b2cb0_MD5.png]]
 
 2. fastllm 转换模型格式为flm
 	python3 tools/chatglm_export.py chatglm3-6b-opt-fp16.flm float16 
-![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/dd9d4ffad44fc4fc6fc4d7c5b02103e7_MD5.png]]
+![[dd9d4ffad44fc4fc6fc4d7c5b02103e7_MD5.png]]
 2. 部署flm模型
 启动web服务端：
-![[大模型性能与部署/ChatGLM2 进行加速的开源项目/assets/fastllm量化推理加速/bd3ea19956c8f9e056a2e570c443c7ed_MD5.png]]
+![[bd3ea19956c8f9e056a2e570c443c7ed_MD5.png]]
 
 ```
 (tt) (base) root@maizi:/home/qyc/fastllm/pyfastllm/examples# pwd

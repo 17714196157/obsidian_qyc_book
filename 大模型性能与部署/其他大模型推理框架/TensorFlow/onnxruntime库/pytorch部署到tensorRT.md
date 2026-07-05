@@ -184,4 +184,4 @@ if __name__ == "__main__":
 2. **providers**：使用 `"CUDAExecutionProvider"` 启用 GPU 加速
 
 
-![[大模型性能与部署/TensorFlow/onnxruntime库/assets/pytorch部署到tensorRT/d81ece6a6a0872fc81b4e035ab16e4df_MD5.png]]
+![[d81ece6a6a0872fc81b4e035ab16e4df_MD5.png]]

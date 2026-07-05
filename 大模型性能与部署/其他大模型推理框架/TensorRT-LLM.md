@@ -122,7 +122,7 @@ cd /app/tensorrt_llm
 python3 build.py --model_dir=/bert/chatglm2-6b --dtype float16 --use_gpt_attention_plugin float16 --use_gemm_plugin float16 --use_weight_only --weight_only_precision --max_batch_size 1
 ```
 
-![[大模型性能与部署/assets/TensorRT-LLM/6e57b702fc11fecf08de3176edef9ba0_MD5.png]]
+![[file-20260705101859435.png]]
 **注意事项 Tips:**
 - 可以通过添加 `--use_weight_only` 启用 int8 weight-only 量化
 - 可以通过添加 `--enable_context_fmha` 为 ChatGLM2-6B 启用 FMHA kernels

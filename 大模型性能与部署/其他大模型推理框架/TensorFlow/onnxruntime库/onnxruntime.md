@@ -32,8 +32,8 @@ onnx部署GPU版本预测 耗时： 0.0219
 直接加载 tensorflow-GPU版本耗时 cost time=2.0827696323394775
 onnx部署GPU版本预测 cost time=0.4580955505371094
 onnx部署CPU版本预测 cost time=2.151688575744629
-[[大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime/b3ca10034a50954d75ea9325197ef727_MD5.png|Open: file-20260508220143578.png]]
-![[大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime/b3ca10034a50954d75ea9325197ef727_MD5.png]]
+[[b3ca10034a50954d75ea9325197ef727_MD5.png|Open: file-20260508220143578.png]]
+![[b3ca10034a50954d75ea9325197ef727_MD5.png]]
 
 onnx导出时设置动态batch
-![[大模型性能与部署/TensorFlow/onnxruntime库/assets/onnxruntime/05aa33871e66aea8d901152179a32f14_MD5.png]]
+![[05aa33871e66aea8d901152179a32f14_MD5.png]]

@@ -19,7 +19,7 @@ git clone https://github.com/tensorflow/serving
 ```
 docker run -dt -p 8501:8501  -v "/home/qyc/workcode/saved_model:/models/half_plus_two" -e MODEL_NAME=half_plus_two tensorflow/serving
 ```
-![[大模型性能与部署/TensorFlow/TensorFlow serving/assets/TensorFlow serving在线部署模型/c96ae760b3a54e2ddb986c04b3e3c23c_MD5.png]]
+![[c96ae760b3a54e2ddb986c04b3e3c23c_MD5.png]]
 ```
 curl -d '{"instances": [101,6117,5052,1217,1327,1177,4118,3800,102]}' -X POST http://localhost:8521/v1/models/half_plus_two:predict
 或者
@@ -67,7 +67,7 @@ labels = processor.reverse_numerize_label_sequences(np.array(preds).argmax(-1))
 print("labels:\n{}".format(labels))
 # labels = ['video']
 ```
-![[大模型性能与部署/TensorFlow/TensorFlow serving/assets/TensorFlow serving在线部署模型/e48bc6cc58b59a8244667af9c3b699e7_MD5.png]]
+![[e48bc6cc58b59a8244667af9c3b699e7_MD5.png]]
 
 demo尝试测试：
 1. 挂载模型文件，启动docker
@@ -80,17 +80,17 @@ docker run -dt -p 8501:8501 -v "/home/qyc/tfserving/serving/tensorflow_serving/s
 docker exec -it kind_ardinghelli bash
 ```
 
-![[大模型性能与部署/TensorFlow/TensorFlow serving/assets/TensorFlow serving在线部署模型/f9c3812113d2ab9d582c826e7a4743bf_MD5.png]]
+![[f9c3812113d2ab9d582c826e7a4743bf_MD5.png]]
 3. 请求模型预测
 ```
  curl -d '{"instances": [1.0, 2.0, 5.0]}' -X POST http://localhost:8501/v1/models/half_plus_two:predict
 ```
 
-![[大模型性能与部署/TensorFlow/TensorFlow serving/assets/TensorFlow serving在线部署模型/39fed7d4485c9bd5189a4f024e1b8ec5_MD5.png]]
+![[39fed7d4485c9bd5189a4f024e1b8ec5_MD5.png]]
 
-![[大模型性能与部署/TensorFlow/TensorFlow serving/assets/TensorFlow serving在线部署模型/730e49bf55b633d1ad4dae2d0bde8606_MD5.png]]
+![[730e49bf55b633d1ad4dae2d0bde8606_MD5.png]]
 
-![[大模型性能与部署/TensorFlow/TensorFlow serving/assets/TensorFlow serving在线部署模型/8ab2c03ffc5e43e6082e2ddb689860ba_MD5.png]]
+![[8ab2c03ffc5e43e6082e2ddb689860ba_MD5.png]]
 
 
 

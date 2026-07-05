@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e774c0e9a0b0a562",
+        "id": "47aa6921ab6b7ac6",
         "type": "tabs",
         "children": [
           {
-            "id": "c5d378727ce43bb6",
+            "id": "22f1dbeb00e33ae8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大模型性能与部署/上下文压缩/headroom 压缩.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "headroom 压缩"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.50378799438477
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,33 +196,40 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "c5d378727ce43bb6",
+  "active": "22f1dbeb00e33ae8",
   "lastOpenFiles": [
+    "大模型性能与部署/性能测试指标.md",
+    "大模型性能与部署/性能测试指标.md.edtz",
+    "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
+    "大模型性能与部署/最大并发量估计方法.md",
+    "大模型性能与部署/其他大模型推理框架/lightllm.md",
+    "大模型性能与部署/其他大模型推理框架/TensorFlow/TensorFlow serving/实现多模型部署.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/TensorFlow/TensorFlow serving/TensorFlow serving在线部署模型.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/TensorFlow/onnxruntime库/tensorflow转onnx部署.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/TensorFlow/onnxruntime库/pytorch部署到tensorRT.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/TensorFlow/onnxruntime库/onnxruntime.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/TensorFlow/onnxruntime库/netron与onnx来查看你的ONNX文件模型.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/TensorFlow/TensorFlow serving/grpc调用方式.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/ChatGLM2 进行加速的开源项目/fastllm量化推理加速.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/sglang部署.md",
+    "大模型性能与部署/其他大模型推理框架/LMstudio.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/streaming-llm推理突破长度限制.md",
+    "大模型性能与部署/上下文压缩/headroom 压缩.md",
+    "大模型性能与部署/未命名.md",
+    "大模型性能与部署/其他大模型部署.md",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/file-20260705101354281.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CacheAligner.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CCR.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/Kompress.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CodeCompressor.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/SmartCrusher.jpg",
-    "大模型性能与部署/上下文压缩/assets/headroom 压缩",
-    "大模型性能与部署/上下文压缩/assets",
     "大模型性能与部署/litellm大模型网格.md",
-    "大模型性能与部署/lightllm.md",
-    "大模型性能与部署/上下文压缩/headroom 压缩.md",
-    "大模型性能与部署/上下文压缩/headroom 压缩.md.edtz",
-    "大模型性能与部署/上下文压缩",
-    "大模型性能与部署/litellm大模型网格.md.edtz",
-    "大模型性能与部署/assets/litellm大模型网格",
     "Bilibili/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili.md",
-    "Bilibili/assets/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili",
     "Bilibili/assets/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili/file-20260705100252897.jpg",
-    "公众号文章/assets/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili",
-    "Bilibili/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili.md.edtz",
     "工作交付文档/qwen2.5-14b-instruct模型返回复杂的json格式，发现存在乱码和格式异常.md",
     "工作交付文档/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
     "工作交付文档/字段对接.md",
     "linux-办公命令/docker.md",
-    "linux-办公命令/docker.md.edtz",
     "工作交付文档/assets/qwen2.5-14b-instruct模型返回复杂的json格式，发现存在乱码和格式异常/getMedicalRecordInfo.png",
     "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
     "大模型性能与部署/vLLM/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？.md",
@@ -237,17 +240,9 @@
     "2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "kimi-讨论/2块L20  vllm部署 qwq32B float 16，  vllm日志显示running可以到60多， 输入请求提示词平均4000，那么生成至少1000字符， 这个显存为什么没有爆炸呀.md",
     "kimi-讨论/vllm-TP下高并发数值不稳.md",
-    "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/file-20260626165735942.png",
     "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能“自进化”？.md",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
-    "kimi-讨论/vLLM吞吐量调优 - Kimi.md",
-    "kimi-讨论/vllm并发策略 - Kimi.md",
-    "kimi-讨论/vllm performance-mode 一键性能调优凭什么给一下推荐配置.md",
-    "kimi-讨论/vLLM 驱动升级兼容.md",
-    "kimi-讨论/vllm bench serve 自定义数据集使用 - Kimi.md",
-    "大模型性能与部署/vLLM/Prometheus告警规则-vLLM监控.md",
-    "AI应用/其他AI项目.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

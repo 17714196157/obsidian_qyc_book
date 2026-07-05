@@ -41,7 +41,7 @@ graph tf2onnx (
 ```
 
 ### 2. 查看模型输入输出信息
-![[大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型/643b49841cc69f11a5c1ba4c6487fe2b_MD5.png]]
+![[643b49841cc69f11a5c1ba4c6487fe2b_MD5.png]]
 ```python
 MODEL = ort.InferenceSession(onnx_model_file_path,
                              providers=["CUDAExecutionProvider"])  # , providers=["CUDAExecutionProvider"]
@@ -100,5 +100,5 @@ Serving '/home/qyc/generateSurg/utils/etnet.onnx' at http://192.168.0.5:8888
 打开网络查看模型结构：`http://192.168.0.5:8888/`
 
 > 💡 **重点看输入输出的数据格式**
-[[大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型/98a2dcf34a86dc5a1ef1aeb9750e7bb2_MD5.png|Open: file-20260508221355849.png]]
-![[大模型性能与部署/TensorFlow/onnxruntime库/assets/netron与onnx来查看你的ONNX文件模型/98a2dcf34a86dc5a1ef1aeb9750e7bb2_MD5.png]]
+[[98a2dcf34a86dc5a1ef1aeb9750e7bb2_MD5.png|Open: file-20260508221355849.png]]
+![[98a2dcf34a86dc5a1ef1aeb9750e7bb2_MD5.png]]

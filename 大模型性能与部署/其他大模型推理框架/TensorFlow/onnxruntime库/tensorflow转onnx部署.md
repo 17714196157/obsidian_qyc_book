@@ -20,7 +20,7 @@ pip install onnxruntime==1.4.0 或者 pip install onnxruntime-gpu==1.4.0   # 用
 ## 转换步骤
 
 ### 1. 将 Keras/TF 模型保存成 SavedModel 格式
-![[大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署/5adcf7f885c1db2e241c42521d442259_MD5.png]]
+![[5adcf7f885c1db2e241c42521d442259_MD5.png]]
 ```python
 from tensorflow.python import keras, saved_model
 def convert_to_saved_model(model,
@@ -78,8 +78,8 @@ python -m tf2onnx.convert --saved-model  /home/qyc/generateSurg/save/new_operati
 ```
 
 ### 3. 使用 Netron 查看 ONNX 模型
-[[大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署/9949c3118ab2b24680612b34441eb00d_MD5.png|Open: file-20260508221037400.png]]
-![[大模型性能与部署/TensorFlow/onnxruntime库/assets/tensorflow转onnx部署/9949c3118ab2b24680612b34441eb00d_MD5.png]]
+[[9949c3118ab2b24680612b34441eb00d_MD5.png|Open: file-20260508221037400.png]]
+![[9949c3118ab2b24680612b34441eb00d_MD5.png]]
 ```python
 netron.start("/home/qyc/generateSurg/utils/etnet.onnx" , address=('192.168.0.5',8888))
 ```
