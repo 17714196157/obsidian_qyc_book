@@ -24,7 +24,7 @@ P95并发数: 9
   - concurrent_summary_per_second.csv (每秒汇总)
   - concurrent_details_per_second.csv (每秒Top详情)
  tips: 发现细化接口未跑完请求下，突然出现十多个入院病情的请求导致并发秃然增加
-![[工作交付文档/assets/vllm现场请求耗时较长分享/7d0c57b8284893aa32c6089d52443abc_MD5.png]]
+![[file-20260706150436697.png]]
 
 **并发特征识别**
 

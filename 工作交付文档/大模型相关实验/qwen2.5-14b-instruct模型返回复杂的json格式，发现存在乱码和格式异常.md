@@ -132,7 +132,7 @@ INFO 07-03 17:25:23 [api_server.py:1034] vLLM API server version 0.8.4 model='/h
 ```
 单个样本 `YCSZYY5654524` 对比测试 `/getMedicalRecordInfo` 接口（病历报告内容识别和提取），重跑两次对比接口解析错误情况：
 
-![[getMedicalRecordInfo.png]]
+![[file-20260706150400262.png]]
 
 > [!success] 结论
 > 关闭 chunked prefill 后，JSON 输出恢复正常，解析错误率显著下降。

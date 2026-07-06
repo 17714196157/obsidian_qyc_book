@@ -115,9 +115,9 @@
 ## 附件
 ### 附件1） vllm 中日志格式
 vllm日志中记录的请求和响应， 通过 X-Request-Id 关联
-![[file-20260413164137227.png]]
+![[file-20260706150357623.png]]
 ### 附件2）medclient 中日志格式
-![[file-20260413164137224.png]]
+![[file-20260706150357653.png]]
 
 
 ### 附件3）django中如何通过中间件记录日志
@@ -173,7 +173,7 @@ print(f"Response Text:{request_id} {usage}")
 
 ```
 
-![[大模型性能与部署/vLLM/assets/vllm日志中记录请求消息+响应消息/6e1562548d4f69a84c177e4a70345e7f_MD5.png]]
+![[6e1562548d4f69a84c177e4a70345e7f_MD5.png]]
 
 ``` bash
 # 设置环境变量
