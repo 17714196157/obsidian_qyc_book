@@ -1,5 +1,5 @@
 1. 对比icd编码差异， wps宏
-![[对比icd编码差异.xlsm]]
+![[file-20260706150637932.xlsm]]
 ```
 比较两个编码结果文件。根据你提供的图片，数据结构包含病案号(medical_record_id)、序号(order_number)、诊断名称(column3_name)和ICD编码(column3_code)。
 脚本功能
