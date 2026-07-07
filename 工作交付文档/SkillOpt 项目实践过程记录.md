@@ -174,7 +174,7 @@ json
     *   添加了 `_truncate_content` (限制输入 6000 字) 和 `max_completion_tokens=2048`，**防止本地 vLLM 溢出**。
 3.  **`adapter.py`**: 将上述模块接入 SkillOpt 的训练引擎。
 
-![[reportoptner.png]]
+![[file-20260707100526530.png]]
 #### B. 强制混合架构配置 (`scripts/train.py`)
 **修改位置**: `main()` 函数中 `adapter = get_adapter(cfg)` 之前。
 **目的**: 解决默认 URL 错误的问题，实现 **"小模型干活，大模型反思"**。
@@ -262,7 +262,7 @@ def main() -> None:
 **修改位置**: `_chat_messages_impl` 函数内部。
 **目的**: 解决 Python 模块加载顺序导致的配置不生效问题。在发请求前强制覆盖 URL，确保请求绝对不会发错地方。
 
-![[qwen_backend.png]]
+![[file-20260707100526527.png]]
 
 #### D. Bug 修复 (`rollout.py`)
 *   修复了 `diagnostic_trace_context_by_id` 为 `None` 导致的 `AttributeError`。
