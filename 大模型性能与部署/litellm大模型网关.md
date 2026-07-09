@@ -9,7 +9,7 @@ model_list:
       api_key: vllm-is-awesome
 ```
 **启动 litellm --config litellm_config.yaml --host 0.0.0.0 --port 4000 **
-![[file-20260705100407817.png]]
+![[file-20260709175737401.png]]
 ```
 from openai import OpenAI
 client = OpenAI(

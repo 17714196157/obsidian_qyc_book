@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f7c14301deacb09b",
+        "id": "359fd7eb098dda6d",
         "type": "tabs",
         "children": [
           {
-            "id": "e13aaeee76286de0",
+            "id": "cdf4fcdcf3e4052a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/vLLM/Prometheus-vLLM监控/Prometheus告警规则-vLLM监控.md",
+                "file": "大模型性能与部署/性能测试指标.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prometheus告警规则-vLLM监控"
-            }
-          },
-          {
-            "id": "42be1c474dbbab2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大模型性能与部署/vLLM/Prometheus-vLLM监控/vLLM Metrics 指标采集与告警规则配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "vLLM Metrics 指标采集与告警规则配置"
-            }
-          },
-          {
-            "id": "e10672410a3db533",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大模型性能与部署/vLLM/vllm 简介.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "vllm 简介"
+              "title": "性能测试指标"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.50378799438477
+    "width": 379.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -229,8 +200,15 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "e10672410a3db533",
+  "active": "cdf4fcdcf3e4052a",
   "lastOpenFiles": [
+    "大模型性能与部署/最大并发量估计方法.md",
+    "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
+    "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
+    "大模型性能与部署/litellm大模型网关.md",
+    "大模型性能与部署/assets/litellm大模型网关",
+    "AI应用/wsl-dashboard windows虚拟机.md",
+    "大模型性能与部署/vLLM/vllm 简介.md",
     "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
     "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
@@ -251,11 +229,8 @@
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/vLLM Metrics 指标采集与告警规则配置.md.edtz",
     "公众号文章/Hermes Studio.md",
     "公众号文章/assets/Hermes Studio",
-    "公众号文章/Hermes Studio.md.edtz",
-    "大模型性能与部署/vLLM/vllm 简介.md",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "大模型性能与部署/vLLM/openai客户端代码.md",
-    "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
     "AI应用/hermes-agent.md",
     "工作交付文档/风险评估-一卡部署2个模型在技术上是可行的——50个请求100%成功，无OOM，两个模型都能正常响应.md",
     "工作交付文档/SkillOpt 项目实践过程记录.md",
@@ -265,10 +240,6 @@
     "自媒体工具/切片视频制作.md",
     "工作交付文档/长文总结：近一年 Agent 自进化的两大方向和四大趋势.md",
     "工作交付文档/字段对接.md",
-    "工作交付文档/广福现场97份病案分析.md",
-    "工作交付文档/大模型相关实验/vllm现场请求耗时较长分享.md",
-    "工作交付文档/大模型相关实验/vllm统计 生成吞吐量 指标原理详细简介.md",
-    "工作交付文档/大模型相关实验/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "公众号文章/assets/模型蒸馏：让小模型学会大模型的本事/3b5ec3ee26f48ebaadb61e8cca20f9ef_MD5.webp",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/file-20260705101354281.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CacheAligner.jpg",
