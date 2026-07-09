@@ -1,5 +1,5 @@
 官网文档 https://hermes-agent.nousresearch.com/docs/getting-started
-**安装：**
+**1）官方脚本安装：**
 ```bash
 # 安装 nvm  管理nodejs版本
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -8,8 +8,14 @@ nvm install 22 # 安装 Node.js 22 的最新版本
 nvm alias default 22  # 指定具体版本
 node -v # 此时应显示 v22.x.x 等高于你之前版本的号码
 
-# 安装 hermes-agent
+# 脚本安装 hermes-agent
 curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
+# 中国大陆用户可使用国内镜像加速-脚本安装：
+curl -fsSL https://res1.hermesagent.org.cn/install.sh | bash
+
+# which hermes
+/root/.local/bin/hermes
+
 source ~/.bashrc
 hermes update # 升级版本
 hermes model # Choose your LLM provider and model  
@@ -19,9 +25,6 @@ hermes  # 启动交互应用界面
 
 hermes chat -q "测试"
 
-# pip 安装
-conda activate hermes
-pip install hermes-agent
 ```
  **一键清理脚本:**
 ```bash
@@ -50,6 +53,16 @@ which hermes 2>/dev/null || echo "hermes 已完全移除"
 # 检查是否还有残留
 npm list -g | grep -i hermes
 ```
+**2）pip安装：**
+```bash
+# pip 安装
+conda activate hermes
+pip install hermes-agent
+```
+
+
+---
+
 
 **配置文件路径： Hermes Agent 的主配置文件 `~/.hermes/config.yaml`**
 
@@ -134,8 +147,17 @@ WEIXIN_GROUP_POLICY=disabled    # 忽略所有群消息（默认）
 ---
 ### 二） Hermes监控台
 **项目地址：** github.com/EKKOLearnAI/hermes-web-ui
-```
+```bash
 安装： npm install -g hermes-web-ui 
+
+# which hermes 
+/root/.local/bin/hermes
+
+# 或者设置软连接
+ln -s /root/.local/bin/hermes  /usr/local/bin/hermes
+
+# 指定python解释器（需要和hermes同一个），启动界面，
+hermes-web-ui start --host 0.0.0.0
 
 停止服务：
 root@maizi:/home/qyc/gitee/hermes-agent# hermes-web-ui stop
@@ -148,6 +170,8 @@ root@maizi:/home/qyc/gitee/hermes-agent#  hermes-web-ui start --host 0.0.0.0
   ✓ hermes-web-ui started
     http://localhost:8648/#/?token=f56904d3b78a9bb085ba075b2827b1c29bf06d41bdddba5b758fd4e68845f5e7
     Log: /root/.hermes-web-ui/server.log
+    
+
 ```
 
 

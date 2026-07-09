@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "713652481766bbee",
+        "id": "f7c14301deacb09b",
         "type": "tabs",
         "children": [
           {
-            "id": "48257e46bc80bf15",
+            "id": "e13aaeee76286de0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作交付文档/风险评估-一卡部署2个模型在技术上是可行的——50个请求100%成功，无OOM，两个模型都能正常响应.md",
+                "file": "大模型性能与部署/vLLM/Prometheus-vLLM监控/Prometheus告警规则-vLLM监控.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "风险评估-一卡部署2个模型在技术上是可行的——50个请求100%成功，无OOM，两个模型都能正常响应"
+              "title": "Prometheus告警规则-vLLM监控"
+            }
+          },
+          {
+            "id": "42be1c474dbbab2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大模型性能与部署/vLLM/Prometheus-vLLM监控/vLLM Metrics 指标采集与告警规则配置.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vLLM Metrics 指标采集与告警规则配置"
+            }
+          },
+          {
+            "id": "e10672410a3db533",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大模型性能与部署/vLLM/vllm 简介.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "vllm 简介"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 327.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,44 +229,47 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "e10672410a3db533",
   "lastOpenFiles": [
+    "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
+    "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
+    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
+    "大模型性能与部署/vLLM/7个让 vLLM 吞吐翻倍的配置参数优化与建议.md",
+    "大模型性能与部署/vLLM/让vllm服务在开机时自动启动.md",
+    "大模型性能与部署/vLLM/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？.md",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控/vLLM Metrics 指标采集与告警规则配置.md",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控/Prometheus告警规则-vLLM监控.md",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/Prometheus告警规则-vLLM监控",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控",
+    "大模型性能与部署/vLLM/assets/vLLM Metrics 指标采集与告警规则配置",
+    "大模型性能与部署/assets/vLLM Metrics 指标采集与告警规则配置",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644586.png",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644618.png",
+    "公众号文章/assets/vLLM Metrics 指标采集与告警规则配置",
+    "大模型性能与部署/vLLM/Prometheus-vLLM监控/vLLM Metrics 指标采集与告警规则配置.md.edtz",
+    "公众号文章/Hermes Studio.md",
+    "公众号文章/assets/Hermes Studio",
+    "公众号文章/Hermes Studio.md.edtz",
+    "大模型性能与部署/vLLM/vllm 简介.md",
+    "大模型性能与部署/vLLM/vLLM 超时参数.md",
+    "大模型性能与部署/vLLM/openai客户端代码.md",
+    "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
+    "AI应用/hermes-agent.md",
     "工作交付文档/风险评估-一卡部署2个模型在技术上是可行的——50个请求100%成功，无OOM，两个模型都能正常响应.md",
     "工作交付文档/SkillOpt 项目实践过程记录.md",
-    "工作交付文档/assets/SkillOpt 项目实践过程记录",
-    "公众号文章/assets/实验风险评估",
-    "工作交付文档/风险评估-一卡部署2个模型在技术上是可行的——50个请求100%成功，无OOM，两个模型都能正常响应.md.edtz",
     "工作交付文档/大模型相关实验/模型蒸馏.md",
     "工作交付文档/业务逻辑/运城监管药品监管.md",
     "工作交付文档/excel工具.md",
-    "工作交付文档/excel工具.md.edtz",
-    "工作交付文档/assets/excel工具",
     "自媒体工具/切片视频制作.md",
-    "自媒体工具/切片视频制作.md.edtz",
-    "自媒体工具/assets/切片视频制作",
-    "自媒体工具/assets",
-    "工作交付文档/业务逻辑/运城监管药品监管.md.edtz",
     "工作交付文档/长文总结：近一年 Agent 自进化的两大方向和四大趋势.md",
     "工作交付文档/字段对接.md",
     "工作交付文档/广福现场97份病案分析.md",
     "工作交付文档/大模型相关实验/vllm现场请求耗时较长分享.md",
-    "工作交付文档/大模型相关实验/vllm现场请求耗时较长分享.md.edtz",
     "工作交付文档/大模型相关实验/vllm统计 生成吞吐量 指标原理详细简介.md",
     "工作交付文档/大模型相关实验/vllm-issues5607-单请求vs并行请求一致性核对.md",
-    "工作交付文档/大模型相关实验/qwen2.5-14b-instruct模型返回复杂的json格式，发现存在乱码和格式异常.md",
-    "工作交付文档/大模型相关实验/medclient大模型从业务请求到 VLLM 响应的全链路.md",
-    "工作交付文档/大模型相关实验/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
-    "工作交付文档/大模型相关实验/手术生成模型迁移到L20设备问题.md",
-    "工作交付文档/2026-03-10 手术细化另编程序设计分析.md",
-    "公众号文章/模型蒸馏：让小模型学会大模型的本事.md",
     "公众号文章/assets/模型蒸馏：让小模型学会大模型的本事/3b5ec3ee26f48ebaadb61e8cca20f9ef_MD5.webp",
-    "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
-    "大模型性能与部署/性能测试指标.md",
-    "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
-    "大模型性能与部署/最大并发量估计方法.md",
-    "大模型性能与部署/其他大模型推理框架/lightllm.md",
-    "大模型性能与部署/其他大模型推理框架/sglang部署.md",
-    "大模型性能与部署/其他大模型推理框架/streaming-llm推理突破长度限制.md",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/file-20260705101354281.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CacheAligner.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CCR.jpg",
@@ -245,8 +277,6 @@
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CodeCompressor.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/SmartCrusher.jpg",
     "Bilibili/assets/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili/file-20260705100252897.jpg",
-    "工作交付文档/大模型相关实验/assets/qwen2.5-14b-instruct模型返回复杂的json格式，发现存在乱码和格式异常/file-20260706150400262.png",
-    "大模型性能与部署/vLLM/assets/深入理解vLLM核心概念Chunked Prefill 与 Block Size：一个长 prompt 已经切分成很多 block 了，为什么 prefill 还要再 chunk？/file-20260702164743688.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

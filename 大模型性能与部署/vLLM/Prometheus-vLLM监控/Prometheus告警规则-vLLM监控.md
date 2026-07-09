@@ -262,7 +262,7 @@ open http://localhost:9090
 | `http://localhost:9090/rules`   | 查看告警规则   | 确认 5 条规则已加载                |
 | `http://localhost:9090/alerts`  | 查看当前告警   | 看有没有触发中的告警                 |
 
-![[graph.png]]
+![[file-20260709175639851.png]]
 
 ##### 示例1) 看一段时间内显存使用变化图
 Prometheus Graph 页面直接查
