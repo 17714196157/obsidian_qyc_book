@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2694b67666c04a82",
+        "id": "2a2a12953d80f3f8",
         "type": "tabs",
         "children": [
           {
-            "id": "87e689d9717de9b1",
+            "id": "5760b9ec7ace1e1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bilibili/2026-07-10-07.LLM推理容量规划：单张GPU能服务多少用户？六步决策框架.md",
+                "file": "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-10-07.LLM推理容量规划：单张GPU能服务多少用户？六步决策框架"
+              "title": "vLLM离线推理-实验结果"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,8 +200,18 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "03ea914554650cef",
+  "active": "5760b9ec7ace1e1a",
   "lastOpenFiles": [
+    "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md.edtz",
+    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
+    "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md",
+    "公众号文章/模型蒸馏：让小模型学会大模型的本事.md",
+    "工作交付文档/大模型相关实验/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
+    "工作交付文档/大模型相关实验/手术生成模型迁移到L20设备问题.md",
+    "工作交付文档/大模型相关实验/vllm现场请求耗时较长分享.md",
+    "工作交付文档/大模型相关实验/medclient大模型从业务请求到 VLLM 响应的全链路.md",
+    "工作交付文档/大模型相关实验/vllm统计 生成吞吐量 指标原理详细简介.md",
+    "Bilibili/2026-07-10-07.LLM推理容量规划：单张GPU能服务多少用户？六步决策框架.md",
     "Bilibili/2026-07-10-07.LLM推理容量规划：单张GPU能服务多少用户？六步决策框架.md.edtz",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能“自进化”？.md",
@@ -209,7 +219,6 @@
     "公众号文章/vLLM 0.17.0 performance-mode调优测试.md",
     "公众号文章/vllm-issues5607 - Kimi.md",
     "公众号文章/vLLM实战：max_model_len参数调优，让你的显存利用率翻倍.md",
-    "Bilibili/2026-07-10-07.LLM推理容量规划：单张GPU能服务多少用户？六步决策框架.md",
     "大模型性能与部署/vLLM/vllm日志中记录请求消息+响应消息.md",
     "大模型性能与部署/vLLM/vLLM GPU显存利用率调优.md",
     "大模型性能与部署/vLLM/vLLM GPU显存利用率调优.md.edtz",
@@ -218,7 +227,6 @@
     "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
     "公众号文章/大模型推理加速：看图学KV Cache.md",
     "公众号文章/vllm与Litellm实现Guardrail和负载分发.md",
-    "公众号文章/模型蒸馏：让小模型学会大模型的本事.md",
     "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
     "办公命令-linux平台/assets/uv 速查表（Cheat Sheet）",
     "办公命令-linux平台/assets",
@@ -227,18 +235,10 @@
     "办公命令-linux平台/uv 速查表（Cheat Sheet）.md.edtz",
     "大模型性能与部署/性能测试指标.md",
     "大模型性能与部署/最大并发量估计方法.md",
-    "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
-    "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
-    "大模型性能与部署/litellm大模型网关.md",
     "大模型性能与部署/assets/litellm大模型网关",
-    "AI应用/wsl-dashboard windows虚拟机.md",
-    "大模型性能与部署/vLLM/vllm 简介.md",
-    "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
-    "大模型性能与部署/vLLM/vllm bench serve性能监控.md",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/Prometheus告警规则-vLLM监控",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets",
-    "大模型性能与部署/vLLM/Prometheus-vLLM监控",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644586.png",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644618.png",
     "公众号文章/assets/模型蒸馏：让小模型学会大模型的本事/3b5ec3ee26f48ebaadb61e8cca20f9ef_MD5.webp",
