@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "359fd7eb098dda6d",
+        "id": "f9006e5ee9197ee1",
         "type": "tabs",
         "children": [
           {
-            "id": "cdf4fcdcf3e4052a",
+            "id": "b223f8aacae0387b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大模型性能与部署/性能测试指标.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "性能测试指标"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.50378799438477
+    "width": 289.50378799438477
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,8 +196,23 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "cdf4fcdcf3e4052a",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
+    "大模型性能与部署/vLLM/vLLM GPU显存利用率调优.md.edtz",
+    "公众号文章/第三讲：斜杠命令大全——像老手一样操控Hermes【Hermes入门11讲】.md",
+    "大模型性能与部署/vLLM/vLLM GPU显存利用率调优.md",
+    "公众号文章/可以不用剪映了，这个开源工具替代品已经在 GitHub 上 47k Star 了.md",
+    "公众号文章/万字干货：Skills 新手小白使用教程（方法+原理）看这一篇就够了.md",
+    "公众号文章/大模型推理加速：看图学KV Cache.md",
+    "公众号文章/vllm与Litellm实现Guardrail和负载分发.md",
+    "公众号文章/模型蒸馏：让小模型学会大模型的本事.md",
+    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
+    "办公命令-linux平台/assets/uv 速查表（Cheat Sheet）",
+    "办公命令-linux平台/assets",
+    "办公命令-linux平台/assets/uv 速查表（Cheat Sheet）/file-20260710145503049.webp",
+    "公众号文章/assets/uv 速查表（Cheat Sheet）",
+    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md.edtz",
+    "大模型性能与部署/性能测试指标.md",
     "大模型性能与部署/最大并发量估计方法.md",
     "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
@@ -222,24 +233,10 @@
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控",
     "大模型性能与部署/vLLM/assets/vLLM Metrics 指标采集与告警规则配置",
-    "大模型性能与部署/assets/vLLM Metrics 指标采集与告警规则配置",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644586.png",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644618.png",
-    "公众号文章/assets/vLLM Metrics 指标采集与告警规则配置",
-    "大模型性能与部署/vLLM/Prometheus-vLLM监控/vLLM Metrics 指标采集与告警规则配置.md.edtz",
     "公众号文章/Hermes Studio.md",
-    "公众号文章/assets/Hermes Studio",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
-    "大模型性能与部署/vLLM/openai客户端代码.md",
-    "AI应用/hermes-agent.md",
-    "工作交付文档/风险评估-一卡部署2个模型在技术上是可行的——50个请求100%成功，无OOM，两个模型都能正常响应.md",
-    "工作交付文档/SkillOpt 项目实践过程记录.md",
-    "工作交付文档/大模型相关实验/模型蒸馏.md",
-    "工作交付文档/业务逻辑/运城监管药品监管.md",
-    "工作交付文档/excel工具.md",
-    "自媒体工具/切片视频制作.md",
-    "工作交付文档/长文总结：近一年 Agent 自进化的两大方向和四大趋势.md",
-    "工作交付文档/字段对接.md",
     "公众号文章/assets/模型蒸馏：让小模型学会大模型的本事/3b5ec3ee26f48ebaadb61e8cca20f9ef_MD5.webp",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/file-20260705101354281.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CacheAligner.jpg",
@@ -247,7 +244,6 @@
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/Kompress.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/CodeCompressor.jpg",
     "大模型性能与部署/上下文压缩/assets/headroom 压缩/SmartCrusher.jpg",
-    "Bilibili/assets/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili/file-20260705100252897.jpg",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
