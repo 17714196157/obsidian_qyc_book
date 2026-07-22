@@ -59,6 +59,8 @@ npm list -g | grep -i hermes
 conda activate hermes
 pip install hermes-agent
 ```
+3） windows 安装hermes-studio
+ https://hermes-studio.ai/#/  同时会自动安装hermes
 
 
 ---
