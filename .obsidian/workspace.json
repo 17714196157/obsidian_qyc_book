@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/hermes-agent.md",
+                "file": "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hermes-agent"
+              "title": "诊断符合判断-需求功能点实现说明-20260714需求会"
             }
           }
         ]
@@ -202,8 +202,8 @@
   },
   "active": "c9f3fefb1ffc25e6",
   "lastOpenFiles": [
-    "AI应用/Feynman-论文研究.md",
     "AI应用/hermes-agent.md",
+    "AI应用/Feynman-论文研究.md",
     "Bilibili/2026-07-21-【面试进阶】什么是重要性采样？为什么 token 级的损失难以收敛？「猫喜欢鱼」讲透.md",
     "Bilibili/2026-07-21-【面试高频】梯度裁剪原理：按范数裁剪 vs 按值裁剪，阈值怎么设，为什么必开.md",
     "Bilibili/2026-07-21-【面试进阶】什么是重要性采样？为什么 token 级的损失难以收敛？「猫喜欢鱼」讲透.md.edtz",
