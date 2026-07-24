@@ -71,8 +71,7 @@
               "title": "SkillOpt 项目实践过程记录"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -252,12 +251,12 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "079fa4ce645927bc",
+  "active": "84d07770cf7c85b2",
   "lastOpenFiles": [
-    "工作交付文档/SkillOpt 项目实践过程记录.md",
     "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
     "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
     "工作交付文档/Think@n实验结果.md",
+    "工作交付文档/SkillOpt 项目实践过程记录.md",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md.edtz",
     "工作交付文档/assets/Think@n实验结果",
