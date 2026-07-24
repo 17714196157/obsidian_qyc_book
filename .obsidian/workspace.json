@@ -22,38 +22,6 @@
               "icon": "lucide-file",
               "title": "SkillOpt：自我进化代理技能的执行策略"
             }
-          },
-          {
-            "id": "6aaf7149d7da37eb",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作交付文档/Think@n实验结果.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Think@n实验结果"
-            }
-          },
-          {
-            "id": "a0dc6236568aa8c9",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作交付文档/SkillOpt 项目实践过程记录.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "SkillOpt 项目实践过程记录"
-            }
           }
         ]
       }
@@ -237,10 +205,10 @@
   },
   "active": "84d07770cf7c85b2",
   "lastOpenFiles": [
-    "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/816a5733dafb74bb5d644d09b02aa337_MD5.png",
-    "工作交付文档/Think@n实验结果.md",
     "工作交付文档/SkillOpt 项目实践过程记录.md",
     "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
+    "工作交付文档/Think@n实验结果.md",
+    "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/816a5733dafb74bb5d644d09b02aa337_MD5.png",
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/skillopt流程图.png",
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/file-20260724154330012.png",
     "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
@@ -282,7 +250,6 @@
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543368.png",
     "工作交付文档/需求开发记录/assets/诊断符合判断/file-20260714151319446.png",
     "办公命令-linux平台/assets/uv 速查表（Cheat Sheet）/file-20260710145503049.webp",
-    "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644586.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
