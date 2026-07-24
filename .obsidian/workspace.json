@@ -4,24 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "b2f81d3fce4cf3e1",
+        "id": "44eee02b3a22a9b4",
         "type": "tabs",
         "children": [
           {
-            "id": "38b81ad83ea37b74",
+            "id": "84d07770cf7c85b2",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI应用/hermes-agent.md",
+                "file": "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "hermes-agent"
+              "title": "SkillOpt：自我进化代理技能的执行策略"
+            }
+          },
+          {
+            "id": "079fa4ce645927bc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练"
+            }
+          },
+          {
+            "id": "6aaf7149d7da37eb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作交付文档/Think@n实验结果.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Think@n实验结果"
+            }
+          },
+          {
+            "id": "a0dc6236568aa8c9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作交付文档/SkillOpt 项目实践过程记录.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "SkillOpt 项目实践过程记录"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -78,7 +129,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -200,11 +252,23 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "38b81ad83ea37b74",
+  "active": "a0dc6236568aa8c9",
   "lastOpenFiles": [
+    "工作交付文档/Think@n实验结果.md",
+    "工作交付文档/SkillOpt 项目实践过程记录.md",
+    "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
+    "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
+    "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
+    "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md.edtz",
+    "工作交付文档/assets/Think@n实验结果",
+    "工作交付文档/大模型相关实验/vllm现场请求耗时较长分享.md",
+    "工作交付文档/大模型相关实验/vllm统计 生成吞吐量 指标原理详细简介.md",
+    "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md",
+    "工作交付文档/大模型相关实验/qwen2.5-14b-instruct模型返回复杂的json格式，发现存在乱码和格式异常.md",
+    "工作交付文档/大模型相关实验/medclient大模型从业务请求到 VLLM 响应的全链路.md",
+    "AI应用/hermes-agent.md",
     "工作交付文档/大模型相关实验/模型蒸馏.md",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
-    "AI应用/hermes-agent.md",
     "AI应用/Feynman-论文研究.md",
     "Bilibili/2026-07-21-【面试进阶】什么是重要性采样？为什么 token 级的损失难以收敛？「猫喜欢鱼」讲透.md",
     "Bilibili/2026-07-21-【面试高频】梯度裁剪原理：按范数裁剪 vs 按值裁剪，阈值怎么设，为什么必开.md",
@@ -224,24 +288,12 @@
     "Bilibili/从分布视角看SFT、RL和OPD：泛化性能差异解析.md",
     "Bilibili/2026-07-21-面试官问：BM25与向量检索核心底层区别是什么？.md",
     "Bilibili/2026-07-21-面试官问：BM25与向量检索核心底层区别是什么？.md.edtz",
-    "Bilibili/2026-07-16-锐评“三农学者”温铁军：为什么他的药方救不了农民？.md",
     "Bilibili/2026-07-16-锐评三农学者温铁军：为什么他的药方救不了农民？.md.edtz",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会",
-    "工作交付文档/需求开发记录/assets/诊断符合判断-需要实现说明-20260714需求会",
-    "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543352.png",
-    "工作交付文档/需求开发记录/assets/诊断符合判断-20260714需求会",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543364.png",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543368.png",
     "工作交付文档/需求开发记录/assets/诊断符合判断/file-20260714151319446.png",
-    "工作交付文档/SkillOpt 项目实践过程记录.md",
-    "工作交付文档/excel工具.md",
-    "工作交付文档/Think@n实验结果.md",
-    "论文解读/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens.md",
-    "大模型性能与部署/最大并发量估计方法.md",
-    "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md",
-    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
-    "公众号文章/模型蒸馏：让小模型学会大模型的本事.md",
     "办公命令-linux平台/assets/uv 速查表（Cheat Sheet）/file-20260710145503049.webp",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644586.png",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644618.png",
