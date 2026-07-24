@@ -24,22 +24,6 @@
             }
           },
           {
-            "id": "079fa4ce645927bc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练"
-            }
-          },
-          {
             "id": "6aaf7149d7da37eb",
             "type": "leaf",
             "pinned": true,
@@ -253,9 +237,11 @@
   },
   "active": "84d07770cf7c85b2",
   "lastOpenFiles": [
+    "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/skillopt流程图.png",
+    "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/file-20260724154330012.png",
+    "工作交付文档/Think@n实验结果.md",
     "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
     "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
-    "工作交付文档/Think@n实验结果.md",
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/1c231eafdbc4fd6ee6fc657618da6065_MD5.png",
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/a17d693bfeaa6b0f094b5bcd989aeb45_MD5.png",
     "工作交付文档/SkillOpt 项目实践过程记录.md",
@@ -297,7 +283,6 @@
     "办公命令-linux平台/assets/uv 速查表（Cheat Sheet）/file-20260710145503049.webp",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644586.png",
     "大模型性能与部署/vLLM/Prometheus-vLLM监控/assets/vLLM Metrics 指标采集与告警规则配置/file-20260709175644618.png",
-    "公众号文章/assets/模型蒸馏：让小模型学会大模型的本事/3b5ec3ee26f48ebaadb61e8cca20f9ef_MD5.webp",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
