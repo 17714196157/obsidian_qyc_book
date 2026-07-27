@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "44eee02b3a22a9b4",
+        "id": "f787f00be18e07e7",
         "type": "tabs",
         "children": [
           {
-            "id": "84d07770cf7c85b2",
+            "id": "0cc04a5861abb0d5",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
+                "file": "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "SkillOpt：自我进化代理技能的执行策略"
+              "title": "规则-内涵质控-需求功能点实现-20260727"
             }
           }
         ]
@@ -80,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -203,10 +200,14 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "84d07770cf7c85b2",
+  "active": "0cc04a5861abb0d5",
   "lastOpenFiles": [
-    "工作交付文档/SkillOpt 项目实践过程记录.md",
+    "工作交付文档/需求开发记录/assets/规则-内涵质控-需求功能点实现-20260727/892e6adfc7258931d99192e8796c1322_MD5.png",
+    "工作交付文档/需求开发记录/assets/规则-内涵质控-需求功能点实现-20260727",
+    "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md.edtz",
+    "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
     "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
+    "工作交付文档/SkillOpt 项目实践过程记录.md",
     "工作交付文档/Think@n实验结果.md",
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/816a5733dafb74bb5d644d09b02aa337_MD5.png",
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/skillopt流程图.png",
@@ -241,10 +242,7 @@
     "Bilibili/2026-06-10-为什么有的公司做了20年还是小公司，技术债是怎么把一个企业锁死的.md",
     "Bilibili/2026-07-16-锐评三农学者温铁军：为什么他的药方救不了农民？.md",
     "Bilibili/2026-07-10-07.LLM推理容量规划：单张GPU能服务多少用户？六步决策框架.md",
-    "Bilibili/从分布视角看SFT、RL和OPD：泛化性能差异解析.md",
     "Bilibili/2026-07-21-面试官问：BM25与向量检索核心底层区别是什么？.md.edtz",
-    "Bilibili/2026-07-16-锐评三农学者温铁军：为什么他的药方救不了农民？.md.edtz",
-    "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543352.png",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543364.png",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543368.png",
