@@ -9,7 +9,7 @@
   "titleGenerationModel": "",
   "excludedTags": [],
   "mediaFolder": "",
-  "systemPrompt": "",
+  "systemPrompt": "## Obsidian Markdown Formatting\n\n- **Skill**: Use Obsidian-compatible Markdown formatting for all document layout tasks.\n- **Structure**: Organize content with clear heading hierarchies, bullet lists, and callout blocks where appropriate.\n- **Readability**: Improve visual hierarchy, add table of contents links, and ensure consistent spacing and emphasis.\n- **Scope**: Apply this formatting style when asked to optimize or reformat markdown documents.",
   "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
   "envSnippets": [

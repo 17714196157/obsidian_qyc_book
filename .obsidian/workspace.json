@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d8f379a92e40bae",
+        "id": "ab4c8d41a39fdd59",
         "type": "tabs",
         "children": [
           {
-            "id": "7bea68eb8aaa918a",
+            "id": "3716f794bf66e958",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -196,8 +196,11 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "3716f794bf66e958",
   "lastOpenFiles": [
+    "大模型相关基础知识/RAG召回率如何提升.md",
+    "大模型相关基础知识/RAG召回率如何提升.md.edtz",
+    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
     "大模型性能与部署/vLLM/vLLM结构化输出.md",
     "公众号文章/assets/vLLM结构化输出：3个生产坑",
     "大模型性能与部署/vLLM/vLLM结构化输出.md.edtz",
@@ -235,11 +238,8 @@
     "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
     "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md.edtz",
     "Bilibili/2026-07-21-【面试必考】LayerNorm为什么被RMSNorm全面取代？从0讲透归一化+手撕LLaMA同款代码.md",
-    "Bilibili/2026-07-21-【面试必考】LayerNorm为什么被RMSNorm全面取代？从0讲透归一化+手撕LLaMA同款代码.md.edtz",
     "Bilibili/2026-07-21-bilibili-subtitle.md",
     "Bilibili/2026-05-19-GPT-Image2 完全指南：一期讲透主流玩法（附我的生图 Skill）.md",
-    "Bilibili/2026-06-03-闲聊是生存技巧，不会闲聊是一个重大的缺失，冰哥教你学会闲聊.md",
-    "Bilibili/2026-06-10-为什么有的公司做了20年还是小公司，技术债是怎么把一个企业锁死的.md",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543352.png",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543364.png",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543368.png",
