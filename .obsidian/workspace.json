@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ab4c8d41a39fdd59",
+        "id": "b65dab58ec919932",
         "type": "tabs",
         "children": [
           {
-            "id": "3716f794bf66e958",
+            "id": "b84abacb6182a67c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "工作交付文档/需求开发记录/随州中心医院-病案首页附件-字段生成.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "随州中心医院-病案首页附件-字段生成"
             }
           }
         ]
@@ -37,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -74,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.50378799438477
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -196,8 +202,17 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "3716f794bf66e958",
+  "active": "b84abacb6182a67c",
   "lastOpenFiles": [
+    "工作交付文档/需求开发记录/assets/随州中心医院-病案首页附件-字段生成/~$V3366病案首页生成字段.xlsx",
+    "工作交付文档/需求开发记录/assets/随州中心医院-病案首页附件-字段生成/V3366病案首页生成字段.xlsx",
+    "工作交付文档/需求开发记录/assets/ScreenShot_病案首页附件.png",
+    "工作交付文档/需求开发记录/随州中心医院-病案首页附件-字段生成.md",
+    "工作交付文档/需求开发记录/随州中心医院-病案首页附件-字段生成.md.edtz",
+    "工作交付文档/需求开发记录/assets/随州中心医院-病案首页附件-字段生成/ScreenShot_病案首页附件.png",
+    "工作交付文档/需求开发记录/assets/随州中心医院-病案首页附件-字段生成",
+    "Bilibili/2026-08-07-最佳免费桌面整理神器！itop easy desktop.md",
+    "Bilibili/2026-08-07-最佳免费桌面整理神器！itop easy desktop.md.edtz",
     "大模型相关基础知识/RAG召回率如何提升.md",
     "大模型相关基础知识/RAG召回率如何提升.md.edtz",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
@@ -221,8 +236,6 @@
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/1c231eafdbc4fd6ee6fc657618da6065_MD5.png",
     "论文解读/assets/SkillOpt：自我进化代理技能的执行策略/a17d693bfeaa6b0f094b5bcd989aeb45_MD5.png",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
-    "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md.edtz",
-    "工作交付文档/assets/Think@n实验结果",
     "工作交付文档/大模型相关实验/vllm现场请求耗时较长分享.md",
     "工作交付文档/大模型相关实验/vllm统计 生成吞吐量 指标原理详细简介.md",
     "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md",
@@ -234,15 +247,9 @@
     "AI应用/Feynman-论文研究.md",
     "Bilibili/2026-07-21-【面试进阶】什么是重要性采样？为什么 token 级的损失难以收敛？「猫喜欢鱼」讲透.md",
     "Bilibili/2026-07-21-【面试高频】梯度裁剪原理：按范数裁剪 vs 按值裁剪，阈值怎么设，为什么必开.md",
-    "Bilibili/2026-07-21-【面试进阶】什么是重要性采样？为什么 token 级的损失难以收敛？「猫喜欢鱼」讲透.md.edtz",
     "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
-    "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md.edtz",
     "Bilibili/2026-07-21-【面试必考】LayerNorm为什么被RMSNorm全面取代？从0讲透归一化+手撕LLaMA同款代码.md",
-    "Bilibili/2026-07-21-bilibili-subtitle.md",
-    "Bilibili/2026-05-19-GPT-Image2 完全指南：一期讲透主流玩法（附我的生图 Skill）.md",
     "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543352.png",
-    "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543364.png",
-    "工作交付文档/需求开发记录/assets/诊断符合判断-需求功能点实现说明-20260714需求会/file-20260715171543368.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

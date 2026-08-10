@@ -1,6 +1,6 @@
 ---
-title: "RAG 召回率如何提升：从 60% 到 85% 的工业级方案"
-url: "https://www.bilibili.com/video/BV1YaGA6wE24?buvid=XU1B4131C4B245471B47C8B0E0646272DF689&from_spmid=tm.recommend.0.0&is_story_h5=false&mid=dwwmPS9AvhlDTViv4f9O4g%3D%3D&plat_id=114&share_from=ugc&share_medium=android&share_plat=android&share_session_id=39d99897-b4ac-4013-8090-5d46ce2195c6&share_source=weixin&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1785692031&unique_k=PD3LGOD&up_id=3546927822014908"
+title: RAG 召回率如何提升：从 60% 到 85% 的工业级方案
+url: https://www.bilibili.com/video/BV1YaGA6wE24?buvid=XU1B4131C4B245471B47C8B0E0646272DF689&from_spmid=tm.recommend.0.0&is_story_h5=false&mid=dwwmPS9AvhlDTViv4f9O4g%3D%3D&plat_id=114&share_from=ugc&share_medium=android&share_plat=android&share_session_id=39d99897-b4ac-4013-8090-5d46ce2195c6&share_source=weixin&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1785692031&unique_k=PD3LGOD&up_id=3546927822014908
 tags:
   - clippings
   - RAG
