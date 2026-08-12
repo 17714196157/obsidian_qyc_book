@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md",
+                "file": "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM 分布式微调实操-LLaMA-Factory 多卡微调"
+              "title": "一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程"
             }
           }
         ]
@@ -204,6 +204,13 @@
   },
   "active": "1e0f36ca54cb6269",
   "lastOpenFiles": [
+    "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/c367e7f7f56d207e8a604331a150809f_MD5.webp",
+    "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/c95a33225e084184bb47b81ccbb62993_MD5.webp",
+    "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/9b2f84e2adb5ab785e672390a00c1297_MD5.webp",
+    "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程",
+    "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md.edtz",
+    "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md",
+    "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/feb1a4977e89fbab2beed9e03ca3321e_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/74c6d4e16a7ab009bb2725443fd7b3d2_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/80bafbc0d6e4e2f69b689da760d42072_MD5.png",
@@ -212,11 +219,9 @@
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/0434be066a5a3c8239e50cd3cb30929c_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/5dbbfb4e45523324ec4d431f6bb31c4b_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/file-20260812104351121.png",
-    "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/213924da95a828a2209b790806b4ffb4_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调",
     "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md.edtz",
     "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
-    "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/field_flowchart.md",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/~$V3366病案首页生成字段.xlsx",
     "工作交付文档/需求开发记录/field_flowchart.md",
@@ -225,12 +230,8 @@
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~04502.tmp",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~027C6.tmp",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~020A2.tmp",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~F4FE4.tmp",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~E84C4.tmp",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
     "文件名.xlsx.md",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/file-20260810155230787.png",
-    "工作交付文档/需求开发记录/assets/ScreenShot_病案首页附件.png",
     "Bilibili/2026-08-07-最佳免费桌面整理神器！itop easy desktop.md",
     "大模型相关基础知识/RAG召回率如何提升.md",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
@@ -249,7 +250,6 @@
     "工作交付文档/大模型相关实验/medclient大模型从业务请求到 VLLM 响应的全链路.md",
     "AI应用/hermes-agent.md",
     "工作交付文档/大模型相关实验/模型蒸馏.md",
-    "AI应用/Feynman-论文研究.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
