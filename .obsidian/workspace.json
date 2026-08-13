@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "95ebe9e7f3e32889",
+        "id": "2dd55ae7bd7e4811",
         "type": "tabs",
         "children": [
           {
-            "id": "1e0f36ca54cb6269",
+            "id": "891807a5e368bc28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md",
+                "file": "自媒体工具/视频制作/opencut--剪映的开源平替.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程"
+              "title": "opencut--剪映的开源平替"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 205.38258743286133
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -202,15 +202,18 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "1e0f36ca54cb6269",
+  "active": "891807a5e368bc28",
   "lastOpenFiles": [
+    "自媒体工具/视频制作/opencut--剪映的开源平替.md.edtz",
+    "自媒体工具/视频制作/opencut--剪映的开源平替.md",
+    "其他附件",
+    "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md",
     "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/c367e7f7f56d207e8a604331a150809f_MD5.webp",
     "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/c95a33225e084184bb47b81ccbb62993_MD5.webp",
     "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/9b2f84e2adb5ab785e672390a00c1297_MD5.webp",
     "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程",
     "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md.edtz",
     "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md",
-    "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/feb1a4977e89fbab2beed9e03ca3321e_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/74c6d4e16a7ab009bb2725443fd7b3d2_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/80bafbc0d6e4e2f69b689da760d42072_MD5.png",
@@ -218,7 +221,6 @@
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/222835f1fecaa03b35fcf655d5df4f1b_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/0434be066a5a3c8239e50cd3cb30929c_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/5dbbfb4e45523324ec4d431f6bb31c4b_MD5.png",
-    "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/file-20260812104351121.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调",
     "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md.edtz",
     "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
@@ -229,7 +231,6 @@
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~64BDB.tmp",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~04502.tmp",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~027C6.tmp",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~020A2.tmp",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
     "文件名.xlsx.md",
     "Bilibili/2026-08-07-最佳免费桌面整理神器！itop easy desktop.md",
@@ -249,7 +250,6 @@
     "工作交付文档/大模型相关实验/qwen2.5-14b-instruct模型返回复杂的json格式，发现存在乱码和格式异常.md",
     "工作交付文档/大模型相关实验/medclient大模型从业务请求到 VLLM 响应的全链路.md",
     "AI应用/hermes-agent.md",
-    "工作交付文档/大模型相关实验/模型蒸馏.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
