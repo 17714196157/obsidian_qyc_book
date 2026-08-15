@@ -1,5 +1,5 @@
 项目地址： https://github.com/OpenCut-app/OpenCut
-剪映的开源平替，但是对本地电脑要求比较高，本地可能会比较卡
+剪映的开源平替，但是对本地电脑要求比较高，**本地可能会比较卡**
 官方网页试用： https://opencut.app
 
 
