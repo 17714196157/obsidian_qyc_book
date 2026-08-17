@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "324d6d3b4b3cebf2",
+        "id": "71f78948a7a84194",
         "type": "tabs",
         "children": [
           {
-            "id": "d655546a4d957b52",
+            "id": "3645f93295c06d2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kimi-讨论/vllm部署的模型输入文本超长.md",
+                "file": "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vllm部署的模型输入文本超长"
+              "title": "随州中心医院-住院病案附页-字段生成"
             }
           }
         ]
@@ -199,10 +199,12 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "d655546a4d957b52",
+  "active": "3645f93295c06d2a",
   "lastOpenFiles": [
-    "kimi-讨论/vllm部署的模型输入文本超长.md.edtz",
+    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/file-20260817171421680.png",
+    "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
     "kimi-讨论/vllm部署的模型输入文本超长.md",
+    "kimi-讨论/vllm部署的模型输入文本超长.md.edtz",
     "办公命令-linux平台/办公软件推荐.md",
     "办公命令-linux平台/办公软件推荐.md.edtz",
     "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
@@ -231,7 +233,6 @@
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/~$V3366病案首页生成字段.xlsx",
     "工作交付文档/需求开发记录/field_flowchart.md",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~ABE0A.tmp",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~64BDB.tmp",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
     "文件名.xlsx.md",
     "Bilibili/2026-08-07-最佳免费桌面整理神器！itop easy desktop.md",
@@ -239,7 +240,6 @@
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
     "大模型性能与部署/vLLM/vLLM结构化输出.md",
     "Bilibili/2026-07-30-面试官问：“当大模型遇到几百页的PDF合同，上下文窗口不够用了，该怎么办_.md",
-    "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
     "工作交付文档/SkillOpt 项目实践过程记录.md",
     "工作交付文档/Think@n实验结果.md",
     "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
