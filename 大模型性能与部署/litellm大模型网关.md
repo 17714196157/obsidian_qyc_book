@@ -69,6 +69,10 @@ router_settings:
   retry_after: 0             # 建议关闭重试，否则20分钟会被重试占用
 
 ```
+**只配置 `router_settings.timeout` 的核心问题**：
+> 它只能保证 Router 层等待20分钟，但**实际发往模型供应商的 HTTP 连接可能早在几十秒后就超时断开了**，导致流式请求在收到完整响应前就被中断。
+必须同时配置模型参数中的 `timeout` 和 `stream_timeout` 才能让底层的 HTTP 客户端真正等到20分钟
+
 
 litellm --config config.yaml --port 8102
 ```
