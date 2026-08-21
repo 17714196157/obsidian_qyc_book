@@ -148,7 +148,7 @@ WEIXIN_GROUP_POLICY=disabled    # 忽略所有群消息（默认）
 - ✅ SSRF 保护
 ---
 ### 二） Hermes监控台
-**项目地址：** github.com/EKKOLearnAI/hermes-web-ui
+**项目地址：** https://github.com/EKKOLearnAI/hermes-studio
 ```bash
 安装： npm install -g hermes-web-ui 
 

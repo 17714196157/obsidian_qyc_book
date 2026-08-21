@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "71f78948a7a84194",
+        "id": "be05d2580bf9d7c5",
         "type": "tabs",
         "children": [
           {
-            "id": "3645f93295c06d2a",
+            "id": "f0f22d86fbedb287",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/litellm大模型网关.md",
+                "file": "AI应用/hermes-agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "litellm大模型网关"
+              "title": "hermes-agent"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.6540298461914
+    "width": 241.5776138305664
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -193,17 +193,22 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "oz-clear-unused-images:Clear Unused Images": false,
+      "templater-obsidian:Templater": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
       "omnisearch:Omnisearch": false,
       "claudian:Open Claudian": false,
       "edit-history:Open edit history": false
     }
   },
-  "active": "3645f93295c06d2a",
+  "active": "f0f22d86fbedb287",
   "lastOpenFiles": [
+    "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
+    "大模型性能与部署/litellm大模型网关.md",
+    "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
+    "未命名.base",
+    "文件名.xlsx.md",
     "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/bd648c86af97aaab0327652a3ce2831d_MD5.png",
@@ -235,8 +240,6 @@
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/field_flowchart.md",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/~$V3366病案首页生成字段.xlsx",
     "工作交付文档/需求开发记录/field_flowchart.md",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/V3366病案首页生成字段~ABE0A.tmp",
-    "文件名.xlsx.md",
     "Bilibili/2026-08-07-最佳免费桌面整理神器！itop easy desktop.md",
     "大模型相关基础知识/RAG召回率如何提升.md",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
@@ -247,8 +250,6 @@
     "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
     "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "工作交付文档/大模型相关实验/vllm现场请求耗时较长分享.md",
-    "工作交付文档/大模型相关实验/vllm统计 生成吞吐量 指标原理详细简介.md",
-    "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
