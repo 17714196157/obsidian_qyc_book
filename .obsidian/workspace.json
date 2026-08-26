@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
+                "file": "办公命令-linux平台/git命令-分支管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "随州中心医院-住院病案附页-字段生成"
+              "title": "git命令-分支管理"
             }
           }
         ]
@@ -204,13 +204,19 @@
   },
   "active": "f0f22d86fbedb287",
   "lastOpenFiles": [
+    "办公命令-linux平台/assets/git命令-分支管理",
+    "办公命令-linux平台/git命令-分支管理.md.edtz",
+    "办公命令-linux平台/assets/git命令-分支管理/git分支策略汇总.png",
+    "办公命令-linux平台/assets/git",
+    "办公命令-linux平台/办公软件推荐.md",
+    "办公命令-linux平台/git命令-分支管理.md",
+    "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
     "大模型性能与部署/litellm大模型网关.md",
     "AI应用/hermes-agent.md",
     "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
     "未命名.base",
     "文件名.xlsx.md",
-    "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/bd648c86af97aaab0327652a3ce2831d_MD5.png",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/07c3cb455247796d84d75a353e076e83_MD5.png",
@@ -220,7 +226,6 @@
     "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
     "kimi-讨论/vllm部署的模型输入文本超长.md",
     "kimi-讨论/vllm部署的模型输入文本超长.md.edtz",
-    "办公命令-linux平台/办公软件推荐.md",
     "办公命令-linux平台/办公软件推荐.md.edtz",
     "工作交付文档/excel工具.md",
     "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
@@ -235,11 +240,8 @@
     "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md.edtz",
     "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/feb1a4977e89fbab2beed9e03ca3321e_MD5.png",
-    "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/74c6d4e16a7ab009bb2725443fd7b3d2_MD5.png",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调",
-    "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md.edtz",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/field_flowchart.md",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/~$V3366病案首页生成字段.xlsx",
     "工作交付文档/需求开发记录/field_flowchart.md",
     "Bilibili/2026-08-07-最佳免费桌面整理神器！itop easy desktop.md",
     "大模型相关基础知识/RAG召回率如何提升.md",
@@ -248,8 +250,6 @@
     "Bilibili/2026-07-30-面试官问：“当大模型遇到几百页的PDF合同，上下文窗口不够用了，该怎么办_.md",
     "工作交付文档/SkillOpt 项目实践过程记录.md",
     "工作交付文档/Think@n实验结果.md",
-    "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
-    "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
