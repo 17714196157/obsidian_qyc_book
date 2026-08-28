@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e9fd7e2bb09bdd90",
+        "id": "8a0714be7fb62273",
         "type": "tabs",
         "children": [
           {
-            "id": "f3db357a426cd0fd",
+            "id": "fff8921d97059a3b",
             "type": "leaf",
             "state": {
               "type": "apex-dashboard-view",
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -203,16 +202,16 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "f3db357a426cd0fd",
+  "active": "fff8921d97059a3b",
   "lastOpenFiles": [
+    "obsidian操作/obsidian插件推荐.md",
+    "obsidian操作/obsidian做个人博客-没能成功.md",
+    "dashboard.md",
     "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/三种距离度量（附录A）.png",
     "论文解读/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
     "论文解读/详解DeepSeek V4后训练全流程.md",
-    "obsidian操作/obsidian插件推荐.md",
     "dashboard.md.edtz",
-    "dashboard.md",
-    "obsidian操作/obsidian做个人博客-没能成功.md",
     "kimi-讨论/长文本处理场景处理方案讨论.md",
     "kimi-讨论/为单个 Git 项目单独设置账号（用户名和邮箱）.md",
     "工作交付文档/工作操作流程记录/线上数据导出.md",
