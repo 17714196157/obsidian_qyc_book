@@ -57,6 +57,9 @@ tips： 和claude code一样配置大模型， 国内大模型平台的配置参
 
 
 
+##### 7） 控制台插件
+apex-dashboard  https://github.com/PandoraReads/apex-dashboard
+
 
 
 ### 微信公众号文章同步方法

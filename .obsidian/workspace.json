@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b68cf66588f5cfb4",
+        "id": "e9fd7e2bb09bdd90",
         "type": "tabs",
         "children": [
           {
-            "id": "e99d0ffcccb4a516",
+            "id": "f3514bb52e33eee7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作交付文档/工作操作流程记录/线上数据导出.md",
+                "file": "obsidian操作/obsidian插件推荐.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "线上数据导出"
+              "title": "obsidian插件推荐"
             }
           }
         ]
@@ -71,16 +71,19 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 241.5776138305664
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -182,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 246.39178466796875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,11 +205,15 @@
       "edit-history:Open edit history": false
     }
   },
-  "active": "e99d0ffcccb4a516",
+  "active": "f3514bb52e33eee7",
   "lastOpenFiles": [
+    "obsidian操作/obsidian做个人博客-没能成功.md",
+    "kimi-讨论/长文本处理场景处理方案讨论.md",
+    "kimi-讨论/为单个 Git 项目单独设置账号（用户名和邮箱）.md",
+    "dashboard.md",
+    "工作交付文档/工作操作流程记录/线上数据导出.md",
     "工作交付文档/工作操作流程记录/线上数据导出.md.edtz",
     "工作交付文档/业务逻辑/运城监管药品监管.md",
-    "工作交付文档/工作操作流程记录/线上数据导出.md",
     "工作交付文档/工作操作流程记录",
     "办公命令-linux平台/git命令-分支管理.md",
     "办公命令-linux平台/assets/git命令-分支管理",
@@ -240,16 +247,12 @@
     "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/c367e7f7f56d207e8a604331a150809f_MD5.webp",
     "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/c95a33225e084184bb47b81ccbb62993_MD5.webp",
     "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/9b2f84e2adb5ab785e672390a00c1297_MD5.webp",
-    "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程",
     "公众号文章/LLM 分布式微调实操-LLaMA-Factory 多卡微调.md",
     "公众号文章/assets/LLM 分布式微调实操-LLaMA-Factory 多卡微调/feb1a4977e89fbab2beed9e03ca3321e_MD5.png",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/field_flowchart.md",
     "工作交付文档/需求开发记录/field_flowchart.md",
     "Bilibili/2026-08-07-最佳免费桌面整理神器！itop easy desktop.md",
     "大模型相关基础知识/RAG召回率如何提升.md",
-    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
-    "大模型性能与部署/vLLM/vLLM结构化输出.md",
-    "Bilibili/2026-07-30-面试官问：“当大模型遇到几百页的PDF合同，上下文窗口不够用了，该怎么办_.md",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
