@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8a0714be7fb62273",
+        "id": "5938e1186cc97f2c",
         "type": "tabs",
         "children": [
           {
-            "id": "fff8921d97059a3b",
+            "id": "7e5c5b0726cc4531",
             "type": "leaf",
             "state": {
-              "type": "apex-dashboard-view",
-              "state": {},
-              "icon": "home",
-              "title": "工作台"
+              "type": "markdown",
+              "state": {
+                "file": "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "随州中心医院-住院病案附页-字段生成"
             }
           }
         ]
@@ -79,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -182,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,7 +206,7 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "fff8921d97059a3b",
+  "active": "7e5c5b0726cc4531",
   "lastOpenFiles": [
     "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/obsidian做个人博客-没能成功.md",

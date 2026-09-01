@@ -7,18 +7,17 @@ columns:
   - name: Todo
     color: "#6366f1"
     type: todo
-  - name: 论文解读
+  - name: 工作交付
     color: "#6366f1"
     type: folder
     library:
-      viewMode: grid
+      viewMode: kanban
       sortBy: "modified"
       sortDesc: false
       folders:
-        - "论文解读"
+        - "工作交付文档"
       excludeFolders:
-        - "论文解读/assets"
-        - "论文解读/论文原文"
+        - "工作交付文档/assets"
       groupMode: folder
       propertyLimit: 3
   - name: 公众号文章学习
@@ -35,17 +34,18 @@ columns:
       groupMode: folder
       pageSize: 10
       propertyLimit: 3
-  - name: 工作交付
+  - name: 论文解读
     color: "#6366f1"
     type: folder
     library:
-      viewMode: kanban
+      viewMode: grid
       sortBy: "modified"
       sortDesc: false
       folders:
-        - "工作交付文档"
+        - "论文解读"
       excludeFolders:
-        - "工作交付文档/assets"
+        - "论文解读/assets"
+        - "论文解读/论文原文"
       groupMode: folder
       propertyLimit: 3
   - name: 大模型相关知识
@@ -76,10 +76,10 @@ columns:
 
 ## Todo
 
-## 论文解读
+## 工作交付
 
 ## 公众号文章学习
 
-## 工作交付
+## 论文解读
 
 ## 大模型相关知识
