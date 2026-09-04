@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "49c8b91f56a5b898",
+        "id": "68d8bbf9c3dafae0",
         "type": "tabs",
         "children": [
           {
-            "id": "a3654cef59b8e86e",
+            "id": "a6fa83b4f9dbe0a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作交付文档/需求开发记录/华西医院-医院描述对应需求开发.md",
+                "file": "工作交付文档/业务逻辑/医学文本含义.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "华西医院-医院描述对应需求开发"
+              "title": "医学文本含义"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 321.19544219970703
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -206,14 +206,19 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "a3654cef59b8e86e",
+  "active": "a6fa83b4f9dbe0a4",
   "lastOpenFiles": [
+    "工作交付文档/业务逻辑/医学文本含义.md.edtz",
+    "工作交付文档/业务逻辑/医学文本含义.md",
+    "kimi-讨论/解读一下这两篇文章内容，.md",
+    "kimi-讨论/assets/解读一下这两篇文章内容，",
+    "kimi-讨论/解读一下这两篇文章内容，.md.edtz",
+    "工作交付文档/需求开发记录/华西医院-医院描述对应需求开发.md",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164536024.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164406481.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901151140712.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发",
     "工作交付文档/需求开发记录/华西医院-医院描述对应需求开发.md.edtz",
-    "工作交付文档/需求开发记录/华西医院-医院描述对应需求开发.md",
     "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
     "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/obsidian做个人博客-没能成功.md",
@@ -239,7 +244,6 @@
     "AI应用/hermes-agent.md",
     "大模型性能与部署/DeepSpec：用草稿模型提升80%推理速度.md",
     "大模型性能与部署/Prefix Cache Hit Rate 与 Decode KV Cache 区别与优化方案.md",
-    "未命名.base",
     "文件名.xlsx.md",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/bd648c86af97aaab0327652a3ce2831d_MD5.png",
@@ -249,11 +253,7 @@
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/file-20260817171421680.png",
     "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
     "kimi-讨论/vllm部署的模型输入文本超长.md",
-    "kimi-讨论/vllm部署的模型输入文本超长.md.edtz",
     "工作交付文档/excel工具.md",
-    "论文解读/SkillOpt：自我进化代理技能的执行策略.md",
-    "自媒体工具/视频制作/opencut--剪映的开源平替.md",
-    "公众号文章/assets/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程/c367e7f7f56d207e8a604331a150809f_MD5.webp",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
