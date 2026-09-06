@@ -90,6 +90,9 @@ apex-dashboard  https://github.com/PandoraReads/apex-dashboard
     2. 浏览器插件配置  导出obsidian的仓库目录
 ![[ObsidianWebClipper浏览器插件配置1.jpg]]
 
+##### 3.Bilibili-Obsidian-Clipper 浏览器插件， B站字幕下载到obsidian
+https://github.com/haixiong1997/Bilibili-Obsidian-Clipper
+
 ### 英文学习
 language-learner 插件：[obsidian-language-learner](https://github.com/guopenghui/obsidian-language-learner/releases)
 OB-English-Learner 插件：[OB-English-Learner](https://github.com/dashell7/OB-English-Learner)

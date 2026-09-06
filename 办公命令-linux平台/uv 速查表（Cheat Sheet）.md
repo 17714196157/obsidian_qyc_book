@@ -20,18 +20,24 @@ tags:
 ◆ ◆ ◆
 
 ## 安装 uv（不依赖 Python，独立安装）
+下载uv压缩包， https://github.com/astral-sh/uv/releases/tag/0.12.10 ，解压文件夹
+配置环境变量PATH ， 文件夹地址
 
 ```
-# Windows（PowerShell）
-irm https://astral.sh/uv/install.ps1 | iex
+# 安装 Python（无需手动下载安装包）
+uv python install 3.12
 
-# macOS / Linux
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# 创建虚拟环境
+uv venv d:\ENV\tt
 
 # 验证 & 升级
 uv --version
 uv self update
+
 ```
+
+
+
 
 ◆ ◆ ◆
 
