@@ -77,7 +77,7 @@ $ where  claude
 C:\Users\86177\.npm-global\claude
 C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe
 ```
-
+##### 8） skill 推荐 - AI插件
 **安装claude 需要的skill**
 下载无关obsidian的skill（https://github.com/kepano/obsidian-skills），放在对应文件夹下
 ![[obsidian-skills.png]]
@@ -86,9 +86,7 @@ C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe
 - ==a) 笔记格式优化： 请帮我编辑这篇笔记 1.总结出重要信息 2.使用obsidian-markdown这个skills来帮我进行重新排版和编辑==
 - ==b) 生成思维图：请帮我把这篇生成一个canvas， 使用obsidian-canvas这个skill来操作==
 - ==c) 给文件夹生成数据库视图：帮我创建一个笔记整理的base，里面应该是我收集到 grasp这个文件夹里面的所有笔记，请用obsidian-base这个skils来创建== 
-
-
-##### 8） skill 推荐 - AI插件
+- 
 
 | 作者                                                                                                                | Skill 名称                | 功能描述                                                                                                    |
 | :---------------------------------------------------------------------------------------------------------------- | :---------------------- | :------------------------------------------------------------------------------------------------------ |
