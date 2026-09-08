@@ -36,41 +36,7 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 ##### 5）界面操作优化
 Vertical Tabs--->垂直标签页管理插件,支持快捷分屏、关闭、钉住等操作
 Omnisearch ---> 搜索笔记内容
-##### 6） claudian - AI插件
-claudian插件 --->让 AI 像你的“协作编辑”一样，直接在笔记里帮你干活，github.com/YishenTu/claudian 下载
-tips： 和claude code一样配置大模型， 国内大模型平台的配置参数名都不一样，需要去官网查看
- **以智谱AI为例:** 
-![[智谱AI网站配置.png]]
-
-**claude接口兼容需要注意：：大模型服务商官网查看claude配置 与 支持的模型名称**
-![[claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名.png]]
-安装claude 需要的skill
-下载无关obsidian的skill（https://github.com/kepano/obsidian-skills），放在对应文件夹下
-![[obsidian-skills.png]]
-
-**笔记格式优化的三个skill使用功能说明：**
-- ==a) 笔记格式优化： 请帮我编辑这篇笔记 1.总结出重要信息 2.使用obsidian-markdown这个skills来帮我进行重新排版和编辑==
-- ==b) 生成思维图：请帮我把这篇生成一个canvas， 使用obsidian-canvas这个skill来操作==
-- ==c) 给文件夹生成数据库视图：帮我创建一个笔记整理的base，里面应该是我收集到 grasp这个文件夹里面的所有笔记，请用obsidian-base这个skils来创建== 
-
-![[claudian对话界面.png]]
-
-
-在 **Claude CLI path** 输入框中填入完整路径： claude二进制文件路径
-**在 npm 全局包的内部目录下
-
-| 路径类型           | 示例路径                                                                               |
-| :------------- | :--------------------------------------------------------------------------------- |
-| **原生 exe**（推荐） | `C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe` |
-![[obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png]]
-```
-$ where  claude
-C:\Users\86177\.npm-global\claude
-C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe
-```
-
-
-##### 7） 控制台插件
+##### 6） 控制台插件
 apex-dashboard  https://github.com/PandoraReads/apex-dashboard
 
 | 模块                       | 说明                                                                                              |
@@ -85,6 +51,49 @@ apex-dashboard  https://github.com/PandoraReads/apex-dashboard
 | **⚡ Quick Actions 快捷操作** | 侧边栏固定常用快捷方式，支持"打开文件"和"执行 Obsidian 命令"两种类型                                                       |
 | **🌤️ 侧边栏小组件**           | 周历、实时天气（Open-Meteo，无需 API Key）、番茄钟、阅读追踪（支持豆瓣搜索）、倒计时                                             |
 
+
+
+##### 7） claudian - AI插件
+[[obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png|Open: file-20260908105100759.png]]
+![[obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png]]
+claudian插件 --->让 AI 像你的“协作编辑”一样，直接在笔记里帮你干活，github.com/YishenTu/claudian 下载
+tips： 和claude code一样配置大模型， 国内大模型平台的配置参数名都不一样，需要去官网查看
+ **以智谱AI为例:** 
+![[智谱AI网站配置.png]]
+
+**claude接口兼容需要注意：：大模型服务商官网查看claude配置 与 支持的模型名称**
+![[claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名.png]]
+
+在 **Claude CLI path** 输入框中填入完整路径： claude二进制文件路径
+**在 npm 全局包的内部目录下
+
+| 路径类型           | 示例路径                                                                               |
+| :------------- | :--------------------------------------------------------------------------------- |
+| **原生 exe**（推荐） | `C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe` |
+|                |                                                                                    |
+![[obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png]]
+```
+$ where  claude
+C:\Users\86177\.npm-global\claude
+C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe
+```
+
+**安装claude 需要的skill**
+下载无关obsidian的skill（https://github.com/kepano/obsidian-skills），放在对应文件夹下
+![[obsidian-skills.png]]
+
+**笔记格式优化的三个skill使用功能说明：**
+- ==a) 笔记格式优化： 请帮我编辑这篇笔记 1.总结出重要信息 2.使用obsidian-markdown这个skills来帮我进行重新排版和编辑==
+- ==b) 生成思维图：请帮我把这篇生成一个canvas， 使用obsidian-canvas这个skill来操作==
+- ==c) 给文件夹生成数据库视图：帮我创建一个笔记整理的base，里面应该是我收集到 grasp这个文件夹里面的所有笔记，请用obsidian-base这个skils来创建== 
+
+
+##### 8） skill 推荐 - AI插件
+
+
+
+
+---
 
 ### 微信公众号文章同步方法
 ##### 1.开源浏览器插件：文章下载器（纯本地，最安全）

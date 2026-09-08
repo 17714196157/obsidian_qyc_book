@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "98bcdec1a0143c06",
+        "id": "effd5facaf2a6374",
         "type": "tabs",
         "children": [
           {
-            "id": "d3dfad51da00367f",
+            "id": "35fa087a1f7c4a9b",
             "type": "leaf",
             "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "type": "markdown",
+              "state": {
+                "file": "obsidian操作/obsidian插件推荐.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "obsidian插件推荐"
             }
           }
         ]
@@ -202,8 +206,12 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "d3dfad51da00367f",
+  "active": "35fa087a1f7c4a9b",
   "lastOpenFiles": [
+    "obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png",
+    "obsidian操作/obsidian做个人博客-没能成功.md",
+    "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md",
+    "两年涨粉 100 万，这次我花 32 分钟讲透选题.md",
     "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png",
@@ -240,9 +248,6 @@
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164406481.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901151140712.png",
     "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
-    "obsidian操作/obsidian做个人博客-没能成功.md",
-    "dashboard.md",
-    "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/三种距离度量（附录A）.png",
     "办公命令-linux平台/assets/git命令-分支管理/git分支策略汇总.png",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/bd648c86af97aaab0327652a3ce2831d_MD5.png",
