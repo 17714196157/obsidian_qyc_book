@@ -1,7 +1,7 @@
 {
   "userName": "秦宇晨",
   "permissionMode": "yolo",
-  "model": "qwen3.6-plus",
+  "model": "deepseek-v4-flash",
   "thinkingBudget": "low",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -24,7 +24,7 @@
       "id": "snippet-1776952053921",
       "name": "阿里百炼",
       "description": "阿里百炼",
-      "envVars": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_API_KEY=sk-d98a7434af1f4641921b8af02e175499\nANTHROPIC_MODEL=qwen3.6-plus",
+      "envVars": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_API_KEY=sk-d98a7434af1f4641921b8af02e175499\nANTHROPIC_MODEL=deepseek-v4-flash",
       "scope": "provider:claude"
     }
   ],
@@ -39,15 +39,17 @@
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "DESKTOP-9NVNTBC": "C:\\Users\\86177\\.npm-global\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+      },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_API_KEY=sk-d98a7434af1f4641921b8af02e175499\nANTHROPIC_MODEL=qwen3.6-plus",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic|ANTHROPIC_MODEL=qwen3.6-plus"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_API_KEY=sk-d98a7434af1f4641921b8af02e175499\nANTHROPIC_MODEL=deepseek-v4-flash",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic|ANTHROPIC_MODEL=deepseek-v4-flash"
     },
     "codex": {
       "enabled": false,
@@ -65,7 +67,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "qwen3.6-plus"
+    "claude": "deepseek-v4-flash"
   },
   "savedProviderEffort": {
     "claude": "high"
@@ -74,7 +76,7 @@
   "savedProviderThinkingBudget": {
     "claude": "low"
   },
-  "lastCustomModel": "qwen3.6-plus",
+  "lastCustomModel": "deepseek-v4-flash",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

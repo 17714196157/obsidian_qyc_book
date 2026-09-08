@@ -36,7 +36,7 @@ obsidian插件是安装在库更目录下的 obsidian_qyc_book\.obsidian\plugins
 ##### 5）界面操作优化
 Vertical Tabs--->垂直标签页管理插件,支持快捷分屏、关闭、钉住等操作
 Omnisearch ---> 搜索笔记内容
-##### 6） AI插件
+##### 6） claudian - AI插件
 claudian插件 --->让 AI 像你的“协作编辑”一样，直接在笔记里帮你干活，github.com/YishenTu/claudian 下载
 tips： 和claude code一样配置大模型， 国内大模型平台的配置参数名都不一样，需要去官网查看
  **以智谱AI为例:** 
@@ -55,6 +55,19 @@ tips： 和claude code一样配置大模型， 国内大模型平台的配置参
 
 ![[claudian对话界面.png]]
 
+
+在 **Claude CLI path** 输入框中填入完整路径： claude二进制文件路径
+**在 npm 全局包的内部目录下
+
+| 路径类型           | 示例路径                                                                               |
+| :------------- | :--------------------------------------------------------------------------------- |
+| **原生 exe**（推荐） | `C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe` |
+![[obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png]]
+```
+$ where  claude
+C:\Users\86177\.npm-global\claude
+C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe
+```
 
 
 ##### 7） 控制台插件

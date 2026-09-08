@@ -1,0 +1,23 @@
+{
+  "id": "conv-1788762605930-qff284sa5",
+  "providerId": "claude",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1788762605931,
+  "updatedAt": 1788832882776,
+  "lastResponseAt": 1788832882776,
+  "sessionId": "5ce577df-dcb4-4431-ba9f-57d36ff849e3",
+  "providerState": {
+    "providerSessionId": "5ce577df-dcb4-4431-ba9f-57d36ff849e3"
+  },
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 46081,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 46081,
+    "percentage": 23,
+    "contextWindowIsAuthoritative": true
+  }
+}
