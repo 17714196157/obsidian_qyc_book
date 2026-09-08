@@ -1,0 +1,23 @@
+{
+  "id": "conv-1788839319847-znemfyp1a",
+  "providerId": "claude",
+  "title": "使用defuddle skill，读取这个网页中的内容:",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1788839319852,
+  "updatedAt": 1788839534063,
+  "lastResponseAt": 1788839369311,
+  "sessionId": "90bee1e6-6b60-4620-9c1c-0e58198fc479",
+  "providerState": {
+    "providerSessionId": "90bee1e6-6b60-4620-9c1c-0e58198fc479"
+  },
+  "usage": {
+    "model": "deepseek-v4-flash",
+    "inputTokens": 46704,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 46704,
+    "percentage": 23,
+    "contextWindowIsAuthoritative": true
+  }
+}

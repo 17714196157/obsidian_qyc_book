@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c4f0f87d00335168",
+        "id": "23eec743c863368e",
         "type": "tabs",
         "children": [
           {
-            "id": "81d8eaacd3df8cfc",
+            "id": "2d84427aa8121daa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian操作/obsidian插件推荐.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "obsidian插件推荐"
+              "title": "新标签页"
             }
           }
         ]
@@ -83,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 233.2973403930664
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -206,16 +202,21 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "81d8eaacd3df8cfc",
+  "active": "2d84427aa8121daa",
   "lastOpenFiles": [
+    "obsidian操作/obsidian插件推荐.md",
+    "vllm_tilert_pd_中文翻译.md",
+    "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
+    "obsidian操作/assets/obsidian插件推荐/52e58ed0a407ab54275001472276ed6f_MD5.png",
+    "vllm_tilert_pd_中文翻译.md.edtz",
+    "vllm_tilert_pd_中文翻译.md.tmp.6692.5c943ddba4f6",
+    "两年涨粉 100 万，这次我花 32 分钟讲透选题.md",
     "obsidian操作/assets/obsidian插件推荐/9e87debda17ece265710d5ab10ba1b37_MD5.png",
     "obsidian操作/obsidian做个人博客-没能成功.md",
     "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md",
-    "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png",
     "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md",
-    "两年涨粉 100 万，这次我花 32 分钟讲透选题.md",
     "obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png",
     "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md",
     "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md.edtz",
@@ -242,18 +243,12 @@
     "工作交付文档/业务逻辑/医学文本含义.md",
     "工作交付文档/业务逻辑/医学文本含义.md.edtz",
     "kimi-讨论/解读一下这两篇文章内容，.md",
-    "kimi-讨论/assets/解读一下这两篇文章内容，",
-    "kimi-讨论/解读一下这两篇文章内容，.md.edtz",
     "工作交付文档/需求开发记录/华西医院-医院描述对应需求开发.md",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164536024.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164406481.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901151140712.png",
-    "工作交付文档/需求开发记录/随州中心医院-住院病案附页-字段生成.md",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/三种距离度量（附录A）.png",
     "办公命令-linux平台/assets/git命令-分支管理/git分支策略汇总.png",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/bd648c86af97aaab0327652a3ce2831d_MD5.png",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/07c3cb455247796d84d75a353e076e83_MD5.png",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/83c8383cc80691dc302de9c0c0a136c2_MD5.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
