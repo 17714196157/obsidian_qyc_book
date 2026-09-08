@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "effd5facaf2a6374",
+        "id": "c4f0f87d00335168",
         "type": "tabs",
         "children": [
           {
-            "id": "35fa087a1f7c4a9b",
+            "id": "81d8eaacd3df8cfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -206,18 +206,19 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "35fa087a1f7c4a9b",
+  "active": "81d8eaacd3df8cfc",
   "lastOpenFiles": [
-    "obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png",
+    "obsidian操作/assets/obsidian插件推荐/9e87debda17ece265710d5ab10ba1b37_MD5.png",
     "obsidian操作/obsidian做个人博客-没能成功.md",
+    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
+    "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md",
+    "obsidian操作/obsidian插件推荐.md",
+    "obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png",
     "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md",
     "两年涨粉 100 万，这次我花 32 分钟讲透选题.md",
-    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
-    "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png",
     "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md",
     "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md.edtz",
-    "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md",
     "大模型性能与部署/其他大模型推理框架/assets/FreeToken部署大模型框架",
     "AI应用/claude_code.md",
     "AI应用/CC Switch的使用.md",
@@ -253,7 +254,6 @@
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/bd648c86af97aaab0327652a3ce2831d_MD5.png",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/07c3cb455247796d84d75a353e076e83_MD5.png",
     "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/83c8383cc80691dc302de9c0c0a136c2_MD5.png",
-    "工作交付文档/需求开发记录/assets/随州中心医院-住院病案附页-字段生成/4f92f85434adb96639565c47fcdc68b3_MD5.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

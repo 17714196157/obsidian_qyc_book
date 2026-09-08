@@ -39,30 +39,21 @@ curl http://localhost:8080/v1/chat/completions \
 
 ```
 docker run -p 8080:8080 \
-  -v /home/qyc/bert/Qwen3.8-27B-Uncensored-IQ4-XS-MTP-16GB-VRAM-GGUF:/models \
+  -v /home/qyc/bert/Qwen3.8-27B-GGUF:/models \
   --gpus all \
   ghcr.io/ggml-org/llama.cpp:server-cuda \
-  -m /models/Qwen3.8-27B-Uncensored-IQ4_XS_4BPW.gguf \
+  -m /models/Qwen3.8-27B-UD-IQ1_M.gguf \
   -ngl 99 \
-  -c 32768 \
-  -b 2048 \
+  -c 28192 \
+  -b 512 \
   -ub 512 \
   -t 4 \
   -tb 4 \
-  --flash-attn on \
-  --no-mmap \
-  --parallel 1 \
   --cache-type-k q4_0 \
   --cache-type-v q4_0 \
-  --fit off \
-  --spec-type draft-mtp \
-  --spec-draft-n-max 2 \
-  --spec-draft-p-min 0.70 \
-  --gpu-layers-draft all \
-  --jinja \
   --reasoning off \
   --chat-template-kwargs '{"reasoning_effort": "low"}' \
-  --temp 1.0 \
+  --temp .6 \
   --top-p 0.95 \
   --top-k 20 \
   --min-p 0.0 \

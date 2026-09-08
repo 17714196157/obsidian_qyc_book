@@ -56,6 +56,7 @@ ft serve \
   --model /home/qyc/bert/Qwen3.8-27B \
   --moe-backend offload \
   --memory-ratio 0.7
+  
 
 git clone https://github.com/FlashML-org/FreeToken
 uv venv && source .venv/bin/activate

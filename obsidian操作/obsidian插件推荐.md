@@ -90,6 +90,22 @@ C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe
 
 ##### 8） skill 推荐 - AI插件
 
+| 作者                                                                                                                | Skill 名称                | 功能描述                                                                                                    |
+| :---------------------------------------------------------------------------------------------------------------- | :---------------------- | :------------------------------------------------------------------------------------------------------ |
+| Obsidian CEO @kepano（[kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)）                         | defuddle                | 网页内容清洗工具，专门用来把杂乱的内容转换成纯净的 Markdown 格式，通过删除广告和导航栏来帮你节省 AI 调用的 Token 消耗。                                  |
+| Obsidian CEO @kepano（[kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)）                         | obsidian-cli            | 让 AI Agent 能够直接调用 Obsidian 官方的命令行工具，从而实现写笔记、任务、属性的增量修改，以及对插件开发环境的调试与管理。                                 |
+| Obsidian CEO @kepano（[kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)）                         | obsidian-bases          | 让 AI 能够创建和维护 base 格式的配置文件，从而在 Obsidian 里生成类似 Notion 数据库的动态视图，实现对笔记的过滤、计算和结构化展示。                         |
+| Obsidian CEO @kepano（[kepano/obsidian-skills](https://github.com/kepano/obsidian-skills)）                         | obsidian-markdown       | 让 AI 能够编写和编辑符合 Obsidian 官方规范的增强版 Markdown 文档，实现双向链接、内容嵌入、提示框以及结构化属性的深度集成。                               |
+| Axton（@回到Axton，[axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills)） | obsidian-canvas-creator | 加强版的 json-canvas skill，解决了节点重叠和空间分布不均的问题。                                                               |
+| Axton（@回到Axton，[axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills)） | mermaid-visualizer      | 将文本逻辑转化为专业的 Mermaid 架构图或流程图，并内置了针对 Obsidian 渲染引擎的语法纠错机制。                                                |
+| Axton（@回到Axton，[axtonliu/axton-obsidian-visual-skills](https://github.com/axtonliu/axton-obsidian-visual-skills)） | excalidraw-diagram      | 将文本逻辑转化为手绘风格的 Excalidraw 图表。                                                                            |
+| Choi Wontak（[RoundTable02/tutor-skills](https://github.com/RoundTable02/tutor-skills)）                            | tutor-skills            | 两个 Skill（tutor-setup 和 tutor）构成“输入-内化-检测”闭环：将文档或代码库一键转化为结构化的 Obsidian 知识库，之后通过无提示的交互式测试不断暴露知识盲区并记录学习轨迹。 |
+| EESJ.Gong（[EESJ.Gong/scholar-skill](https://github.com/EESJ.Gong/scholar-skill)）                                  | scholar-skill           | 基于 OpenClaw 框架的学术研究 Skill，通过 L1-L3 分级阅读策略在后台长时间静默解析论文，并自动将结构化笔记、核心记忆与知识冲突报告写入本地 Obsidian 知识库。           |
+
+
+
+
+
 
 
 
