@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "23eec743c863368e",
+        "id": "33e0051980447534",
         "type": "tabs",
         "children": [
           {
-            "id": "2d84427aa8121daa",
+            "id": "78bd1e6e95ab2c86",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "llama.cpp"
             }
           }
         ]
@@ -79,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.2973403930664
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -202,8 +206,32 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "2d84427aa8121daa",
+  "active": "78bd1e6e95ab2c86",
   "lastOpenFiles": [
+    "大模型性能与部署/llm_speedtest大模型测速工具.md",
+    "大模型性能与部署/assets/llm_speedtest大模型测速工具/llm_speedtest界面.png",
+    "大模型性能与部署/assets/llm_speedtest大模型测速工具",
+    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
+    "办公命令-linux平台/linux命令.md",
+    "办公命令-linux平台/linux命令.md.edtz",
+    "办公命令-linux平台/办公软件推荐.md",
+    "办公命令-linux平台/docker.md",
+    "办公命令-linux平台/git命令-分支管理.md",
+    "大模型性能与部署/llm_speedtest大模型测速工具.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
+    "kimi-讨论/大模型面试指南.md",
+    "kimi-讨论/大模型面试指南.md.edtz",
+    "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md",
+    "Bilibili/2026-04-03-如何为 Obsidian 配置 AI Agent？9 个必备 Skill 详解与安装指南.md",
+    "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md",
+    "Bilibili/2026-04-03-如何为 Obsidian 配置 AI Agent？9 个必备 Skill 详解与安装指南.md.edtz",
+    "Bilibili/2026-04-03-如何为 Obsidian 配置 AI Agent？9 个必备 Skill 详解与安装指南.md.tmp.2176.6f0949a67c33",
+    "电子书库/中学数学解题的一般方法.md",
+    "电子书库/怎样学会解数学题.md",
+    "电子书库/英语的基本规律.md",
+    "电子书库/assets/思维的训练 (（日）多湖辉编；张成全等编译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "电子书库/速成微积分自习手册.md",
+    "电子书库/数学思维能力的训练.md",
     "obsidian操作/obsidian插件推荐.md",
     "vllm_tilert_pd_中文翻译.md",
     "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
@@ -213,42 +241,18 @@
     "两年涨粉 100 万，这次我花 32 分钟讲透选题.md",
     "obsidian操作/assets/obsidian插件推荐/9e87debda17ece265710d5ab10ba1b37_MD5.png",
     "obsidian操作/obsidian做个人博客-没能成功.md",
-    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md",
     "obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png",
-    "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md",
     "obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png",
-    "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md",
     "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md.edtz",
-    "大模型性能与部署/其他大模型推理框架/assets/FreeToken部署大模型框架",
     "AI应用/claude_code.md",
     "AI应用/CC Switch的使用.md",
     "Bilibili/【AI笔记】面试中容易露馅的问题：大模型的训练和推理吃多少显存？ - 总结一下视频对话里的内容.md",
     "Bilibili/【AI笔记】AI大模型高质量论文来源体系梳理，一条视频给你讲清楚，以后就不会乱了 - 总结一下视频对话里的内容.md",
-    "Bilibili/2026-09-07-【面试高频】BatchNorm 与 LayerNorm 的区别：为什么 Transformer 只用 LayerNorm？.md",
-    "Bilibili/【AI笔记】【RAG 必修】余弦相似度的维度灾难：为什么检索结果全挤在 0.9 附近 - 总结一下视频对话里的内容.md",
-    "Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
-    "大模型性能与部署/其他大模型推理框架/llama.cpp.md.edtz",
-    "Bilibili/【AI笔记】【RAG 必修】余弦相似度的维度灾难：为什么检索结果全挤在 0.9 附近 - 总结一下视频对话里的内容.md.edtz",
-    "Bilibili/【AI笔记】RAG vs GraphRAG vs LLM Wiki 一次讲透：Karpathy引爆的LLM Wiki，是知识工程的下一次革命，还是又一个被高估的_自我进化_ - 总结一下视频对话里的内容.md",
-    "Bilibili/【AI笔记】【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化 - 总结一下视频对话里的内容.md",
-    "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
-    "Bilibili/【AI笔记】AI 做逆向总瞎猜命令？reverse-skill 给它装上安全技能路由 - 按时间顺序整理这期视频的内容.md",
-    "Bilibili/【AI笔记】《诡辩术：60种诡辩方法》 - 按时间顺序整理这期视频的内容.md",
-    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
-    "Clippings/Bilibili",
-    "Clippings",
-    "大模型性能与部署/litellm大模型网关.md",
-    "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md.edtz",
-    "工作交付文档/业务逻辑/医学文本含义.md",
-    "工作交付文档/业务逻辑/医学文本含义.md.edtz",
-    "kimi-讨论/解读一下这两篇文章内容，.md",
-    "工作交付文档/需求开发记录/华西医院-医院描述对应需求开发.md",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164536024.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164406481.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901151140712.png",
     "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/三种距离度量（附录A）.png",
-    "办公命令-linux平台/assets/git命令-分支管理/git分支策略汇总.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

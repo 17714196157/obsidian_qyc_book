@@ -56,16 +56,16 @@ uv self update
 
 ## 虚拟环境（venv）
 
-| 命令 | 说明 |
-| --- | --- |
-| `uv venv` | 创建默认 `.venv` （系统无 Python 时自动下载） |
-| `uv venv --python 3.11` | 指定 Python 版本 |
-| `uv venv my-env` | 自定义环境名称/路径 |
-| `.venv\Scripts\Activate.ps1` | 手动激活（Windows PowerShell） |
-| `source .venv/bin/activate` | 手动激活（macOS/Linux） |
-| `deactivate` | 退出手动激活的环境 |
-| `Remove-Item .venv -Recurse -Force` | 删除环境（Windows） |
-| `rm -rf .venv` | 删除环境（macOS/Linux） |
+| 命令                                  | 说明                              |
+| ----------------------------------- | ------------------------------- |
+| `uv venv`                           | 创建默认 `.venv` （系统无 Python 时自动下载） |
+| `uv venv --python 3.11`             | 指定 Python 版本                    |
+| `uv venv my-env`                    | 自定义环境名称/路径                      |
+| `.venv\Scripts\Activate.ps1`        | 手动激活（Windows PowerShell）        |
+| `source .venv/bin/activate`         | 手动激活（macOS/Linux）               |
+| `deactivate`                        | 退出手动激活的环境                       |
+| `Remove-Item .venv -Recurse -Force` | 删除环境（Windows）                   |
+| `rm -rf .venv`                      | 删除环境（macOS/Linux）               |
 
 > **关键** ： `uv run` / `uv add` / `uv pip install` 等所有 uv 命令会 **自动检测当前目录的 `.venv`** ，无需手动激活
 
