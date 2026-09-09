@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab32ee3e05f59c63",
+        "id": "0aaf852c7fa74d14",
         "type": "tabs",
         "children": [
           {
-            "id": "fb00adae8643ffd6",
+            "id": "188c380e88fba49b",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.1189956665039
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -202,8 +202,11 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "03ea914554650cef",
+  "active": "188c380e88fba49b",
   "lastOpenFiles": [
+    "面试百问/Google总结了5种Skill设计模式，让Agent稳定输出.md",
+    "面试百问/Google总结了5种Skill设计模式，让Agent稳定输出.md.edtz",
+    "Bilibili/2026-09-09-Google总结了5种Skill设计模式，让Agent稳定输出.md.tmp.9748.a5c0cd1a30ef",
     "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md",
     "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md.edtz",
     "Bilibili/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md.tmp.18220.d6abb48d45d6",
@@ -221,8 +224,6 @@
     "面试百问/【科学调参】batch size如何确定最优 - 梯度噪声尺度.md.edtz",
     "Bilibili/2026-09-09-【科学调参】梯度噪声尺度：用一百步小实验算出最优 batch size.md.tmp.18220.f2a96590ed09",
     "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md.edtz",
-    "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md.tmp.9476.24180b2483c3",
-    "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md.edtz",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
     "面试百问/为什么你的 AI Agent 到不了生产级？25k 星开源方法论说透了.md",
     "Bilibili/【AI笔记】【RAG 必修】余弦相似度的维度灾难：为什么检索结果全挤在 0.9 附近 - 总结一下视频对话里的内容.md",
@@ -239,7 +240,6 @@
     "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md",
     "Bilibili/2026-04-03-如何为 Obsidian 配置 AI Agent？9 个必备 Skill 详解与安装指南.md",
     "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md",
-    "电子书库/中学数学解题的一般方法.md",
     "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/52e58ed0a407ab54275001472276ed6f_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/9e87debda17ece265710d5ab10ba1b37_MD5.png",
