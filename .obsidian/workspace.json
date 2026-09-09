@@ -202,11 +202,11 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
+    "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md",
     "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md.edtz",
     "Bilibili/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md.tmp.18220.d6abb48d45d6",
-    "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md",
     "生活常识",
     "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
     "面试百问/大模型稳定输出结构化json.md",
@@ -223,7 +223,6 @@
     "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md.edtz",
     "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md.tmp.9476.24180b2483c3",
     "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md.edtz",
-    "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md.tmp.18220.a2b6666d4cba",
     "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
     "面试百问/为什么你的 AI Agent 到不了生产级？25k 星开源方法论说透了.md",
     "Bilibili/【AI笔记】【RAG 必修】余弦相似度的维度灾难：为什么检索结果全挤在 0.9 附近 - 总结一下视频对话里的内容.md",
