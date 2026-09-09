@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "33e0051980447534",
+        "id": "ab32ee3e05f59c63",
         "type": "tabs",
         "children": [
           {
-            "id": "78bd1e6e95ab2c86",
+            "id": "fb00adae8643ffd6",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "6cd3e7c0117f5ccb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
+                "file": "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llama.cpp"
+              "title": "当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 337.1189651489258
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -185,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 201.4237060546875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,49 +217,50 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "78bd1e6e95ab2c86",
+  "active": "6cd3e7c0117f5ccb",
   "lastOpenFiles": [
+    "面试百问/大模型稳定输出结构化json.md",
+    "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
+    "面试百问/【科学调参】batch size如何确定最优 - 梯度噪声尺度.md",
+    "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md",
+    "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md",
+    "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md.edtz",
+    "Bilibili/2026-09-09-【调参工具】LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md.tmp.18220.d1739b76e719",
+    "Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
+    "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md",
+    "面试百问/【科学调参】batch size如何确定最优 - 梯度噪声尺度.md.edtz",
+    "Bilibili/2026-09-09-【科学调参】梯度噪声尺度：用一百步小实验算出最优 batch size.md.tmp.18220.f2a96590ed09",
+    "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md.edtz",
+    "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md.tmp.9476.24180b2483c3",
+    "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md.edtz",
+    "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md.tmp.18220.a2b6666d4cba",
+    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
+    "面试百问/为什么你的 AI Agent 到不了生产级？25k 星开源方法论说透了.md",
+    "大模型相关基础知识/agent开发",
+    "面试百问/为什么你的 AI Agent 到不了生产级？25k 星开源方法论说透了.md.edtz",
+    "Bilibili/【AI笔记】【RAG 必修】余弦相似度的维度灾难：为什么检索结果全挤在 0.9 附近 - 总结一下视频对话里的内容.md",
+    "大模型性能与部署/其他大模型推理框架/LMstudio.md",
+    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "大模型性能与部署/llm_speedtest大模型测速工具.md",
     "大模型性能与部署/assets/llm_speedtest大模型测速工具/llm_speedtest界面.png",
-    "大模型性能与部署/assets/llm_speedtest大模型测速工具",
     "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
     "办公命令-linux平台/linux命令.md",
-    "办公命令-linux平台/linux命令.md.edtz",
     "办公命令-linux平台/办公软件推荐.md",
     "办公命令-linux平台/docker.md",
     "办公命令-linux平台/git命令-分支管理.md",
-    "大模型性能与部署/llm_speedtest大模型测速工具.md.edtz",
-    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "kimi-讨论/大模型面试指南.md",
-    "kimi-讨论/大模型面试指南.md.edtz",
     "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md",
     "Bilibili/2026-04-03-如何为 Obsidian 配置 AI Agent？9 个必备 Skill 详解与安装指南.md",
     "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md",
-    "Bilibili/2026-04-03-如何为 Obsidian 配置 AI Agent？9 个必备 Skill 详解与安装指南.md.edtz",
-    "Bilibili/2026-04-03-如何为 Obsidian 配置 AI Agent？9 个必备 Skill 详解与安装指南.md.tmp.2176.6f0949a67c33",
     "电子书库/中学数学解题的一般方法.md",
     "电子书库/怎样学会解数学题.md",
     "电子书库/英语的基本规律.md",
-    "电子书库/assets/思维的训练 (（日）多湖辉编；张成全等编译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "电子书库/速成微积分自习手册.md",
-    "电子书库/数学思维能力的训练.md",
-    "obsidian操作/obsidian插件推荐.md",
-    "vllm_tilert_pd_中文翻译.md",
     "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/52e58ed0a407ab54275001472276ed6f_MD5.png",
-    "vllm_tilert_pd_中文翻译.md.edtz",
-    "vllm_tilert_pd_中文翻译.md.tmp.6692.5c943ddba4f6",
-    "两年涨粉 100 万，这次我花 32 分钟讲透选题.md",
     "obsidian操作/assets/obsidian插件推荐/9e87debda17ece265710d5ab10ba1b37_MD5.png",
-    "obsidian操作/obsidian做个人博客-没能成功.md",
-    "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md",
     "obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png",
-    "Bilibili/【AI笔记】16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B社区魔改版榜单来袭！ - 总结一下视频对话里的内容.md.edtz",
-    "AI应用/claude_code.md",
-    "AI应用/CC Switch的使用.md",
-    "Bilibili/【AI笔记】面试中容易露馅的问题：大模型的训练和推理吃多少显存？ - 总结一下视频对话里的内容.md",
-    "Bilibili/【AI笔记】AI大模型高质量论文来源体系梳理，一条视频给你讲清楚，以后就不会乱了 - 总结一下视频对话里的内容.md",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164536024.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164406481.png",
     "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901151140712.png",

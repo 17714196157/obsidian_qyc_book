@@ -4,20 +4,20 @@
   "title": "使用defuddle skill，读取这个网页中的内容:",
   "titleGenerationStatus": "failed",
   "createdAt": 1788839319852,
-  "updatedAt": 1788853984029,
-  "lastResponseAt": 1788840084910,
+  "updatedAt": 1788924311663,
+  "lastResponseAt": 1788924311663,
   "sessionId": "90bee1e6-6b60-4620-9c1c-0e58198fc479",
   "providerState": {
     "providerSessionId": "90bee1e6-6b60-4620-9c1c-0e58198fc479"
   },
   "usage": {
     "model": "deepseek-v4-flash",
-    "inputTokens": 48447,
+    "inputTokens": 49596,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 48447,
-    "percentage": 24,
+    "contextTokens": 49596,
+    "percentage": 25,
     "contextWindowIsAuthoritative": true
   }
 }
