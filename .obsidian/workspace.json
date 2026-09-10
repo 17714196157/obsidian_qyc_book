@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0aaf852c7fa74d14",
+        "id": "1a564b6091036e29",
         "type": "tabs",
         "children": [
           {
-            "id": "188c380e88fba49b",
+            "id": "92f29f8d9511944f",
             "type": "leaf",
             "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "type": "markdown",
+              "state": {
+                "file": "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪"
             }
           }
         ]
@@ -181,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.4237060546875
+    "width": 200.14984130859375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,45 +206,44 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "188c380e88fba49b",
+  "active": "92f29f8d9511944f",
   "lastOpenFiles": [
-    "Bilibili/2026-09-09-用Codex实现定格动画和手绘跟随动画！（不用视频模型）.md.edtz",
     "Bilibili/2026-09-09-用Codex实现定格动画和手绘跟随动画！（不用视频模型）.md",
+    "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md.edtz",
+    "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md.tmp.12332.c5ffb948ad15",
+    "面试百问/2026-07-21-【面试必考】LayerNorm为什么被RMSNorm全面取代？从0讲透归一化+手撕LLaMA同款代码.md",
+    "Bilibili/2026-07-21-【面试高频】梯度裁剪原理：按范数裁剪 vs 按值裁剪，阈值怎么设，为什么必开.md",
+    "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
+    "面试百问/2026-07-21-面试官问：BM25与向量检索核心底层区别是什么？.md",
+    "Bilibili/2026-07-24-Prompt 写不好？SkillOpt 为什么说技能可以被训练.md",
+    "面试百问/2026-09-10-DeepSeek面试官问：生产RAG系统回答不准确，该如何定位和优化？这样回答，能让面试官当场给你Offer！.md",
+    "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md",
+    "面试百问/2026-09-10-DeepSeek面试官问：生产RAG系统回答不准确，该如何定位和优化？这样回答，能让面试官当场给你Offer！.md.edtz",
+    "Bilibili/2026-09-10-DeepSeek面试官问：生产RAG系统回答不准确，该如何定位和优化？这样回答，能让面试官当场给你Offer！.md.tmp.5444.551b5001c406",
+    "Bilibili/从分布视角看SFT、RL和OPD：泛化性能差异解析.md",
+    "Bilibili/2026-07-10-07.LLM推理容量规划：单张GPU能服务多少用户？六步决策框架.md",
+    "Bilibili/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili.md",
+    "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
+    "面试百问/2026-09-10-【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准.md",
+    "面试百问/2026-09-10-【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准.md.edtz",
+    "Bilibili/2026-09-10-【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准.md.tmp.16488.651d7b1100a3",
+    "论文解读/AgentOPSD 全新递归自蒸馏！解决智能体长时序强化学习信用分配痛点.md",
+    "论文解读/OPSA 新方法-OPD 是骗局？教师信号全是噪声，去掉教师效果反而更.md",
+    "论文解读/AgentOPSD 全新递归自蒸馏！解决智能体长时序强化学习信用分配痛点.md.edtz",
+    "Bilibili/2026-09-10-AgentOPSD 全新递归自蒸馏！解决智能体长时序强化学习信用分配痛点.md.tmp.16488.901465fcb015",
+    "论文解读/OPSA 新方法-OPD 是骗局？教师信号全是噪声，去掉教师效果反而更.md.edtz",
+    "Bilibili/2026-09-10-OPD 是骗局？教师信号全是噪声，去掉教师效果反而更好｜OPSA 新方法.md.tmp.16488.463964099f53",
     "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
-    "Bilibili/【AI笔记】动画Skill开源！我是如何用AI做露脸口播视频的 - 按时间顺序整理这期视频的内容.md.edtz",
     "Bilibili/【AI笔记】动画Skill开源！我是如何用AI做露脸口播视频的 - 按时间顺序整理这期视频的内容.md",
     "Bilibili/2026-09-09-动画Skill开源！我是如何用AI做露脸口播视频的.md",
     "面试百问/Google总结了5种Skill设计模式，让Agent稳定输出.md",
-    "面试百问/Google总结了5种Skill设计模式，让Agent稳定输出.md.edtz",
-    "Bilibili/2026-09-09-Google总结了5种Skill设计模式，让Agent稳定输出.md.tmp.9748.a5c0cd1a30ef",
     "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md",
-    "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md.edtz",
-    "Bilibili/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md.tmp.18220.d6abb48d45d6",
-    "生活常识",
     "面试百问/当大模型的Temperature参数设为0时，理论上输出结果应该是确定的，但实际运行中仍会出现不同结果，这是为什么？.md",
     "面试百问/大模型稳定输出结构化json.md",
     "面试百问/大模型微调时，显存到底怎么估算？要是跑着跑着显存爆了（OOM），你有什么方案？.md",
     "面试百问/【科学调参】batch size如何确定最优 - 梯度噪声尺度.md",
     "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md",
-    "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md",
-    "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md.edtz",
-    "Bilibili/2026-09-09-【调参工具】LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md.tmp.18220.d1739b76e719",
-    "Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
-    "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md",
-    "面试百问/【科学调参】batch size如何确定最优 - 梯度噪声尺度.md.edtz",
-    "Bilibili/2026-09-09-【科学调参】梯度噪声尺度：用一百步小实验算出最优 batch size.md.tmp.18220.f2a96590ed09",
-    "大模型相关基础知识/LLM结构化输出的实现思路原理.md",
-    "面试百问/为什么你的 AI Agent 到不了生产级？25k 星开源方法论说透了.md",
-    "Bilibili/【AI笔记】【RAG 必修】余弦相似度的维度灾难：为什么检索结果全挤在 0.9 附近 - 总结一下视频对话里的内容.md",
-    "大模型性能与部署/其他大模型推理框架/LMstudio.md",
-    "大模型性能与部署/llm_speedtest大模型测速工具.md",
     "大模型性能与部署/assets/llm_speedtest大模型测速工具/llm_speedtest界面.png",
-    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
-    "办公命令-linux平台/linux命令.md",
-    "办公命令-linux平台/办公软件推荐.md",
-    "办公命令-linux平台/docker.md",
-    "办公命令-linux平台/git命令-分支管理.md",
-    "kimi-讨论/大模型面试指南.md",
     "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/52e58ed0a407ab54275001472276ed6f_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/9e87debda17ece265710d5ab10ba1b37_MD5.png",
