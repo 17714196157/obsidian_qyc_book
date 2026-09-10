@@ -1,3 +1,57 @@
+项目地址: https://github.com/ggml-org/llama.cpp/releases#release-b10881
+
+## 安装
+1. 确定环境信息
+```
+# 查询显卡驱动版本，和显卡类型
+root@maizi:~# nvidia-smi 查询
+Thu Sep 10 13:30:35 2026
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.20             Driver Version: 580.126.20     CUDA Version: 13.0     |
+|   0  Tesla T4                       Off |   00000000:5E:00.0 Off |                    0 |
+| N/A   69C    P0             63W /   70W |    4377MiB /  15360MiB |     98%      Default |
+
+# 查询CUDA版本
+root@maizi:/home# nvcc --version
+Cuda compilation tools, release 11.7, V11.7.64
+```
+
+2. 升级cuda ，下载匹配的 llama.cpp  版本
+```
+# 1) 安装 CUDA 12.4 Toolkit（不影响现有 11.7）
+wget https://developer.download.nvidia.com/compute/cuda/12.4.1/local_installers/cuda_12.4.1_550.54.15_linux.run
+sudo sh cuda_12.4.1_550.54.15_linux.run --toolkit --silent
+
+# 2) 配置环境变量（优先使用 12.4）
+echo 'export PATH=/usr/local/cuda-12.4/bin:$PATH' | sudo tee /etc/profile.d/cuda-12.4.sh
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64:$LD_LIBRARY_PATH' | sudo tee -a /etc/profile.d/cuda-12.4.sh
+source /etc/profile.d/cuda-12.4.sh
+
+# 3) 验证
+**nvcc --version   # 应该显示 12.4**
+**root@maizi:/home# nvcc --version**
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2024 NVIDIA Corporation
+Built on Thu_Mar_28_02:18:24_PDT_2024
+Cuda compilation tools, release 12.4, V12.4.131
+Build cuda_12.4.r12.4/compiler.34097967_0
+
+
+# 4) 下载 llama.cpp b10881 CUDA 12.4 预编译包
+cd /home
+wget -O llama-b10881-bin-ubuntu-x64.tar.gz \
+  https://github.com/ggml-org/llama.cpp/releases/download/b10881/llama-b10881-bin-ubuntu-x64.tar.gz
+
+tar -xzf llama-b10881-bin-ubuntu-x64.tar.gz -C /opt
+sudo ln -sf /opt/llama-b10881/bin/* /usr/local/bin/
+
+llama-cli --version
+llama-server --version
+```
+
+
+
+## 部署说明
 vLLM **原生不支持 GGUF 格式**。vLLM 的生态建立在 **HuggingFace safetensors** 格式上，主要支持以下量化方案：
 
 |格式|vLLM 支持？|
