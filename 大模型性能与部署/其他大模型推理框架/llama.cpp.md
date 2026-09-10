@@ -49,8 +49,17 @@ llama-cli --version
 llama-server --version
 ```
 
+**检查GPU情况**
+```
+只要出现 `found 1 CUDA devices` 和 `offloaded 65/65 layers to GPU` 才说明GPU被使用了
 
-
+docker run --rm --gpus all \
+  --entrypoint nvidia-smi \
+  ghcr.io/ggml-org/llama.cpp:server-cuda   # 查看容器里是否可以看到显卡
+nvidia-smi                                  # 驱动是否正常
+docker info | grep -i runtime               # 有没有 nvidia runtime
+dpkg -l | grep nvidia-container-toolkit     # 包在不在
+```
 ## 部署说明
 vLLM **原生不支持 GGUF 格式**。vLLM 的生态建立在 **HuggingFace safetensors** 格式上，主要支持以下量化方案：
 
@@ -66,14 +75,20 @@ vLLM **原生不支持 GGUF 格式**。vLLM 的生态建立在 **HuggingFace s
 GGUF 格式是 **llama.cpp 生态** 的专有格式，IQ4_XS 也是 llama.cpp 独有的量化方法。
 ### 1）1张T4，启动Q3版本的qwen3.8-27B，大约占13GB
 ```
-docker run -p 8080:8080 \
+docker run -d \
+  --name llama-server \
+  -p 8080:8080 \
   -v /home/qyc/bert/Qwen3.8-27B-Uncensored-IQ4-XS-MTP-16GB-VRAM-GGUF:/models \
   --gpus all \
-  ghcr.io/ggml-org/llama.cpp:server-cuda \
+  ghcr.io/ggml-org/llama.cpp:server-cuda12 \
   -m /models/Qwen3.8-27B-Uncensored-IQ4_XS_4BPW.gguf \
-  -c 10000 \
+  -c 8192 \
+  -ngl 99 \
   --host 0.0.0.0 \
-  --port 8080 
+  --port 8080
+  
+  ghcr.io/ggml-org/llama.cpp:server-cuda12
+  
   
 curl http://localhost:8080/v1/models
 
