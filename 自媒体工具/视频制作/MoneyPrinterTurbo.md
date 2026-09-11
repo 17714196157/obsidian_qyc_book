@@ -48,4 +48,10 @@ Web 界面（推荐）
 python webui.py
 ```
 
+
+容器启动
+```
+/home/qyc/gitee/MoneyPrinterTurbo# docker-compose up
+```
+
 ![[自媒体工具/视频制作/assets/MoneyPrinterTurbo/540a75568d106018c8a8e5f5b8e7c7ed_MD5.png]]
