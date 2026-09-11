@@ -4,49 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "85b8df5a74e4390d",
+        "id": "bb5502daebc42b8b",
         "type": "tabs",
         "children": [
           {
-            "id": "ef130857ced02b4a",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
-            "id": "34d23b253dd75786",
+            "id": "04e648b0e512cb25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
+                "file": "自媒体工具/视频制作/MoneyPrinterTurbo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uv 速查表（Cheat Sheet）"
-            }
-          },
-          {
-            "id": "91cb2ffcf9590717",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "自媒体工具/视频制作/blender-mcp使用说明.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "blender-mcp使用说明"
+              "title": "MoneyPrinterTurbo"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.3674087524414
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -231,8 +206,10 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "91cb2ffcf9590717",
+  "active": "04e648b0e512cb25",
   "lastOpenFiles": [
+    "自媒体工具/视频制作/blender-mcp使用说明.md",
+    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/715ea680deb09eb4adfd42b7498f6e60_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/040e6fbbbf56e3dc9070cb36160caab7_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/ff3334f546e1f8b64ea781b5b6886615_MD5.png",
@@ -240,8 +217,6 @@
     "自媒体工具/视频制作/assets/blender-mcp使用说明/f2e0d4c854da1b5a47140482304f994f_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/6878ff2f14b5088ee6c6d1140222ec6d_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明",
-    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
-    "自媒体工具/视频制作/blender-mcp使用说明.md",
     "自媒体工具/视频制作/blender-mcp使用说明.md.edtz",
     "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "生活常识/二手房砍价秘籍.md",
@@ -278,7 +253,6 @@
     "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/52e58ed0a407ab54275001472276ed6f_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/9e87debda17ece265710d5ab10ba1b37_MD5.png",
-    "obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
