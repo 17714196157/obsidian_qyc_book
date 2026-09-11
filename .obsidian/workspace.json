@@ -23,16 +23,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
+                "file": "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llama.cpp"
+              "title": "uv 速查表（Cheat Sheet）"
+            }
+          },
+          {
+            "id": "91cb2ffcf9590717",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "自媒体工具/视频制作/blender-mcp使用说明.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "blender-mcp使用说明"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.00434112548828
+    "width": 310.3674087524414
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -196,7 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.14984130859375
+    "width": 202.0606689453125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,13 +231,23 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "34d23b253dd75786",
+  "active": "91cb2ffcf9590717",
   "lastOpenFiles": [
+    "自媒体工具/视频制作/assets/blender-mcp使用说明/715ea680deb09eb4adfd42b7498f6e60_MD5.png",
+    "自媒体工具/视频制作/assets/blender-mcp使用说明/040e6fbbbf56e3dc9070cb36160caab7_MD5.png",
+    "自媒体工具/视频制作/assets/blender-mcp使用说明/ff3334f546e1f8b64ea781b5b6886615_MD5.png",
+    "自媒体工具/视频制作/assets/blender-mcp使用说明/42bcdb8141e202425f1720cabb8efe21_MD5.png",
+    "自媒体工具/视频制作/assets/blender-mcp使用说明/f2e0d4c854da1b5a47140482304f994f_MD5.png",
+    "自媒体工具/视频制作/assets/blender-mcp使用说明/6878ff2f14b5088ee6c6d1140222ec6d_MD5.png",
+    "自媒体工具/视频制作/assets/blender-mcp使用说明",
+    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
+    "自媒体工具/视频制作/blender-mcp使用说明.md",
+    "自媒体工具/视频制作/blender-mcp使用说明.md.edtz",
+    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "生活常识/二手房砍价秘籍.md",
     "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md",
     "生活常识/二手房砍价秘籍.md.edtz",
     "Bilibili/2026-09-11-20分钟二手房砍价秘籍，全方位揭秘如何砍价省钱.md.tmp.20004.88c0bd95da26",
-    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "面试百问/2026-07-21-面试官问：BM25与向量检索核心底层区别是什么？.md",
     "面试百问/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
     "Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md.tmp.20004.21cdd9f46ce3",
@@ -237,8 +261,6 @@
     "Bilibili/2026-09-10-【RL 进阶】GSPO：通过序列级重要性比率改进 PPO_GRPO 的逐 token 方差问题.md",
     "面试百问/2026-09-10-面试官问：Agent把错误信息写进记忆后要怎么办？.md",
     "Bilibili/2026-09-10-【RL 进阶】GSPO：通过序列级重要性比率改进 PPO_GRPO 的逐 token 方差问题.md.edtz",
-    "Bilibili/2026-09-10-【RL 进阶】GSPO：通过序列级重要性比率改进 PPO_GRPO 的逐 token 方差问题.md.tmp.22680.74f9d0ccb215",
-    "面试百问/2026-09-10-面试官问：Agent把错误信息写进记忆后要怎么办？.md.edtz",
     "面试百问/2026-09-10-【大厂面试】RAG系统中跨页表格如何规避语义被切断？.md",
     "生活常识/2026-09-10-通识课 ：一口气看懂22个逻辑谬误：你可能每天都在犯，别再被话术带偏了.md",
     "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md",
@@ -252,18 +274,11 @@
     "面试百问/2026-09-10-DeepSeek面试官问：生产RAG系统回答不准确，该如何定位和优化？这样回答，能让面试官当场给你Offer！.md",
     "Bilibili/从分布视角看SFT、RL和OPD：泛化性能差异解析.md",
     "Bilibili/2026-07-10-07.LLM推理容量规划：单张GPU能服务多少用户？六步决策框架.md",
-    "Bilibili/代码搜索省92% Token？拆解 Headroom 的上下文优化真相_哔哩哔哩_bilibili.md",
-    "Bilibili/2026-06-23-告别人工手写Prompt：SkillOpt如何让大模型Agent实现技能自进化？.md",
     "大模型性能与部署/assets/llm_speedtest大模型测速工具/llm_speedtest界面.png",
     "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/52e58ed0a407ab54275001472276ed6f_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/9e87debda17ece265710d5ab10ba1b37_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png",
-    "obsidian操作/assets/obsidian插件推荐/25284405d29bbb2ac9c31cd415e7cd0e_MD5.png",
-    "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164536024.png",
-    "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901164406481.png",
-    "工作交付文档/需求开发记录/assets/华西医院-医院描述对应需求开发/file-20260901151140712.png",
-    "论文解读/assets/Think-Deep,Not-Just-Long-Measuring-LLM-Reasoning-Effort-via-Deep-Thinking-Tokens/三种距离度量（附录A）.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"
