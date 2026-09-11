@@ -73,6 +73,40 @@ vLLM **原生不支持 GGUF 格式**。vLLM 的生态建立在 **HuggingFace s
 |IQ4_XS (GGUF特有)|**❌ 不支持**|
 
 GGUF 格式是 **llama.cpp 生态** 的专有格式，IQ4_XS 也是 llama.cpp 独有的量化方法。
+
+**llama.cpp参数：**
+
+| 类别 | 参数 | 说明 | 示例/推荐值 |
+|---|---|---|---|
+| Docker | `-d` | 让容器在后台运行 | `-d` |
+| Docker | `--name` | 指定容器名称，方便后续管理 | `--name llama-server` |
+| Docker | `-p` | 端口映射，格式为 `宿主机端口:容器端口` | `-p 8080:8080` |
+| Docker | `-v` | 挂载宿主机目录到容器内 | `-v /home/qyc/bert/...:/models` |
+| Docker | `--gpus` | 将 GPU 设备透传给容器 | `--gpus all` |
+| Docker | 镜像名 | 使用的 llama.cpp 服务端 CUDA 镜像 | `ghcr.io/ggml-org/llama.cpp:server-cuda12` |
+| llama.cpp | `-m` | 指定 GGUF 模型文件路径 | `-m /models/Qwen3.8-27B-Uncensored-IQ4_XS_4BPW.gguf` |
+| llama.cpp | `-ngl` | 卸载到 GPU 的层数，`99` 表示尽可能多 | `-ngl 99` |
+| llama.cpp | `-c` | 上下文长度（token 数） | `-c 8192` 或 `-c 4096` |
+| llama.cpp | `--host` | 服务监听地址 | `--host 0.0.0.0` |
+| llama.cpp | `--port` | 服务监听端口 | `--port 8080` |
+| llama.cpp | `-v` | 开启详细日志模式 | `-v` |
+| llama.cpp | `--verbose-prompt` | 打印详细的 prompt 处理信息 | `--verbose-prompt` |
+| llama.cpp | `-lv` | 日志详细级别，数值越大越详细 | `-lv 10`（调试用，通常 `4` 已足够） |
+| llama.cpp | `--log-file` | 指定日志文件名（不含扩展名） | `--log-file /logs/llama-server` |
+| llama.cpp | `--logdir` | 指定日志文件保存目录 | `--logdir /logs` |
+| llama.cpp | `-b` | 逻辑 batch 大小 | `-b 512` |
+| llama.cpp | `-ub` | 物理 batch 大小 | `-ub 128` |
+| llama.cpp | `--parallel` | 并行槽位数，减少可降低显存和计算竞争 | `--parallel 1` |
+| llama.cpp | `--flash-attn` | 强制开启 Flash Attention | `--flash-attn` |
+| llama.cpp | `--no-reasoning-preserve` | 禁用保留 reasoning，节省 token | `--no-reasoning-preserve` |
+| llama.cpp | `--cache-ram` | 提示缓存大小（MiB），`0` 表示禁用 | `--cache-ram 0` |
+| llama.cpp | `--split-mode` | 多卡分割模式，单卡可设为 `none` | `--split-mode none` |
+| llama.cpp | `-t` | CPU 线程数，用于测试 CPU 回退影响 | `-t 1` |
+| llama.cpp | `--no-warmup` | 跳过启动时的预热运行 | `--no-warmup`（可选） |
+
+其中 `-ngl 99` 是解决“GPU 利用率一直为 0”的关键参数；`-v`、`--verbose-prompt`、`-lv` 用于打开最详细日志；`-b`、`-ub`、`--parallel`、`--flash-attn` 等是后续优化显存和速度时建议调整的参数。
+
+
 ### 1）1张T4，启动Q3版本的qwen3.8-27B，大约占13GB
 ```
 docker run -d \
