@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cdee0c08fb5450cb",
+        "id": "e578ac7c29e507fe",
         "type": "tabs",
         "children": [
           {
-            "id": "3ea8bf7a8a7d5a8d",
+            "id": "1036a523a3e9a0d0",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -16,23 +16,8 @@
               "icon": "bot",
               "title": "Claudian"
             }
-          },
-          {
-            "id": "ef386605c3b7eac1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试百问/Skill（技能）结构详解.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Skill（技能）结构详解"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,8 +202,11 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "ef386605c3b7eac1",
+  "active": "1036a523a3e9a0d0",
   "lastOpenFiles": [
+    "面试百问/2026-09-12-【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md",
+    "面试百问/2026-09-12-【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md.edtz",
+    "Bilibili/2026-09-12-【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md.tmp.19468.ac388e8c087c",
     "面试百问/assets/未命名",
     "面试百问/Skill（技能）结构详解.md.edtz",
     "面试百问/Skill（技能）结构详解.md",
@@ -235,10 +223,7 @@
     "Bilibili/assets/2026-09-11-【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法",
     "面试百问/2026-09-11-【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法.md.edtz",
     "Bilibili/2026-09-11-【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法.md.tmp.1760.071deb9c4a36",
-    "Bilibili/2026-09-11-【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑.md.tmp.1760.23c11dbd2aab",
-    "面试百问/2026-09-11-【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑.md.edtz",
     "工作交付文档/缺失文本影响.md",
-    "工作交付文档/缺失文本影响.md.edtz",
     "自媒体工具/视频制作/MoneyPrinterTurbo.md",
     "自媒体工具/视频制作/opencut--剪映的开源平替.md",
     "自媒体工具/视频制作/blender-mcp使用说明.md",
@@ -261,7 +246,6 @@
     "生活常识/2026-09-10-通识课 ：一口气看懂22个逻辑谬误：你可能每天都在犯，别再被话术带偏了.md",
     "生活常识/2026-09-09-先惹你还怪你反应大？一招让他彻底闭嘴.md",
     "面试百问/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
-    "Bilibili/2026-09-09-动画Skill开源！我是如何用AI做露脸口播视频的.md",
     "大模型性能与部署/assets/llm_speedtest大模型测速工具/llm_speedtest界面.png",
     "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/52e58ed0a407ab54275001472276ed6f_MD5.png",
