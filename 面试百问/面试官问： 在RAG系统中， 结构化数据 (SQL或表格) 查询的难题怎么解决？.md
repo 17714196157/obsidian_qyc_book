@@ -1,12 +1,16 @@
 ---
-title: "面试官问：在RAG系统中，结构化数据（SQL或表格）查询的难题怎么解决？"
-url: "https://www.bilibili.com/video/BV1KkDYBhEYQ/"
-bvid: "BV1KkDYBhEYQ"
+title: 面试官问：在RAG系统中，结构化数据（SQL或表格）查询的难题怎么解决？
+url: https://www.bilibili.com/video/BV1KkDYBhEYQ/
+bvid: BV1KkDYBhEYQ
 cid: "37306107518"
-author: "图灵AI大模型"
-upload_date: "2026-04-08"
-created: "2026-09-13"
-tags: ["clippings", "bilibili", "RAG", "SQL", "结构化数据", "面试", "智能体"]
+author: 图灵AI大模型
+upload_date: 2026-04-08
+created: 2026-09-13
+tags:
+  - bilibili
+  - RAG
+  - 结构化数据
+  - 面试
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116361837746065&bvid=BV1KkDYBhEYQ&cid=37306107518&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
