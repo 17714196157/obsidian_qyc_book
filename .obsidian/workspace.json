@@ -16,8 +16,23 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "a25d6a55995357f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试百问/面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,8 +217,12 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "ac20cc4ccf00741a",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
+    "面试百问/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享.md",
+    "面试百问/面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md.edtz",
+    "Bilibili/2026-09-13-面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md.tmp.11944.895d0a483194",
+    "面试百问/面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md",
     "面试百问/2026-09-13-【训练监控】除了 loss 还必须看的五个指标：grad norm、PPL、MFU、学习率、吞吐量.md",
     "面试百问/【调参细节】warmup 步数详解：比例怎么定、做错了会怎样、怎么监控.md",
     "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md",
@@ -217,8 +236,6 @@
     "面试百问/2026-09-12-【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md",
     "面试百问/2026-09-12-【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md.edtz",
     "Bilibili/2026-09-12-【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md.tmp.19468.ac388e8c087c",
-    "面试百问/assets/未命名",
-    "面试百问/Skill（技能）结构详解.md.edtz",
     "面试百问/Skill（技能）结构详解.md",
     "Bilibili/【AI笔记】【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化 - 总结一下视频对话里的内容.md",
     "Bilibili/2026-09-10-【RL 进阶】GSPO：通过序列级重要性比率改进 PPO_GRPO 的逐 token 方差问题.md",
@@ -245,7 +262,6 @@
     "面试百问/2026-09-10-【RL 工程】batch 组织策略：难度分布、类型平衡与 rollout 数量.md",
     "面试百问/2026-09-10-面试精讲：多 Agent 系统共享记忆核心原理.md",
     "面试百问/2026-09-10-面试官问：Agent把错误信息写进记忆后要怎么办？.md",
-    "面试百问/2026-09-10-【大厂面试】RAG系统中跨页表格如何规避语义被切断？.md",
     "大模型性能与部署/assets/llm_speedtest大模型测速工具/llm_speedtest界面.png",
     "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/52e58ed0a407ab54275001472276ed6f_MD5.png",
