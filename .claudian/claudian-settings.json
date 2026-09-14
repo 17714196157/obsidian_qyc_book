@@ -1,8 +1,8 @@
 {
   "userName": "秦宇晨",
   "permissionMode": "yolo",
-  "model": "deepseek-v4-flash",
-  "thinkingBudget": "low",
+  "model": "deepseek-flash",
+  "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -21,14 +21,19 @@
       "scope": "provider:claude"
     },
     {
-      "id": "snippet-1776952053921",
-      "name": "阿里百炼",
-      "description": "阿里百炼",
-      "envVars": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_API_KEY=sk-d98a7434af1f4641921b8af02e175499\nANTHROPIC_MODEL=deepseek-v4-flash",
-      "scope": "provider:claude"
+      "id": "snippet-1789360317575",
+      "name": "deepseek-api",
+      "description": "deepseek-官方",
+      "envVars": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_AUTH_TOKEN=sk-3fa9a22f8901460b81b8819655cb02ed\nANTHROPIC_MODEL=deepseek-v4-flash",
+      "scope": "provider:claude",
+      "contextLimits": {
+        "deepseek-v4-flash": 100000
+      }
     }
   ],
-  "customContextLimits": {},
+  "customContextLimits": {
+    "deepseek-v4-flash": 100000
+  },
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
@@ -48,8 +53,8 @@
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic\nANTHROPIC_API_KEY=sk-d98a7434af1f4641921b8af02e175499\nANTHROPIC_MODEL=deepseek-v4-flash",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://dashscope.aliyuncs.com/apps/anthropic|ANTHROPIC_MODEL=deepseek-v4-flash"
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_API_KEY=sk-4d6e747107744fc38093649db008500b\nANTHROPIC_MODEL=deepseek-flash",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_MODEL=deepseek-flash"
     },
     "codex": {
       "enabled": false,
@@ -67,16 +72,16 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "deepseek-v4-flash"
+    "claude": "deepseek-flash"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "low"
+    "claude": "off"
   },
-  "lastCustomModel": "deepseek-v4-flash",
+  "lastCustomModel": "deepseek-flash",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

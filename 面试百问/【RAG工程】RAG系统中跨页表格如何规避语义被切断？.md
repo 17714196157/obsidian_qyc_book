@@ -1,12 +1,16 @@
 ---
-title: "【大厂面试】RAG系统中跨页表格如何规避语义被切断？"
-url: "https://www.bilibili.com/video/BV1QhYM6fEs3/"
-bvid: "BV1QhYM6fEs3"
+title: 【大厂面试】RAG系统中跨页表格如何规避语义被切断？
+url: https://www.bilibili.com/video/BV1QhYM6fEs3/
+bvid: BV1QhYM6fEs3
 cid: "41752266464"
-author: "AI探索喵"
-upload_date: "2026-09-10"
-created: "2026-09-10"
-tags: ["clippings", "bilibili", "RAG", "面试", "PDF解析", "分块策略", "检索优化"]
+author: AI探索喵
+upload_date: 2026-09-10
+created: 2026-09-10
+tags:
+  - bilibili
+  - 面试
+  - PDF解析
+  - 【RAG工程】
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117245325876496&bvid=BV1QhYM6fEs3&cid=41752266464&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
