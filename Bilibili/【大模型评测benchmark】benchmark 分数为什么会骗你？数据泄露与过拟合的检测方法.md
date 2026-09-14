@@ -1,12 +1,14 @@
 ---
-title: "【评测陷阱】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法"
-url: "https://www.bilibili.com/video/BV1eab76jEkY/"
-bvid: "BV1eab76jEkY"
+title: 【评测陷阱】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法
+url: https://www.bilibili.com/video/BV1eab76jEkY/
+bvid: BV1eab76jEkY
 cid: "41618966492"
-author: "古希腊掌管代码的神"
-upload_date: "2026-09-13"
-created: "2026-09-14"
-tags: ["clippings", "bilibili", "评测", "benchmark", "数据泄露", "过拟合", "评估"]
+author: 古希腊掌管代码的神
+upload_date: 2026-09-13
+created: 2026-09-14
+tags:
+  - bilibili
+  - benchmark
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117219623309381&bvid=BV1eab76jEkY&cid=41618966492&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
@@ -38,8 +40,8 @@ tags: ["clippings", "bilibili", "评测", "benchmark", "数据泄露", "过拟�
                   = 记住了答案（分数虚高，能力原地踏步）
 ```
 
-| 检测方法 | 做法 |
-|----------|------|
+| 检测方法          | 做法                                |
+| ------------- | --------------------------------- |
 | **N-Gram 匹配** | 检查训练集和测试集的 n-gram 重叠率——重叠越高，泄露越严重 |
 
 ### 陷阱二：过拟合 Benchmark
@@ -123,7 +125,7 @@ graph TB
 
 ## 🔗 关联阅读
 
-- [[Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格|LLM-as-Judge 的四大偏差]]
+- [[2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格|LLM-as-Judge 的四大偏差]]
 
 ---
 
@@ -191,4 +193,4 @@ graph TB
 ## 🔗 参考链接
 
 - B 站视频：https://www.bilibili.com/video/BV1eab76jEkY/
-- [[Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格]]
+- [[2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格]]

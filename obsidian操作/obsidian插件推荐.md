@@ -54,15 +54,37 @@ apex-dashboard  https://github.com/PandoraReads/apex-dashboard
 
 
 ##### 7） claudian - AI插件
-[[obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png|Open: file-20260908105100759.png]]
 ![[obsidian操作/assets/obsidian插件推荐/7053b2495687c2562341c9dd00e7c008_MD5.png]]
 claudian插件 --->让 AI 像你的“协作编辑”一样，直接在笔记里帮你干活，github.com/YishenTu/claudian 下载
 tips： 和claude code一样配置大模型， 国内大模型平台的配置参数名都不一样，需要去官网查看
+
+ **以deepseek为例:** 
+![[obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png]]
+
  **以智谱AI为例:** 
 ![[智谱AI网站配置.png]]
 
 **claude接口兼容需要注意：：大模型服务商官网查看claude配置 与 支持的模型名称**
-![[claudian插件中配置大模型相关环境变量-需要去大模型服务商官网查看变量名.png]]
+![[obsidian操作/assets/obsidian插件推荐/cfb8a1cff47af45978e00fa89c7331c3_MD5.png]]
+自定义变量如何设置正常但是没生效， 需要手工修改   C:\Users\86177\.claude\config.json
+```
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-4d6e747107744fc38093649db008500b",
+    "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-flash",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL_NAME": "deepseek-flash",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-flash",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "deepseek-flash",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-flash",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_NAME": "deepseek-flash",
+    "ANTHROPIC_MODEL": "deepseek-flash"
+  },
+  "effortLevel": "low"
+}
+
+```
+
 
 在 **Claude CLI path** 输入框中填入完整路径： claude二进制文件路径
 **在 npm 全局包的内部目录下
@@ -77,6 +99,9 @@ $ where  claude
 C:\Users\86177\.npm-global\claude
 C:\Users\86177\.npm-global\node_modules\@anthropic-ai\claude-code\bin\claude.exe
 ```
+
+
+
 ##### 8） skill 推荐 - AI插件
 **安装claude 需要的skill**
 下载无关obsidian的skill（https://github.com/kepano/obsidian-skills），放在对应文件夹下

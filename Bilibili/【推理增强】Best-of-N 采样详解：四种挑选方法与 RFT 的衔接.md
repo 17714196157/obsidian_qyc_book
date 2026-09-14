@@ -1,12 +1,15 @@
 ---
-title: "【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接"
-url: "https://www.bilibili.com/video/BV1Qab76LEvu/"
-bvid: "BV1Qab76LEvu"
+title: 【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接
+url: https://www.bilibili.com/video/BV1Qab76LEvu/
+bvid: BV1Qab76LEvu
 cid: "41619031559"
-author: "古希腊掌管代码的神"
-upload_date: "2026-09-14"
-created: "2026-09-14"
-tags: ["clippings", "bilibili", "Best-of-N", "RFT", "推理增强", "采样", "强化学习"]
+author: 古希腊掌管代码的神
+upload_date: 2026-09-14
+created: 2026-09-14
+tags:
+  - bilibili
+  - Best-of-N
+  - RFT
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117219623177462&bvid=BV1Qab76LEvu&cid=41619031559&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
@@ -135,7 +138,7 @@ graph LR
 ## 🔗 关联阅读
 
 - [[Bilibili/2026-09-11-【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法|RFT 拒绝采样微调详解]]
-- [[Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格|LLM-as-Judge 四大偏差]]
+- [[2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格|LLM-as-Judge 四大偏差]]
 
 ---
 
@@ -184,4 +187,4 @@ graph LR
 
 - B 站视频：https://www.bilibili.com/video/BV1Qab76LEvu/
 - [[Bilibili/2026-09-11-【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法]]
-- [[Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格]]
+- [[2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格]]

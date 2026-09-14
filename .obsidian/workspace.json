@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6d011269eb9109a1",
+        "id": "4e5701a21448813b",
         "type": "tabs",
         "children": [
           {
-            "id": "2e221d169580c3bd",
+            "id": "50558d7de0de538e",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.00434112548828
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.0606689453125
+    "width": 677.8567199707031
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +202,26 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "2e221d169580c3bd",
+  "active": "50558d7de0de538e",
   "lastOpenFiles": [
+    "obsidian操作/obsidian插件推荐.md",
+    "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
+    "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
+    "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
+    "obsidian操作/assets/obsidian插件推荐/file-20260914154209644.png",
+    "obsidian操作/assets/obsidian插件推荐/file-20260914154106921.png",
+    "obsidian操作/assets/obsidian插件推荐/cfb8a1cff47af45978e00fa89c7331c3_MD5.png",
+    "大模型性能与部署/其他大模型推理框架/LMstudio.md",
+    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
+    "大模型性能与部署/llm_speedtest大模型测速工具.md",
+    "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md",
+    "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md",
+    "Bilibili/【AI笔记】 GRPO、DAPO、GSPO.md",
+    "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md",
+    "2026-09-14.md",
+    "Bilibili/【AI笔记】当前视频.md",
+    "Bilibili/【AI笔记】 GRPO、DAPO、GSPO.md.edtz",
+    "Bilibili/【AI笔记】RAG vs GraphRAG vs LLM Wiki 一次讲透：Karpathy引爆的LLM Wiki，是知识工程的下一次革命，还是又一个被高估的_自我进化_ - 总结一下视频对话里的内容.md",
     "Bilibili/2026-09-14-【面试必考】GRPO、DAPO、GSPO三代强化学习算法，到底改了什么？从PPO讲起.md",
     "AI应用/AI论文解读/MinerU - pdf解析.md",
     "AI应用/AI论文解读/assets/MinerU - pdf解析",
@@ -223,33 +241,15 @@
     "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md",
     "面试百问/【调参细节】warmup 步数详解：比例怎么定、做错了会怎样、怎么监控.md",
     "面试百问/【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
-    "面试百问/【RAG工程】BM25与向量检索核心底层区别是什么？.md",
-    "面试百问/2026-09-10-【RL 工程】batch 组织策略：难度分布、类型平衡与 rollout 数量.md",
-    "Bilibili/2026-09-10-【大厂面试】RAG系统中跨页表格如何规避语义被切断？.md",
-    "Bilibili/2026-09-14-【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md.edtz",
+    "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md.edtz",
     "Bilibili/2026-09-14-【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md.tmp.8460.4f443463ff11",
-    "Bilibili/2026-09-14-【评测陷阱】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md.edtz",
+    "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md.edtz",
     "Bilibili/2026-09-14-【评测陷阱】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md.tmp.8460.952bb85f1075",
-    "Bilibili/2026-09-14-ACL2026 oral无预训练无损把Dense转成MoE.md",
-    "Bilibili/2026-09-14-【评测陷阱】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md",
-    "Bilibili/2026-09-14-【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md",
-    "面试百问/面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md",
-    "面试百问/LLM 推理的计算瓶颈——KV Cache、PrefillDecode 与前缀共享.md",
     "面试百问/面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md.edtz",
     "Bilibili/2026-09-13-面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md.tmp.11944.895d0a483194",
-    "面试百问/2026-09-13-【训练监控】除了 loss 还必须看的五个指标：grad norm、PPL、MFU、学习率、吞吐量.md",
-    "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md",
-    "面试百问/2026-09-13-【训练监控】除了 loss 还必须看的五个指标：grad norm、PPL、MFU、学习率、吞吐量.md.edtz",
-    "面试百问/2026-09-12-【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md",
     "面试百问/assets/2026-09-11-【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法/file-20260911165118119.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/715ea680deb09eb4adfd42b7498f6e60_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/040e6fbbbf56e3dc9070cb36160caab7_MD5.png",
-    "自媒体工具/视频制作/assets/blender-mcp使用说明/ff3334f546e1f8b64ea781b5b6886615_MD5.png",
-    "自媒体工具/视频制作/assets/blender-mcp使用说明/42bcdb8141e202425f1720cabb8efe21_MD5.png",
-    "自媒体工具/视频制作/assets/blender-mcp使用说明/f2e0d4c854da1b5a47140482304f994f_MD5.png",
-    "自媒体工具/视频制作/assets/blender-mcp使用说明/6878ff2f14b5088ee6c6d1140222ec6d_MD5.png",
-    "大模型性能与部署/assets/llm_speedtest大模型测速工具/llm_speedtest界面.png",
-    "obsidian操作/assets/obsidian插件推荐/61c18bd65f1a68bd024235926ebf68a4_MD5.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

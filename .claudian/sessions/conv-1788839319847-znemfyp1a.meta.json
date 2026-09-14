@@ -4,20 +4,23 @@
   "title": "使用defuddle skill，读取这个网页中的内容:",
   "titleGenerationStatus": "failed",
   "createdAt": 1788839319852,
-  "updatedAt": 1789365262968,
-  "lastResponseAt": 1788924311663,
-  "sessionId": null,
+  "updatedAt": 1789370050039,
+  "lastResponseAt": 1789367270957,
+  "sessionId": "d94956f1-3553-435c-bd6b-2c9598fb9025",
   "providerState": {
-    "providerSessionId": "90bee1e6-6b60-4620-9c1c-0e58198fc479"
+    "providerSessionId": "d94956f1-3553-435c-bd6b-2c9598fb9025",
+    "previousProviderSessionIds": [
+      "90bee1e6-6b60-4620-9c1c-0e58198fc479"
+    ]
   },
   "usage": {
-    "model": "deepseek-v4-flash",
-    "inputTokens": 49596,
+    "model": "deepseek-flash",
+    "inputTokens": 0,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 49596,
-    "percentage": 25,
-    "contextWindowIsAuthoritative": true
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": false
   }
 }
