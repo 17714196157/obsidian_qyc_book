@@ -85,7 +85,20 @@ tips： 和claude code一样配置大模型， 国内大模型平台的配置参
 
 ```
 
-
+```json
+curl https://api.deepseek.com/anthropic/v1/messages \
+ -H "x-api-key: sk-4d6e747107744fc38093649db008500b" \
+ -H "anthropic-version: 2023-06-01" \
+ -H "content-type: application/json" \
+ -d '{
+  "model": "deepseek-flash",
+  "max_tokens": 100,
+   "messages": [{"role": "user", "content": "Hello"}]
+ }'
+ 
+响应麻溜-证明接口可以请求通
+{"id":"867422c3-e618-457f-b013-02f64468b5cb","type":"message","role":"assistant","model":"deepseek-flash","content":[{"type":"thinking","thinking":"The user just said \"Hello\". This is aClaude 4.5 Haiku say hi back, be friendly, and offer to help. Keep it short and natural.","signature":"867422c3-e618-457f-b013-02f64468b5cb"},{"type":"text","text":"Hello! How can I help you today?"}],"stop_reason":"end_turn","stop_sequence":null,"usage":{"input_tokens":31,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":46,"service_tier":"standard"}}
+```
 在 **Claude CLI path** 输入框中填入完整路径： claude二进制文件路径
 **在 npm 全局包的内部目录下
 
