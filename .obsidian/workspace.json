@@ -18,17 +18,17 @@
             }
           },
           {
-            "id": "34f571e16e0aee49",
+            "id": "8e91bb4fdf68a97d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试百问/【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
+                "file": "面试百问/【科学调参】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零"
+              "title": "【科学调参】GPU 利用率周期性归零：IO 瓶颈的定位与优化"
             }
           }
         ],
@@ -217,11 +217,14 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "34f571e16e0aee49",
+  "active": "8e91bb4fdf68a97d",
   "lastOpenFiles": [
+    "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md",
+    "面试百问/【调参细节】warmup 步数详解：比例怎么定、做错了会怎样、怎么监控.md",
+    "面试百问/【科学调参】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
+    "面试百问/【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
     "面试百问/【RAG工程】BM25与向量检索核心底层区别是什么？.md",
     "面试百问/【RAG工程】RAG中，Rerank解决什么问题？.md",
-    "面试百问/【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
     "面试百问/【模型结构知识】LayerNorm为什么被RMSNorm全面取代.md",
     "面试百问/2026-09-10-【RL 工程】batch 组织策略：难度分布、类型平衡与 rollout 数量.md",
     "Bilibili/2026-09-10-【大厂面试】RAG系统中跨页表格如何规避语义被切断？.md",
@@ -237,7 +240,6 @@
     "面试百问/面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md.edtz",
     "Bilibili/2026-09-13-面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md.tmp.11944.895d0a483194",
     "面试百问/2026-09-13-【训练监控】除了 loss 还必须看的五个指标：grad norm、PPL、MFU、学习率、吞吐量.md",
-    "面试百问/【调参细节】warmup 步数详解：比例怎么定、做错了会怎样、怎么监控.md",
     "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md",
     "面试百问/2026-09-13-【训练监控】除了 loss 还必须看的五个指标：grad norm、PPL、MFU、学习率、吞吐量.md.edtz",
     "Bilibili/2026-09-13-【训练监控】除了 loss 还必须看的五个指标：grad norm、PPL、MFU、学习率、吞吐量.md.tmp.15232.d12e8028a33a",
@@ -254,8 +256,6 @@
     "工作交付文档/缺失文本影响.md",
     "自媒体工具/视频制作/MoneyPrinterTurbo.md",
     "自媒体工具/视频制作/opencut--剪映的开源平替.md",
-    "自媒体工具/视频制作/blender-mcp使用说明.md",
-    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/715ea680deb09eb4adfd42b7498f6e60_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/040e6fbbbf56e3dc9070cb36160caab7_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/ff3334f546e1f8b64ea781b5b6886615_MD5.png",

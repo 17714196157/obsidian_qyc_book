@@ -1,12 +1,16 @@
 ---
-title: "【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化"
-url: "https://www.bilibili.com/video/BV1xfb56cEdo/"
-bvid: "BV1xfb56cEdo"
+title: 【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化
+url: https://www.bilibili.com/video/BV1xfb56cEdo/
+bvid: BV1xfb56cEdo
 cid: "41616476440"
-author: "古希腊掌管代码的神"
-upload_date: "2026-09-07"
-created: "2026-09-07"
-tags: ["clippings", "bilibili", "训练工程", "GPU", "IO瓶颈", "DataLoader", "性能优化"]
+author: 古希腊掌管代码的神
+upload_date: 2026-09-07
+created: 2026-09-07
+tags:
+  - bilibili
+  - IO瓶颈
+  - 性能优化
+  - 科学调参
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117219153480756&bvid=BV1xfb56cEdo&cid=41616476440&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
