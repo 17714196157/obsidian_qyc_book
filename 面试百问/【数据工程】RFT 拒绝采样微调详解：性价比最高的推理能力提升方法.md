@@ -1,12 +1,14 @@
 ---
-title: "【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法"
-url: "https://www.bilibili.com/video/BV1kdb76fEAX/"
-bvid: "BV1kdb76fEAX"
+title: 【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法
+url: https://www.bilibili.com/video/BV1kdb76fEAX/
+bvid: BV1kdb76fEAX
 cid: "41617657557"
-author: "古希腊掌管代码的神"
-upload_date: "2026-09-10"
-created: "2026-09-11"
-tags: ["clippings", "bilibili", "RFT", "强化学习", "SFT", "推理能力", "训练方法"]
+author: 古希腊掌管代码的神
+upload_date: 2026-09-10
+created: 2026-09-11
+tags:
+  - bilibili
+  - RFT
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117219354744534&bvid=BV1kdb76fEAX&cid=41617657557&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
@@ -93,8 +95,8 @@ RFT：只收集走通的路径 → 强化训练
 ---
 
 ## 4️⃣ RFT vs RL
-[[file-20260911165118119.png|Open: file-20260911164940776.png]]
-![[file-20260911165118119.png]]
+
+![[file-20260914161909834.png]]
 
 | 维度 | RFT | 完整 RL（PPO/GRPO） |
 |------|-----|---------------------|

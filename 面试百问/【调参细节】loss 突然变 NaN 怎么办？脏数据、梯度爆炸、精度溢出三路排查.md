@@ -1,12 +1,15 @@
 ---
-title: "【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查"
-url: "https://www.bilibili.com/video/BV13f846kEU1/"
-bvid: "BV13f846kEU1"
+title: 【训练排障】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查
+url: https://www.bilibili.com/video/BV13f846kEU1/
+bvid: BV13f846kEU1
 cid: "41181249813"
-author: "古希腊掌管代码的神"
-upload_date: "2026-09-03"
-created: "2026-09-12"
-tags: ["clippings", "bilibili", "训练工程", "NaN", "排障", "深度学习", "训练优化"]
+author: 古希腊掌管代码的神
+upload_date: 2026-09-03
+created: 2026-09-12
+tags:
+  - bilibili
+  - 排障
+  - 调参细节
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117143135849357&bvid=BV13f846kEU1&cid=41181249813&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
@@ -172,14 +175,6 @@ graph LR
 
 ---
 
-## 🔗 关联阅读
-
-- [[Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化|GPU 利用率归零与 IO 瓶颈]]
-- [[Bilibili/2026-09-09-【科学调参】梯度噪声尺度：用一百步小实验算出最优 batch size|梯度噪声尺度]]
-- [[Bilibili/2026-09-09-【调参工具】LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合|LR Finder 详解]]
-
----
-
 ## 📋 字幕全文
 
 <details>
@@ -239,10 +234,3 @@ graph LR
 </details>
 
 ---
-
-## 🔗 参考链接
-
-- B 站视频：https://www.bilibili.com/video/BV13f846kEU1/
-- [[Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化]]
-- [[Bilibili/2026-09-09-【科学调参】梯度噪声尺度：用一百步小实验算出最优 batch size]]
-- [[Bilibili/2026-09-09-【调参工具】LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合]]

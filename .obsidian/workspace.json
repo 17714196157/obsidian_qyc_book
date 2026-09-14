@@ -16,23 +16,8 @@
               "icon": "home",
               "title": "工作台"
             }
-          },
-          {
-            "id": "2f58c991f83ebd90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试百问/【RAG工程】当大模型遇到几百页的PDF合同上下文窗口不够用了怎么办？.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "【RAG工程】当大模型遇到几百页的PDF合同上下文窗口不够用了怎么办？"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 369.60303497314453
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -218,10 +202,24 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "2f58c991f83ebd90",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
-    "公众号文章/Hermes Studio.md",
+    "面试百问/【调参细节】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md",
+    "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md",
+    "面试百问/【科学调参】batch size如何确定最优 - 梯度噪声尺度.md",
+    "面试百问/【科学调参】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
+    "面试百问/【模型结构知识】LayerNorm为什么被RMSNorm全面取代.md",
+    "面试百问/【数据工程】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法.md",
+    "面试百问/【RAG工程】当大模型遇到几百页的PDF合同上下文窗口不够用了怎么办？.md",
+    "面试百问/【RAG工程】RAG中，Rerank解决什么问题？.md",
     "面试百问/【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑.md",
+    "面试百问/【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
+    "Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
+    "2026-09-14.md",
+    "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
+    "面试百问/assets/【数据工程】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法",
+    "面试百问/assets/【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法",
+    "公众号文章/Hermes Studio.md",
     "面试百问/assets/【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑",
     "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md",
     "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md",
@@ -241,29 +239,15 @@
     "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
     "大模型性能与部署/llm_speedtest大模型测速工具.md",
     "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md",
-    "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md",
-    "Bilibili/【AI笔记】 GRPO、DAPO、GSPO.md",
-    "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md",
-    "2026-09-14.md",
-    "Bilibili/【AI笔记】当前视频.md",
     "Bilibili/【AI笔记】 GRPO、DAPO、GSPO.md.edtz",
-    "Bilibili/【AI笔记】RAG vs GraphRAG vs LLM Wiki 一次讲透：Karpathy引爆的LLM Wiki，是知识工程的下一次革命，还是又一个被高估的_自我进化_ - 总结一下视频对话里的内容.md",
-    "Bilibili/2026-09-14-【面试必考】GRPO、DAPO、GSPO三代强化学习算法，到底改了什么？从PPO讲起.md",
-    "AI应用/AI论文解读/MinerU - pdf解析.md",
     "AI应用/AI论文解读/assets/MinerU - pdf解析",
     "AI应用/AI论文解读/assets/MinerU - pdf解析/file-20260914101338381.png",
     "AI应用/AI论文解读/assets/未命名",
     "AI应用/AI论文解读/MinerU - pdf解析.md.edtz",
-    "AI应用/AI论文解读/zotero-pdf2zh.md",
-    "AI应用/其他AI项目.md",
-    "AI应用/LLM Wiki知识库.md",
-    "AI应用/Oh-My-OpenCode 完全指南.md",
     "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md.edtz",
     "Bilibili/2026-09-14-【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md.tmp.8460.4f443463ff11",
     "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md.edtz",
-    "Bilibili/2026-09-14-【评测陷阱】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md.tmp.8460.952bb85f1075",
-    "面试百问/面试官问： 在RAG系统中， 结构化数据 (SQL或表格) 查询的难题怎么解决？.md.edtz",
-    "面试百问/assets/2026-09-11-【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法/file-20260911165118119.png",
+    "面试百问/assets/【数据工程】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法/file-20260914161909834.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/715ea680deb09eb4adfd42b7498f6e60_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/040e6fbbbf56e3dc9070cb36160caab7_MD5.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
