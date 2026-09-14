@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4e5701a21448813b",
+        "id": "95e3e8e0a36eacca",
         "type": "tabs",
         "children": [
           {
-            "id": "50558d7de0de538e",
+            "id": "8afa29ca662a412a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -202,7 +202,7 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "50558d7de0de538e",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
     "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
