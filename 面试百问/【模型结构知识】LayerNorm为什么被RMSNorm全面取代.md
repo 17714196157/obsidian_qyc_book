@@ -1,21 +1,17 @@
 ---
-title: "【面试必考】LayerNorm为什么被RMSNorm全面取代？从0讲透归一化+手撕LLaMA同款代码"
-url: "https://www.bilibili.com/video/BV1owTx6pEqM?spm_id_from=333.788.recommend_more_video.7&trackid=web_related_0.router-related-2589621-l95s2.1784622017548.878&vd_source=d0a50f3d250eed1f7d1546f70041c66b"
-bvid: "BV1owTx6pEqM"
+title: 【面试必考】LayerNorm为什么被RMSNorm全面取代？从0讲透归一化+手撕LLaMA同款代码
+url: https://www.bilibili.com/video/BV1owTx6pEqM?spm_id_from=333.788.recommend_more_video.7&trackid=web_related_0.router-related-2589621-l95s2.1784622017548.878&vd_source=d0a50f3d250eed1f7d1546f70041c66b
+bvid: BV1owTx6pEqM
 cid: "39613235254"
-author: "古希腊掌管代码的神"
-upload_date: "2026-07-04"
-subtitle_lang: "中文"
-created: "2026-07-21"
+author: 古希腊掌管代码的神
+upload_date: 2026-07-04
+subtitle_lang: 中文
+created: 2026-07-21
 tags:
-  - clippings
   - bilibili
-  - LayerNorm
   - RMSNorm
-  - 归一化
-  - LLaMA
-  - Transformer
   - 面试
+  - 模型结构知识
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116854769190023&bvid=BV1owTx6pEqM&cid=39613235254&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

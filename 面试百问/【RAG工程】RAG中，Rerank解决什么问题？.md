@@ -1,12 +1,15 @@
 ---
-title: "面试官：RAG中，Rerank解决什么问题？"
-url: "https://www.bilibili.com/video/BV1MZYT6pEdF/"
-bvid: "BV1MZYT6pEdF"
+title: 面试官：RAG中，Rerank解决什么问题？
+url: https://www.bilibili.com/video/BV1MZYT6pEdF/
+bvid: BV1MZYT6pEdF
 cid: "41752659889"
-author: "图灵AI大模型"
-upload_date: "2026-09-13"
-created: "2026-09-13"
-tags: ["clippings", "bilibili", "RAG", "Rerank", "面试", "检索增强"]
+author: 图灵AI大模型
+upload_date: 2026-09-13
+created: 2026-09-13
+tags:
+  - 面试
+  - bilibili
+  - RAG工程
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117245359429623&bvid=BV1MZYT6pEdF&cid=41752659889&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

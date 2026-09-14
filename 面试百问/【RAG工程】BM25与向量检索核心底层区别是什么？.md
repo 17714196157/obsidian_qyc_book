@@ -1,21 +1,16 @@
 ---
-title: "面试官问：BM25与向量检索核心底层区别是什么？"
-url: "https://www.bilibili.com/video/BV154KE6FEnL/?buvid=XU1B4131C4B245471B47C8B0E0646272DF689&from_spmid=tm.recommend.0.0&is_story_h5=false&mid=dwwmPS9AvhlDTViv4f9O4g%3D%3D&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=d17eb55e-63bc-4aa8-a0ea-a5c7130a0b58&share_source=weixin&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1784308426&unique_k=dCcKouL&up_id=3546769210214523&vd_source=d0a50f3d250eed1f7d1546f70041c66b"
-bvid: "BV154KE6FEnL"
+title: 面试官问：BM25与向量检索核心底层区别是什么？
+url: https://www.bilibili.com/video/BV154KE6FEnL/?buvid=XU1B4131C4B245471B47C8B0E0646272DF689&from_spmid=tm.recommend.0.0&is_story_h5=false&mid=dwwmPS9AvhlDTViv4f9O4g%3D%3D&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=d17eb55e-63bc-4aa8-a0ea-a5c7130a0b58&share_source=weixin&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1784308426&unique_k=dCcKouL&up_id=3546769210214523&vd_source=d0a50f3d250eed1f7d1546f70041c66b
+bvid: BV154KE6FEnL
 cid: "40025392819"
-author: "AI应用开发入门"
-upload_date: "2026-07-17"
-subtitle_lang: "中文"
-created: "2026-07-21"
+author: AI应用开发入门
+upload_date: 2026-07-17
+subtitle_lang: 中文
+created: 2026-07-21
 tags:
-  - clippings
   - bilibili
-  - BM25
-  - 向量检索
-  - RAG
-  - 混合检索
   - RRF
-  - Cross-Encoder
+  - 【RAG工程】
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116933672438452&bvid=BV154KE6FEnL&cid=40025392819&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

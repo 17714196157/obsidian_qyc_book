@@ -1,12 +1,15 @@
 ---
-title: "【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零"
-url: "https://www.bilibili.com/video/BV1imM36EEqD/"
-bvid: "BV1imM36EEqD"
+title: 【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零
+url: https://www.bilibili.com/video/BV1imM36EEqD/
+bvid: BV1imM36EEqD
 cid: "39770128827"
-author: "古希腊掌管代码的神"
-upload_date: "2026-07-09"
-created: "2026-07-21"
-tags: ["clippings", "bilibili", "GRPO", "强化学习", "Loss为零", "KL散度", "面试"]
+author: 古希腊掌管代码的神
+upload_date: 2026-07-09
+created: 2026-07-21
+tags:
+  - bilibili
+  - 面试
+  - RL工程
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116885186151310&bvid=BV1imM36EEqD&cid=39770128827&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
