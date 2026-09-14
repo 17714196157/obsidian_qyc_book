@@ -1,12 +1,15 @@
 ---
-title: "【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑"
-url: "https://www.bilibili.com/video/BV1CDb76AEk8/"
-bvid: "BV1CDb76AEk8"
+title: 【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑
+url: https://www.bilibili.com/video/BV1CDb76AEk8/
+bvid: BV1CDb76AEk8
 cid: "41617982953"
-author: "古希腊掌管代码的神"
-upload_date: "2026-09-11"
-created: "2026-09-11"
-tags: ["clippings", "bilibili", "GRPO", "强化学习", "RL工程", "reward归一化", "训练优化"]
+author: 古希腊掌管代码的神
+upload_date: 2026-09-11
+created: 2026-09-11
+tags:
+  - bilibili
+  - RL工程
+  - reward归一化
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117219421848876&bvid=BV1CDb76AEk8&cid=41617982953&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 8;"> </iframe>
@@ -128,10 +131,10 @@ graph LR
     style D fill:#004d40,color:#fff
 ```
 
-| 归一化 | 对象 | 作用 |
-|--------|------|------|
-| **① Reward 归一化** | 原始 `reward` | 把不同尺度的 reward **拉到统一量纲**，稳定梯度 |
-| **② Advantage 归一化** | 计算后的 `Â` | 让优势值保持 0 均值单位方差，**稳定比率裁剪** |
+| 归一化                 | 对象          | 作用                            |
+| ------------------- | ----------- | ----------------------------- |
+| **① Reward 归一化**    | 原始 `reward` | 把不同尺度的 reward **拉到统一量纲**，稳定梯度 |
+| **② Advantage 归一化** | 计算后的 `Â`    | 让优势值保持 0 均值单位方差，**稳定比率裁剪**    |
 
 > 两者顺序不同、对象不同、目的不同——**不要混淆，跳一步都会出问题。**
 

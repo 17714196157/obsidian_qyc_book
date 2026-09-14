@@ -1,12 +1,15 @@
 ---
-title: "【大模型面试】当大模型遇到几百页的PDF合同上下文窗口不够用了怎么办？"
-url: "https://www.bilibili.com/video/BV15yK46SEEz/"
+title: 【大模型面试】当大模型遇到几百页的PDF合同上下文窗口不够用了怎么办？
+url: https://www.bilibili.com/video/BV15yK46SEEz/
 bvid: ""
 cid: "40150043983"
-author: "AI探索喵"
-upload_date: "2026-07-21"
-created: "2026-09-11"
-tags: ["clippings", "bilibili", "RAG", "面试", "PDF解析", "长文本", "上下文窗口"]
+author: AI探索喵
+upload_date: 2026-07-21
+created: 2026-09-11
+tags:
+  - bilibili
+  - PDF解析
+  - RAG工程
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116955801588857&bvid=&cid=40150043983&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>
@@ -296,4 +299,4 @@ graph LR
 
 - B 站视频：https://www.bilibili.com/video/BV15yK46SEEz/
 - [[Bilibili/2026-09-10-DeepSeek面试官问：生产RAG系统回答不准确，该如何定位和优化？|RAG 生产系统定位与优化]]
-- [[Bilibili/2026-09-10-【大厂面试】RAG系统中跨页表格如何规避语义被切断？|跨页表格与语义完整性]]
+- [[2026-09-10-【大厂面试】RAG系统中跨页表格如何规避语义被切断？|跨页表格与语义完整性]]
