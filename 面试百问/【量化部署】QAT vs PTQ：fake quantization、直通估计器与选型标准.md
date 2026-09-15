@@ -1,12 +1,14 @@
 ---
-title: "【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准"
-url: "https://www.bilibili.com/video/BV1pQb76YE6q/"
-bvid: "BV1pQb76YE6q"
+title: 【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准
+url: https://www.bilibili.com/video/BV1pQb76YE6q/
+bvid: BV1pQb76YE6q
 cid: "41617588539"
-author: "古希腊掌管代码的神"
-upload_date: "2026-09-10"
-created: "2026-09-10"
-tags: ["clippings", "bilibili", "深度学习", "模型量化", "QAT", "PTQ", "模型部署"]
+author: 古希腊掌管代码的神
+upload_date: 2026-09-10
+created: 2026-09-10
+tags:
+  - bilibili
+  - 【量化部署】
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=117219338095241&bvid=BV1pQb76YE6q&cid=41617588539&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

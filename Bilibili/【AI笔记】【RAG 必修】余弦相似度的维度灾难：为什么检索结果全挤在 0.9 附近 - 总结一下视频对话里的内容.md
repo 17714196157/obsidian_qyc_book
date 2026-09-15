@@ -4,7 +4,7 @@ source_title: "【RAG 必修】余弦相似度的维度灾难：为什么检索�
 url: "https://www.bilibili.com/video/BV1Sr826dExM/"
 author: "古希腊掌管代码的神"
 created: "2026-09-07"
-tags: [ai_note]
+tags: [bilibili]
 ---
 
 问题：总结一下视频对话里的内容

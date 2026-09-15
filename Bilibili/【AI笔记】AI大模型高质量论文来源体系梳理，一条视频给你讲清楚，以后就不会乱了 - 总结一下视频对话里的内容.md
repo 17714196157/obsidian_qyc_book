@@ -4,7 +4,7 @@ source_title: "AI大模型高质量论文来源体系梳理，一条视频给你
 url: "https://www.bilibili.com/video/BV1adtG6hE5A/"
 author: "李师傅用AI"
 created: "2026-09-07"
-tags: [ai_note]
+tags: [bilibili]
 ---
 
 问题：总结一下视频对话里的内容

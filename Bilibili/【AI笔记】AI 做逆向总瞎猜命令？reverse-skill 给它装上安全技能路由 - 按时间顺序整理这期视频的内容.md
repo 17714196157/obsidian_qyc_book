@@ -4,7 +4,7 @@ source_title: "AI 做逆向总瞎猜命令？reverse-skill 给它装上安全技
 url: "https://www.bilibili.com/video/BV1Zgu96BEyy/"
 author: "AI技术投降派"
 created: "2026-09-07"
-tags: [ai_note]
+tags: [bilibili]
 ---
 
 问题：按时间顺序整理这期视频的内容

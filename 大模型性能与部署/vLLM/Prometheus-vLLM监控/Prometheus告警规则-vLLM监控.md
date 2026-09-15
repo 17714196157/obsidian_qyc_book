@@ -1,6 +1,6 @@
 ---
 tags:
-  - vLLM监控
+  - vLLM/vLLM监控
 ---
 ### 整体架构图
 > **vLLM 说"我怎么样了"，DCGM 说"GPU 怎么样了"，Prometheus 负责"记录下来并判断要不要报警"，Grafana 负责"画出来给人看"。**

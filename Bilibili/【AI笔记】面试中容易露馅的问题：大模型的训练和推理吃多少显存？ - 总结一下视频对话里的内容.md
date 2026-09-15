@@ -4,7 +4,7 @@ source_title: "面试中容易露馅的问题：大模型的训练和推理吃�
 url: "https://www.bilibili.com/video/BV1aawjzpEmS/"
 author: "作者武辰"
 created: "2026-09-07"
-tags: [ai_note]
+tags: [bilibili]
 ---
 
 问题：总结一下视频对话里的内容

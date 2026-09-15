@@ -4,7 +4,7 @@ source_title: "16G显卡畅跑Qwen3.8 27B！80K+上下文不降智：Qwen3.8 27B
 url: "https://www.bilibili.com/video/BV1oz8R6FEQz/"
 author: "AI观模者"
 created: "2026-09-07"
-tags: [ai_note]
+tags: [bilibili]
 ---
 
 问题：总结一下视频对话里的内容

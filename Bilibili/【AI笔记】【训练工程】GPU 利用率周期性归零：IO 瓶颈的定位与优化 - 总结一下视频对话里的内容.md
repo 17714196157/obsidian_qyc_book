@@ -4,7 +4,7 @@ source_title: "【训练工程】GPU 利用率周期性归零：IO 瓶颈的定�
 url: "https://www.bilibili.com/video/BV1xfb56cEdo/"
 author: "古希腊掌管代码的神"
 created: "2026-09-07"
-tags: [ai_note]
+tags: [bilibili]
 ---
 
 问题：总结一下视频对话里的内容

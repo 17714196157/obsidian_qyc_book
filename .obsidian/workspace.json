@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a83fe4f0e5e7e31d",
+        "id": "3df75cfa6f75257d",
         "type": "tabs",
         "children": [
           {
-            "id": "e393afa41e30d529",
+            "id": "fa11cee9f64ef410",
             "type": "leaf",
             "state": {
-              "type": "apex-dashboard-view",
+              "type": "empty",
               "state": {},
-              "icon": "home",
-              "title": "工作台"
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -52,7 +52,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -75,11 +75,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 369.60303497314453
+    "width": 233.9343032836914
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -157,13 +158,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI应用/vid coding.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "vid coding 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 426.111572265625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +202,34 @@
       "apex-dashboard:打开工作台": false
     }
   },
-  "active": "784df518aea8671d",
+  "active": "03ea914554650cef",
   "lastOpenFiles": [
+    "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
+    "面试百问/【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准.md",
+    "公众号文章/vllm与Litellm实现Guardrail和负载分发.md",
+    "公众号文章/vllm与Litellm实现Guardrail和负载分发.md.edtz",
+    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
+    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md.edtz",
+    "Bilibili/【AI笔记】面试中容易露馅的问题：大模型的训练和推理吃多少显存？ - 总结一下视频对话里的内容.md.edtz",
+    "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md.edtz",
+    "Bilibili/【AI笔记】【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化 - 总结一下视频对话里的内容.md.edtz",
+    "Bilibili/【AI笔记】《诡辩术：60种诡辩方法》 - 按时间顺序整理这期视频的内容.md.edtz",
+    "Bilibili/【AI笔记】RAG vs GraphRAG vs LLM Wiki 一次讲透：Karpathy引爆的LLM Wiki，是知识工程的下一次革命，还是又一个被高估的_自我进化_ - 总结一下视频对话里的内容.md.edtz",
+    "Bilibili/【AI笔记】AI大模型高质量论文来源体系梳理，一条视频给你讲清楚，以后就不会乱了 - 总结一下视频对话里的内容.md.edtz",
+    "Bilibili/【AI笔记】AI 做逆向总瞎猜命令？reverse-skill 给它装上安全技能路由 - 按时间顺序整理这期视频的内容.md.edtz",
+    "面试百问/assets/【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准",
+    "面试百问/【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
+    "工作交付文档/大模型相关实验/模型性能对比20260915.md",
+    "工作交付文档/大模型相关实验/vllm-issues5607-单请求vs并行请求一致性核对.md",
+    "工作交付文档/大模型相关实验/模型蒸馏.md",
+    "工作交付文档/大模型相关实验/medclient大模型从业务请求到 VLLM 响应的全链路.md",
+    "工作交付文档/大模型相关实验/qwen2.5-14b-instruct模型返回复杂的json格式，发现存在乱码和格式异常.md",
+    "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md",
+    "工作交付文档/大模型相关实验/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
+    "工作交付文档/大模型相关实验/vllm统计 生成吞吐量 指标原理详细简介.md",
+    "工作交付文档/大模型相关实验/思考模型性能对比.md",
+    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
+    "面试百问/【调参细节】warmup 步数详解：比例怎么定、做错了会怎样、怎么监控.md",
     "面试百问/【调参细节】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md",
     "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md",
     "面试百问/【科学调参】batch size如何确定最优 - 梯度噪声尺度.md",
@@ -213,40 +239,14 @@
     "面试百问/【RAG工程】当大模型遇到几百页的PDF合同上下文窗口不够用了怎么办？.md",
     "面试百问/【RAG工程】RAG中，Rerank解决什么问题？.md",
     "面试百问/【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑.md",
-    "面试百问/【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
     "Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
-    "2026-09-14.md",
-    "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
-    "面试百问/assets/【数据工程】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法",
-    "面试百问/assets/【推理提升】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法",
-    "公众号文章/Hermes Studio.md",
-    "面试百问/assets/【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑",
-    "论文解读/2023-06-09-Scaling Data-Constrained Language Models（数据受限下的语言模型扩展）.md",
-    "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md",
-    "Bilibili/2026-09-09-动画Skill开源！我是如何用AI做露脸口播视频的.md",
-    "Bilibili/2026-09-09-用Codex实现定格动画和手绘跟随动画！（不用视频模型）.md",
-    "Bilibili/2026-09-10-【RL 进阶】GSPO：通过序列级重要性比率改进 PPO_GRPO 的逐 token 方差问题.md",
-    "Bilibili/2026-09-10-【大厂面试】RAG系统中跨页表格如何规避语义被切断？.md",
-    "Bilibili/2026-04-18-视频内容一键保存到 Obsidian：打通本地知识库.md",
-    "obsidian操作/obsidian插件推荐.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154209644.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154106921.png",
     "obsidian操作/assets/obsidian插件推荐/cfb8a1cff47af45978e00fa89c7331c3_MD5.png",
-    "大模型性能与部署/其他大模型推理框架/LMstudio.md",
-    "大模型性能与部署/其他大模型推理框架/llama.cpp.md",
-    "大模型性能与部署/llm_speedtest大模型测速工具.md",
-    "大模型性能与部署/其他大模型推理框架/FreeToken部署大模型框架.md",
-    "Bilibili/【AI笔记】 GRPO、DAPO、GSPO.md.edtz",
-    "AI应用/AI论文解读/assets/MinerU - pdf解析",
     "AI应用/AI论文解读/assets/MinerU - pdf解析/file-20260914101338381.png",
-    "AI应用/AI论文解读/assets/未命名",
-    "AI应用/AI论文解读/MinerU - pdf解析.md.edtz",
-    "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md.edtz",
-    "Bilibili/2026-09-14-【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md.tmp.8460.4f443463ff11",
-    "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md.edtz",
     "面试百问/assets/【数据工程】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法/file-20260914161909834.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/715ea680deb09eb4adfd42b7498f6e60_MD5.png",
     "自媒体工具/视频制作/assets/blender-mcp使用说明/040e6fbbbf56e3dc9070cb36160caab7_MD5.png",

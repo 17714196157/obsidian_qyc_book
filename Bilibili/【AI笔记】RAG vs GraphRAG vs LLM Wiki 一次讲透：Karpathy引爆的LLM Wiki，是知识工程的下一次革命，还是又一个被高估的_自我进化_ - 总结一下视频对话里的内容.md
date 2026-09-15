@@ -4,7 +4,7 @@ source_title: "RAG vs GraphRAG vs LLM Wiki 一次讲透：Karpathy引爆的LLM W
 url: "https://www.bilibili.com/video/BV1NG9xBUEju/"
 author: "唐国梁Tommy"
 created: "2026-09-07"
-tags: [ai_note]
+tags: [bilibili]
 ---
 
 问题：总结一下视频对话里的内容

@@ -5,8 +5,6 @@ author: 有点文艺细菌的码
 published: 2026-04-20
 created: 2026-04-23
 tags:
-  - LLM/vLLM
-  - inference/offline
   - clippings
 ---
 

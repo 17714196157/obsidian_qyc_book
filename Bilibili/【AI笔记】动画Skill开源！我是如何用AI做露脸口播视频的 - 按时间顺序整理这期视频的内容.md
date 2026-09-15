@@ -4,7 +4,7 @@ source_title: "动画Skill开源！我是如何用AI做露脸口播视频的"
 url: "https://www.bilibili.com/video/BV1d3tA6zE3L/"
 author: "Youni讲AI"
 created: "2026-09-09"
-tags: [ai_note]
+tags: [bilibili]
 ---
 
 问题：按时间顺序整理这期视频的内容
