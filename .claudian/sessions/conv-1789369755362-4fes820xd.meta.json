@@ -4,20 +4,27 @@
   "title": "你好",
   "titleGenerationStatus": "failed",
   "createdAt": 1789369755362,
-  "updatedAt": 1789371888947,
-  "lastResponseAt": 1789371411723,
-  "sessionId": "79e5d564-9d2e-4c09-8d9d-c96922533f9c",
+  "updatedAt": 1789549338982,
+  "lastResponseAt": 1789549052271,
+  "sessionId": "81e8bda5-3f29-4dec-abd8-ce523b78d49c",
   "providerState": {
-    "providerSessionId": "79e5d564-9d2e-4c09-8d9d-c96922533f9c"
+    "providerSessionId": "81e8bda5-3f29-4dec-abd8-ce523b78d49c",
+    "previousProviderSessionIds": [
+      "79e5d564-9d2e-4c09-8d9d-c96922533f9c",
+      "1e9f6108-8cb8-494a-86e0-f9e0bf4829b9"
+    ]
   },
+  "externalContextPaths": [
+    "D:\\code\\gitee\\obsidian_qyc_book"
+  ],
   "usage": {
-    "model": "deepseek-flash",
-    "inputTokens": 21710,
+    "model": "GLM-4.7-Flash",
+    "inputTokens": 0,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 21710,
-    "percentage": 11,
+    "contextTokens": 0,
+    "percentage": 0,
     "contextWindowIsAuthoritative": true
   }
 }

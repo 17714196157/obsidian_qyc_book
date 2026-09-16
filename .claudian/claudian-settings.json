@@ -1,8 +1,8 @@
 {
   "userName": "秦宇晨",
   "permissionMode": "yolo",
-  "model": "deepseek-flash",
-  "thinkingBudget": "off",
+  "model": "GLM-4.7-Flash",
+  "thinkingBudget": "low",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -29,6 +29,13 @@
       "contextLimits": {
         "deepseek-v4-flash": 100000
       }
+    },
+    {
+      "id": "snippet-1789548294714",
+      "name": "qqq",
+      "description": "",
+      "envVars": "ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_API_KEY=d7e9f119adce4882a98eb9ab34ba3cec.p27Ijym8bw8bLm4X\nANTHROPIC_MODEL=glm-4-flash",
+      "scope": "provider:claude"
     }
   ],
   "customContextLimits": {
@@ -53,8 +60,8 @@
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_API_KEY=sk-4d6e747107744fc38093649db008500b\nANTHROPIC_MODEL=deepseek-flash",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_MODEL=deepseek-flash"
+      "environmentVariables": "ANTHROPIC_API_KEY=ad7e9f119adce4882a98eb9ab34ba3cec.p27Ijym8bw8bLm4X\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_MODEL=GLM-4.7-Flash",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic|ANTHROPIC_MODEL=GLM-4.7-Flash"
     },
     "codex": {
       "enabled": false,
@@ -72,16 +79,16 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "deepseek-flash"
+    "claude": "GLM-4.7-Flash"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "low"
   },
-  "lastCustomModel": "deepseek-flash",
+  "lastCustomModel": "GLM-4.7-Flash",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3df75cfa6f75257d",
+        "id": "5ca1b298bbb38d50",
         "type": "tabs",
         "children": [
           {
-            "id": "fa11cee9f64ef410",
+            "id": "b71d0d079595060e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -75,8 +75,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,39 +89,6 @@
         "id": "af64dbe7942a8124",
         "type": "tabs",
         "children": [
-          {
-            "id": "4f9c5f945a596470",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Bilibili/2026-05-19-Harness 实践：让 Agent 全自动制作知识讲解视频.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "2026-05-19-Harness 实践：让 Agent 全自动制作知识讲解视频 的反向链接列表"
-            }
-          },
-          {
-            "id": "801d0d7a11d0e6ee",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "自媒体工具/视频制作/Harness 实践：让 Agent 全自动制作知识讲解视频.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Harness 实践：让 Agent 全自动制作知识讲解视频 的出链列表"
-            }
-          },
           {
             "id": "54efbae564afc02f",
             "type": "leaf",
@@ -139,7 +105,53 @@
             }
           },
           {
-            "id": "3f7079a31201964e",
+            "id": "fbf15899d910b671",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "08a1be04291e50d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "27d5ffa9b40aaaf9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "5457a270d9775e9e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -153,21 +165,7 @@
             }
           },
           {
-            "id": "fbf15899d910b671",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "03ea914554650cef",
+            "id": "319ee7a6c8aeea33",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -181,7 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426.111572265625
+    "width": 246.64654541015625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,49 +195,49 @@
       "templater-obsidian:Templater": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
       "omnisearch:Omnisearch": false,
-      "claudian:Open Claudian": false,
       "edit-history:Open edit history": false,
-      "apex-dashboard:打开工作台": false
+      "apex-dashboard:打开工作台": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "03ea914554650cef",
+  "active": "784df518aea8671d",
   "lastOpenFiles": [
+    "自媒体工具/视频制作/blender-mcp使用说明.md",
+    "Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md",
+    "Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.edtz",
+    "Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.5780.fd175c6b5adf",
+    "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md",
+    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md",
+    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.9712.6e7ba2e9ddff",
+    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.10220.a8db48015a90",
+    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.edtz",
+    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.10220.22f2f3ddf27d",
+    "notes/Bilibili",
+    "notes",
+    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.9932.0162cb92b08d",
+    "工作交付文档/大模型相关实验/模型性能对比20260915.md",
+    "工作交付文档/大模型相关实验/assets/模型性能对比20260915",
+    "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
+    "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
+    "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md",
+    "公众号文章/用 Hermes 打造 LLM Wiki 知识库：Karpathy 方法实战指南.md",
+    "公众号文章/vLLM吞吐量调优 - Kimi.md",
+    "公众号文章/Hermes Studio.md",
+    "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
+    "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
+    "面试百问/如何构建长期记忆机制设计.md",
+    "论文解读/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
     "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
     "面试百问/【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准.md",
     "公众号文章/vllm与Litellm实现Guardrail和负载分发.md",
-    "公众号文章/vllm与Litellm实现Guardrail和负载分发.md.edtz",
     "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md",
-    "大模型性能与部署/vLLM/vLLM离线推理--批量调用.md.edtz",
-    "Bilibili/【AI笔记】面试中容易露馅的问题：大模型的训练和推理吃多少显存？ - 总结一下视频对话里的内容.md.edtz",
-    "Bilibili/【AI笔记】两年涨粉 100 万，这次我花 32 分钟讲透选题 - 按时间顺序整理这期视频的内容.md.edtz",
-    "Bilibili/【AI笔记】【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化 - 总结一下视频对话里的内容.md.edtz",
-    "Bilibili/【AI笔记】《诡辩术：60种诡辩方法》 - 按时间顺序整理这期视频的内容.md.edtz",
-    "Bilibili/【AI笔记】RAG vs GraphRAG vs LLM Wiki 一次讲透：Karpathy引爆的LLM Wiki，是知识工程的下一次革命，还是又一个被高估的_自我进化_ - 总结一下视频对话里的内容.md.edtz",
-    "Bilibili/【AI笔记】AI大模型高质量论文来源体系梳理，一条视频给你讲清楚，以后就不会乱了 - 总结一下视频对话里的内容.md.edtz",
-    "Bilibili/【AI笔记】AI 做逆向总瞎猜命令？reverse-skill 给它装上安全技能路由 - 按时间顺序整理这期视频的内容.md.edtz",
-    "面试百问/assets/【量化部署】QAT vs PTQ：fake quantization、直通估计器与选型标准",
     "面试百问/【RL工程】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
-    "工作交付文档/大模型相关实验/模型性能对比20260915.md",
     "工作交付文档/大模型相关实验/vllm-issues5607-单请求vs并行请求一致性核对.md",
     "工作交付文档/大模型相关实验/模型蒸馏.md",
     "工作交付文档/大模型相关实验/medclient大模型从业务请求到 VLLM 响应的全链路.md",
     "工作交付文档/大模型相关实验/qwen2.5-14b-instruct模型返回复杂的json格式，发现存在乱码和格式异常.md",
     "工作交付文档/大模型相关实验/vLLM离线推理-实验结果.md",
     "工作交付文档/大模型相关实验/重新设计一个可以用 vLLM 部署的轻量级 seq2seq 模型.md",
-    "工作交付文档/大模型相关实验/vllm统计 生成吞吐量 指标原理详细简介.md",
-    "工作交付文档/大模型相关实验/思考模型性能对比.md",
-    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
-    "面试百问/【调参细节】warmup 步数详解：比例怎么定、做错了会怎样、怎么监控.md",
-    "面试百问/【调参细节】loss 突然变 NaN 怎么办？脏数据、梯度爆炸、精度溢出三路排查.md",
-    "面试百问/【科学调参】如何确定最优学习率：LR Finder 详解：怎么画、怎么读、怎么和 warmup 配合.md",
-    "面试百问/【科学调参】batch size如何确定最优 - 梯度噪声尺度.md",
-    "面试百问/【科学调参】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
-    "面试百问/【模型结构知识】LayerNorm为什么被RMSNorm全面取代.md",
-    "面试百问/【数据工程】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法.md",
-    "面试百问/【RAG工程】当大模型遇到几百页的PDF合同上下文窗口不够用了怎么办？.md",
-    "面试百问/【RAG工程】RAG中，Rerank解决什么问题？.md",
-    "面试百问/【RL 工程】reward 归一化详解：running mean-std、batch 归一化与三个常见坑.md",
-    "Bilibili/2026-09-07-【训练工程】GPU 利用率周期性归零：IO 瓶颈的定位与优化.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",

@@ -1,18 +1,15 @@
 ---
-title: "【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py"
-source: "https://mp.weixin.qq.com/s/iLObYwtZYqCWwRRYJVcpyA"
+title: 【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py
+source: https://mp.weixin.qq.com/s/iLObYwtZYqCWwRRYJVcpyA
 author:
   - "[[靳岩岩]]"
 published:
 created: 2026-05-14
 description:
 tags:
-  - clippings
   - deepseek-v4
-  - LLM/architecture
-  - attention
   - MoE
-  - FP4
+  - 论文解读
 ---
 
 > [!abstract] 来源信息
