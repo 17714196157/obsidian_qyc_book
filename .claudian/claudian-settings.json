@@ -1,7 +1,7 @@
 {
   "userName": "秦宇晨",
   "permissionMode": "yolo",
-  "model": "GLM-4.7-Flash",
+  "model": "glm-4-flash",
   "thinkingBudget": "low",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -60,8 +60,8 @@
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "lastModel": "haiku",
-      "environmentVariables": "ANTHROPIC_API_KEY=ad7e9f119adce4882a98eb9ab34ba3cec.p27Ijym8bw8bLm4X\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_MODEL=GLM-4.7-Flash",
-      "environmentHash": "ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic|ANTHROPIC_MODEL=GLM-4.7-Flash"
+      "environmentVariables": "ANTHROPIC_API_KEY=d7e9f119adce4882a98eb9ab34ba3cec.p27Ijym8bw8bLm4X\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_MODEL=glm-4-flash",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic|ANTHROPIC_MODEL=glm-4-flash"
     },
     "codex": {
       "enabled": false,
@@ -79,7 +79,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "GLM-4.7-Flash"
+    "claude": "glm-4-flash"
   },
   "savedProviderEffort": {
     "claude": "high"

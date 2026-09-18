@@ -1,21 +1,16 @@
 ---
-title: "【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测"
-url: "https://www.bilibili.com/video/BV1mrb76uEDc/"
-bvid: "BV1mrb76uEDc"
+title: 【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测
+url: https://www.bilibili.com/video/BV1mrb76uEDc/
+bvid: BV1mrb76uEDc
 cid: "41619361729"
-author: "古希腊掌管代码的神"
-upload_date: "2026-09-15"
-subtitle_lang: "中文"
-created: "2026-09-16"
+author: 古希腊掌管代码的神
+upload_date: 2026-09-15
+subtitle_lang: 中文
+created: 2026-09-16
 tags:
-  - clippings
   - bilibili
   - 评测可信度
-  - 数据污染
-  - n-gram
-  - embedding
   - perplexity
-  - 模型训练
   - 数据清洗
 aliases:
   - 数据污染检测与清洗
