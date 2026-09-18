@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5ca1b298bbb38d50",
+        "id": "e8bfe6f125916b52",
         "type": "tabs",
         "children": [
           {
-            "id": "b71d0d079595060e",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
-            }
-          },
-          {
-            "id": "60639851521c5bd7",
+            "id": "b71988bcd228b131",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bilibili/2026-07-30-面试官问：“当大模型遇到几百页的PDF合同，上下文窗口不够用了，该怎么办_.md",
+                "file": "生活常识/提车避坑指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-30-面试官问：“当大模型遇到几百页的PDF合同，上下文窗口不够用了，该怎么办_"
+              "title": "提车避坑指南"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,14 +204,19 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "60639851521c5bd7",
+  "active": "b71988bcd228b131",
   "lastOpenFiles": [
+    "生活常识/提车避坑指南.md",
+    "生活常识/提车避坑指南.md.edtz",
+    "Bilibili/2026-09-14-【面试必考】GRPO、DAPO、GSPO三代强化学习算法，到底改了什么？从PPO讲起.md",
+    "面试百问/【Skill】Agent的Skill命中率.md",
+    "Bilibili/2026-07-30-面试官问：“当大模型遇到几百页的PDF合同，上下文窗口不够用了，该怎么办_.md",
+    "面试百问/【Skill】Agent的Skill命中率.md.edtz",
     "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
     "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md",
     "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md",
     "Bilibili/2026-09-10-【大厂面试】RAG系统中跨页表格如何规避语义被切断？.md",
     "Bilibili/2026-09-14-ACL2026 oral无预训练无损把Dense转成MoE.md",
-    "Bilibili/2026-09-14-【面试必考】GRPO、DAPO、GSPO三代强化学习算法，到底改了什么？从PPO讲起.md",
     "面试百问/【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md",
     "Bilibili/2026-09-09-用Codex实现定格动画和手绘跟随动画！（不用视频模型）.md",
     "面试百问/2026-09-10-【RL 进阶】GSPO：通过序列级重要性比率改进 PPO_GRPO 的逐 token 方差问题.md",
@@ -239,8 +233,6 @@
     "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md",
     "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.9712.6e7ba2e9ddff",
     "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.10220.a8db48015a90",
-    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.edtz",
-    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.10220.22f2f3ddf27d",
     "工作交付文档/大模型相关实验/模型性能对比20260915.md",
     "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
     "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
@@ -249,10 +241,6 @@
     "公众号文章/vLLM吞吐量调优 - Kimi.md",
     "公众号文章/Hermes Studio.md",
     "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
-    "面试百问/请简述Prompt Engineering 与Context Engineering 的核心区别.md",
-    "面试百问/如何构建长期记忆机制设计.md",
-    "论文解读/【DeepSeek V4】58 页技术报告精读——从 config.json 到 model.py.md",
-    "工作交付文档/需求开发记录/规则-内涵质控-需求功能点实现-20260727.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
