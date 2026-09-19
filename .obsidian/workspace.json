@@ -11,10 +11,14 @@
             "id": "b03d7e20c2147a5a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "自媒体工具/有意思的想法/情感疗愈行业的商业模式与运营拆解.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "情感疗愈行业的商业模式与运营拆解"
             }
           }
         ]
@@ -200,8 +204,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "319ee7a6c8aeea33",
+  "active": "b03d7e20c2147a5a",
   "lastOpenFiles": [
+    "自媒体工具/有意思的想法/assets/未命名",
+    "自媒体工具/有意思的想法/assets",
+    "自媒体工具/有意思的想法/情感疗愈行业的商业模式与运营拆解.md.edtz",
+    "自媒体工具/切片视频制作.md",
+    "自媒体工具/有意思的想法/情感疗愈行业的商业模式与运营拆解.md",
+    "自媒体工具/有意思的想法",
+    "自媒体工具/老王视频.md",
     "生活常识/提车避坑指南.md",
     "生活常识/提车避坑指南.md.edtz",
     "Bilibili/2026-09-14-【面试必考】GRPO、DAPO、GSPO三代强化学习算法，到底改了什么？从PPO讲起.md",
@@ -224,19 +235,13 @@
     "Bilibili/2026-09-17-【SFT 调参】学习率实操指南：十分之一法则、经验值与两侧症状.md.tmp.16236.32fc3c7f684a",
     "自媒体工具/视频制作/blender-mcp使用说明.md",
     "面试百问/【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.edtz",
-    "Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.5780.fd175c6b5adf",
     "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md",
     "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md",
-    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.9712.6e7ba2e9ddff",
-    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md.tmp.10220.a8db48015a90",
     "工作交付文档/大模型相关实验/模型性能对比20260915.md",
     "公众号文章/Obsidian Callouts 完全指南：让你的笔记更加出色.md",
     "公众号文章/Inside vLLM Anatomy of a High-Throughput LLM Inference System.md",
     "公众号文章/一文跑通 XTuner：环境搭建、QLoRA 微调、VLLM部署全流程.md",
     "公众号文章/用 Hermes 打造 LLM Wiki 知识库：Karpathy 方法实战指南.md",
-    "公众号文章/vLLM吞吐量调优 - Kimi.md",
-    "公众号文章/Hermes Studio.md",
-    "公众号文章/Oh-My-OpenCode 3.2.1从新手到专家完整操作手册.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
