@@ -176,4 +176,4 @@ P99 ITL (ms):                            133.92
 
 
 ##### python脚本监控资源情况
-![[未命名.base]]
+![[Obsidian 论文数据库.base]]

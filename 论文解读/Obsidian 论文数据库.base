@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: 表格
+    filters:
+      and:
+        - file.folder == "论文解读"
+        - file.ext == "md"
