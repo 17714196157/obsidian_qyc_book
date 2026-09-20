@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "论文解读/Obsidian 论文数据库.base",
+                "file": "面试百问/大模型小知识点.base",
                 "viewName": "表格"
               },
-              "icon": "lucide-layout-grid",
-              "title": "Obsidian 论文数据库"
+              "icon": "lucide-table",
+              "title": "大模型小知识点"
             }
           }
         ]
@@ -205,8 +205,9 @@
   },
   "active": "cd4dbf1646ff34c9",
   "lastOpenFiles": [
-    "论文解读/obsidian论文工作流.md",
     "论文解读/Obsidian 论文数据库.base",
+    "面试百问/大模型小知识点.base",
+    "论文解读/obsidian论文工作流.md",
     "论文解读/assets/Obsidian 论文数据库",
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md.edtz",
     "论文解读/Obsidian 论文数据库.md",

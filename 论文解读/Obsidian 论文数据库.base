@@ -5,3 +5,8 @@ views:
       and:
         - file.folder == "论文解读"
         - file.ext == "md"
+    sort:
+      - property: file.basename
+        direction: ASC
+  - type: cards
+    name: 视图
