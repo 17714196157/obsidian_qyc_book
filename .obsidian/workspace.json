@@ -11,13 +11,14 @@
             "id": "cd4dbf1646ff34c9",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "面试百问/大模型小知识点.base",
-                "viewName": "表格"
+                "file": "大模型性能与部署/langfuse监控平台.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "大模型小知识点"
+              "icon": "lucide-file",
+              "title": "langfuse监控平台"
             }
           }
         ]
@@ -205,8 +206,11 @@
   },
   "active": "cd4dbf1646ff34c9",
   "lastOpenFiles": [
-    "论文解读/Obsidian 论文数据库.base",
+    "大模型性能与部署/langfuse监控平台.md.edtz",
+    "大模型性能与部署/性能测试指标.md",
+    "大模型性能与部署/langfuse监控平台.md",
     "面试百问/大模型小知识点.base",
+    "论文解读/Obsidian 论文数据库.base",
     "论文解读/obsidian论文工作流.md",
     "论文解读/assets/Obsidian 论文数据库",
     "大模型性能与部署/vLLM/vllm bench serve性能监控.md.edtz",
@@ -235,12 +239,9 @@
     "Bilibili/2026-09-09-用Codex实现定格动画和手绘跟随动画！（不用视频模型）.md",
     "面试百问/2026-09-10-【RL 进阶】GSPO：通过序列级重要性比率改进 PPO_GRPO 的逐 token 方差问题.md",
     "Bilibili/2026-09-17-【RL 调参】rollout 采样温度：让 group 内有区分度才有训练信号.md",
-    "Bilibili/2026-09-17-【RL 调参】rollout 采样温度：让 group 内有区分度才有训练信号.md.edtz",
     "Bilibili/2026-09-17-【SFT 调参】学习率实操指南：十分之一法则、经验值与两侧症状.md",
     "自媒体工具/视频制作/blender-mcp使用说明.md",
     "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md",
-    "notes/Bilibili/2026-09-16-【评测可信度】数据污染的检测与清洗：n-gram、embedding 与 PPL 三重检测.md",
-    "工作交付文档/大模型相关实验/模型性能对比20260915.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
