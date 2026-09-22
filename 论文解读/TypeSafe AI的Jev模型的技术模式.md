@@ -1,6 +1,6 @@
 项目地址: https://github.com/sugarforever/tryjev
 
-
+![[论文解读/assets/TypeSafe AI的Jev模型的技术模式/93a0a4e4871e5ac14d94bc02efdbfdb4_MD5.png]]
 ### 🧠 Jev 的核心模式是什么？
 Jev 的核心思路是**放弃逐字生成文本，直接输出结构化决策和校准概率**。它的技术模式可概括为以下几点：
 *   **并行单次前向计算**：不进行逐 Token 的自回归解码，而是在一次前向传播中并行输出所有答案，这使其延迟极低（70-500ms）。
