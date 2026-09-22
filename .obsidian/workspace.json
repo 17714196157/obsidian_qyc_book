@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "42e3b93bf46fe79b",
+        "id": "0c242689844c085e",
         "type": "tabs",
         "children": [
           {
-            "id": "cd4dbf1646ff34c9",
+            "id": "414aab7acec4101e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大模型性能与部署/langfuse监控平台.md",
+                "file": "论文解读/TypeSafe AI的Jev模型的技术模式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "langfuse监控平台"
+              "title": "TypeSafe AI的Jev模型的技术模式"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.22730255126953
+    "width": 249.85785675048828
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -204,11 +204,20 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "cd4dbf1646ff34c9",
+  "active": "414aab7acec4101e",
   "lastOpenFiles": [
+    "工作交付文档/需求开发记录/病案首页字段填写.md",
+    "大模型性能与部署/vLLM/vllm 客户端代码.md",
+    "工作交付文档/需求开发记录/病案首页字段填写.md.edtz",
+    "论文解读/TypeSafe AI的Jev模型的技术模式.md",
+    "论文解读/TypeSafe AI的Jev模型的技术模式.md.edtz",
+    "生活常识/为什么我们会陷入：奇怪的无就业繁荣？.md",
+    "生活常识/assets/为什么我们会陷入：奇怪的无就业繁荣？",
+    "生活常识/assets",
+    "生活常识/为什么我们会陷入：奇怪的无就业繁荣？.md.edtz",
+    "大模型性能与部署/langfuse监控平台.md",
     "大模型性能与部署/langfuse监控平台.md.edtz",
     "大模型性能与部署/性能测试指标.md",
-    "大模型性能与部署/langfuse监控平台.md",
     "面试百问/大模型小知识点.base",
     "论文解读/Obsidian 论文数据库.base",
     "论文解读/obsidian论文工作流.md",
@@ -218,18 +227,12 @@
     "面试百问/【RL 调参】entropy bonus 详解.md",
     "面试百问/【模型评估】困惑度、BLEU、ROUGE分别在测什么？.md",
     "自媒体工具/有意思的想法/情感疗愈行业的商业模式与运营拆解.md",
-    "自媒体工具/有意思的想法/assets/未命名",
-    "自媒体工具/有意思的想法/assets",
-    "自媒体工具/有意思的想法/情感疗愈行业的商业模式与运营拆解.md.edtz",
     "自媒体工具/切片视频制作.md",
-    "自媒体工具/有意思的想法",
     "自媒体工具/老王视频.md",
     "生活常识/提车避坑指南.md",
-    "生活常识/提车避坑指南.md.edtz",
     "Bilibili/2026-09-14-【面试必考】GRPO、DAPO、GSPO三代强化学习算法，到底改了什么？从PPO讲起.md",
     "面试百问/【Skill】Agent的Skill命中率.md",
     "Bilibili/2026-07-30-面试官问：“当大模型遇到几百页的PDF合同，上下文窗口不够用了，该怎么办_.md",
-    "面试百问/【Skill】Agent的Skill命中率.md.edtz",
     "Bilibili/2026-07-21-【强化学习面试高频】GRPO 的损失为什么开始时是 0？两部分同时归零.md",
     "Bilibili/2026-09-09-【MT-Bench 实测】LLM-as-Judge 的四大偏差：位置_冗长_自我偏好_风格.md",
     "Bilibili/2026-09-10-万字拆解AI Agent编年史：一个视频看懂2022~2026五代演进，全程干货 _ 从ChatGPT到Hermes AI行业到底经历了什么 一镜到底无剪.md",
@@ -239,9 +242,6 @@
     "Bilibili/2026-09-09-用Codex实现定格动画和手绘跟随动画！（不用视频模型）.md",
     "面试百问/2026-09-10-【RL 进阶】GSPO：通过序列级重要性比率改进 PPO_GRPO 的逐 token 方差问题.md",
     "Bilibili/2026-09-17-【RL 调参】rollout 采样温度：让 group 内有区分度才有训练信号.md",
-    "Bilibili/2026-09-17-【SFT 调参】学习率实操指南：十分之一法则、经验值与两侧症状.md",
-    "自媒体工具/视频制作/blender-mcp使用说明.md",
-    "Bilibili/【推理增强】Best-of-N 采样详解：四种挑选方法与 RFT 的衔接.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
