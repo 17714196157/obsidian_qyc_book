@@ -32,6 +32,11 @@ Jev 的核心思路是**放弃逐字生成文本，直接输出结构化决策�
 4.  **训练与校准**：使用交叉熵损失和 **Brier 损失**进行微调，并引入**温度缩放**等方法来校准输出的概率，使其更可靠。
 5.  **推理优化**：利用 KV-Cache 和批处理技术，实现一次前向计算为同一状态下的多个问题并行打分，这是保证低延迟的关键。
 
+#### tips：
+- 1. ✅ `system_one_adapter` 是官方 SDK，但定位是“对照组”
+`system_one_adapter` 确实是 TypeSafe AI 官方发布的 Python 包，在官方 `awesome-jev` 列表中明确标注为 **“Official drop-in `TypeSafeClient` replacement backed by LLM APIs”**。它的用途是：**用普通 LLM（通过 OpenAI/Anthropic API）来模拟 Jev 的输入输出接口，从而让你能在同一套问题上对比“Jev vs 普通 LLM”的效果、成本和速度。** 它**故意不**使用 Jev 的 logits 读取机制，因为它要模拟的是“用传统 LLM 做同样的事”会怎样，而不是复现 Jev 本身。
+
+
 
 ### 实现代码示例
 1. **最简单：Logits 读取**
@@ -107,4 +112,64 @@ for i, (letter, meaning) in enumerate(options.items()):
 best_idx = torch.argmax(option_probs).item()
 best_letter = list(options.keys())[best_idx]
 print(f"\n>>> 最终决策: {options[best_letter]} (选项 {best_letter})")
+```
+
+2. 官方sdk 
+docker pull docker.1ms.run/razorback16/openjev
+docker pull docker.1panel.live/razorback16/openjev
+docker pull docker.m.daocloud.io/razorback16/openjev
+```python
+import os
+from typesafe_sdk import Choice, TypeSafeClient
+# 部署方式：官方提供 Docker 镜像（razorback16/openjev），把 vLLM 和 API server 打包在同一个容器里。
+
+# 必须在 import typesafe_sdk 之前设置
+os.environ["TYPESAFE_BASE_URL"] = "http://192.168.0.181:8000"
+os.environ["TYPESAFE_API_KEY"] = "none"
+
+# 1. 设置你的 API Key（如果你连接的是官方服务或兼容服务）
+# 也可以直接通过参数传入：TypeSafeClient(api_key="your-key")
+# os.environ["TYPESAFE_API_KEY"] = "your-key-here"
+
+state = "Customer writes: my order arrived broken and I need it replaced today."
+# 连接到 vLLM 服务
+client = TypeSafeClient(
+     base_url="http://192.168.0.181:8000/v1",
+     api_key="none",  # vLLM 默认不需要 key，但 openai 库要求
+)
+
+
+# 2. 使用上下文管理器创建客户端，确保连接正确关闭
+with TypeSafeClient() as client:
+    # 3. 调用 system_one，传入 state 和结构化的问题
+    response = client.system_one(
+        state=state,
+        questions={
+            "route": Choice(
+                instructions="Which team handles this?",
+                criteria={
+                    "refund": "Customer wants their money back",
+                    "replace": "Customer wants a replacement item",
+                    "info": "Customer is just asking for information",
+                },
+            ),
+        },
+    )
+
+# 4. 直接从 response 中读取结果
+route_answer = response.choices["route"]
+print("决策结果 (TypeSafe SDK 方案):")
+print("=" * 60)
+print(f"\n  选择: {route_answer.choice}")
+print(f"  概率分布: {route_answer.probabilities}")
+
+# 概率已经是归一化后的结果，直接取最大值即可
+best_choice = max(route_answer.probabilities, key=route_answer.probabilities.get)
+best_prob = route_answer.probabilities[best_choice]
+print(f"\n>>> 最终决策: {best_choice}  (置信度: {best_prob:.4f})")
+
+# 显示用量信息
+print(f"\n--- 调试信息 ---")
+print(f"  输入 Token: {response.usage.input_tokens}")
+print(f"  输出 Token: {response.usage.output_tokens}")
 ```
