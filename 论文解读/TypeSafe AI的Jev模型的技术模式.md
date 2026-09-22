@@ -1,4 +1,7 @@
 项目地址: https://github.com/sugarforever/tryjev
+TypeSafe AI 的官网： https://console.typesafe.ai/
+**awesome-jev**（GitHub: `yibie/awesome-jev`）是维护最全面的 Jev 生态列表
+
 
 ![[论文解读/assets/TypeSafe AI的Jev模型的技术模式/93a0a4e4871e5ac14d94bc02efdbfdb4_MD5.png]]
 ### 🧠 Jev 的核心模式是什么？
@@ -7,6 +10,7 @@ Jev 的核心思路是**放弃逐字生成文本，直接输出结构化决策�
 *   **类型化输出**：只接受预定义的结构化问题（如 `Choice`、`Score`、`Noul`），并从预设选项中选择答案，从机制上避免了生成错误格式或无关文本。
 *   **校准概率**：每个答案都附带经过校准的置信度概率，使自动化系统能根据概率阈值进行决策。
 *   **专用训练方法（RLCD）**：TypeSafe 使用自研的“面向校准决策的强化学习”（RLCD）来训练模型，优化目标是输出“诚实的概率”，而非人类偏好。
+==Jev 的速度来自并行约束解码（parallel constrained decoding），而非特定的模型训练。理论上，任何推理引擎都可以通过约束解码暴露 Jev 风格的 API。==
 
 ### 🛠️ 如何在 Qwen开源模型上实现？
 目前社区的开源实现主要分为三类，你可以根据自己的技术背景和需求选择：
