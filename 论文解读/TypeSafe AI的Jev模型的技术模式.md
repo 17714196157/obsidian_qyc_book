@@ -192,7 +192,7 @@ Laya（Convai Innovations，Apache 2.0，非自回归 ModernBERT/mmBERT 决策�
 | `laya-typed-decisions` | ModernBERT-large | 421M | 1024    | typed-decisions 工作流 | `"typed-decisions"` |
 
 ##### 代码示例
-- 1)召回重排序rank
+- **1)召回重排序rank**
 > [!note]- 📄 rerank_batch.py — Laya 批量重排器（点击展开 / 收起）
 > ```python
 > # rerank_batch.py
@@ -391,7 +391,7 @@ Laya（Convai Innovations，Apache 2.0，非自回归 ModernBERT/mmBERT 决策�
 > ```
 > 
 
-- 2) docker部署 laya模型服务server
+- **2) docker部署 laya模型服务server**
 docker-compose 构建文件见附件： [laya_service](laya_service.zip)
 
 > [!note]- 📄 server.py — Laya HTTP 服务（点击展开 / 收起）
