@@ -3,7 +3,7 @@ TypeSafe AI 的官网： https://console.typesafe.ai/
 **awesome-jev**（GitHub: `yibie/awesome-jev`）是维护最全面的 Jev 生态列表
 
 
-![[论文解读/assets/TypeSafe AI的Jev模型的技术模式/93a0a4e4871e5ac14d94bc02efdbfdb4_MD5.png]]
+![[file-20260923162227210.png]]
 ### 🧠 Jev 的核心模式是什么？
 Jev 的核心思路是**放弃逐字生成文本，直接输出结构化决策和校准概率**。它的技术模式可概括为以下几点：
 *   **并行单次前向计算**：不进行逐 Token 的自回归解码，而是在一次前向传播中并行输出所有答案，这使其延迟极低（70-500ms）。
@@ -392,7 +392,7 @@ Laya（Convai Innovations，Apache 2.0，非自回归 ModernBERT/mmBERT 决策�
 > 
 
 - **2) docker部署 laya模型服务server**
-docker-compose 构建文件见附件： [laya_service](laya_service.zip)
+docker-compose 构建文件见附件： [docker-compose构建文件](docker-compose构建文件.zip)
 
 > [!note]- 📄 server.py — Laya HTTP 服务（点击展开 / 收起）
 > ```python
