@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作交付文档/Jev国内复现近况20260922.md",
+                "file": "论文解读/TypeSafe AI的Jev模型的技术模式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jev国内复现近况20260922"
+              "title": "TypeSafe AI的Jev模型的技术模式"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 311.00431060791016
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -206,16 +206,25 @@
   },
   "active": "70a5d1bf91233189",
   "lastOpenFiles": [
-    "工作交付文档/SkillOpt 项目实践过程记录.md",
+    "Bilibili/用JEV做RAG重排器.md",
+    "Bilibili/用JEV做RAG重排器.md.edtz",
+    "论文解读/TypeSafe AI的Jev模型的技术模式.md",
     "工作交付文档/Jev国内复现近况20260922.md",
+    "Bilibili/LangChain × Jev：给 Agent 装上安全带！.md",
+    "Bilibili/assets/未命名",
+    "Bilibili/LangChain × Jev：给 Agent 装上安全带！.md.edtz",
+    "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
+    "大模型性能与部署/vLLM/vllm 简介.md",
+    "工作交付文档/工作操作流程记录/业务数据环境操作.md",
+    "工作交付文档/业务逻辑/运城监管药品监管.md",
+    "工作交付文档/业务逻辑/医学文本含义.md",
+    "工作交付文档/SkillOpt 项目实践过程记录.md",
     "未命名.md",
     "工作交付文档/Jev国内复现近况20260922.md.edtz",
-    "论文解读/TypeSafe AI的Jev模型的技术模式.md",
     "工作交付文档/需求开发记录/病案首页字段填写.md",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
     "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
-    "大模型性能与部署/vLLM/vllm 简介.md",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "大模型性能与部署/vLLM/vllm参数含义与原理.md",
     "大模型性能与部署/vLLM/vLLM参数调优.md",
@@ -231,18 +240,8 @@
     "生活常识/assets",
     "生活常识/为什么我们会陷入：奇怪的无就业繁荣？.md.edtz",
     "大模型性能与部署/langfuse监控平台.md",
-    "大模型性能与部署/langfuse监控平台.md.edtz",
     "大模型性能与部署/性能测试指标.md",
-    "面试百问/大模型小知识点.base",
-    "论文解读/Obsidian 论文数据库.base",
     "论文解读/obsidian论文工作流.md",
-    "论文解读/Obsidian 论文数据库.md",
-    "面试百问/【RL 调参】entropy bonus 详解.md",
-    "面试百问/【模型评估】困惑度、BLEU、ROUGE分别在测什么？.md",
-    "自媒体工具/有意思的想法/情感疗愈行业的商业模式与运营拆解.md",
-    "自媒体工具/切片视频制作.md",
-    "自媒体工具/老王视频.md",
-    "生活常识/提车避坑指南.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
