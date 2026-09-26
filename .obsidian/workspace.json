@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d86a0f77fc9a0565",
+        "id": "9bd274656aa80496",
         "type": "tabs",
         "children": [
           {
-            "id": "b0b22947a3a7721b",
+            "id": "8f1710b7f7e77a2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bilibili/没有标准答案的任务怎么做 RL.md",
+                "file": "面试百问/MHA、MQA、GQA、MLA有什么区别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "没有标准答案的任务怎么做 RL"
+              "title": "MHA、MQA、GQA、MLA有什么区别"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.00431060791016
+    "width": 200
   },
   "right": {
     "id": "d3f1aa6904026788",
@@ -204,17 +204,22 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b0b22947a3a7721b",
+  "active": "8f1710b7f7e77a2e",
   "lastOpenFiles": [
-    "Bilibili/没有标准答案的任务怎么做 RL.md.edtz",
-    "Bilibili/没有标准答案的任务怎么做 RL.md",
-    "面试百问/RL 比 SFT 更不容易遗忘.md",
+    "面试百问/MHA、MQA、GQA、MLA有什么区别.md.edtz",
+    "Bilibili/用JEV做RAG重排器.md",
+    "面试百问/MHA、MQA、GQA、MLA有什么区别.md",
     "Bilibili/LangChain × Jev：给 Agent 装上安全带！.md",
+    "Bilibili/2026-09-14-ACL2026 oral无预训练无损把Dense转成MoE.md",
+    "面试百问/完整描述一次生产级 RAG 请求.md",
+    "面试百问/完整描述一次生产级 RAG 请求.md.edtz",
+    "Bilibili/没有标准答案的任务怎么做 RL.md",
+    "Bilibili/没有标准答案的任务怎么做 RL.md.edtz",
+    "面试百问/RL 比 SFT 更不容易遗忘.md",
     "arXiv 2510.18874.md",
     "面试百问/RL 比 SFT 更不容易遗忘.md.edtz",
     "面试百问/【训练监控】WandB必须记录的六大指标.md",
     "面试百问/【训练监控】WandB必须记录的六大指标.md.edtz",
-    "Bilibili/用JEV做RAG重排器.md",
     "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md",
     "大模型相关基础知识/TypeSafe AI的Jev模型的技术模式.md",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式",
@@ -237,12 +242,7 @@
     "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
     "大模型性能与部署/vLLM/vllm参数含义与原理.md",
-    "大模型性能与部署/vLLM/vLLM参数调优.md",
-    "大模型性能与部署/vLLM/vLLM结构化输出.md",
-    "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式/file-20260923162227210.png",
-    "论文解读/assets/TypeSafe AI的Jev模型的技术模式",
-    "工作交付文档/需求开发记录/病案首页字段填写.md.edtz",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
