@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b7661492fc89953d",
+        "id": "d86a0f77fc9a0565",
         "type": "tabs",
         "children": [
           {
-            "id": "b3da962a67e7d8f2",
+            "id": "b0b22947a3a7721b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md",
+                "file": "Bilibili/没有标准答案的任务怎么做 RL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法"
+              "title": "没有标准答案的任务怎么做 RL"
             }
           }
         ]
@@ -204,15 +204,23 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "b3da962a67e7d8f2",
+  "active": "b0b22947a3a7721b",
   "lastOpenFiles": [
+    "Bilibili/没有标准答案的任务怎么做 RL.md.edtz",
+    "Bilibili/没有标准答案的任务怎么做 RL.md",
+    "面试百问/RL 比 SFT 更不容易遗忘.md",
+    "Bilibili/LangChain × Jev：给 Agent 装上安全带！.md",
+    "arXiv 2510.18874.md",
+    "面试百问/RL 比 SFT 更不容易遗忘.md.edtz",
+    "面试百问/【训练监控】WandB必须记录的六大指标.md",
+    "面试百问/【训练监控】WandB必须记录的六大指标.md.edtz",
+    "Bilibili/用JEV做RAG重排器.md",
+    "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md",
     "大模型相关基础知识/TypeSafe AI的Jev模型的技术模式.md",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式/docker-compose构建文件.zip",
-    "Bilibili/用JEV做RAG重排器.md",
     "Bilibili/用JEV做RAG重排器.md.edtz",
     "工作交付文档/Jev国内复现近况20260922.md",
-    "Bilibili/LangChain × Jev：给 Agent 装上安全带！.md",
     "Bilibili/assets/未命名",
     "Bilibili/LangChain × Jev：给 Agent 装上安全带！.md.edtz",
     "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
@@ -232,16 +240,9 @@
     "大模型性能与部署/vLLM/vLLM参数调优.md",
     "大模型性能与部署/vLLM/vLLM结构化输出.md",
     "办公命令-linux平台/uv 速查表（Cheat Sheet）.md",
-    "办公命令-linux平台/linux命令.md",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式/file-20260923162227210.png",
     "论文解读/assets/TypeSafe AI的Jev模型的技术模式",
     "工作交付文档/需求开发记录/病案首页字段填写.md.edtz",
-    "大模型相关基础知识/TypeSafe AI的Jev模型的技术模式.md.edtz",
-    "生活常识/为什么我们会陷入：奇怪的无就业繁荣？.md",
-    "生活常识/assets/为什么我们会陷入：奇怪的无就业繁荣？",
-    "大模型性能与部署/langfuse监控平台.md",
-    "大模型性能与部署/性能测试指标.md",
-    "论文解读/obsidian论文工作流.md",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154226798.png",
