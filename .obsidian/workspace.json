@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9bd274656aa80496",
+        "id": "89407001b74272b6",
         "type": "tabs",
         "children": [
           {
-            "id": "8f1710b7f7e77a2e",
+            "id": "f566e31b9422db49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试百问/MHA、MQA、GQA、MLA有什么区别.md",
+                "file": "面试百问/【推理架构】Prefill 与 Decode 为什么差 140 倍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MHA、MQA、GQA、MLA有什么区别"
+              "title": "【推理架构】Prefill 与 Decode 为什么差 140 倍"
             }
           }
         ]
@@ -204,11 +204,13 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "8f1710b7f7e77a2e",
+  "active": "f566e31b9422db49",
   "lastOpenFiles": [
+    "面试百问/【推理架构】Prefill 与 Decode 为什么差 140 倍.md.edtz",
+    "面试百问/【推理架构】Prefill 与 Decode 为什么差 140 倍.md",
+    "面试百问/MHA、MQA、GQA、MLA有什么区别.md",
     "面试百问/MHA、MQA、GQA、MLA有什么区别.md.edtz",
     "Bilibili/用JEV做RAG重排器.md",
-    "面试百问/MHA、MQA、GQA、MLA有什么区别.md",
     "Bilibili/LangChain × Jev：给 Agent 装上安全带！.md",
     "Bilibili/2026-09-14-ACL2026 oral无预训练无损把Dense转成MoE.md",
     "面试百问/完整描述一次生产级 RAG 请求.md",
@@ -235,13 +237,11 @@
     "工作交付文档/业务逻辑/医学文本含义.md",
     "工作交付文档/SkillOpt 项目实践过程记录.md",
     "未命名.md",
-    "工作交付文档/Jev国内复现近况20260922.md.edtz",
     "工作交付文档/需求开发记录/病案首页字段填写.md",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
     "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "大模型性能与部署/vLLM/vLLM 中设置自定义聊天模板（custom chat template）.md",
     "大模型性能与部署/vLLM/vLLM 超时参数.md",
-    "大模型性能与部署/vLLM/vllm参数含义与原理.md",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式/file-20260923162227210.png",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
