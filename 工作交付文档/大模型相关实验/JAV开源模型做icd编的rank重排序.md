@@ -11,3 +11,8 @@ RAG+JEV Top-1 准确率    : 0.6600
 
 
 代码示例 ![[eval_jev_icd_rerank.py]]
+
+
+```embed-python
+PATH: "vault://eval_jev_icd_rerank.py"
+```

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c4d6db3713d7bfbb",
+        "id": "c47b43fae7c9e58d",
         "type": "tabs",
         "children": [
           {
-            "id": "0cb47894053e0916",
+            "id": "ce6bb053a4d4d297",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作交付文档/大模型相关实验/JAV开源模型做icd编的rank重排序.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "JAV开源模型做icd编的rank重排序"
+              "title": "新标签页"
             }
           }
         ]
@@ -204,11 +200,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "0cb47894053e0916",
+  "active": "ce6bb053a4d4d297",
   "lastOpenFiles": [
+    "obsidian操作/obsidian插件推荐.md",
+    "obsidian操作/assets/obsidian插件推荐/2f735de232dc53bfc002513fae059e86_MD5.png",
+    "obsidian操作/assets/obsidian插件推荐/eb95baccea6527980ad6a097578b87a0_MD5.png",
+    "工作交付文档/大模型相关实验/JAV开源模型做icd编的rank重排序.md",
     "未命名.md",
     "eval_jev_icd_rerank.py",
-    "工作交付文档/大模型相关实验/JAV开源模型做icd编的rank重排序.md",
     "eval_jev作为判别模型icd_rerank.py.md",
     "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/eval_jev_icd_rerank.py",
     "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/eval_jev作为判别模型icd_rerank.py",
@@ -240,7 +239,6 @@
     "工作交付文档/SkillOpt 项目实践过程记录.md",
     "工作交付文档/需求开发记录/病案首页字段填写.md",
     "工作交付文档/需求开发记录/诊断符合判断-需求功能点实现说明-20260714需求会.md",
-    "大模型性能与部署/vLLM/vllm 客户端代码.md",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式/file-20260923162227210.png",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
@@ -249,8 +247,6 @@
     "obsidian操作/assets/obsidian插件推荐/file-20260914154106921.png",
     "obsidian操作/assets/obsidian插件推荐/cfb8a1cff47af45978e00fa89c7331c3_MD5.png",
     "AI应用/AI论文解读/assets/MinerU - pdf解析/file-20260914101338381.png",
-    "面试百问/assets/【数据工程】RFT 拒绝采样微调详解：性价比最高的推理能力提升方法/file-20260914161909834.png",
-    "自媒体工具/视频制作/assets/blender-mcp使用说明/715ea680deb09eb4adfd42b7498f6e60_MD5.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

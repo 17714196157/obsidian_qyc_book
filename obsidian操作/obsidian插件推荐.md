@@ -143,13 +143,10 @@ https://vllm.ai/blog/2026-07-14-vllm-tilert-pd, 然后把内容翻译成中文�
 | Choi Wontak（[RoundTable02/tutor-skills](https://github.com/RoundTable02/tutor-skills)）                            | tutor-skills            | 两个 Skill（tutor-setup 和 tutor）构成“输入-内化-检测”闭环：将文档或代码库一键转化为结构化的 Obsidian 知识库，之后通过无提示的交互式测试不断暴露知识盲区并记录学习轨迹。 |
 | EESJ.Gong（[EESJ.Gong/scholar-skill](https://github.com/EESJ.Gong/scholar-skill)）                                  | scholar-skill           | 基于 OpenClaw 框架的学术研究 Skill，通过 L1-L3 分级阅读策略在后台长时间静默解析论文，并自动将结构化笔记、核心记忆与知识冲突报告写入本地 Obsidian 知识库。           |
 
-
-
-
-
-
-
-
+##### 9） 引用文件的展示
+a）embed-code-file 代码文件展示， 项目地址： https://github.com/almariah/embed-code-file ， 输入脚本名称，就会在整个文件夹里检索到
+![[eb95baccea6527980ad6a097578b87a0_MD5.png]]
+![[2f735de232dc53bfc002513fae059e86_MD5.png]]
 ---
 
 ### 微信公众号文章同步方法
