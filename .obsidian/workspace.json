@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bilibili/手搓 Agent 放弃现成框架的底层原因.md",
+                "file": "Bilibili/拆解 NVLink.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "手搓 Agent 放弃现成框架的底层原因"
+              "title": "拆解 NVLink"
             }
           }
         ]
@@ -206,9 +206,11 @@
   },
   "active": "876c0b35e9084a22",
   "lastOpenFiles": [
+    "Bilibili/拆解 NVLink.md.edtz",
+    "Bilibili/手搓 Agent 放弃现成框架的底层原因.md",
+    "Bilibili/拆解 NVLink.md",
     "Bilibili/手搓 Agent 放弃现成框架的底层原因.md.edtz",
     "Bilibili/【推理 Infra】消除大模型推理的不确定性.md",
-    "Bilibili/手搓 Agent 放弃现成框架的底层原因.md",
     "Bilibili/assets/【推理 Infra】消除大模型推理的不确定性",
     "Bilibili/【推理 Infra】消除大模型推理的不确定性.md.edtz",
     "Bilibili/深入浅出教你写 Skill.md",
@@ -230,7 +232,6 @@
     "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/eval_jev作为判别模型icd_rerank.py",
     "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/file-20260928115820102.py",
     "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/file-20260928115816210.py",
-    "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序",
     "面试百问/【推理架构】Prefill 与 Decode 为什么差 140 倍.md",
     "面试百问/MHA、MQA、GQA、MLA有什么区别.md",
     "Bilibili/用JEV做RAG重排器.md",
@@ -243,7 +244,6 @@
     "面试百问/【训练监控】WandB必须记录的六大指标.md",
     "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md",
     "工作交付文档/Jev国内复现近况20260922.md",
-    "论文解读/Think-Deep,Not-Just-Long-Think@n实现.md",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式/file-20260923162227210.png",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
