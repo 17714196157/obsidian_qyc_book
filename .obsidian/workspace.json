@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d0441f41f2715923",
+        "id": "37355fa6ee0893ca",
         "type": "tabs",
         "children": [
           {
-            "id": "876c0b35e9084a22",
+            "id": "ff435c4287e3a1ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bilibili/拆解 NVLink.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "拆解 NVLink"
+              "title": "新标签页"
             }
           }
         ]
@@ -204,11 +200,16 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "876c0b35e9084a22",
+  "active": "ff435c4287e3a1ea",
   "lastOpenFiles": [
+    "工作交付文档/需求开发记录/盐城-住院病案附件-字段生成20261008.md",
+    "工作交付文档/需求开发记录/assets/盐城-住院病案附件-字段生成20261008",
+    "工作交付文档/需求开发记录/盐城-住院病案附件-字段生成20261008.md.edtz",
+    "工作交付文档/需求开发记录/assets/盐城-住院病案附件-字段生成20261008/file-20261008145109974.png",
+    "工作交付文档/需求开发记录/assets/未命名",
+    "Bilibili/拆解 NVLink.md",
     "Bilibili/拆解 NVLink.md.edtz",
     "Bilibili/手搓 Agent 放弃现成框架的底层原因.md",
-    "Bilibili/拆解 NVLink.md",
     "Bilibili/手搓 Agent 放弃现成框架的底层原因.md.edtz",
     "Bilibili/【推理 Infra】消除大模型推理的不确定性.md",
     "Bilibili/assets/【推理 Infra】消除大模型推理的不确定性",
@@ -228,10 +229,6 @@
     "未命名.md",
     "eval_jev_icd_rerank.py",
     "eval_jev作为判别模型icd_rerank.py.md",
-    "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/eval_jev_icd_rerank.py",
-    "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/eval_jev作为判别模型icd_rerank.py",
-    "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/file-20260928115820102.py",
-    "工作交付文档/大模型相关实验/assets/JAV开源模型做icd编的rank重排序/file-20260928115816210.py",
     "面试百问/【推理架构】Prefill 与 Decode 为什么差 140 倍.md",
     "面试百问/MHA、MQA、GQA、MLA有什么区别.md",
     "Bilibili/用JEV做RAG重排器.md",
@@ -243,7 +240,6 @@
     "arXiv 2510.18874.md",
     "面试百问/【训练监控】WandB必须记录的六大指标.md",
     "Bilibili/【大模型评测benchmark】benchmark 分数为什么会骗你？数据泄露与过拟合的检测方法.md",
-    "工作交付文档/Jev国内复现近况20260922.md",
     "大模型相关基础知识/assets/TypeSafe AI的Jev模型的技术模式/file-20260923162227210.png",
     "obsidian操作/assets/obsidian插件推荐/88a7626c782ce33de6148b351236b3e6_MD5.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154231591.png",
@@ -251,7 +247,6 @@
     "obsidian操作/assets/obsidian插件推荐/file-20260914154209644.png",
     "obsidian操作/assets/obsidian插件推荐/file-20260914154106921.png",
     "obsidian操作/assets/obsidian插件推荐/cfb8a1cff47af45978e00fa89c7331c3_MD5.png",
-    "AI应用/AI论文解读/assets/MinerU - pdf解析/file-20260914101338381.png",
     "大模型性能与部署/vLLM/vLLM离线推理.canvas",
     "未命名.canvas",
     "未命名 1.canvas"

@@ -1,27 +1,17 @@
 ---
-title: "拆解 NVLink：多张 GPU 是怎么组成一台 AI 超算的？900GB/s 到 1.8TB/s！"
+title: 拆解 NVLink：多张 GPU 是怎么组成一台 AI 超算的？900GB/s 到 1.8TB/s！
 aliases:
   - NVLink 拆解
-  - 多卡互联原理
-  - AI 超算如何组网
-  - NVSwitch 与 NVL72
-source: "https://www.bilibili.com/video/BV11yHi6eE4V/"
-bvid: "BV11yHi6eE4V"
+source: https://www.bilibili.com/video/BV11yHi6eE4V/
+bvid: BV11yHi6eE4V
 cid: "42432598002"
-author: "内核聊内核"
+author: 内核聊内核
 upload_date: 2026-10-03
 created: 2026-10-06
-subtitle_lang: "中文"
+subtitle_lang: 中文
 tags:
-  - clippings
   - bilibili
   - nvlink
-  - nvswitch
-  - gpu
-  - ai-infra
-  - nccl
-  - pcie
-  - parallel-computing
 cssclasses:
   - video-note
 status: completed
