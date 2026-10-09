@@ -1,10 +1,7 @@
 ---
 title: Prompt Cache 到底是啥，它和 KV Cache 是什么关系？一个动画彻底搞懂！
 aliases:
-  - Prompt Cache
-  - 前缀缓存
   - KV Cache 与 Prompt Cache 的区别
-  - 命中缓存为什么便宜
 source: https://www.bilibili.com/video/BV1CjH962EVb/
 bvid: BV1CjH962EVb
 cid: "42571534138"
